@@ -148,8 +148,10 @@ review process and realize that you have nothing to hide. On the other, once the
 member of the scientific community, which can increase your opportunities for further discussion and collaboration.
 
 Rule 8. Promote your project/s in the scientific community
-	Social activity of GitHub 
-	Code snippets (Gist)
+
+In rule 5 we mentioned the possibility to generate your blog posts and run a blog around your repository or organization using the GitHub framework. But GitHub, has more for its users, by providing mechanisms for real-time communication. Gitter (http://gitter.im) is a GitHub-based chat tool, now in limited beta, which allows the developers and users to chat about repositories/code and organizations. Gitter inherits the shape of the social groups operating around GitHub repositories, organizations, and issues; and relies on the social identity within GitHub, creating IRC-like chat rooms for public and private repositories. From the Gitter the members of the chat can reference issues, comments, pull-requests, etc. 
+Also, Gists (https://gist.github.com) are a unique way to share your “snippet code”, results; where the user can share single files, parts of files, or full applications. Gist has to types of gists: public gist that can be browseable and searchable; and secrets that are not provide through Discover (https://gist.github.com/discover). One of the main feature of gist the the possibility to embed snipet code in other applications. The user can embed a gist in any text field that supports Javascript, such as a blog post, documentation page or web. 
+
 
 
 ##Rule 9. Connecting the other dots
