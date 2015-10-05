@@ -1,4 +1,4 @@
-#Ten Simple Rules for taking advantage of GitHub in bioinformatics 
+#Ten Simple Rules for taking advantage of GitHub in bioinformatics
 #
 Yasset Perez-Riverol, Rui Wang, Timo Sachsenberg, ..., Juan Antonio Vizcaíno1,*
 
@@ -28,20 +28,20 @@ the source code is made freely available and can be reused by third parties [PMI
 can be achieved thanks to the existence of several code repository-hosting services such as Sourceforge (http://sourceforge.net/),
 Google Code (https://code.google.com/) and GitHub (https://GitHub.com/), among others. These resources are also essential for
 collaborative software projects, since they enable the organization and sharing of programming tasks between different
-contributors to the same project. 
+contributors to the same project.
 
-Here we aim to introduce the main features of GitHub and related tools and services, as a
-web-based platform, which offers a free and integrated environment for hosting the source code, the documentation and the web page
-of open source projects. Different to other alternatives such as Google Code and Sourceforge, GitHub is not only a source code
-repository for programmers and software developers; it offers a complete suite a services and tools for version control of
-documents, source, data, and also a collaborative environment for research and international teams [add citation]. The cornerstone
-of GitHub is the well-known and open-source version control system Git, designed and developed by Linus Torvals in 2005 to control
-and extend the Linux kernel development; and has become the most widely adopted version control system; adopted by major companies
-like Google, Facebook, Twitter. GitHub is free to use for use for public projects and offers paid plans for private repositories,
-and it is the host of millions of open source projects. We will provide a set of recommendations for taking full advantage of the
-core features of GitHub to facilitate and manage the work on a given bioinformatics project and increase its profile to the
-scientific community. The manuscript is timely due to the announcement of the closure of another widely used service, Google Code.
-Therefore, many of the users of Google Code will therefore migrate to GitHub in the coming months. Rules
+Here we aim to introduce the main features of GitHub and related tools and services, as a web-based platform, which offers a free
+and integrated environment for hosting the source code, the documentation and the web page of open source projects. Different to
+other alternatives such as Google Code and Sourceforge, GitHub is not only a source code repository for programmers and software
+developers; it offers a complete suite a services and tools for version control of documents, source, data, and also a
+collaborative environment for research and international teams [add citation]. The cornerstone of GitHub is the well-known and
+open-source version control system Git, designed and developed by Linus Torvals in 2005 to control and extend the Linux kernel
+development; and has become the most widely adopted version control system; adopted by major companies like Google, Facebook,
+Twitter. GitHub is free to use for use for public projects and offers paid plans for private repositories, and it is the host of
+millions of open source projects. We will provide a set of recommendations for taking full advantage of the core features of
+GitHub to facilitate and manage the work on a given bioinformatics project and increase its profile to the scientific community.
+The manuscript is timely due to the announcement of the closure of another widely used service, Google Code. Therefore, many of
+the users of Google Code will therefore migrate to GitHub in the coming months. Rules
 
 ##Rule 1. Structure your research projects: users, organization, repositories, and teams
 
@@ -100,17 +100,45 @@ new users can learn the reasons behind decisions and contributors can discuss th
 
 ##Rule 4: Always ready to use: Tests, Deployments and Continuous integration 
 
-The first rule of software development, especially in agile software development, is that the code needs to be ready as soon as possible [PMID: 25071829, http://arxiv.org/abs/1311.7011]; including main functionalities free of bugs, well-documented and tested. In 2005, Martin Fowler defined the basic principals for continue integration in software development (Comment: Fowler, Martin, and Matthew Foemmel. "Continuous integration." Thought-Works) http://www. thoughtworks. com/Continuous Integration. pdf (2006)). These principles have become “THE” set of Continuous Integration best practices, and provide the framework about how to deploy software and in some way data. Every repository, scripts, mathematical model, function should contains a set of self-automated tests; a source code my run, but that doesn't mean it does the right thing. The simple use of those self-automated tests is to detect possible bugs introduced by new features, or changes in the code or dependencies, but also detect wrong results or so called “logic errors” where your source code produce a different results compare with what you intended it to do [add citation]. Then, continues integration provides the way of automatically run all of these tests in the repository by checking dependencies, data, and environment dependencies. 
-To do Continuous Integration automatically GitHub has been integrated with other systems such as Travis (https://travis-ci.org), a hosted continued integration platform that is free to all open-source projects hosted on GitHub. These builds/deployments are triggered automatically when each developer checks/commits their code/data to the repository. Continues integration via Travis notifications, allows the final team and contributors to know if the new changes work and do not introduce any error in the repository, making the repo always ready to be use.
+The first rule of software development, especially in agile software development, is that the code needs to be ready as soon as
+possible [PMID: 25071829, http://arxiv.org/abs/1311.7011]; including main functionalities free of bugs, well-documented and
+tested. In 2005, Martin Fowler defined the basic principals for continue integration in software development (Comment: Fowler,
+Martin, and Matthew Foemmel. "Continuous integration." Thought-Works) http://www. thoughtworks. com/Continuous Integration. pdf
+(2006)). These principles have become “THE” set of Continuous Integration best practices, and provide the framework about how to
+deploy software and in some way data. Every repository, scripts, mathematical model, function should contains a set of
+self-automated tests; a source code my run, but that doesn't mean it does the right thing. The simple use of those self-automated
+tests is to detect possible bugs introduced by new features, or changes in the code or dependencies, but also detect wrong results
+or so called “logic errors” where your source code produce a different results compare with what you intended it to do [add
+citation]. Then, continues integration provides the way of automatically run all of these tests in the repository by checking
+dependencies, data, and environment dependencies. To do Continuous Integration automatically GitHub has been integrated with other
+systems such as Travis (https://travis-ci.org), a hosted continued integration platform that is free to all open-source projects
+hosted on GitHub. These builds/deployments are triggered automatically when each developer checks/commits their code/data to the
+repository. Continues integration via Travis notifications, allows the final team and contributors to know if the new changes work
+and do not introduce any error in the repository, making the repo always ready to be use.
 
 
-The first rule of software development and special in agile software development, is that the code needs to be ready as soon as the
-project starts [PMID: 25071829]. Especially, the first prototype of the software including main functionalities should be avaible as soon 
-as possible free of bugs, well-documented and tested. 
+The first rule of software development and special in agile software development, is that the code needs to be ready as soon as
+the project starts [PMID: 25071829]. Especially, the first prototype of the software including main functionalities should be
+avaible as soon as possible free of bugs, well-documented and tested.
 
-##Rule 5. Use GitHub web pages to make documentation attractive to your users and other possible future collaborators (use Git web-pages)
+##Rule 5. Self-Hosted documentation, blogging and manuals using markdown and GitHub web-pages
 
-##Rule 5. Always link and highlight your deposited source code in publications 
+Providing well-written documentation helps users/collaborators understand, and contribute back to your project. A strong system
+used to serve documentation can make life easier for the team writing it and boost the productivity and visibility of the
+organization. The difficult step about documentation should be which specific test we will include, which examples are the most
+clear for the users; not configuring tools or figuring out how to deploy updates. GitHub Pages are “simple-looking” websites that
+GitHub hosts for free without needs to provide a server side, database, etc. GitHub users can create and host both blogs websites,
+help pages; manuals, tutorials and websites related to specific GitHub projects. Pages lets you do the same things as GitHub, but
+a preformatted name is need for the repository; and all the pages needs to be HTML or Markdown. Also, Pages comes with a powerful
+static site generator called Jekyll (https://jekyllrb.com) that can be integrated with other platforms such as Bootstrap
+(http://getbootstrap.com/) or Disqus (https://disqus.com/).
+
+Rule 6. Make your code easily citable by others in publications 
+In research, it is always a good practise to be able to cite items using permanent and unambiguous identifiers. It routinely happens for proteins, genes, metabolites, different types of datasets, or published references, among many other items. Digital Object Identifiers (DOIs) have been used for many years as unique and unambiguous identifiers for enabling the citation of scientific publications. More recently, a trend has started to produce DOIs for other types of scientific outputs such as biological datasets [PMID:24727771] or training materials. The main motivation behind is to give scientists a better credit for their work [PMID:19587644], enabling at the same time a better way to cite and track it. Following this trend, GitHub now enables the use of DOIs to cite the code deposited, using the data archiving tool Zenodo (https://zenodo.org/). The procedure is very simple and it is explained in detail here (https://guides.GitHub.com/activities/citable-code/). By default, Zenodo takes an archive of your GitHub repository each time you create a new release. Before Zenodo can issue a DOI for your repository, you will need to provide some metadata information about the archived GitHub repository. Once the DOI has been assigned, apart from using it in your CV or add it to information resources such as Europe PubMed Central [PMID:25378340].
+
+
+##Rule 7. Always link and highlight your deposited source code in publications 
+
 As already mentioned in the introduction, reproducibility of the scientific claims should be enabled by providing openly the
 software and the datasets that are used in a particular study described in a publication. You should always highlight as much as
 possible in your publications that your code is freely available in GitHub, together with any other relevant piece of information
@@ -119,7 +147,12 @@ publication. On one hand, journal editors and reviewers have the opportunity to 
 review process and realize that you have nothing to hide. On the other, once the paper is published, the same can be done by any
 member of the scientific community, which can increase your opportunities for further discussion and collaboration.
 
-##Rule 6. Build up your scientific career
+Rule 8. Promote your project/s in the scientific community
+	Social activity of GitHub 
+	Code snippets (Gist)
+
+
+##Rule 9. Connecting the other dots
 To move ahead in your scientific career or simply to find a new job, it is very convenient to show and demonstrate that you have
 contributed to a given project and at which level. In GitHub it is easy to show the level of contribution of individuals to a
 particular code base. It is then possible for third parties to appreciate whether one given person has been one of the main
@@ -135,35 +168,20 @@ profile to their GitHub account, displaying information such as the popularity o
 copies) that other people have made of your code. At present, ImpactStory is a subscription-based service. However, users can try
 the service for free for 30 days.
 
-##Rule 7. Make your code easily citable by others in publications 
-In research, it is always a good practise to be able to cite items using permanent and unambiguous identifiers. It routinely
-happens for proteins, genes, metabolites, different types of datasets, or published references, among many other items. Digital
-Object Identifiers (DOIs) have been used for many years as unique and unambiguous identifiers for enabling the citation of
-scientific publications. More recently, a trend has started to produce DOIs for other types of scientific outputs such as
-biological datasets [24727771] or training materials. The main motivation behind is to give scientists a better credit for their
-work [19587644], enabling at the same time a better way to cite and track it. Following this trend, GitHub now enables the use of
-DOIs to cite the code deposited, using the data archiving tool Zenodo (https://zenodo.org/). The procedure is very simple and it
-is explained in detail here (https://guides.GitHub.com/activities/citable-code/). By default, Zenodo takes an archive of your
-GitHub repository each time you create a new release. Before Zenodo can issue a DOI for your repository, you will need to provide
-some metadata information about the archived GitHub repository. Once the DOI has been assigned, apart from using it in your CV or
-add it to information resources such as Europe PubMed Central [25378340].
 
-##Rule 8. Explore new ideas and discover the power of open source projects
+##Rule 10. Explore new ideas and discover the power of open source projects
 One of the jobs of a scientist is to read routinely the published literature available. Analogously, one of the jobs of
 programmers should be revise publicly available projects and code that can be interesting for his/her interests. GitHub makes this
 possible
 
 Explore projects Fork projects
 
-##Rule 9. Be social. Follow projects, people, projects, and issues.
+##Rule 11. Be social. Follow projects, people, projects, and issues.
 You should try to learn as much as possible from your peers and colleagues and be updated with the developments of a project you
 are interested in. GitHub enables functionality that is already common is commonly used Social Media platforms such as Facebook or
 LinkedIn.
 
-##Rule 10. Keep going!
-If you have never used GitHub, especially if you don’t have experience in using a versioning control system, there is the typical
-learning curve that can be applied to everything new someone has to do. However, in time, you will realize of all the time that
-you have saved by using GitHub.
+
 
 ##Conclusions
 To summarize, you can benefit for using GitHub in many different ways.
