@@ -171,14 +171,12 @@ copies) that other people have made of your code. At present, ImpactStory is a s
 the service for free for 30 days.
 
 
-##Rule 10. Explore new ideas and discover the power of open source projects
+##Rule 10. Be social: Discover the power of open source projects and contribute to others
+
 One of the jobs of a scientist is to read routinely the published literature available. Analogously, one of the jobs of
 programmers should be revise publicly available projects and code that can be interesting for his/her interests. GitHub makes this
-possible
+possible.
 
-Explore projects Fork projects
-
-##Rule 11. Be social. Follow projects, people, projects, and issues.
 You should try to learn as much as possible from your peers and colleagues and be updated with the developments of a project you
 are interested in. GitHub enables functionality that is already common is commonly used Social Media platforms such as Facebook or
 LinkedIn.
