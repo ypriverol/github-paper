@@ -44,13 +44,13 @@ the users of Google Code will therefore migrate to GitHub in the coming months. 
 ##Rule 1. Structure your research projects: users, organization, repositories, and teams
 
 GitHub is structured around four major concepts: users, organisations, repositories and teams. Users are the keystone of GitHub;
-as any other social network such as Twitter, Facebook or Google+. Every user has a profile containing where they upload projects to share and
+as any other social network such as Twitter, Facebook or Google+. Every user has a profile containing their projects to share and
 connect with other users by “following” their accounts. Different to other source code repositories, it incorporates social
 functionality that makes a bioinformatican’s/developer’s identity and activities visible to other users. On the GitHub site, users
-create profiles that can be optionally populated with identifying information including: an image representing them, their name,
+create profiles that can be optionally populated with personal information including: an image, their name,
 email address, organization, location, and webpage. As a researcher you should make your profile visible to other users and
 displays all the repositories and organizations you are working on and a list of their latest activities on the site (Comment:
-here we can add a Figure 1 with major options of GitHub). Repositories (shorten term “repo”) are directories or storage space
+here we can add a Figure 1 with major options of GitHub). Repositories are directories or storage space
 where your projects can live; it can be included inside you organization or can belong to particular users. Users can keep code
 files, text files, image files; data files, inside a repository; and while many users store programs and code projects, there’s
 nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and
