@@ -47,24 +47,16 @@ Free projects on github are visible to everyone, but write permissions need to b
 For researcher, we recommend that you make your profile visible to other users and displays all the projects and organizations you are working on and a list of their latest activities on the site (Comment: here we can add a Figure 1 with major options of GitHub). 
 Repositories are versioned directories or storage space of your software or research projects. It can be included inside you organization or can belong to particular users. Users usually keep code files, text files, image files and small data files, inside a repository. And while many users store programs and code projects, there’s nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and platform for bioinformatics and open-source research [citation]. Note that until recently, GitHub had a lack of support for storing large files (> 100mb). This has been recently addressed by the github large file storage [cite].
 
-##Rule 2: Use software versioning
+##Rule 2: Learn and embrace the power of git
 
-The cornerstone of GitHub is the version control system Git, where everything from a small change in a text to a complete redesign
-of the software is controlled by versions, so called revisions [add citation]. You can think about a revision as a “snapshot” (version) of a filesystem. Git is remarkably efficient in archiving the complete history of your project (all revision) by, amongst other things, storing only differences  between states. To create a new revision, the set of changes (e.g. new, deleted or modified files) introduced are commited to the repository. (Comment: perhaps here will be interested to add some snippet code of a commit).
-
-This is a main reason of the quote: “commit often, as most as you can; perfection later”; the member of the
-organization and repositories can at any time select the right version by going back to a previous one. However, most of the
-organizations/repositories has multiple teams, developers, bioinformaticians, and all of them making commits to the data make the
-process of controlling the changes difficult to manage. A Branch in Git is a lightweight movable pointer to one of these commits,
-where the team or the user decides he will achieve a milestone [Pro git citation, Chacon, Scott. Pro git. Apress, 2009. APA]. The
-most frequent branching pattern in GitHub is the master/develop approach where the master keep a pointer to the stable/release
-version of the repository and the develop branch keep a pointer to the development version where new features, data, information
-is added [citation]. In projects involving more than one contributor, everyone wants to be sure than the contributions of others
-increase the quality and move the project forward. Pull-Requests are an excellent tool for fostering versions review and if you're
-using Github for team projects, you should be sure of using these extensively. A good practice of integrating the code in the
-master branch is for someone else to merge your code into it, ensuring that at least two contributors review each feature, data,
-file or new change. Every small change in large/collaborative project should be done by pull-request boosting the quality of the
-project and its data.
+The cornerstone of GitHub is the distributed, version control system Git. Every change, from fixing a typo to a complete redesign
+of the software is controlled by versions, so called revisions [add citation]. While beginners may consider the learning curve of Git steep, many step by step tutorials targeted to beginners exist. If you are new to Git, you can think about a revision as a “snapshot” (version) of a filesystem. Git is remarkably effective in archiving the complete history of your project (all revision) by, amongst other things, storing only differences between revisions. To create a new revision, the set of changes (e.g. new, deleted or modified files) introduced are commited to the repository. (Comment: perhaps here will be interested to add some snippet code of a commit). Following the rule: “commit often, as most as you can; perfection later”; one can keep track of the development in small incremental changes. At any time going back to a previous version is possible.
+In larger projects, multiple users contribute to the same repository. To manage conccurent developments with commits to the same repository several approaches are commonly used. The most common way is to use git branches to separate different lines of development. Active development is often performed on a develop branch and stable versions as e.g. used for a software release are kept in a master branch. In practice, developers work on one ore several features or improvements. To keep commits of the different features logically separated, distinct branches are typically used and merged into the development line once they are finished.
+In projects involving more than one contributor, everyone wants to be sure than the contributions of others
+increase the quality and move the project forward. This is especially the case if external contributors want to incorporate a e.g. bug fix or novel feature without beeing a collaborator or part of the same organization.
+Forking a repository and providing Pull-Requests provide an easy way for collaboration in and over organizations boundaries. 
+A user that forks a repository creates a copy under his name. Modifications e.g. a branch with few features or bug fixes can conveniently be provided to the forked (upstream) repository by opening a Pull-Request. Once a Pull-Request has been opened, it is open for review and discussion usually resulting in additional insights and increased code quality. Once a Pull-Request gets accepted, it gets typically merged into the development branch. A good practice of integrating the code in the
+master branch is for someone else to merge your code into it, ensuring that at least two contributors review each feature, data, file or new change. Every small change in large/collaborative project should be done by pull-request boosting the quality of the project and its data.
 
 ##Rule 3. Let’s others contribute and add ideas to your projects.
 
@@ -114,7 +106,8 @@ a preformatted name is need for the repository; and all the pages needs to be HT
 static site generator called Jekyll (https://jekyllrb.com) that can be integrated with other platforms such as Bootstrap
 (http://getbootstrap.com/) or Disqus (https://disqus.com/).
 
-Rule 6. Make your code easily citable by others in publications 
+Rule 6. Make your code easily citable by others in publications
+
 In research, it is always a good practise to be able to cite items using permanent and unambiguous identifiers. It routinely happens for proteins, genes, metabolites, different types of datasets, or published references, among many other items. Digital Object Identifiers (DOIs) have been used for many years as unique and unambiguous identifiers for enabling the citation of scientific publications. More recently, a trend has started to produce DOIs for other types of scientific outputs such as biological datasets [PMID:24727771] or training materials. The main motivation behind is to give scientists a better credit for their work [PMID:19587644], enabling at the same time a better way to cite and track it. Following this trend, GitHub now enables the use of DOIs to cite the code deposited, using the data archiving tool Zenodo (https://zenodo.org/). The procedure is very simple and it is explained in detail here (https://guides.GitHub.com/activities/citable-code/). By default, Zenodo takes an archive of your GitHub repository each time you create a new release. Before Zenodo can issue a DOI for your repository, you will need to provide some metadata information about the archived GitHub repository. Once the DOI has been assigned, apart from using it in your CV or add it to information resources such as Europe PubMed Central [PMID:25378340].
 
 
