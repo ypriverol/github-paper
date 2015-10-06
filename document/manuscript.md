@@ -41,20 +41,18 @@ GitHub to facilitate and manage the work on a given bioinformatics project and i
 The manuscript is timely due to the announcement of the closure of another widely used service, Google Code. Therefore, many of
 the users of Google Code will therefore migrate to GitHub in the coming months. Rules
 
-##Rule 1. Structure your research projects: users, organization, repositories, and teams
+##Rule 1: Structure your research projects: users, organization, repositories, and teams
 
 Free projects on github are visible to everyone, but write permissions need to be granted. Structuring your projects allow to manage permissions and restrict access on different levels: users, teams and organisations. Users are the keystone of GitHub; as for any other social network. Every user has a profile listing their GitHub projects and activities which can be optionally populated with personal information including name, email address, image and webpage. To stay up to date with other users you simply connect by “following” their accounts. Collaboration on e.g. your single user projects can be achieved by simply adding a trusted “Collaborator” and thereby granting write access. However, development in large projects is usually done by several teams of people, within a larger organization. GitHub organizations are a great way to manage team-based access permissions for the individual projects of institutes, research labs, and large open-source projects that need multiple owners and administrators (Figure 1).
 For researcher, we recommend that you make your profile visible to other users and displays all the projects and organizations you are working on and a list of their latest activities on the site (Comment: here we can add a Figure 1 with major options of GitHub). 
 Repositories are versioned directories or storage space of your software or research projects. It can be included inside you organization or can belong to particular users. Users usually keep code files, text files, image files and small data files, inside a repository. And while many users store programs and code projects, there’s nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and platform for bioinformatics and open-source research [citation]. Note that until recently, GitHub had a lack of support for storing large files (> 100mb). This has been recently addressed by the github large file storage [cite].
 
-##Rule 2: Commits, Versions, Branches and Pull Requests
+##Rule 2: Use software versioning
 
 The cornerstone of GitHub is the version control system Git, where everything from a small change in a text to a complete redesign
-of the software is controlled by versions [add citation]. Git thinks of its data more like a set of “snapshots” (versions) of a
-miniature filesystem. Every state of your research, data, documents, code needs to be updated to one of this “snapshots” using
-commits (Comment: perhaps here will be interested to add some snippet code of a commit). Every time the user commit (save the
-state of your project in Git), it basically takes a picture of what all your files look like at that moment and stores a reference
-to that “snapshot”. This is a main reason of the quote: “commit often, as most as you can; perfection later”; the member of the
+of the software is controlled by versions, so called revisions [add citation]. You can think about a revision as a “snapshot” (version) of a filesystem. Git is remarkably efficient in archiving the complete history of your project (all revision) by, amongst other things, storing only differences  between states. To create a new revision, the set of changes (e.g. new, deleted or modified files) introduced are commited to the repository. (Comment: perhaps here will be interested to add some snippet code of a commit).
+
+This is a main reason of the quote: “commit often, as most as you can; perfection later”; the member of the
 organization and repositories can at any time select the right version by going back to a previous one. However, most of the
 organizations/repositories has multiple teams, developers, bioinformaticians, and all of them making commits to the data make the
 process of controlling the changes difficult to manage. A Branch in Git is a lightweight movable pointer to one of these commits,
