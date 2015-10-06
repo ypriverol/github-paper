@@ -106,7 +106,7 @@ a preformatted name is need for the repository; and all the pages needs to be HT
 static site generator called Jekyll (https://jekyllrb.com) that can be integrated with other platforms such as Bootstrap
 (http://getbootstrap.com/) or Disqus (https://disqus.com/).
 
-Rule 6. Make your code easily citable by others in publications
+##Rule 6. Make your code easily citable by others in publications
 
 In research, it is always a good practise to be able to cite items using permanent and unambiguous identifiers. It routinely happens for proteins, genes, metabolites, different types of datasets, or published references, among many other items. Digital Object Identifiers (DOIs) have been used for many years as unique and unambiguous identifiers for enabling the citation of scientific publications. More recently, a trend has started to produce DOIs for other types of scientific outputs such as biological datasets [PMID:24727771] or training materials. The main motivation behind is to give scientists a better credit for their work [PMID:19587644], enabling at the same time a better way to cite and track it. Following this trend, GitHub now enables the use of DOIs to cite the code deposited, using the data archiving tool Zenodo (https://zenodo.org/). The procedure is very simple and it is explained in detail here (https://guides.GitHub.com/activities/citable-code/). By default, Zenodo takes an archive of your GitHub repository each time you create a new release. Before Zenodo can issue a DOI for your repository, you will need to provide some metadata information about the archived GitHub repository. Once the DOI has been assigned, apart from using it in your CV or add it to information resources such as Europe PubMed Central [PMID:25378340].
 
@@ -121,7 +121,7 @@ publication. On one hand, journal editors and reviewers have the opportunity to 
 review process and realize that you have nothing to hide. On the other, once the paper is published, the same can be done by any
 member of the scientific community, which can increase your opportunities for further discussion and collaboration.
 
-Rule 8. Promote your project/s in the scientific community
+##Rule 8. Promote your project/s in the scientific community
 
 In rule 5 we mentioned the possibility to generate your blog posts and run a blog around your repository or organization using the GitHub framework. But GitHub, has more for its users, by providing mechanisms for real-time communication. Gitter (http://gitter.im) is a GitHub-based chat tool, now in limited beta, which allows the developers and users to chat about repositories/code and organizations. Gitter inherits the shape of the social groups operating around GitHub repositories, organizations, and issues; and relies on the social identity within GitHub, creating IRC-like chat rooms for public and private repositories. From the Gitter the members of the chat can reference issues, comments, pull-requests, etc. 
 Also, Gists (https://gist.github.com) are a unique way to share your “snippet code”, results; where the user can share single files, parts of files, or full applications. Gist has to types of gists: public gist that can be browseable and searchable; and secrets that are not provide through Discover (https://gist.github.com/discover). One of the main feature of gist the the possibility to embed snipet code in other applications. The user can embed a gist in any text field that supports Javascript, such as a blog post, documentation page or web. 
