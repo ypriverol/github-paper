@@ -26,15 +26,13 @@ described (e.g. in case of commercial software) or openly shared, when possible 
 latter is becoming more common in the case of “home made” programming scripts or for bioinformatics open-source projects, where
 the source code is made freely available and can be reused by third parties [PMID:25071829]. The availability of the source code
 can be achieved thanks to the existence of several code repository-hosting services such as Sourceforge (http://sourceforge.net/),
-Google Code (https://code.google.com/) and GitHub (https://GitHub.com/), among others. These resources are also essential for
+Bitbucket (https://bitbucket.org/), Google Code (https://code.google.com/) and GitHub (https://GitHub.com/), among others. These resources are also essential for
 collaborative software projects, since they enable the organization and sharing of programming tasks between different
 contributors to the same project.
 
 Here we aim to introduce the main features of GitHub and related tools and services, as a web-based platform, which offers a free
-and integrated environment for hosting the source code, the documentation and the web page of open source projects. Different to
-other alternatives such as Google Code and Sourceforge, GitHub is not only a source code repository for programmers and software
-developers; it offers a complete suite a services and tools for version control of documents, source, data, and also a
-collaborative environment for research and international teams [add citation]. The cornerstone of GitHub is the well-known and
+and integrated environment for hosting the source code, the documentation and the web page of open source projects. But there is more to it than a mere sourcecode hosting service. GitHub offers developers a dynamic and collaborative environment often coined as social coding platform with the ability to review and comment code [add citation]. In addition, third party extensions offer additional services to complete the development stack, including continuous integration and deployment of software. While small projects usually start with small scripts and little code, it is the ability to scale from single developer efforts to large projects with hundreds of developers.
+The cornerstone of GitHub is the well-known and
 open-source version control system Git, designed and developed by Linus Torvals in 2005 to control and extend the Linux kernel
 development; and has become the most widely adopted version control system; adopted by major companies like Google, Facebook,
 Twitter. GitHub is free to use for use for public projects and offers paid plans for private repositories, and it is the host of
@@ -46,7 +44,7 @@ the users of Google Code will therefore migrate to GitHub in the coming months. 
 ##Rule 1. Structure your research projects: users, organization, repositories, and teams
 
 GitHub is structured around four major concepts: users, organisations, repositories and teams. Users are the keystone of GitHub;
-as any other social network such as Twitter, Facebook or Google+. Every user has a profile where they upload projects to share and
+as any other social network such as Twitter, Facebook or Google+. Every user has a profile containing where they upload projects to share and
 connect with other users by “following” their accounts. Different to other source code repositories, it incorporates social
 functionality that makes a bioinformatican’s/developer’s identity and activities visible to other users. On the GitHub site, users
 create profiles that can be optionally populated with identifying information including: an image representing them, their name,
