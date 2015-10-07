@@ -26,15 +26,13 @@ described (e.g. in case of commercial software) or openly shared, when possible 
 latter is becoming more common in the case of “home made” programming scripts or for bioinformatics open-source projects, where
 the source code is made freely available and can be reused by third parties [PMID:25071829]. The availability of the source code
 can be achieved thanks to the existence of several code repository-hosting services such as Sourceforge (http://sourceforge.net/),
-Google Code (https://code.google.com/) and GitHub (https://GitHub.com/), among others. These resources are also essential for
+Bitbucket (https://bitbucket.org/), Google Code (https://code.google.com/) and GitHub (https://GitHub.com/), among others. These resources are also essential for
 collaborative software projects, since they enable the organization and sharing of programming tasks between different
 contributors to the same project.
 
 Here we aim to introduce the main features of GitHub and related tools and services, as a web-based platform, which offers a free
-and integrated environment for hosting the source code, the documentation and the web page of open source projects. Different to
-other alternatives such as Google Code and Sourceforge, GitHub is not only a source code repository for programmers and software
-developers; it offers a complete suite a services and tools for version control of documents, source, data, and also a
-collaborative environment for research and international teams [add citation]. The cornerstone of GitHub is the well-known and
+and integrated environment for hosting the source code, the documentation and the web page of open source projects. But there is more to it than a mere sourcecode hosting service. GitHub offers developers a dynamic and collaborative environment often coined as social coding platform with the ability to review and comment code [add citation]. In addition, third party extensions offer additional services to complete the development stack, including continuous integration and deployment of software. While small projects usually start with small scripts and little code, it is the ability to scale from single developer efforts to large projects with hundreds of developers.
+The cornerstone of GitHub is the well-known and
 open-source version control system Git, designed and developed by Linus Torvals in 2005 to control and extend the Linux kernel
 development; and has become the most widely adopted version control system; adopted by major companies like Google, Facebook,
 Twitter. GitHub is free to use for use for public projects and offers paid plans for private repositories, and it is the host of
@@ -43,59 +41,33 @@ GitHub to facilitate and manage the work on a given bioinformatics project and i
 The manuscript is timely due to the announcement of the closure of another widely used service, Google Code. Therefore, many of
 the users of Google Code will therefore migrate to GitHub in the coming months. Rules
 
-##Rule 1. Structure your research projects: users, organization, repositories, and teams
+##Rule 1: Structure your research projects: users, organization, repositories, and teams
 
-GitHub is structured around four major concepts: users, organisations, repositories and teams. Users are the keystone of GitHub;
-as any other social network such as Twitter, Facebook or Google+. Every user has a profile where they upload projects to share and
-connect with other users by “following” their accounts. Different to other source code repositories, it incorporates social
-functionality that makes a bioinformatican’s/developer’s identity and activities visible to other users. On the GitHub site, users
-create profiles that can be optionally populated with identifying information including: an image representing them, their name,
-email address, organization, location, and webpage. As a researcher you should make your profile visible to other users and
-displays all the repositories and organizations you are working on and a list of their latest activities on the site (Comment:
-here we can add a Figure 1 with major options of GitHub). Repositories (shorten term “repo”) are directories or storage space
-where your projects can live; it can be included inside you organization or can belong to particular users. Users can keep code
-files, text files, image files; data files, inside a repository; and while many users store programs and code projects, there’s
-nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and
-platform for bioinformatics and open-source research [citation]. However, most of the users work in groups, teams, which provide a
-new concept: Organizations. Organizations simplify management of group-owned repositories (e.g. your research group code), are
-great for institutes, research labs, and large open-source projects that need multiple owners and admins. The main intention of
-Organizations is to group a set of repositories and developers under the dame “project” and they include: team-based access
-permissions and unlimited owners, administrators, and collaborators using teams (Figure 1). Finally, teams and collaborators
-define how every member of the organization will contribute with the project; it defines the permissions and the access level to
-the code and the resources within the organization/repository.
+Free projects on github are visible to everyone, but write permissions need to be granted. Structuring your projects allow to manage permissions and restrict access on different levels: users, teams and organisations. Users are the keystone of GitHub; as for any other social network. Every user has a profile listing their GitHub projects and activities which can be optionally populated with personal information including name, email address, image and webpage. To stay up to date with other users you simply connect by “following” their accounts. Collaboration on e.g. your single user projects can be achieved by simply adding a trusted “Collaborator” and thereby granting write access. However, development in large projects is usually done by several teams of people, within a larger organization. GitHub organizations are a great way to manage team-based access permissions for the individual projects of institutes, research labs, and large open-source projects that need multiple owners and administrators (Figure 1).
+For researcher, we recommend that you make your profile visible to other users and displays all the projects and organizations you are working on and a list of their latest activities on the site (Comment: here we can add a Figure 1 with major options of GitHub). 
+Repositories are versioned directories or storage space of your software or research projects. It can be included inside you organization or can belong to particular users. Users usually keep code files, text files, image files and small data files, inside a repository. And while many users store programs and code projects, there’s nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and platform for bioinformatics and open-source research [citation]. Note that until recently, GitHub had a lack of support for storing large files (> 100mb). This has been recently addressed by the github large file storage [cite].
 
-##Rule 2: Commits, Versions, Branches and Pull Requests
+##Rule 2: Learn git and embrace its power
 
-The cornerstone of GitHub is the version control system Git, where everything from a small change in a text to a complete redesign
-of the software is controlled by versions [add citation]. Git thinks of its data more like a set of “snapshots” (versions) of a
-miniature filesystem. Every state of your research, data, documents, code needs to be updated to one of this “snapshots” using
-commits (Comment: perhaps here will be interested to add some snippet code of a commit). Every time the user commit (save the
-state of your project in Git), it basically takes a picture of what all your files look like at that moment and stores a reference
-to that “snapshot”. This is a main reason of the quote: “commit often, as most as you can; perfection later”; the member of the
-organization and repositories can at any time select the right version by going back to a previous one. However, most of the
-organizations/repositories has multiple teams, developers, bioinformaticians, and all of them making commits to the data make the
-process of controlling the changes difficult to manage. A Branch in Git is a lightweight movable pointer to one of these commits,
-where the team or the user decides he will achieve a milestone [Pro git citation, Chacon, Scott. Pro git. Apress, 2009. APA]. The
-most frequent branching pattern in GitHub is the master/develop approach where the master keep a pointer to the stable/release
-version of the repository and the develop branch keep a pointer to the development version where new features, data, information
-is added [citation]. In projects involving more than one contributor, everyone wants to be sure than the contributions of others
-increase the quality and move the project forward. Pull-Requests are an excellent tool for fostering versions review and if you're
-using Github for team projects, you should be sure of using these extensively. A good practice of integrating the code in the
-master branch is for someone else to merge your code into it, ensuring that at least two contributors review each feature, data,
-file or new change. Every small change in large/collaborative project should be done by pull-request boosting the quality of the
-project and its data.
+The cornerstone of GitHub is the distributed, version control system Git. Every change, from fixing a typo to a complete redesign
+of the software is controlled by versions, so called revisions [add citation]. While beginners may consider the learning curve of Git steep, many step by step tutorials targeted to beginners exist. If you are new to Git, you can think about a revision as a “snapshot” (version) of a filesystem. Git is remarkably effective in archiving the complete history of your project (all revision) by, amongst other things, storing only differences between revisions. To create a new revision, the set of changes (e.g. new, deleted or modified files) introduced are commited to the repository. (Comment: perhaps here will be interested to add some snippet code of a commit). Following the rule: “commit often, as most as you can; perfection later”; one can keep track of the development in small incremental changes. At any time going back to a previous version is possible.
+In larger projects, multiple users contribute to the same repository. To manage conccurent developments with commits to the same repository several approaches are commonly used. The most common way is to use git branches to separate different lines of development. Active development is often performed on a develop branch and stable versions as e.g. used for a software release are kept in a master branch. In practice, developers work on one ore several features or improvements. To keep commits of the different features logically separated, distinct branches are typically used and merged into the development line once they are finished.
+In projects involving more than one contributor, everyone wants to be sure than the contributions of others
+increase the quality and move the project forward. This is especially the case if external contributors want to incorporate a e.g. bug fix or novel feature without beeing a collaborator or part of the same organization.
+Forking a repository and providing Pull-Requests provide an easy way for collaboration in and over organizations boundaries. 
+A user that forks a repository creates a copy under his name. Modifications e.g. a branch with few features or bug fixes can conveniently be provided to the forked (upstream) repository by opening a Pull-Request. Once a Pull-Request has been opened, it is open for review and discussion usually resulting in additional insights and increased code quality. Once a Pull-Request gets accepted, it gets typically merged into the development branch. A good practice of integrating the code in the
+master branch is for someone else to merge your code into it, ensuring that at least two contributors review each feature, data, file or new change. Every small change in large/collaborative project should be done by pull-request boosting the quality of the project and its data.
 
 ##Rule 3. Let’s others contribute and add ideas to your projects.
 
-Issues are a great way to keep track of tasks, enhancements, and bugs for your projects but also a way to approach your audience
-and your potential contributors. Most of the previous repositories only provides and encourage the use of issues as bug tracker of
-projects. GitHub’s issues tracker has its own section in every repository, and can be use to trace bugs, new ideas, enhancements
-by using a powerful tagging system of each issue. Its issue tracking is exceptional because it is focus on collaboration,
-references, and excellent text formatting by using for each issue: (i) a title and description, (ii) color-coded labels help you
+GitHub issues are a great way to keep track of bugs, tasks, and enhancements for your projects. Classical issue tracker are primarily intended to be used as bug tracker of
+projects. In contrast, GitHub’s issues follow a different philosophy: each tracker has its own section in every repository, and can be use to trace bugs, new ideas, enhancements
+by using a powerful but optional tagging system of each issue. Its main focus is on collaboration,
+providing context by cross-references, and excellent text formatting by using for each issue: (i) a title and description, (ii) color-coded labels help you
 categorize and filter your issues, (iii) milestone acts like a container for issues (e.g. weekly discussion 9/5-9/16 related with
 datasets), (iv) one assignee responsable for working on the issue, and (v) comments that allows anyone with access to the
-repository to provide feedback related with the issue. A well-organized and tagged issue tracker will enable to upcoming
-contributors and users of the project to understand the project. The issue tracker tells the story of the repository/project where
+repository to provide feedback related with the issue. Another aspect is its minimalisticity. For instance, it does not require to fill out lengthy forms including every information that might be valuable for the developer to reproduce the bug. It only requires the user to give the title and and optional text. If the developer is missing information he simply requests them in a comment. In this regards, GitHub issues are more dynamic and pose a lower barrier for users to report bugs and request features. A well-organized and tagged issue tracker will help upcoming
+contributors and users to understand the project more deeply. The issue tracker tells the story of the repository/project where
 new users can learn the reasons behind decisions and contributors can discuss the progress of the project.
 
 ##Rule 4: Always ready to use: Tests, Deployments and Continuous integration 
@@ -123,7 +95,7 @@ avaible as soon as possible free of bugs, well-documented and tested.
 
 ##Rule 5. Self-Hosted documentation, blogging and manuals using markdown and GitHub web-pages
 
-Providing well-written documentation helps users/collaborators understand, and contribute back to your project. A strong system
+Providing well-written documentation helps others understand, and contribute back to your project. A strong system
 used to serve documentation can make life easier for the team writing it and boost the productivity and visibility of the
 organization. The difficult step about documentation should be which specific test we will include, which examples are the most
 clear for the users; not configuring tools or figuring out how to deploy updates. GitHub Pages are “simple-looking” websites that
@@ -133,8 +105,9 @@ a preformatted name is need for the repository; and all the pages needs to be HT
 static site generator called Jekyll (https://jekyllrb.com) that can be integrated with other platforms such as Bootstrap
 (http://getbootstrap.com/) or Disqus (https://disqus.com/).
 
-Rule 6. Make your code easily citable by others in publications 
-In research, it is always a good practise to be able to cite items using permanent and unambiguous identifiers. It routinely happens for proteins, genes, metabolites, different types of datasets, or published references, among many other items. Digital Object Identifiers (DOIs) have been used for many years as unique and unambiguous identifiers for enabling the citation of scientific publications. More recently, a trend has started to produce DOIs for other types of scientific outputs such as biological datasets [PMID:24727771] or training materials. The main motivation behind is to give scientists a better credit for their work [PMID:19587644], enabling at the same time a better way to cite and track it. Following this trend, GitHub now enables the use of DOIs to cite the code deposited, using the data archiving tool Zenodo (https://zenodo.org/). The procedure is very simple and it is explained in detail here (https://guides.GitHub.com/activities/citable-code/). By default, Zenodo takes an archive of your GitHub repository each time you create a new release. Before Zenodo can issue a DOI for your repository, you will need to provide some metadata information about the archived GitHub repository. Once the DOI has been assigned, apart from using it in your CV or add it to information resources such as Europe PubMed Central [PMID:25378340].
+##Rule 6. Make your code easily citable by others in publications
+
+In research, it is always a good practise ensure permanent and unambiguous identifiers for citable items like articles, proteins, genes, metabolites, or datasets, among many other items. Digital Object Identifiers (DOIs) have been used for many years as unique and unambiguous identifiers for enabling the citation of scientific publications. More recently, a trend has started to produce DOIs for other types of scientific outputs such as biological datasets [PMID:24727771] or training materials. The main motivation behind is to give scientists a better credit for their work [PMID:19587644], enabling at the same time a better way to cite and track it. Following this trend, GitHub now enables the use of DOIs to cite the code deposited, using the data archiving tool Zenodo (https://zenodo.org/). The procedure is very simple and it is explained in detail here (https://guides.GitHub.com/activities/citable-code/). By default, Zenodo takes an archive of your GitHub repository each time you create a new release on GitHub. Before Zenodo can issue a DOI for your repository, you will need to provide some metadata information about the archived GitHub repository. Once the DOI has been assigned, apart from using it in your CV or add it to information resources such as Europe PubMed Central [PMID:25378340].
 
 
 ##Rule 7. Always link and highlight your deposited source code in publications 
@@ -144,13 +117,13 @@ software and the datasets that are used in a particular study described in a pub
 possible in your publications that your code is freely available in GitHub, together with any other relevant piece of information
 that you may have deposited. In our experience, this openness definitely increases your chances of getting the paper accepted for
 publication. On one hand, journal editors and reviewers have the opportunity to reproduce your findings during the manuscript
-review process and realize that you have nothing to hide. On the other, once the paper is published, the same can be done by any
-member of the scientific community, which can increase your opportunities for further discussion and collaboration.
+review process increasing confidence in your results. On the other, once the paper is published, the same can be done by any
+member of the scientific community, which can increase your citations and foster opportunities for further discussion and collaboration.
 
-Rule 8. Promote your project/s in the scientific community
+##Rule 8. Promote your project/s in the scientific community
 
-In rule 5 we mentioned the possibility to generate your blog posts and run a blog around your repository or organization using the GitHub framework. But GitHub, has more for its users, by providing mechanisms for real-time communication. Gitter (http://gitter.im) is a GitHub-based chat tool, now in limited beta, which allows the developers and users to chat about repositories/code and organizations. Gitter inherits the shape of the social groups operating around GitHub repositories, organizations, and issues; and relies on the social identity within GitHub, creating IRC-like chat rooms for public and private repositories. From the Gitter the members of the chat can reference issues, comments, pull-requests, etc. 
-Also, Gists (https://gist.github.com) are a unique way to share your “snippet code”, results; where the user can share single files, parts of files, or full applications. Gist has to types of gists: public gist that can be browseable and searchable; and secrets that are not provide through Discover (https://gist.github.com/discover). One of the main feature of gist the the possibility to embed snipet code in other applications. The user can embed a gist in any text field that supports Javascript, such as a blog post, documentation page or web. 
+In rule 5 we mentioned the possibility to generate your blog posts and run a blog around your repository or organization using the GitHub framework. But GitHub, has more for its users, by providing mechanisms for real-time communication. Gitter (http://gitter.im) is a GitHub-based chat tool, now in limited beta, which allows the developers and users to chat about repositories/code and organizations. Gitter inherits the shape of the social groups operating around GitHub repositories, organizations, and issues; and relies on the social identity within GitHub, creating IRC-like chat rooms for public and private repositories. From within a Gitter chat, members can reference issues, comments, pull-requests, etc. 
+Also, Gists (https://gist.github.com) are a unique way to share your “code snippets”, single files, parts of files, or full applications. Gist has to types of gists: public gist that can be browseable and searchable; and secrets that are not provide through Discover (https://gist.github.com/discover). One of the main feature of gist is the possibility to embed code snippeds in other applications. The user can embed a gist in any text field that supports Javascript, such as a blog post, documentation page or web. 
 
 
 
