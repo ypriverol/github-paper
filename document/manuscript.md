@@ -1,5 +1,5 @@
 #Ten Simple Rules for taking advantage of GitHub in bioinformatics
-#
+
 Yasset Perez-Riverol, Rui Wang, Timo Sachsenberg, Laurent Gatto, Juan Antonio Vizcaíno,*
 
 1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton,
@@ -11,7 +11,7 @@ Cambridge, CB10 1SD, UK.
 juan@ebi.ac.uk.
 
 
-Short title:
+Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
 
  
@@ -30,9 +30,7 @@ Bitbucket (https://bitbucket.org/), Google Code (https://code.google.com/) and G
 collaborative software projects, since they enable the organization and sharing of programming tasks between different
 contributors to the same project.
 
-Here we aim to introduce the main features of GitHub and related tools and services, as a web-based platform, which offers a free
-and integrated environment for hosting the source code, the documentation and the web page of open source projects. But there is more to it than a mere sourcecode hosting service. GitHub offers developers a dynamic and collaborative environment often coined as social coding platform with the ability to review and comment code [add citation]. In addition, third party extensions offer additional services to complete the development stack, including continuous integration and deployment of software. While small projects usually start with small scripts and little code, it is the ability to scale from single developer efforts to large projects with hundreds of developers.
-The cornerstone of GitHub is the well-known and
+Here we aim to introduce the main features of GitHub and related tools and services, as a web-based platform, which offers a free and integrated environment for hosting the source code, the documentation and the web page of open source projects.But there is more to it than a merge sourcecode hosting service. GitHub offers developers a dynamic and collaborative environment often coined as social coding platform with the ability to review and comment code [add citation]. In addition, third party extensions offer additional services to complete the development stack, including continuous integration and deployment of software. While small projects usually start with small scripts and little code, it is the ability to scale from single developer efforts to large projects with hundreds of developers. The cornerstone of GitHub is the well-known and
 open-source version control system Git, designed and developed by Linus Torvals in 2005 to control and extend the Linux kernel
 development; and has become the most widely adopted version control system; adopted by major companies like Google, Facebook,
 Twitter. GitHub is free to use for use for public projects and offers paid plans for private repositories, and it is the host of
@@ -45,7 +43,7 @@ the users of Google Code will therefore migrate to GitHub in the coming months. 
 
 Free projects on github are visible to everyone, but write permissions need to be granted. Structuring your projects allow to manage permissions and restrict access on different levels: users, teams and organisations. Users are the keystone of GitHub; as for any other social network. Every user has a profile listing their GitHub projects and activities which can be optionally populated with personal information including name, email address, image and webpage. To stay up to date with other users you simply connect by “following” their accounts. Collaboration on e.g. your single user projects can be achieved by simply adding a trusted “Collaborator” and thereby granting write access. However, development in large projects is usually done by several teams of people, within a larger organization. GitHub organizations are a great way to manage team-based access permissions for the individual projects of institutes, research labs, and large open-source projects that need multiple owners and administrators (Figure 1).
 For researcher, we recommend that you make your profile visible to other users and displays all the projects and organizations you are working on and a list of their latest activities on the site (Comment: here we can add a Figure 1 with major options of GitHub). 
-Repositories are versioned directories or storage space of your software or research projects. It can be included inside you organization or can belong to particular users. Users usually keep code files, text files, image files and small data files, inside a repository. And while many users store programs and code projects, there’s nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and platform for bioinformatics and open-source research [citation]. Note that until recently, GitHub had a lack of support for storing large files (> 100mb). This has been recently addressed by the github large file storage [cite].
+Repositories (shorten term “repo”) are versioned directories or storage space of your software or research projects. It can be included inside you organization or can belong to particular users. Users usually keep code files, text files, image files and small data files, inside a repository. And while many users store programs and code projects, there’s nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and platform for bioinformatics and open-source research [citation]. Note that until recently, GitHub had a lack of support for storing large files (> 100mb). This has been recently addressed by the github large file storage [cite].
 
 ##Rule 2: Learn git and embrace its power
 
@@ -162,30 +160,12 @@ To summarize, you can benefit for using GitHub in many different ways.
 
 
 ##Acknowledgements
-Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1]. R.W. is supported by the BBSRC ‘Quantitative Proteomics’
+Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’
 grant [reference BB/I00095X/1]. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA].
 
 
 
  
 
-References
-
-1. Wang R, Perez-Riverol Y, Hermjakob H, Vizcaino JA (2015) Open source libraries and frameworks for biological data
-visualisation: a guide for developers. Proteomics 15: 1356-1374. 2. Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, et al.
-(2014) Ten simple rules for the care and feeding of scientific data. PLoS computational biology 10: e1003542. 3. Perez-Riverol Y,
-Alpi E, Wang R, Hermjakob H, Vizcaino JA (2015) Making proteomics data accessible and reusable: current state of proteomics
-databases and repositories. Proteomics 15: 930-949. 4. Vihinen M (2015) No more hidden solutions in bioinformatics. Nature 521:
-261. 5. Osborne JM, Bernabeu MO, Bruna M, Calderhead B, Cooper J, et al. (2014) Ten simple rules for effective computational
-research. PLoS computational biology 10: e1003506. 6. Leprevost Fda V, Barbosa VC, Francisco EL, Perez-Riverol Y, Carvalho PC
-(2014) On best practices in the development of bioinformatics software. Front Genet 5: 199.
-
-
-
-
-
-Figures.
-
-Figure 1.
 
 
