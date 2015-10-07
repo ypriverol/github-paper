@@ -47,7 +47,7 @@ Free projects on github are visible to everyone, but write permissions need to b
 For researcher, we recommend that you make your profile visible to other users and displays all the projects and organizations you are working on and a list of their latest activities on the site (Comment: here we can add a Figure 1 with major options of GitHub). 
 Repositories are versioned directories or storage space of your software or research projects. It can be included inside you organization or can belong to particular users. Users usually keep code files, text files, image files and small data files, inside a repository. And while many users store programs and code projects, there’s nothing preventing you from keeping text documents or other file types in your project making GitHub and excellent service and platform for bioinformatics and open-source research [citation]. Note that until recently, GitHub had a lack of support for storing large files (> 100mb). This has been recently addressed by the github large file storage [cite].
 
-##Rule 2: Learn and embrace the power of git
+##Rule 2: Learn git and embrace its power
 
 The cornerstone of GitHub is the distributed, version control system Git. Every change, from fixing a typo to a complete redesign
 of the software is controlled by versions, so called revisions [add citation]. While beginners may consider the learning curve of Git steep, many step by step tutorials targeted to beginners exist. If you are new to Git, you can think about a revision as a “snapshot” (version) of a filesystem. Git is remarkably effective in archiving the complete history of your project (all revision) by, amongst other things, storing only differences between revisions. To create a new revision, the set of changes (e.g. new, deleted or modified files) introduced are commited to the repository. (Comment: perhaps here will be interested to add some snippet code of a commit). Following the rule: “commit often, as most as you can; perfection later”; one can keep track of the development in small incremental changes. At any time going back to a previous version is possible.
@@ -60,15 +60,14 @@ master branch is for someone else to merge your code into it, ensuring that at l
 
 ##Rule 3. Let’s others contribute and add ideas to your projects.
 
-Issues are a great way to keep track of tasks, enhancements, and bugs for your projects but also a way to approach your audience
-and your potential contributors. Most of the previous repositories only provides and encourage the use of issues as bug tracker of
-projects. GitHub’s issues tracker has its own section in every repository, and can be use to trace bugs, new ideas, enhancements
-by using a powerful tagging system of each issue. Its issue tracking is exceptional because it is focus on collaboration,
-references, and excellent text formatting by using for each issue: (i) a title and description, (ii) color-coded labels help you
+GitHub issues are a great way to keep track of bugs, tasks, and enhancements for your projects. Classical issue tracker are primarily intended to be used as bug tracker of
+projects. In contrast, GitHub’s issues follow a different philosophy: each tracker has its own section in every repository, and can be use to trace bugs, new ideas, enhancements
+by using a powerful but optional tagging system of each issue. Its main focus is on collaboration,
+providing context by cross-references, and excellent text formatting by using for each issue: (i) a title and description, (ii) color-coded labels help you
 categorize and filter your issues, (iii) milestone acts like a container for issues (e.g. weekly discussion 9/5-9/16 related with
 datasets), (iv) one assignee responsable for working on the issue, and (v) comments that allows anyone with access to the
-repository to provide feedback related with the issue. A well-organized and tagged issue tracker will enable to upcoming
-contributors and users of the project to understand the project. The issue tracker tells the story of the repository/project where
+repository to provide feedback related with the issue. Another aspect is its minimalisticity. For instance, it does not require to fill out lengthy forms including every information that might be valuable for the developer to reproduce the bug. It only requires the user to give the title and and optional text. If the developer is missing information he simply requests them in a comment. In this regards, GitHub issues are more dynamic and pose a lower barrier for users to report bugs and request features. A well-organized and tagged issue tracker will help upcoming
+contributors and users to understand the project more deeply. The issue tracker tells the story of the repository/project where
 new users can learn the reasons behind decisions and contributors can discuss the progress of the project.
 
 ##Rule 4: Always ready to use: Tests, Deployments and Continuous integration 
