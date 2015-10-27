@@ -1,30 +1,29 @@
-# Plos in Computational Biology paper related with github for researchers, code, source and document
+# Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
 ## Description 
 
-The present repository contains all the documentation of the paper
-entitle: **"Ten Simple Rules for taking advantage of GitHub in
-bioinformatics"**. Our main aim here is to highlight specific GitHub
-features that will enable the bioinformatics community to use GitHub
-features and tools in a daily basics. We will then provide a set of
-recommendations for taking full advantage of its core features to
-facilitate and manage the work on a given bioinformatics project and
-increase its profile to the scientific community. We think the
-manuscript is timely due to the announcement of the closure of another
-widely used service, Google Code. Therefore, many of the users of
-Google Code will therefore have to migrate to GitHub.
-
+This repository contains the manuscript entitle: **Ten Simple Rules
+for taking advantage of GitHub in bioinformatics**. Our main aim here
+is to highlight specific GitHub features that enable the
+bioinformatics community to use GitHub features and tools on a daily
+basics. We will then provide a set of recommendations for taking full
+advantage of its core features to facilitate and manage the work on a
+given bioinformatics project and increase its profile to the
+scientific community. We think the manuscript is timely due to the
+announcement of the closure of another widely used service, Google
+Code. Therefore, many of the users of Google Code will therefore have
+to migrate to GitHub.
 
 # How to contribute 
 
 If you have an idea for a new Rule to add or change to the main
-manuscript or Figure, etc, it is best to communicate with main authors
+manuscript or Figure, etc, it is best to communicate with the authors
 of the paper. The most common venues for this are GitHub issues for
 common specification
 [issues](https://github.com/ypriverol/github-paper/issues). Browse
 through existing GitHub issues and if one seems related, comment on
 it. If no existing issue seems appropriate, a new issue can be opened
-using this form.
+to discuss the suggestion.
 
 ## Changes and Ideas
 
