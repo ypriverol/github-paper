@@ -42,7 +42,8 @@ good places to start. More learning resources are available
    a new one (this is typically `master`).
 
 4. Serious problems or major changes should not be fixed via pull
-   request - please open an issue to discuss these beforehand.
+   request - please open an issue an specifically tag `@ypriverol` to
+   discuss such changes beforehand.
 
 5. Commit and push your changes to your fork.
 
