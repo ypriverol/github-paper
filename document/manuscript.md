@@ -32,7 +32,7 @@ commercial software) or openly shared, when possible
 [PMID:24675742,PMID:25993922]. At present the latter is becoming more
 common in the case of "home made" programming scripts or for
 bioinformatics open-source projects, where the source code is made
-freely available and can be reused by third parties
+openly available and can be reused by third parties
 [PMID:25071829]. The open availability of the source code can be
 achieved thanks to the existence of several code repository-hosting
 services such as Sourceforge (http://sourceforge.net/), Bitbucket
@@ -67,7 +67,7 @@ project and increase its profile to the scientific community.
 
 ## Rule 1: Structure your projects: users, organizations, repositories, and teams
 
-Free projects on GitHub are visible to everyone, but write permissions
+Open projects on GitHub are visible to everyone, but write permissions
 to change the source code need to be granted. Structuring your
 projects allows the management of permissions, restricting access at
 different levels: users, teams and organizations. Users are the
