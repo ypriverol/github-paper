@@ -16,42 +16,42 @@ Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK. Tel:
 Short title: Ten Simple Rules for taking advantage of GitHub in
 bioinformatics    
 
-##Introduction
+## Introduction
 
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
 biological data in different contexts. For instance software is
 routinely needed for the analysis, visualization [PMID:25475079],
-integration or storage of biological information. For enabling and
-ensuring the reproducibility of scientific claims, it is essential
-that, together with the scientific publication, the corresponding
-dataset/s are made publicly available to the scientific community
+integration or storage of biological information. To enable and ensure
+the reproducibility of scientific claims, it is essential that,
+together with the scientific publication, the corresponding dataset/s
+are made publicly available to the scientific community
 [PMID:24763340,PMID:25158685]. In addition, all the software used for
 the analysis should be either well described (e.g. in case of using
 commercial software) or openly shared, when possible
 [PMID:24675742,PMID:25993922]. At present the latter is becoming more
 common in the case of "home made" programming scripts or for
 bioinformatics open-source projects, where the source code is made
-freely available and can be reused by third parties
-[PMID:25071829]. The free availability of the source code can be
+openly available and can be reused by third parties
+[PMID:25071829]. The open availability of the source code can be
 achieved thanks to the existence of several code repository-hosting
 services such as Sourceforge (http://sourceforge.net/), Bitbucket
-(https://bitbucket.org/), Google Code (https://code.google.com/) and
-GitHub (https://github.com/), among others. These resources are also
+(https://bitbucket.org/) and GitHub (https://github.com/), among
+others.These resources are also
 essential for collaborative software projects, since they enable the
 organization and sharing of programming tasks between different
 contributors to the same project. Here we aim to introduce the main
-features of GitHub and related tools and services as a web-based
-platform, which offers a free and integrated environment for hosting
-the source code, documentation and web page of open source
-projects. But GitHub is indeed much more than a simple source code
-hosting service. It offers developers a dynamic and collaborative
-environment, often coined as social coding platform, with the ability
-to review and comment code [add citation]. In addition, third party
+features of GitHub, a popular web-based platform which offers a free
+and integrated environment for hosting the source code, documentation
+and web page for open source projects. A reason for GitHub's success
+is that it offers more than a simple source code hosting service. It
+provides developers with a dynamic and collaborative environment,
+often coined as social coding platform, with the ability to review,
+comment and discuss code [add citation]. In addition, third party
 extensions offer additional services to complete the development
 stack, including continuous integration and deployment of
 software. The cornerstone of GitHub is the well-known and open-source
-version control system Git, designed and developed by Linus Torvalds
+version control system git, designed and developed by Linus Torvalds
 in 2005 to control and extend the Linux kernel development. It has
 become the most widely adopted version control system, used by major
 companies such as Google, Facebook, or Twitter, among others.  GitHub
@@ -62,15 +62,12 @@ would be applicable to other hosting services as well. However our
 main aim here is to highlight specific GitHub features. We will then
 provide a set of recommendations for taking full advantage of its core
 features to facilitate and manage the work on a given bioinformatics
-project and increase its profile to the scientific community. We think
-the manuscript is timely due to the announcement of the closure of
-another widely used service, Google Code. Therefore, many of the users
-of Google Code will therefore have to migrate to GitHub.
+project and increase its profile to the scientific community.
 
 
 ## Rule 1: Structure your projects: users, organizations, repositories, and teams
 
-Free projects on GitHub are visible to everyone, but write permissions
+Open projects on GitHub are visible to everyone, but write permissions
 to change the source code need to be granted. Structuring your
 projects allows the management of permissions, restricting access at
 different levels: users, teams and organizations. Users are the
