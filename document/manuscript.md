@@ -120,7 +120,7 @@ the same repository several approaches are commonly used. The most
 common way is to use Git branches to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions as e.g. used for a software release are
-kept in a master branch. In practice, developers work on one ore
+kept in a master branch. In practice, developers work on one or
 several features or improvements. To keep commits of the different
 features logically separated, distinct branches are typically used and
 merged into the development line once they are finished. In projects
@@ -207,7 +207,7 @@ Providing comprehensive documentation helps others to understand, and
 contribute back to your project. A strong system aimed at serving
 documentation can make life easier for the team and boost the
 productivity and visibility of the organization. GitHub Pages are
-"simple-looking" websites that GitHub hosts for free without the need
+"simple-looking" landing page that GitHub hosts for free without the need
 to provide a server side or database. GitHub users can create and host
 blog websites, help pages, manuals, tutorials and websites related to
 specific projects. "Pages" lets you do the same things as GitHub, but
@@ -229,8 +229,14 @@ publications. More recently, a trend has started to produce DOIs for
 other types of scientific outputs such as biological datasets
 [PMID:24727771] or training materials. The main motivation behind this
 is to give scientists a better credit for their work [PMID:19587644],
-enabling at the same time a better way to cite and track it. Following
-this trend, GitHub now enables the use of DOIs to cite the code
+enabling at the same time a better way to cite and track it. A common issue
+with software presented through scientific papers is that the sofware normaly
+evolves in a different speed than papers can are published, this means that it's
+common to find a software with several new features and functionalities not described
+in the respective publication, but not as inovative as necessary to become another
+independent publication. If someone chooses this software for this new features, not
+described in the paper, the citation will reference a paper that do not describe its full functionalities.
+Following this trend, GitHub now enables the use of DOIs to cite the code
 deposited, using the data archiving tool Zenodo
 (https://zenodo.org/). The procedure is simple and it is explained in
 detail here (https://guides.GitHub.com/activities/citable-code/). By
@@ -256,6 +262,10 @@ review process increasing confidence in your results. On the other,
 once the paper is published, your work can be reproduced by any member
 of the scientific community, which can increase your citations and
 foster opportunities for further discussion and collaboration.
+Also have in mind that a public repository with available source code does not make the software
+open-source, it's the licensing that does. When creating a new repository it's 
+imperative to choose a licese for your code, it's by the license terms that other people
+will know how to use ans share you code.
 
 ## Rule 8. Promote your project/s in the scientific community
 
