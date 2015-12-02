@@ -1,6 +1,6 @@
 #Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
-Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto, Felipe Leprevost,  Juan Antonio Vizcaíno *
+Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe Leprevost,  Juan Antonio Vizcaíno *
 
 1 European Molecular Biology Laboratory, European Bioinformatics
 Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton,
@@ -10,6 +10,9 @@ Cambridge, CB10 1SD, UK.
 
 (3) Medizinisches Proteom-Center, Ruhr-Universität Bochum, Universitätsstr. 150,
 D-44801 Bochum, Germany
+
+(4) Computational Proteomics Unit, Cambridge Systems Biology Centre,
+University of Cambridge Tennis Court Road Cambridge, CB2 1GA, UK
 
 * Corresponding author: Dr. Yasset Perez-Riverol
 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI),
@@ -347,7 +350,14 @@ reward will be worth your effort.
 
 ## Acknowledgements
 
-Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant [reference BB/I00095X/1]. R.W. is also funded by grant BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA]. J.U. and T.S. are funded by the BMBF grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A 534A).
+Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference
+BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant
+[reference BB/I00095X/1]. R.W. is also funded by grant
+BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number
+WT101477MA]. J.U. and T.S. are funded by the BMBF grant de.NBI -
+German Network for Bioinformatics Infrastructure (FKZ031 A 534A). LG
+is supported by the BBSRC Strategic Longer and Larger grant (Award
+BB/L002817/1).
 
 ##References
  
