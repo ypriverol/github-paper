@@ -1,13 +1,15 @@
 #Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
-Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg, Julian Uszkoreit, Laurent Gatto, Felipe Leprevost,  Juan Antonio Vizcaíno *
+Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg, Julian Uszkoreit (3), Laurent Gatto, Felipe Leprevost,  Juan Antonio Vizcaíno *
 
 1 European Molecular Biology Laboratory, European Bioinformatics
 Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton,
 Cambridge, CB10 1SD, UK.
 
+(3) Medizinisches Proteom-Center, Ruhr-Universität Bochum, Universitätsstr. 150,
+D-44801 Bochum, Germany
 
-* Corresponding author: Dr. Yasset Perez-Riverol 
+* Corresponding author: Dr. Yasset Perez-Riverol
 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI),
 Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK. Tel:
 +44 1223 492 610; Fax: +44 1223 494 484; Email: yperez@ebi.ac.uk.
@@ -268,7 +270,7 @@ once the paper is published, your work can be reproduced by any member
 of the scientific community, which can increase your citations and
 foster opportunities for further discussion and collaboration.
 Also have in mind that a public repository with available source code does not make the software
-open-source, it's the licensing that does. When creating a new repository it's 
+open-source, it's the licensing that does. When creating a new repository it's
 imperative to choose a licese for your code, it's by the license terms that other people
 will know how to use ans share you code.
 
@@ -343,7 +345,7 @@ reward will be worth your effort.
 
 ## Acknowledgements
 
-Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant [reference BB/I00095X/1]. R.W. is also funded by grant BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA]. J. U. is funded by the BMBF grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A 534A).
+Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant [reference BB/I00095X/1]. R.W. is also funded by grant BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA]. J.U. is funded by the BMBF grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A 534A).
 
 ##References
  
