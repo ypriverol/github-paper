@@ -54,3 +54,10 @@ good places to start. More learning resources are available
 
 7. The pull request should be reviewed and merge by another member of
    the paper.
+
+## Disclaimer
+
+The authors have no affiliation with [GitHub](https://github.com/),
+nor any commercial entity mentioned in this articel. The views
+described here reflect our owns without any input from any third party
+organisation.
