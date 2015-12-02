@@ -343,13 +343,7 @@ reward will be worth your effort.
 
 ## Acknowledgements
 
-Y.P.R is supported by the BBSRC ‘PROCESS’ grant
-[reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’
-grant [reference BB/I00095X/1]. R.W. is also funded by grant
-BB/I00095X/1. J.A.V. is supported by the Wellcome Trust
-[grant number WT101477MA]. J. U. and M. E. are funded by the BMBF
-grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ
-031 A 534A).
+Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant [reference BB/I00095X/1]. R.W. is also funded by grant BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA]. J. U. is funded by the BMBF grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A 534A).
 
 ##References
  
