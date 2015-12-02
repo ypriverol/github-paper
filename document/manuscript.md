@@ -1,10 +1,12 @@
 #Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
-Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg, Julian Uszkoreit, Laurent Gatto, Felipe Leprevost,  Juan Antonio Vizcaíno *
+Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg, Julian Uszkoreit, Laurent Gatto, Felipe da Veiga Leprevost(2),  Juan Antonio Vizcaíno *
 
 1 European Molecular Biology Laboratory, European Bioinformatics
 Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton,
 Cambridge, CB10 1SD, UK.
+
+2 Department of Pathology, University of Michigan, Ann Arbor, Michigan 48109.
 
 
 * Corresponding author: Dr. Yasset Perez-Riverol 
@@ -236,7 +238,7 @@ other types of scientific outputs such as biological datasets
 is to give scientists a better credit for their work [PMID:19587644],
 enabling at the same time a better way to cite and track it. A common issue
 with software presented through scientific papers is that the sofware normaly
-evolves in a different speed than papers can are published, this means that it's
+evolves in a different speed than papers are published, this means that it's
 common to find a software with several new features and functionalities not described
 in the respective publication, but not as inovative as necessary to become another
 independent publication. If someone chooses this software for this new features, not
@@ -269,8 +271,8 @@ of the scientific community, which can increase your citations and
 foster opportunities for further discussion and collaboration.
 Also have in mind that a public repository with available source code does not make the software
 open-source, it's the licensing that does. When creating a new repository it's 
-imperative to choose a licese for your code, it's by the license terms that other people
-will know how to use ans share you code.
+important to choose a licese for your code, it's by the license terms that other people
+will know how to use and share your code.
 
 ## Rule 8. Promote your project/s in the scientific community
 
