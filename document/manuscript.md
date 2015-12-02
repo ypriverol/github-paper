@@ -1,10 +1,12 @@
 #Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
-Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg, Julian Uszkoreit (3), Laurent Gatto, Felipe Leprevost,  Juan Antonio Vizcaíno *
+Yasset Perez-Riverol *, Rui Wang, Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto, Felipe Leprevost,  Juan Antonio Vizcaíno *
 
 1 European Molecular Biology Laboratory, European Bioinformatics
 Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton,
 Cambridge, CB10 1SD, UK.
+
+(2) Applied Bioinformatics and Department of Computer Science, University of Tübingen, D-72074 Tübingen, Germany.
 
 (3) Medizinisches Proteom-Center, Ruhr-Universität Bochum, Universitätsstr. 150,
 D-44801 Bochum, Germany
@@ -345,7 +347,7 @@ reward will be worth your effort.
 
 ## Acknowledgements
 
-Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant [reference BB/I00095X/1]. R.W. is also funded by grant BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA]. J.U. is funded by the BMBF grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A 534A).
+Y.P.R is supported by the BBSRC ‘PROCESS’ grant [reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’ grant [reference BB/I00095X/1]. R.W. is also funded by grant BB/I00095X/1. J.A.V. is supported by the Wellcome Trust [grant number WT101477MA]. J.U. and T.S. are funded by the BMBF grant de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A 534A).
 
 ##References
  
