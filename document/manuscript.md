@@ -31,19 +31,19 @@ Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
 biological data in different contexts. For instance software is
-routinely needed for the analysis, visualization [PMID:25475079],
+routinely needed for the analysis, visualization [@Wang:2015],
 integration or storage of biological information. To enable and ensure
 the reproducibility of scientific claims, it is essential that,
 together with the scientific publication, the corresponding dataset/s
 are made publicly available to the scientific community
-[PMID:24763340,PMID:25158685]. In addition, all the software used for
+[@Goodman;@Perez-Riverol:2015]. In addition, all the software used for
 the analysis should be either well described (e.g. in case of using
 commercial software) or openly shared, when possible
-[PMID:24675742,PMID:25993922]. At present the latter is becoming more
+[@Osborne:2014;@Vihinen:2015]. At present the latter is becoming more
 common in the case of "home made" programming scripts or for
 bioinformatics open-source projects, where the source code is made
 openly available and can be reused by third parties
-[PMID:25071829]. The open availability of the source code can be
+[@Leprevost:2014]. The open availability of source code can be
 achieved thanks to the existence of several code repository-hosting
 services such as Sourceforge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/) and GitHub (https://github.com/), among
@@ -57,21 +57,20 @@ for open source projects. A reason for GitHub's success is that it
 offers more than a simple source code hosting service. It provides
 developers with a dynamic and collaborative environment, often coined
 as social coding platform, with the ability to review, comment and
-discuss code
-[Social coding in GitHub: transparency and collaboration in an open software repository, ACM, 2012.]. The
-cornerstone of GitHub is the well-known and open-source version
-control system git, designed and developed by Linus Torvalds in 2005
-to control and extend the Linux kernel development. It has become the
-most widely adopted version control system, used by major companies
-such as Google, Facebook, or Twitter, among others.  GitHub is free to
-use for publicly available projects, therefore hosting millions of
-open source projects. In addition, it offers paid plans for private
-repositories. Some of our recommendations outlined below would be
-applicable to other hosting services as well. However our main aim
-here is to highlight specific GitHub features. We will then provide a
-set of recommendations for taking full advantage of its core features
-to facilitate and manage the work on a given bioinformatics project
-and increase its profile to the scientific community.
+discuss code [@Dabbish:2012]. The cornerstone of GitHub is the
+well-known and open-source version control system git, designed and
+developed by Linus Torvalds in 2005 to control and extend the Linux
+kernel development. It has become the most widely adopted version
+control system, used by major companies such as Google, Facebook, or
+Twitter, among others.  GitHub is free to use for publicly available
+projects, therefore hosting millions of open source projects. In
+addition, it offers paid plans for private repositories. Some of our
+recommendations outlined below would be applicable to other hosting
+services as well. However our main aim here is to highlight specific
+GitHub features. We will then provide a set of recommendations for
+taking full advantage of its core features to facilitate and manage
+the work on a given bioinformatics project and increase its profile to
+the scientific community.
 
 
 ## Rule 1. Structure your projects: users, organizations, repositories and teams
@@ -104,6 +103,8 @@ nothing preventing you from keeping text documents or other file types
 in your projects [citation]. Note that until recently, GitHub was
 lacking support for storing large files (>100 MB), a issue that has
 been recently addressed by the GitHub large file storage.
+
+![Figure 1](../figures/figure01_overview.svg)
 
 ## Rule 2. Learn Git and embrace its power
 
