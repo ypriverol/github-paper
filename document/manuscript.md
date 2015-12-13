@@ -1,6 +1,6 @@
 # Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
-Yasset Perez-Riverol (1) *, Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5),  Juan Antonio Vizcaíno (1) *
+Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5),  Juan Antonio Vizcaíno (1)[^2]
 
 (1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
 
@@ -13,15 +13,8 @@ University of Cambridge Tennis Court Road Cambridge, CB2 1GA, UK
 
 (5) Department of Pathology, University of Michigan, Ann Arbor, Michigan 48109
 
-* Corresponding author: Dr. Yasset Perez-Riverol
-European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI),
-Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK. Tel:
-+44 1223 492 610; Fax: +44 1223 494 484; Email: yperez@ebi.ac.uk.
-
-* Corresponding author: Dr. Juan Antonio Vizcaíno European Molecular
-Biology Laboratory, European Bioinformatics Institute (EMBL-EBI),
-Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK. Tel:
-+44 1223 492 610; Fax: +44 1223 494 484; Email: juan@ebi.ac.uk.
+[^1]: Corresponding author: Email: yperez@ebi.ac.uk.
+[^2]: Corresponding author: Email: juan@ebi.ac.uk.
 
 
 Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
@@ -31,17 +24,17 @@ Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
 biological data in different contexts. For instance software is
-routinely needed for the analysis, visualization [@Wang:2015],
+routinely needed for the analysis, visualization,
 integration or storage of biological information. To enable and ensure
 the reproducibility of scientific claims, it is essential that,
-together with the scientific publication, the corresponding dataset/s
+together with the scientific publication, the corresponding datasets
 are made publicly available to the scientific community
-[@Goodman;@Perez-Riverol:2015]. In addition, all the software used for
+[@Goodman:2014;@Perez-Riverol:2015]. In addition, all the software used for
 the analysis should be either well described (e.g. in case of using
 commercial software) or openly shared, when possible
 [@Osborne:2014;@Vihinen:2015]. At present the latter is becoming more
-common in the case of "home made" programming scripts or for
-bioinformatics open-source projects, where the source code is made
+common in the case of _home made_ programming scripts or for
+bioinformatics open source projects, where the source code is made
 openly available and can be reused by third parties
 [@Leprevost:2014]. The open availability of source code can be
 achieved thanks to the existence of several code repository-hosting
@@ -58,7 +51,7 @@ offers more than a simple source code hosting service. It provides
 developers with a dynamic and collaborative environment, often coined
 as social coding platform, with the ability to review, comment and
 discuss code [@Dabbish:2012]. The cornerstone of GitHub is the
-well-known and open-source version control system git, designed and
+well-known and open source version control system git, designed and
 developed by Linus Torvalds in 2005 to control and extend the Linux
 kernel development. It has become the most widely adopted version
 control system, used by major companies such as Google, Facebook, or
@@ -83,64 +76,65 @@ keystone of GitHub, as for any other social network. Every user has a
 profile listing their GitHub projects and activities, which can be
 populated optionally with personal information including name, e-mail
 address, image and webpage. To stay up to date with the activity of
-other users you can "follow" their accounts. Collaboration can be
-achieved by simply adding a trusted "Collaborator" and thereby
+other users you can _follow_ their accounts. Collaboration can be
+achieved by simply adding a trusted _Collaborator_ and thereby
 granting write access. However, development in large projects is
 usually done by teams of people, within a larger organization. GitHub
 organizations are a great way to manage team-based access permissions
 for the individual projects of institutes, research labs, and large
-open-source projects that need multiple owners and administrators
+open source projects that need multiple owners and administrators
 (Figure 1). We recommend that you (as an individual researcher) make
 your profile visible to other users and display all the projects and
 organizations you are working in, including a list of the latest
 activities on the site (Figure 1). Finally, repositories (the
-shortened term is "repo") are versioned directories or dedicated
+shortened term is _repo_) are versioned directories or dedicated
 storage spaces for your software projects, which can be included
 inside an organization or can belong to particular users. Users can
 usually keep code, text files, images and small data files inside a
 repo. And while many users store programs and code projects, there is
 nothing preventing you from keeping text documents or other file types
-in your projects [citation]. Note that until recently, GitHub was
+in your projects. Note that until recently, GitHub was
 lacking support for storing large files (>100 MB), a issue that has
 been recently addressed by the GitHub large file storage.
 
-![Figure 1](../figures/figure01_overview.svg)
+![Figure 1](../figures/figure01_overview.pdf)
 
 ## Rule 2. Learn Git and embrace its power
 
 The cornerstone of GitHub is the distributed, version control system
 Git. Every change, from fixing a typo to a complete redesign of the
 software is controlled by versions, so called revisions. While
-beginners may consider the learning curve of Git steep, many detailed
-tutorials exist. A revision can be considered as a "snapshot"
-(version) of a file system. Git is remarkably effective in archiving
-the complete history of a project (all revisions) by, amongst other
-things, storing only the differences between them. To create a new
-revision, the set of changes (e.g. new, deleted or modified files)
-introduced are committed to the repository. Following the rule:
-"commit often, as most as you can, perfection later", one can keep
-track of the development in small incremental changes. At any time it
-is possible to go back to a previous version. In larger projects,
-multiple users contribute to the same repository. To manage concurrent
-developments with commits to the same repository several approaches
-are commonly used. The most common way is to use Git branches to
-separate different lines of development. Active development is often
-performed on a development branch and stable versions as e.g. those
-used for a software release are kept in a master branch. In practice,
-developers work on one or several features or improvements. To keep
-commits of the different features logically separated, distinct
-branches are typically used and merged into the development line once
-they are finished. In projects involving more than one contributor,
-everyone wants to be sure that the contributions of others increase
-the quality and move the project forward. Forking a repository and
-providing pull-requests provide an easy way for collaboration inside
-and over organizations boundaries. A user that forks a repository
-creates a copy under his name. Modifications like a branch with few
-features or bug fixes can conveniently be provided to the forked
-(upstream) repository by opening a pull-request. Once it is opened for
-review and discussion, it usually results in additional insights and
-in an increased code quality. Once a pull-request gets accepted,
-typically it gets merged into the development branch.
+beginners may consider the learning curve of Git steep, many
+introductory and detailed tutorials are available. A revision can be
+considered as a _snapshot_ (version) of a file system. Git is
+remarkably effective in archiving the complete history of a project
+(all revisions) by, amongst other things, storing only the differences
+between them. To create a new revision, the set of changes (e.g. new,
+deleted or modified files) introduced are committed to the
+repository. Following the rule: "commit often, as most as you can,
+perfection later", one can keep track of the development in small
+incremental changes. At any time it is possible to go back to a
+previous commit. In larger projects, multiple users contribute to the
+same repository. To manage concurrent developments with commits to the
+same repository several approaches are commonly used. The most common
+way is to use Git branches to separate different lines of
+development. Active development is often performed on a development
+branch and stable versions as e.g. those used for a software release
+are kept in a master branch. In practice, developers work on one or
+several features or improvements. To keep commits of the different
+features logically separated, distinct branches are typically used and
+merged into the development line once they are finished. In projects
+involving more than one contributor, everyone wants to be sure that
+the contributions of others increase the quality and move the project
+forward. Forking a repository and providing pull-requests provide an
+easy way for collaboration inside and over organizations boundaries. A
+user that forks a repository creates a copy under his
+name. Modifications like a branch with few features or bug fixes can
+conveniently be provided to the forked (upstream) repository by
+opening a pull-request. Once it is opened for review and discussion,
+it usually results in additional insights and in an increased code
+quality. Once a pull-request gets accepted, typically it gets merged
+into the development branch.
 
 ## Rule 3. Let others contribute and add ideas to your projects
 
@@ -171,11 +165,11 @@ project more deeply.
 
 The first rule of software development is that the code needs to be
 ready to use as soon as possible
-[PMID: 25071829, http://arxiv.org/abs/1311.7011], including its main
+[@Leprevost:2014], including its main
 functionality (e.g. free of bugs), and should be well-documented and
 tested. In 2005, Martin Fowler defined the basic principles for
 continuous integration in software development
-[Comment: Fowler, Martin, and Matthew Foemmel. "Continuous integration." Thought-Workshttp://www.thoughtworks.com/Continuous Integration. pdf (2006)]. These
+[Comment: Fowler, Martin, and Matthew Foemmel. _Continuous integration._ Thought-Works http://www.thoughtworks.com/Continuous Integration. pdf (2006)]. These
 principles have become the main reference for continuous integration
 best practices, and provide the framework needed to deploy software,
 and in some way also data. Every repository, script, mathematical
@@ -183,14 +177,14 @@ model, and function should contain a set of self-automated tests. A
 source code may run, but that does not mean it is doing the right
 thing. The simple use of those self-automated tests is to detect
 possible bugs introduced by new features, or changes in the code or
-dependencies, but also to detect wrong results, the so called "logic
-errors", where the source code produces a different result compared to
+dependencies, but also to detect wrong results, the so called _logic
+errors_, where the source code produces a different result compared to
 what you intended it to do. Then, continuous integration provides the
 way of automatically run all of these tests in the repository by
 checking data and software dependencies. To do continuous integration
 automatically GitHub has been integrated with other systems such as
 Travis (https://travis-ci.org), a hosted continued integration
-platform that is free to all open-source projects. These
+platform that is free to all open source projects. These
 builds/deployments are triggered automatically when developers commit
 their code. Continues integration via Travis notifications, allows
 your team and contributors to know if the new changes work and prevent
@@ -205,10 +199,10 @@ Providing comprehensive documentation helps others to understand, and
 contribute back to your projects. A strong system aimed at serving
 documentation can make life easier for the team and boost the
 productivity and visibility of the organization. GitHub “Pages” are
-"simple-looking" landing pages that GitHub hosts for free without the
+_simple-looking_ landing pages that GitHub hosts for free without the
 need to provide a server or database. GitHub users can create and host
 blog websites, help pages, manuals, tutorials and websites related to
-specific projects. "Pages" allows you to do the same things as GitHub,
+specific projects. _Pages_ allows you to do the same things as GitHub,
 but a preformatted name is needed for the repository. In addition, all
 the web pages need to be in static HTML or Markdown
 format. Furthermore, “Pages” comes with a powerful static site
@@ -225,8 +219,8 @@ others. Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
 produce DOIs for other types of scientific outputs such as datasets
-[PMID:24727771] or training materials. The main motivation behind this
-is to give scientists a better credit for their work [PMID:19587644],
+[@Vizcaino:2014] or training materials. The main motivation behind this
+is to give scientists a better credit for their work [@NatBiotechEditorial:2009],
 enabling at the same time a better way to cite and track it. A common
 issue with software is that it normally evolves at a different speed
 than what is published in the scientific literature. In fact, it is
@@ -240,7 +234,7 @@ created in GitHub. However, before Zenodo can issue a DOI, some
 metadata information needs to be provided about the archived
 repository. Once the DOI has been assigned, apart from using it in
 your CV, you can add it to literature information resources such as
-Europe PubMed Central [PMID:25378340].
+Europe PubMed Central [@EuropePMCConsortium:2015].
 
 ## Rule 7. Always link and highlight your deposited source code in publications
 
@@ -258,12 +252,29 @@ results. On the other, once the paper is published, your work can be
 reproduced by any member of the scientific community, which can
 increase citations and foster opportunities for further discussion and
 collaboration. Also have in mind that a public repository with
-available source code does not make the software open-source per
+available source code does not make the software open source per
 se. It needs to have the appropriate license.
 
 ## Rule 8. Promote your project/s in the scientific community
 
-In rule 5 we mentioned the possibility to generate blog posts in GitHub. In addition, GitHub also provides mechanisms for real-time communication. Gitter (http://gitter.im) is a GitHub-based chat tool, in limited beta at the time of writing, which enables developers and users to share aspects of their work. Gitter inherits the shape of the social groups operating around GitHub repositories, organizations, and issues. It relies on the identity within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for public and private repositories. From within a Gitter chat, members can reference issues, comments, or pull-requests. A different service is Gist (https://gist.github.com), which represents a unique way to share "code snippets", single files, parts of files, or full applications. Gist can work in two ways: public gists, that can be browsed and searched, and secret gists that are not provided through "Discover" (https://gist.github.com/discover). One of the main features of Gist is the possibility to embed code snippets in other applications, enabling users to embed gists in any text field that supports JavaScript.
+In rule 5 we mentioned the possibility to generate blog posts in
+GitHub. In addition, GitHub also provides mechanisms for real-time
+communication. Gitter (http://gitter.im) is a GitHub-based chat tool,
+in limited beta at the time of writing, which enables developers and
+users to share aspects of their work. Gitter inherits the shape of the
+social groups operating around GitHub repositories, organizations, and
+issues. It relies on the identity within GitHub, creating IRC
+(Internet Relay Chat)-like chat rooms for public and private
+repositories. From within a Gitter chat, members can reference issues,
+comments, or pull-requests. A different service is Gist
+(https://gist.github.com), which represents a unique way to share
+_code snippets_, single files, parts of files, or full
+applications. Gist can work in two ways: public gists, that can be
+browsed and searched, and secret gists that are not provided through
+_Discover_ (https://gist.github.com/discover). One of the main
+features of Gist is the possibility to embed code snippets in other
+applications, enabling users to embed gists in any text field that
+supports JavaScript.
 
 ## Rule 9. Demonstrate your work experience, improve your CV
 
@@ -276,14 +287,14 @@ one given person has been one of the main contributors or has only
 done sporadic contributions, or to which projects someone is
 contributing in a regular basis. Another complementary way to build up
 your CV is to use GitHub to contribute to the increasingly used
-"altmetrics" methods to capture the impact of your work. In scientific
+_altmetrics_ methods to capture the impact of your work. In scientific
 publishing, altmetrics are defined as non-traditional metrics that
 have been proposed as an alternative the traditional citation impact
-metrics [23538811;25423184]. Altmetrics cover not just citation
+metrics [@Priem:2013;@Dinsmore:2014]. Altmetrics cover not just citation
 counts, but also other aspects of the impact of a work, such as how
 many data and knowledge bases refer to it, article views, downloads,
 or mentions in social and news media. One way to achieve this is to
-use the service "ImpactStory"
+use the service _ImpactStory_
 (http://www.impactstory.org/). ImpactStory is an open source,
 non-profit organization which provides altmetrics for blog posts,
 datasets, reviewer activity and software, among others. Users can link
@@ -314,8 +325,8 @@ reward will be worth your effort.
 
 ## Acknowledgements
 
-Y.P.R is supported by the BBSRC ‘PROCESS’ grant
-[reference BB/K01997X/1] and by the BBSRC ‘Quantitative Proteomics’
+Y.P.R is supported by the BBSRC _PROCESS_ grant
+[reference BB/K01997X/1] and by the BBSRC _Quantitative Proteomics_
 grant [reference BB/I00095X/1]. R.W. is also funded by grant
 BB/I00095X/1. J.A.V. is supported by the Wellcome Trust
 [grant number WT101477MA]. J.U. and T.S. are funded by the BMBF grant
@@ -324,5 +335,10 @@ de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A
 grant (Award BB/L002817/1). F.V.L. is supported by NIH grant number
 R01-GM-094231.
 
-##References
- 
+## Disclaimer
+
+The authors have no affiliation with GitHub, nor any commercial entity
+mentioned in this articel. The views described here reflect our owns
+without any input from any third party organisation.
+
+## References
