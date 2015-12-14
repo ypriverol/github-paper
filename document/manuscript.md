@@ -109,9 +109,7 @@ nothing preventing you from keeping text documents or other file types
 in your projects [citation]. Note that until recently, GitHub was
 lacking support for storing large files (>100 MB), a issue that has
 been recently addressed by the GitHub large file storage. However, please
-be aware that due to the version control mechanisms in place, any change
-will be recorded in the history, thus changes in large files will quickly
-accumulate to very large repos, which makes the cloning and forking problematic.
+be aware that large files will make the cloning and forking problematic.
 (reference to --maximum-depth cloning ?)
 
 ## Rule 2. Learn Git and embrace its power
@@ -120,7 +118,7 @@ The cornerstone of GitHub is the distributed, version control system
 Git. Every change, from fixing a typo to a complete redesign of the
 software is controlled by versions, so called revisions. While
 beginners may consider the learning curve of Git steep, many detailed
-tutorials exist. A revision can be considered as a "snapshot"
+tutorials exist (ref for example). A revision can be considered as a "snapshot"
 (version) of a file system. Git is remarkably effective in archiving
 the complete history of a project (all revisions) by, amongst other
 things, storing only the differences between them. To create a new
