@@ -149,7 +149,7 @@ put in promoting collaboration, providing context by using
 cross-references, and an excellent text formatting for each issue: (i)
 a title and description, (ii) color-coded labels help you to
 categorize and filter issues, (iii) milestone acts like a container
-for issues (e.g. weekly discussion 9/5-9/16 related with datasets),
+for issues (e.g. weekly discussion related with datasets),
 (iv) one assignee responsible for working on the issue, and (v)
 comments that allow anyone with access to the repository to provide
 feedback. Another aspect is its simplicity. For instance, it does not
