@@ -284,14 +284,12 @@ se. It needs to have the appropriate license.
 
 ## Rule 9. Promote your project/s in the scientific community - create a web page and more
 
-~~Providing comprehensive documentation helps others to understand, and
-contribute back to your projects. A strong system aimed at serving
-documentation can make life easier for the team and boost the
-productivity and visibility of the organization.~~ GitHub “Pages” are
-"simple-looking" landing pages that GitHub hosts for free without the
-need to provide a server or database. GitHub users can create and host
-blog websites, help pages, manuals, tutorials and websites related to
-specific projects. "Pages" allows you to do the same things as GitHub,
+Additional steps can be done to boost the productivity and visibility of
+the organization. For exmaple, GitHub “Pages” are "simple-looking" landing
+pages that GitHub hosts for free without the need to provide a server or
+database. GitHub users can create and host blog websites, help pages,
+manuals, tutorials and websites related to specific projects. "Pages"
+allows you to do the same things as GitHub,
 but a preformatted name is needed for the repository. In addition, all
 the web pages need to be in static HTML or Markdown
 format. Furthermore, “Pages” comes with a powerful static site
