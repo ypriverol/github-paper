@@ -166,7 +166,56 @@ practise described at http://semver.org/. Correct labeling allows older
 versions to be checked out, compared or simply used to
 reproduce results described in publications, where software version.
 
-## Rule 5. Embrace community commits to your projects
+## Rule 5. Keep Master branch clean - code must be always ready to use of tests, deployments and continuous integration
+
+The first rule of software development is that the code needs to be
+ready to use as soon as possible
+[PMID: 25071829, http://arxiv.org/abs/1311.7011], including its main
+functionality (e.g. free of bugs), and should be well-documented and
+tested. In 2005, Martin Fowler defined the basic principles for
+continuous integration in software development
+[Comment: Fowler, Martin, and Matthew Foemmel. "Continuous integration." Thought-Workshttp://www.thoughtworks.com/Continuous Integration. pdf (2006)]. These
+principles have become the main reference for continuous integration
+best practices, and provide the framework needed to deploy software,
+and in some way also data. Every repository, script, mathematical
+model, and function should contain a set of self-automated tests. A
+source code may run, but that does not mean it is doing the right
+thing. The simple use of those self-automated tests is to detect
+possible bugs introduced by new features, or changes in the code or
+dependencies, but also to detect wrong results, the so called "logic
+errors", where the source code produces a different result compared to
+what you intended it to do. Then, continuous integration provides the
+way of automatically run all of these tests in the repository by
+checking data and software dependencies. Continuous integration
+can be done automatically GitHub on github (See Rule 6).
+
+## Rule 6: Use of the power of post-processing steps on github to show that your produce high quality code.
+
+Github offers different type of hooks that are executed after each push
+to the repository. This allows third-party platforms to access and
+interact with the github repository and thus automatize post-processing
+tasks. The following are tasks, if implemented will show to the community
+that your code has high quality, is currently working and has a
+documention that reflects the current code. We suggest that all there
+tasks become part of you project. Firstly, continues integration can be
+achieved by Travis (https://travis-ci.org), which builds and tests the
+sourcecode using a plethora of options such different platforms and
+interpreter versions. Continues integration via Travis notifications, allows
+your team and contributors to know if the new changes work and prevent
+the introduction of errors in the code, making the repo always ready
+to use. Secondly, to show that your tests are not only not failing but
+also cover your code sufficiently, integration of Codecov is recommended
+(https://codecov.io). Thirdly, automatic update of the documentation
+should be implemented. This implies that your project has provides comprehensive
+documentation so others can understand, and contribute back to your projects.
+For Python or C/C++ code auto documentation generation can be done using sphinx
+(http://sphinx-doc.org/) and auto integration into github using
+`read the docs` (https://readthedocs.org/). All of these platforms will
+create a report and badges for your project that you can include on your
+github page, thereby making your project easily identifiable as a
+high quality and maintained project.
+
+## Rule 7. Use maintain your github issue trackers
 
 GitHub issues are a great way to keep track of bugs, tasks, and
 enhancements. Classical issue trackers are primarily intended to be
@@ -191,56 +240,7 @@ report bugs and request features. A well-organized and tagged issue
 tracker will help upcoming contributors and users to understand the
 project more deeply.
 
-## Rule 4. The code must be always ready to use: Make use of tests, deployments and continuous integration
-
-The first rule of software development is that the code needs to be
-ready to use as soon as possible
-[PMID: 25071829, http://arxiv.org/abs/1311.7011], including its main
-functionality (e.g. free of bugs), and should be well-documented and
-tested. In 2005, Martin Fowler defined the basic principles for
-continuous integration in software development
-[Comment: Fowler, Martin, and Matthew Foemmel. "Continuous integration." Thought-Workshttp://www.thoughtworks.com/Continuous Integration. pdf (2006)]. These
-principles have become the main reference for continuous integration
-best practices, and provide the framework needed to deploy software,
-and in some way also data. Every repository, script, mathematical
-model, and function should contain a set of self-automated tests. A
-source code may run, but that does not mean it is doing the right
-thing. The simple use of those self-automated tests is to detect
-possible bugs introduced by new features, or changes in the code or
-dependencies, but also to detect wrong results, the so called "logic
-errors", where the source code produces a different result compared to
-what you intended it to do. Then, continuous integration provides the
-way of automatically run all of these tests in the repository by
-checking data and software dependencies. To do continuous integration
-automatically GitHub has been integrated with other systems such as
-Travis (https://travis-ci.org), a hosted continued integration
-platform that is free to all open-source projects. These
-builds/deployments are triggered automatically when developers commit
-their code. Continues integration via Travis notifications, allows
-your team and contributors to know if the new changes work and prevent
-the introduction of errors in the code, making the repo always ready
-to use. To automatically perform testing and report, and know how good
-the coverage of the testing in a given project is, Codecov
-(https://codecov.io) can be used.
-
-## Rule 5. Make use of the self-hosted documentation, blogging and manuals, using markdown and GitHub web pages
-
-Providing comprehensive documentation helps others to understand, and
-contribute back to your projects. A strong system aimed at serving
-documentation can make life easier for the team and boost the
-productivity and visibility of the organization. GitHub “Pages” are
-"simple-looking" landing pages that GitHub hosts for free without the
-need to provide a server or database. GitHub users can create and host
-blog websites, help pages, manuals, tutorials and websites related to
-specific projects. "Pages" allows you to do the same things as GitHub,
-but a preformatted name is needed for the repository. In addition, all
-the web pages need to be in static HTML or Markdown
-format. Furthermore, “Pages” comes with a powerful static site
-generator called Jekyll (https://jekyllrb.com) that can be integrated
-with other platforms such as Bootstrap (http://getbootstrap.com/) or
-Disqus (https://disqus.com/).
-
-## Rule 6. Make your code easily citable by others in publications
+## Rule 8. Make your code easily citable, and cite source code!
 
 In research, it is a good practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
@@ -265,15 +265,12 @@ metadata information needs to be provided about the archived
 repository. Once the DOI has been assigned, apart from using it in
 your CV, you can add it to literature information resources such as
 Europe PubMed Central [PMID:25378340].
-
-## Rule 7. Always link and highlight your deposited source code in publications
-
-As already mentioned in the introduction, reproducibility of
+    As already mentioned in the introduction, reproducibility of
 scientific claims should be enabled by providing openly the software
 and the datasets that are used in a particular study. You should
 always highlight as much as possible in your publications that the
 code is freely available in GitHub, together with any other relevant
-piece of information that it may have been deposited. In our
+piece of information that it may have been deposited, see Rule 4. In our
 experience, this openness definitely increases your chances of getting
 the paper accepted for publication. On one hand, journal editors and
 reviewers have the opportunity to reproduce your findings during the
@@ -285,11 +282,38 @@ collaboration. Also have in mind that a public repository with
 available source code does not make the software open-source per
 se. It needs to have the appropriate license.
 
-## Rule 8. Promote your project/s in the scientific community
+## Rule 9. Promote your project/s in the scientific community - create a web page and more
 
-In rule 5 we mentioned the possibility to generate blog posts in GitHub. In addition, GitHub also provides mechanisms for real-time communication. Gitter (http://gitter.im) is a GitHub-based chat tool, in limited beta at the time of writing, which enables developers and users to share aspects of their work. Gitter inherits the shape of the social groups operating around GitHub repositories, organizations, and issues. It relies on the identity within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for public and private repositories. From within a Gitter chat, members can reference issues, comments, or pull-requests. A different service is Gist (https://gist.github.com), which represents a unique way to share "code snippets", single files, parts of files, or full applications. Gist can work in two ways: public gists, that can be browsed and searched, and secret gists that are not provided through "Discover" (https://gist.github.com/discover). One of the main features of Gist is the possibility to embed code snippets in other applications, enabling users to embed gists in any text field that supports JavaScript.
+~~Providing comprehensive documentation helps others to understand, and
+contribute back to your projects. A strong system aimed at serving
+documentation can make life easier for the team and boost the
+productivity and visibility of the organization.~~ GitHub “Pages” are
+"simple-looking" landing pages that GitHub hosts for free without the
+need to provide a server or database. GitHub users can create and host
+blog websites, help pages, manuals, tutorials and websites related to
+specific projects. "Pages" allows you to do the same things as GitHub,
+but a preformatted name is needed for the repository. In addition, all
+the web pages need to be in static HTML or Markdown
+format. Furthermore, “Pages” comes with a powerful static site
+generator called Jekyll (https://jekyllrb.com) that can be integrated
+with other platforms such as Bootstrap (http://getbootstrap.com/) or
+Disqus (https://disqus.com/). In addition, GitHub also provides mechanisms
+for real-time communication called Gitter (http://gitter.im).
+Gitter is a GitHub-based chat tool, in limited beta at the time of writing,
+which enables developers and users to share aspects of their work.
+Gitter inherits the shape of the social groups operating around GitHub
+repositories, organizations, and issues. It relies on the identity within
+GitHub, creating IRC (Internet Relay Chat)-like chat rooms for public and
+private repositories. From within a Gitter chat, members can reference issues,
+comments, or pull-requests. A different service is Gist (https://gist.github.com),
+which represents a unique way to share "code snippets", single files, parts of files,
+or full applications. Gist can work in two ways: public gists, that can be
+browsed and searched, and secret gists that are not provided through
+"Discover" (https://gist.github.com/discover). One of the main features of Gist
+is the possibility to embed code snippets in other applications,
+enabling users to embed gists in any text field that supports JavaScript.
 
-## Rule 9. Demonstrate your work experience, improve your CV
+## Rule 10. Demonstrate your work experience, improve your CV
 
 To move ahead in your scientific career or simply to find a new job,
 it is very convenient to show and demonstrate that you have
@@ -317,17 +341,6 @@ forks (repository copies) that other people have made of your code. At
 present, ImpactStory is a subscription-based service. However, users
 can try the service for free for 30 days.
 
-## Rule 10. Check periodically existing open source projects
-
-One of the jobs of a scientist is to read routinely the published
-literature available. Analogously, one of the jobs of a scientific
-programmer should be to revise publicly available projects and code
-that can be interesting for his/her research. You should try to learn
-as much as possible from your peers and colleagues and be updated with
-all the developments of a project you are interested in. GitHub
-enables this functionality, which is already common in widely used
-social media platforms such as Facebook or LinkedIn. Take advantage of
-it as much as possible!
 
 ## Conclusions
 
