@@ -1,6 +1,6 @@
 # Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
-Yasset Perez-Riverol (1) *, Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5),  Juan Antonio Vizcaíno (1) *
+Yasset Perez-Riverol (1) *, Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6),  Juan Antonio Vizcaíno (1) *
 
 (1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
 
@@ -11,7 +11,9 @@ Yasset Perez-Riverol (1) *, Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit
 (4) Computational Proteomics Unit, Cambridge Systems Biology Centre,
 University of Cambridge Tennis Court Road Cambridge, CB2 1GA, UK
 
-(5) Department of Pathology, University of Michigan, Ann Arbor, Michigan 48109
+(5) Department of Pathology, University of Michigan, Ann Arbor, Michigan 48109, USA
+
+(6) Institute of Plant Biology and Biotechnology, University of Muenster, Schlossplatz 8, 48143 Muenster, Germany
 
 * Corresponding author: Dr. Yasset Perez-Riverol
 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI),
