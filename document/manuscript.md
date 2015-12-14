@@ -41,8 +41,8 @@ the analysis should be either well described (e.g. in case of using
 commercial software) or open source (i.e. accessible and usable)
 [PMID:24675742,PMID:25993922]. At present the latter is becoming more and more
 common in the form of "laboratory internal" programming scripts or for
-bioinformatics open-source projects, ~~where the source code is made
-openly available and can be reused by third parties (This is redundant to the sentence before)~~
+bioinformatics open-source projects. [Comment: ~~where the source code is made
+openly available and can be reused by third parties. ~~ This is redundant to the sentence before]
 [PMID:25071829]. The rise of collaborative coding on open source code project
 is possible thanks to code repository-hosting
 services such as Sourceforge (http://sourceforge.net/), Bitbucket
@@ -62,8 +62,8 @@ cornerstone of GitHub is the well-known and open-source version
 control system git, designed and developed by Linus Torvalds in 2005
 to control and extend the Linux kernel development. It has become the
 most widely adopted version control system, used by major companies
-such as Google, Facebook, or Twitter, among others.  GitHub is free of charge
-for public projects, therefore hosting millions of
+such as Google, Facebook, or Twitter, among others (ref).  GitHub is free of
+charge for public projects, therefore hosting millions of
 open source projects. In addition, it offers paid plans for private
 repositories. Some of our recommendations outlined below would be
 applicable to other hosting services as well. However our main aim
@@ -81,7 +81,8 @@ a github account can fork any project and start developing in ones own fork.
 This forking is the basis of social coding and while it aims not at
 fragmentation of the source code, it allows anyone to develop and test novel
 features into existing code and offers the possibility to merge novel features
-back the into the main project (this might fit better in the abstract).
+back the into the main project, thereby becoming a contributor.
+[Comment: this might fit better in the abstract]
 
 To structure your projects allows the management of permissions, restricting access at
 different levels: users, teams and organizations. Users are the
@@ -109,7 +110,8 @@ nothing preventing you from keeping text documents or other file types
 in your projects [citation]. Note that until recently, GitHub was
 lacking support for storing large files (>100 MB), a issue that has
 been recently addressed by the GitHub large file storage. However, please
-be aware that large files will make the cloning and forking problematic.
+be aware that large files will make the cloning and forking problematic
+and post-processing hooks (Rule 6) might suffer from unnecessary files.
 (reference to --maximum-depth cloning ?)
 
 ## Rule 2. Learn Git and embrace its power
@@ -139,7 +141,7 @@ used for a software release are kept in a master branch. In practice,
 developers work on one or several features or improvements. To keep
 commits of the different features logically separated, distinct
 branches are typically used. Later, when development is complete and none of
-the tests fail (see Rule X) new features can be merged back into the development line
+the tests fail (see Rule 6) new features can be merged back into the development line
 or master branch. During such a development, the original branch might
 continuously be developed and other features might be merged into the master
 branch. Nevertheless, one can always pull the currently up-to date master
@@ -162,11 +164,11 @@ Tags offer the possibility to label versions during development progress.
 Version numbering should follow semantic versioning in the form X.Y.Z, with
 X being the major, y the minor and z the patch version of the release.
 Additional meta information might be included, please follow the best
-practise described at http://semver.org/. Correct labeling allows older
+practice described at http://semver.org/. Correct labeling allows older
 versions to be checked out, compared or simply used to
-reproduce results described in publications, where software version.
+reproduce results described in publications (Rule 8).
 
-## Rule 5. Keep Master branch clean - code must be always ready to use of tests, deployments and continuous integration
+## Rule 5. Follow basic principles for continuous integration
 
 The first rule of software development is that the code needs to be
 ready to use as soon as possible
@@ -187,35 +189,36 @@ errors", where the source code produces a different result compared to
 what you intended it to do. Then, continuous integration provides the
 way of automatically run all of these tests in the repository by
 checking data and software dependencies. Continuous integration
-can be done automatically GitHub on github (See Rule 6).
+can be done automatically on Github (See Rule 6).
 
 ## Rule 6: Use of the power of post-processing steps on github to show that your produce high quality code.
 
 Github offers different type of hooks that are executed after each push
-to the repository. This allows third-party platforms to access and
-interact with the github repository and thus automatize post-processing
-tasks. The following are tasks, if implemented will show to the community
-that your code has high quality, is currently working and has a
-documention that reflects the current code. We suggest that all there
+to the repositorymaking it easier to follow the basic principles for
+continuous integration. The github web hooks allows third-party platforms
+to access and interact with your github repository and thus automatize
+post-processing tasks. The following are tasks, if implemented will show
+to the community that your code has high quality, is currently working and has a
+documentation that reflects the current code. We suggest that all three
 tasks become part of you project. Firstly, continues integration can be
 achieved by Travis (https://travis-ci.org), which builds and tests the
 sourcecode using a plethora of options such different platforms and
-interpreter versions. Continues integration via Travis notifications, allows
+interpreter versions. Futhermore Travis offers notification which allow
 your team and contributors to know if the new changes work and prevent
 the introduction of errors in the code, making the repo always ready
 to use. Secondly, to show that your tests are not only not failing but
 also cover your code sufficiently, integration of Codecov is recommended
 (https://codecov.io). Thirdly, automatic update of the documentation
-should be implemented. This implies that your project has provides comprehensive
+should be implemented. This implies that your project provides comprehensive
 documentation so others can understand, and contribute back to your projects.
-For Python or C/C++ code auto documentation generation can be done using sphinx
+For Python or C/C++ code, auto documentation generation can be done using sphinx
 (http://sphinx-doc.org/) and auto integration into github using
 `read the docs` (https://readthedocs.org/). All of these platforms will
-create a report and badges for your project that you can include on your
-github page, thereby making your project easily identifiable as a
+create reports and badges for your project that you can include on your
+Github page, thereby making your project easily identifiable as a
 high quality and maintained project.
 
-## Rule 7. Use maintain your github issue trackers
+## Rule 7. Use and maintain your github issue trackers
 
 GitHub issues are a great way to keep track of bugs, tasks, and
 enhancements. Classical issue trackers are primarily intended to be
