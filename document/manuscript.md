@@ -34,26 +34,25 @@ biological data in different contexts. For instance software is
 routinely needed for the analysis, visualization [PMID:25475079],
 integration or storage of biological information. To enable and ensure
 the reproducibility of scientific claims, it is essential that,
-together with the scientific publication, the corresponding dataset/s
+together with the scientific publication, the corresponding raw dataset/s
 are made publicly available to the scientific community
 [PMID:24763340,PMID:25158685]. In addition, all the software used for
 the analysis should be either well described (e.g. in case of using
-commercial software) or openly shared, when possible
-[PMID:24675742,PMID:25993922]. At present the latter is becoming more
-common in the case of "home made" programming scripts or for
-bioinformatics open-source projects, where the source code is made
-openly available and can be reused by third parties
-[PMID:25071829]. The open availability of the source code can be
-achieved thanks to the existence of several code repository-hosting
+commercial software) or open source (i.e. accessible and usable)
+[PMID:24675742,PMID:25993922]. At present the latter is becoming more and more
+common in the form of "laboratory internal" programming scripts or for
+bioinformatics open-source projects, ~~where the source code is made
+openly available and can be reused by third parties (This is redundant to the sentence before)~~
+[PMID:25071829]. The rise of collaborative coding on open source code project
+is possible thanks to code repository-hosting
 services such as Sourceforge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/) and GitHub (https://github.com/), among
-others. These resources are also essential for collaborative software
-projects, since they enable the organization and sharing of
-programming tasks between different contributors to the same
-project. Here we aim to introduce the main features of GitHub, a
-popular web-based platform which offers a free and integrated
+others. These resources enable the organization of collaborative software
+projects and the sharing of programming tasks between different contributors within
+project. Here we aim to introduce one of code repository-hosts, github,
+as an example. GitHub, is a popular web-based platform which offers a free and integrated
 environment for hosting the source code, documentation and web page
-for open source projects. A reason for GitHub's success is that it
+for open source projects. One reason for GitHub's success is that it
 offers more than a simple source code hosting service. It provides
 developers with a dynamic and collaborative environment, often coined
 as social coding platform, with the ability to review, comment and
@@ -63,15 +62,15 @@ cornerstone of GitHub is the well-known and open-source version
 control system git, designed and developed by Linus Torvalds in 2005
 to control and extend the Linux kernel development. It has become the
 most widely adopted version control system, used by major companies
-such as Google, Facebook, or Twitter, among others.  GitHub is free to
-use for publicly available projects, therefore hosting millions of
+such as Google, Facebook, or Twitter, among others.  GitHub is free of charge
+for public projects, therefore hosting millions of
 open source projects. In addition, it offers paid plans for private
 repositories. Some of our recommendations outlined below would be
 applicable to other hosting services as well. However our main aim
 here is to highlight specific GitHub features. We will then provide a
 set of recommendations for taking full advantage of its core features
 to facilitate and manage the work on a given bioinformatics project
-and increase its profile to the scientific community.
+and increase its profile and visibility in the scientific community.
 
 
 ## Rule 1. Structure your projects: users, organizations, repositories and teams
