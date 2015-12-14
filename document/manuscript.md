@@ -75,9 +75,15 @@ and increase its profile and visibility in the scientific community.
 
 ## Rule 1. Structure your projects: users, organizations, repositories and teams
 
-Open projects on GitHub are visible to everyone, but write permissions
-to change the source code need to be granted. To structure your
-projects allows the management of permissions, restricting access at
+Open source projects on GitHub are visible to everyone, but write permissions
+to change the source code need to be granted. On the other hand, everyone with
+a github account can fork any project and start developing in ones own fork.
+This forking is the basis of social coding and while it aims not at
+fragmentation of the source code, it allows anyone to develop and test novel
+features into existing code and offers the possibility to merge novel features
+back the into the main project (this might fit better in the abstract).
+
+To structure your projects allows the management of permissions, restricting access at
 different levels: users, teams and organizations. Users are the
 keystone of GitHub, as for any other social network. Every user has a
 profile listing their GitHub projects and activities, which can be
@@ -102,7 +108,11 @@ repo. And while many users store programs and code projects, there is
 nothing preventing you from keeping text documents or other file types
 in your projects [citation]. Note that until recently, GitHub was
 lacking support for storing large files (>100 MB), a issue that has
-been recently addressed by the GitHub large file storage.
+been recently addressed by the GitHub large file storage. However, please
+be aware that due to the version control mechanisms in place, any change
+will be recorded in the history, thus changes in large files will quickly
+accumulate to very large repos, which makes the cloning and forking problematic.
+(reference to --maximum-depth cloning ?)
 
 ## Rule 2. Learn Git and embrace its power
 
