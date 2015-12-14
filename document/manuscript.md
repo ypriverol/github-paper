@@ -127,16 +127,24 @@ introduced are committed to the repository. Following the rule:
 "commit often, as most as you can, perfection later", one can keep
 track of the development in small incremental changes. At any time it
 is possible to go back to a previous version. In larger projects,
-multiple users contribute to the same repository. To manage concurrent
-developments with commits to the same repository several approaches
+multiple users contribute to the same repository.
+
+## Rule 3. Use Branches
+
+To manage concurrent developments with commits to the same repository several approaches
 are commonly used. The most common way is to use Git branches to
 separate different lines of development. Active development is often
 performed on a development branch and stable versions as e.g. those
 used for a software release are kept in a master branch. In practice,
 developers work on one or several features or improvements. To keep
 commits of the different features logically separated, distinct
-branches are typically used and merged into the development line once
-they are finished. In projects involving more than one contributor,
+branches are typically used. Later, when development is complete and none of
+the tests fail (see Rule X) new features can be merged back into the development line
+or master branch. During such a development, the original branch might
+continuously be developed and other features might be merged into the master
+branch. Nevertheless, one can always pull the currently up-to date master
+branch into once fork, always allowing to react or adapt to the changes
+in the code. In projects involving more than one contributor,
 everyone wants to be sure that the contributions of others increase
 the quality and move the project forward. Forking a repository and
 providing pull-requests provide an easy way for collaboration inside
@@ -148,7 +156,17 @@ review and discussion, it usually results in additional insights and
 in an increased code quality. Once a pull-request gets accepted,
 typically it gets merged into the development branch.
 
-## Rule 3. Let others contribute and add ideas to your projects
+## Rule 4. Use Tags and semantic version numbering
+
+Tags offer the possibility to label versions during development progress.
+Version numbering should follow semantic versioning in the form X.Y.Z, with
+X being the major, y the minor and z the patch version of the release.
+Additional meta information might be included, please follow the best
+practise described at http://semver.org/. Correct labeling allows older
+versions to be checked out, compared or simply used to
+reproduce results described in publications, where software version.
+
+## Rule 5. Embrace community commits to your projects
 
 GitHub issues are a great way to keep track of bugs, tasks, and
 enhancements. Classical issue trackers are primarily intended to be
