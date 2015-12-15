@@ -33,7 +33,7 @@ are made publicly available to the scientific community
 the analysis should be either well described (e.g. in case of using
 commercial software) or openly shared, when possible
 [@Osborne:2014;@Vihinen:2015]. At present the latter is becoming more
-common in the case of _home made_ programming scripts or for
+common in the case of _home made_ programming scripts or 
 bioinformatics open source projects, where the source code is made
 openly available and can be reused by third parties
 [@Leprevost:2014]. The open availability of source code can be
@@ -46,7 +46,7 @@ programming tasks between different contributors to the same
 project. Here we aim to introduce the main features of GitHub, a
 popular web-based platform which offers a free and integrated
 environment for hosting the source code, documentation and web page
-for open source projects. A reason for GitHub's success is that it
+for open source projects. One reason for GitHub's success is that it
 offers more than a simple source code hosting service. It provides
 developers with a dynamic and collaborative environment, often coined
 as social coding platform, with the ability to review, comment and
@@ -55,15 +55,14 @@ well-known and open source version control system git, designed and
 developed by Linus Torvalds in 2005 to control and extend the Linux
 kernel development. It has become the most widely adopted version
 control system, used by major companies such as Google, Facebook, or
-Twitter, among others.  GitHub is free to use for publicly available
+Twitter, among others.  GitHub is free of charge for public
 projects, therefore hosting millions of open source projects. In
 addition, it offers paid plans for private repositories. Some of our
 recommendations outlined below would be applicable to other hosting
 services as well. However our main aim here is to highlight specific
 GitHub features. We will then provide a set of recommendations for
 taking full advantage of its core features to facilitate and manage
-the work on a given bioinformatics project and increase its profile to
-the scientific community.
+the work on a given bioinformatics project and increase its profile and visibility in the scientific community.
 
 
 ## Rule 1. Structure your projects: users, organizations, repositories and teams
