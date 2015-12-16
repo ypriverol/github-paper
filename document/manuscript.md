@@ -100,7 +100,7 @@ support for storing large files (>100 MB), a issue that has been
 recently addressed by the GitHub large file storage.
 
 
-![The structure of a GitHub-based project illustrating the projects structure and the interactions with the community.](../figures/figure01_overview.pdf)
+![The structure of a GitHub-based project illustrating project structure and interactions with the community.](../figures/figure01_overview.pdf)
 
 ## Rule 2. Learn Git and embrace its power
 
