@@ -14,8 +14,8 @@ Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkore
 
 (6) Institute of Plant Biology and Biotechnology, University of Muenster, Schlossplatz 8, 48143 Muenster, Germany
 
-[^1]: Corresponding author: Email: yperez@ebi.ac.uk.
-[^2]: Corresponding author: Email: juan@ebi.ac.uk.
+[^1]: yperez@ebi.ac.uk.
+[^2]: juan@ebi.ac.uk.
 
 
 Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
@@ -24,52 +24,41 @@ Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
 
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
-biological data in different contexts. For instance software is
-routinely needed for the analysis, visualisation, integration or
-storage of biological information. To enable and ensure the
-reproducibility of scientific claims, it is essential that, the
+biological data in different contexts. To enable and ensure the
+reproducibility of scientific claims, it is essential that the
 scientific publication, the corresponding datasets and the data
-analysis are made publicly available to the scientific community
-[@Goodman:2014;@Perez-Riverol:2015]. In addition, all the software
-used for the analysis should be either well described (e.g. in case of
-using commercial software) or, better, openly shared and directly
-accessible to others [@Osborne:2014;@Vihinen:2015]. At present the
-latter is becoming more common in the form of of _home made_ scripts
-or more fully fledged bioinformatics open source projects
-[@Leprevost:2014].  The rise of openly available software and source
-code and concomitant collaborative development is facilitated thanks
-to the existence of several code repository-hosting services such as
-SourceForge (http://sourceforge.net/), Bitbucket
+analysis are made publicly available
+[@Goodman:2014;@Perez-Riverol:2015]. All software used for the
+analysis should be either carefully documented (e.g. for commercial
+software) or, better, openly shared and directly accessible to others
+[@Osborne:2014;@Vihinen:2015].  The rise of openly available software
+and source code, and concomitant collaborative development is
+facilitated by the existence of several code repository services such
+as SourceForge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/) and GitHub (https://github.com/), among
 others. These resources are also essential for collaborative software
 projects, since they enable the organisation and sharing of
-programming tasks between different contributors to the same
-project. Here we aim to introduce the main features of GitHub, a
-popular web-based platform which offers a free and integrated
-environment for hosting the source code, documentation and web page
-for open source projects. One reason for GitHub's success is that it
-offers more than a simple source code hosting service. It provides
-developers with a dynamic and collaborative environment, often coined
-as social coding platform, with the ability to review, comment and
-discuss code [@Dabbish:2012]. The cornerstone of GitHub is the
-well-known and open source version control system git, designed and
-developed by Linus Torvalds in 2005 to control and extend the Linux
-kernel development. It has become the most widely adopted version
-control system, used by major companies such as Google, Facebook, or
-Twitter, among others.  GitHub is free of charge for public projects,
-therefore hosting millions of open source projects. In addition, it
-offers paid plans for private repositories. Some of our
-recommendations outlined below would be applicable to other hosting
-services as well. However our main aim here is to highlight specific
-GitHub features. We will then provide a set of recommendations for
-taking full advantage of its core features to facilitate and manage
-the work on a given bioinformatics project and increase its profile
-and visibility in the scientific community. Below, we present a set of
-rules that will help scientists and research software engineers to
-efficiently make use of GitHub. The rules have been ordered to reflect
-a typical development process: learning git and GitHub basics, use
-branches, label and tag code, track the project using issues, etc.
+programming tasks between different remote contributors. Here, we
+introduce the main features of GitHub, a popular web-based platform
+which offers a free and integrated environment for hosting the source
+code, documentation and web page for open source projects (GitHub also
+offers paid plans for private repositories). GitHub relies, at its
+core, on the well-known and open source version control system git,
+designed and developed by Linus Torvalds for the development of the
+Linux kernel. One reason for GitHub's success is that it offers more
+than a simple source code hosting service. It provides developers with
+a dynamic and collaborative environment, often coined as social coding
+platform, with the ability to review, comment and discuss code
+[@Dabbish:2012].
 
+Some of our recommendations outlined below are applicable to other
+hosting services. However our main aim here is to highlight specific
+GitHub features. We provide a set of recommendations to take full
+advantage of GitHub's features to manage small and large
+bioinformatics project and increase their profile and
+visibility. These rules have been ordered to reflect a typical
+development process: learning git and GitHub basics, use branches,
+label and tag code, track the project using issues, etc.
 
 ## Rule 1. Structure your projects: users, organisations, repositories and teams
 
@@ -104,12 +93,11 @@ inside an organisation or can belong to particular users. Users can
 usually keep code, text files, images and small data files inside a
 repo. And while many users store programs and code projects, there is
 nothing preventing you from keeping text documents such as analysis
-reports and manuscripts, or other file types in your projects. Note
-that until recently, GitHub was lacking support for storing large
-files (>100 MB), a issue that has been recently addressed by the
-GitHub large file storage.  However, please be aware that large files
-will make the cloning and forking problematic and post-processing
-hooks (Rule 6) might suffer from unnecessary files.
+reports and manuscripts (see for example the repository for this
+manuscipt at https://github.com/ypriverol/github-paper), or other file
+types in your projects. Note that until recently, GitHub was lacking
+support for storing large files (>100 MB), a issue that has been
+recently addressed by the GitHub large file storage.
 
 
 ![The structure of a GitHub-based project illustrating the projects structure and the interactions with the community.](../figures/figure01_overview.pdf)
@@ -160,7 +148,7 @@ opened for review and discussion, it usually results in additional
 insights and in an increased code quality. Once a pull request gets
 accepted, typically it gets merged into the development branch.
 
-## Rule 4. Use Tags and semantic version numbering
+## Rule 4. Use tags and semantic version numbering
 
 Tags offer the possibility to label versions during development
 progress. Version numbering should follow semantic versioning in the
@@ -217,12 +205,11 @@ integration of _Codecov_ is recommended (https://codecov.io). Thirdly,
 you might consider to automatically update the documentation upon code
 modification. This implies that your project provides comprehensive
 documentation so others can understand, and contribute back to your
-projects.
-
-For Python or C/C++ code, auto documentation generation can be done
-using sphinx (http://sphinx-doc.org/) and auto integration into GitHub
-using read the docs (https://readthedocs.org/). All of these platforms
-will create reports and badges for your project that you can include
+projects. For Python or C/C++ code, automatic documentation generation
+can be done using sphinx (http://sphinx-doc.org/) and subsequently
+integrated into GitHub using read the docs
+(https://readthedocs.org/). All of these platforms will create reports
+and badges (also called shields) for your project that you can include
 on your GitHub page, thereby making your project easily identifiable
 as a high quality and maintained project.
 
