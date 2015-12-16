@@ -153,7 +153,7 @@ contributor, everyone wants to be sure that the contributions of
 others increase the quality and move the project forward. _Forking_ a
 repository and providing _pull requests_ constitute an easy way for
 collaboration inside and over organisations boundaries. A user that
-forks a repository creates a copy under their github account. Modifications like a
+forks a repository creates a copy under their GitHub account. Modifications like a
 branch with new features or bug fixes can conveniently be provided to
 the forked (upstream) repository by opening a pull request. Once it is
 opened for review and discussion, it usually results in additional
@@ -166,7 +166,7 @@ Tags offer the possibility to label versions during development
 progress. Version numbering should follow semantic versioning in the
 form X.Y.Z, with X being the major, Y the minor and Z the patch
 version of the release, including possible meta information, as
-described in http://semver.org/. Correct labelling allows develpers
+described in http://semver.org/. Correct labelling allows developers
 and users to easily recover older versions, compared them, or simply
 used them to reproduce results described in publications (Rule 8). This
 approach will also help defining a coherent software publication
@@ -294,7 +294,7 @@ other hand, once the paper is published, your work can be reproduced
 by any member of the scientific community, which can increase
 citations and foster opportunities for further discussion and
 collaboration. Also have in mind that a public repository with
-available source code does not make the software open source per se,
+available source code does not make the software open source _per se_,
 as it needs to have an appropriate license
 (http://opensource.org/licenses/).
 
@@ -315,13 +315,13 @@ communication called Gitter (http://gitter.im). Gitter is a
 GitHub-based chat tool (in limited beta at the time of writing) which
 enables developers and users to share aspects of their work. Gitter
 inherits the shape of the social groups operating around GitHub
-repositories, organizations, and issues. It relies on the identity
+repositories, organisations, and issues. It relies on the identity
 within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for
 public and private repositories. From within a Gitter chat, members
 can reference issues, comments, or pull-requests. A different service
 is Gist (https://gist.github.com), which represents a unique way to
 share _code snippets_, single files, parts of files, or full
-applications. Gist can work in two ways: public gists, that can be
+applications. Gist can work in two ways: public _gists_, that can be
 browsed and searched, and secret gists that are not provided through
 _Discover_ (https://gist.github.com/discover). One of the main
 features of Gist is the possibility to embed code snippets in other
@@ -362,7 +362,7 @@ R01-GM-094231.
 ## Disclaimer
 
 The authors have no affiliation with GitHub, nor any commercial entity
-mentioned in this articel. The views described here reflect our owns
+mentioned in this article. The views described here reflect our owns
 without any input from any third party organisation.
 
 ## References
