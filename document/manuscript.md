@@ -28,10 +28,10 @@ biological data in different contexts. To enable and ensure the
 reproducibility of scientific claims, it is essential that the
 scientific publication, the corresponding datasets and the data
 analysis are made publicly available
-[@Goodman:2014;@Perez-Riverol:2015]. All software used for the
+\cite{Goodman:2014,Perez-Riverol:2015}. All software used for the
 analysis should be either carefully documented (e.g. for commercial
 software) or, better, openly shared and directly accessible to others
-[@Osborne:2014;@Vihinen:2015].  The rise of openly available software
+\cite{Osborne:2014,Vihinen:2015}.  The rise of openly available software
 and source code, and concomitant collaborative development is
 facilitated by the existence of several code repository services such
 as SourceForge (http://sourceforge.net/), Bitbucket
@@ -49,7 +49,7 @@ Linux kernel. One reason for GitHub's success is that it offers more
 than a simple source code hosting service. It provides developers with
 a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
-[@Dabbish:2012].
+\cite{Dabbish:2012}.
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
@@ -71,8 +71,7 @@ develop and test novel features into existing code and offers the
 possibility to merge novel features back the into the main project,
 thereby becoming a contributor.  Structuring your projects allows to
 manage permissions and restrict access at different levels: users,
-teams and organisations. 
-Users are the keystone of GitHub, as for any
+teams and organisations.  Users are the keystone of GitHub, as for any
 other social network. Every user has a profile listing their GitHub
 projects and activities, which can be populated optionally with
 personal information including name, e-mail address, image and
@@ -83,11 +82,11 @@ access. However, development in large projects is usually done by
 teams of people, within a larger organisation. GitHub organisations
 are a great way to manage team-based access permissions for the
 individual projects of institutes, research labs, and large open
-source projects that need multiple owners and administrators (Figure
+source projects that need multiple owners and administrators (Fig.
 1). We recommend that you (as an individual researcher) make your
 profile visible to other users and display all the projects and
 organisations you are working in, including a list of the latest
-activities on the site (Figure 1). Finally, repositories (the
+activities on the site (Fig. 1). Finally, repositories (the
 shortened term is _repo_) are versioned directories or dedicated
 storage spaces for your software projects, which can be included
 inside an organisation or can belong to particular users. Users can
@@ -164,10 +163,10 @@ strategy (see Rule 6).
 ## Rule 5. The code must always be ready to use: continuously integrate
 
 The first rule of software development is that the code needs to be
-ready to use as soon as possible [@Leprevost:2014], remain so during
+ready to use as soon as possible \cite{Leprevost:2014}, remain so during
 development, and should be well-documented and tested. In 2005, Martin
 Fowler defined the basic principles for continuous integration in
-software development [@FowlerCI]. These principles have become the
+software development \cite{FowlerCI}. These principles have become the
 main reference for best practices in continuous integration, providing
 the framework needed to deploy software, and in some way also
 data. Every repository, script, mathematical model, and function
@@ -248,9 +247,9 @@ others. Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
 produce DOIs for other types of scientific outputs such as datasets
-[@Vizcaino:2014] or training materials (for example
-[@Ahmadia_2015_27353]). The main motivation behind this is to give
-scientists a better credit for their work [@NatBiotechEditorial:2009],
+\cite{Vizcaino:2014} or training materials (for example
+\cite{Ahmadia_2015_27353}). The main motivation behind this is to give
+scientists a better credit for their work \cite{NatBiotechEditorial:2009},
 enabling at the same time a better way to cite and track it. A common
 issue with software is that it normally evolves at a different speed
 than what is published in the scientific literature. In fact, it is
@@ -264,7 +263,7 @@ created in GitHub. However, before Zenodo can issue a DOI, metadata
 needs to be provided about the archived repository. Once the DOI has
 been assigned, apart from using it in your CV, you can add it to
 literature information resources such as Europe PubMed Central
-[@EuropePMCConsortium:2015].
+\cite{EuropePMCConsortium:2015}.
 As already mentioned in the introduction, reproducibility of
 scientific claims should be enabled by providing openly the software,
 the datasets and the process leading to interpretable results that are

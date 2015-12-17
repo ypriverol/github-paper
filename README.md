@@ -16,6 +16,10 @@ to migrate to GitHub.
 
 # How to contribute 
 
+**We currently do not accept additional contributions as the
+  manuscript is submitted. If you have any comments or suggestions,
+  please open an issue to discuss them.**
+
 If you have an idea for a new Rule to add or change to the main
 manuscript or Figure, etc, it is best to communicate with the authors
 of the paper. The most common venues for this are GitHub issues for
@@ -54,6 +58,37 @@ good places to start. More learning resources are available
 
 7. The pull request should be reviewed and merge by another member of
    the paper.
+
+## Conversion to PLoS LaTeX
+
+- **Any modifications should be made to the `manuscript.md` file.**
+  This file is then converted to LaTeX using `pandoc`:
+
+```
+make manuscript.tex
+```
+
+- Then include the text from `manuscritp.tex` (ignore title, authors
+  and references) into `manuscript-plos.tex`.
+
+- Comment the figure inclusion line.
+
+```
+% \includegraphics[width=\linewidth]{../figures/figure01_overview.pdf}
+```
+
+- Compile by running
+
+```
+make manuscipt-plos.pdf
+```
+
+- Only commit `manuscript-plot.tex` and `manuscript-plos.pdf` to the
+  repo. To clean up unwanted files:
+
+```
+make clean
+```
 
 ## Disclaimer
 
