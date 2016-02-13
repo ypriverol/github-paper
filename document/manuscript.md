@@ -63,16 +63,23 @@ visibility. These rules have been ordered to reflect a typical development proce
 learning git and GitHub basics, use of branches, labeling and tagging of code snapshots,
 tracking project bugs and enhancements using issues, and disemination of the final results.
 
-## Rule 1. Structure your projects: users, organisations, repositories and teams
+## Rule 1. Structure your projects: repositories, users, organisations and teams
 
 Open source projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content, need
-to explicitly be granted. On the other hand, everyone with a GitHub
-account can fork any public project and start developing in one's own
-fork. This forking is the basis of social coding. It allows anyone to
-develop and test novel features into existing code and offers the
+to explicitly be granted. One of the key concepts in GitHub is the repositories where 
+the data, code and content is stored. Repositories (the shortened term is _repo_) are versioned directories or dedicated
+storage spaces for your software projects, which can be included inside an organisation or can belong to particular users. Users can
+usually keep code, text files, images and small data files inside a repo. And while many users store programs and code projects,
+there is nothing preventing users from keeping text documents such as analysis reports and manuscripts (see for example the repository for this
+manuscript at https://github.com/ypriverol/github-paper), or other file types in your projects. Note that until recently, GitHub was lacking
+support for storing large files (>100 MB), a issue that has been recently addressed by the GitHub large file storage. 
+Everyone with a GitHub account can fork any public repository and start developing in one's own
+fork. A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes
+without affecting the original project (https://help.github.com/articles/fork-a-repo/). This forking is
+the basis of social coding. It allows anyone to develop and test novel features into existing code and offers the
 possibility to merge novel features back the into the main project,
-thereby becoming a contributor.  Structuring your projects allows to
+thereby becoming a contributor.  Project managers can structure projects to
 manage permissions and restrict access at different levels: users,
 teams and organisations.  Users are the keystone of GitHub, as for any
 other social network. Every user has a profile listing their GitHub
@@ -89,18 +96,7 @@ source projects that need multiple owners and administrators (Fig.
 1). We recommend that you (as an individual researcher) make your
 profile visible to other users and display all the projects and
 organisations you are working in, including a list of the latest
-activities on the site (Fig. 1). Finally, repositories (the
-shortened term is _repo_) are versioned directories or dedicated
-storage spaces for your software projects, which can be included
-inside an organisation or can belong to particular users. Users can
-usually keep code, text files, images and small data files inside a
-repo. And while many users store programs and code projects, there is
-nothing preventing users from keeping text documents such as analysis
-reports and manuscripts (see for example the repository for this
-manuscipt at https://github.com/ypriverol/github-paper), or other file
-types in your projects. Note that until recently, GitHub was lacking
-support for storing large files (>100 MB), a issue that has been
-recently addressed by the GitHub large file storage.
+activities on the site (Fig. 1).
 
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
@@ -260,7 +256,7 @@ common to find software having novel features and functionalities that
 were not described in the original publication. GitHub now enables the
 use of DOIs to cite the code deposited, using the data archiving tool
 Zenodo (https://zenodo.org/). The procedure is simple (see
-https://guides.GitHub.com/activities/citable-code/) and, by default,
+https://guides.github.com/activities/citable-code/) and, by default,
 Zenodo takes an archive of a repository each time a new release is
 created in GitHub. However, before Zenodo can issue a DOI, metadata
 needs to be provided about the archived repository. Once the DOI has
@@ -275,10 +271,9 @@ possible in publications that the code is freely available in,
 for example, GitHub, together with any other relevant piece of
 information that may have been deposited. In our experience, this
 openness substantially increases your chances of getting the paper
-accepted for publication. On one hand, journal editors and reviewers
+accepted for publication. Journal editors and reviewers
 have the opportunity to reproduce your findings during the manuscript
-review process, increasing the confidence of your results. On the
-other hand, once the paper is published, your work can be reproduced
+review process, increasing the confidence of your results. In addition, once the paper is published, your work can be reproduced
 by any member of the scientific community, which can increase
 citations and foster opportunities for further discussion and
 collaboration. Also one must have in mind that the availability of a public repository with
