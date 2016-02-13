@@ -49,8 +49,8 @@ Linux kernel. One reason for GitHub's success is that it offers more
 than a simple source code hosting service. It provides developers with
 a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
-\cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) [PMID:22113085], 
-lab repositories (https://github.com/PRIDE-Toolsuite/) [PMID: 26545397], intermediate projects (https://github.com/samtools) and
+\cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
+lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects (https://github.com/samtools) and
 global collaborations such as ROpenSci (https://github.com/ropensci) and The Global Allience For Genomics and
 Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
 
@@ -212,7 +212,7 @@ and badges (also called shields) for the projects that can be included
 on your GitHub page, thereby making your projects easily identifiable
 as high quality and well-maintained.
 
-## Rule 7. Use and maintain your GitHub issue trackers
+## Rule 7. Use and maintain your issue trackers
 
 GitHub _issues_ are a great way to keep track of bugs, tasks, and
 enhancements. Classical issue trackers are primarily intended to be
@@ -249,8 +249,9 @@ produce DOIs for other types of scientific outputs such as datasets
 \cite{Vizcaino:2014} or training materials (for example
 \cite{Ahmadia_2015_27353}). The main motivation behind this is to give
 scientists a better credit for their work \cite{NatBiotechEditorial:2009},
-enabling at the same time a better way to cite and track it. A common
-issue with software is that it normally evolves at a different speed
+enabling at the same time a better way to cite and track it. In addition, funding agencies such as NIH now accept 
+other research products as citable research such as accessible datasets and softwares.
+A common issue with software is that it normally evolves at a different speed
 than what is published in the scientific literature. In fact, it is
 common to find software having novel features and functionalities that
 were not described in the original publication. GitHub now enables the
@@ -283,7 +284,8 @@ as it needs to have an appropriate license
 
 ## Rule 9. Promote your projects in the scientific community - create a web page and more
 
-Additional steps can be done to boost the visibility of a
+The traditional and effective way of promoting scientific software is by
+publishing them in the peer-reviewed scientific literature. Additional steps can be done to boost the visibility of a
 organisation. For example, GitHub _Pages_ are simple landing webpages
 that GitHub hosts for free without the need for a server or
 database. GitHub users can create and host blog websites, help pages,
