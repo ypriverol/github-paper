@@ -1,6 +1,6 @@
-# Ten Simple Rules for taking advantage of GitHub in bioinformatics
+#Ten Simple Rules for taking advantage of GitHub
 
-Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Juan Antonio Vizcaíno (1)[^2]
+Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
 
 (1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
 
@@ -41,7 +41,7 @@ projects, since they enable the organisation and sharing of
 programming tasks between different remote contributors. Here, we
 introduce the main features of GitHub, a popular web-based platform
 which offers a free and integrated environment for hosting the source
-code, documentation and web page for open source projects. GitHub also
+code, documentation and project-related web content for open source projects. GitHub also
 offers paid plans for private repositories. GitHub relies, at its
 core, on the well-known and open source version control system git,
 designed and developed by Linus Torvalds for the development of the
@@ -49,16 +49,19 @@ Linux kernel. One reason for GitHub's success is that it offers more
 than a simple source code hosting service. It provides developers with
 a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
-\cite{Dabbish:2012}.
+\cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) [PMID:22113085], 
+lab repositories (https://github.com/PRIDE-Toolsuite/) [PMID: 26545397], intermediate projects (https://github.com/samtools) and
+global collaborations such as ROpenSci (https://github.com/ropensci) and The Global Allience For Genomics and
+Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
 GitHub features. We provide a set of recommendations to take full
 advantage of GitHub's features to manage small and large
 bioinformatics projects and increase their profile and
-visibility. These rules have been ordered to reflect a typical
-development process: learning git and GitHub basics, use branches,
-label and tag code, track the project using issues, etc.
+visibility. These rules have been ordered to reflect a typical development process: 
+learning git and GitHub basics, use of branches, labeling and tagging of code snapshots,
+tracking project bugs and enhancements using issues, and disemination of the final results.
 
 ## Rule 1. Structure your projects: users, organisations, repositories and teams
 
