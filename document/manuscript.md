@@ -50,9 +50,9 @@ than a simple source code hosting service. It provides developers with
 a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
 \cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
-lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects (https://github.com/samtools) and
-global collaborations such as ROpenSci (https://github.com/ropensci) and The Global Allience For Genomics and
-Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
+lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects such as (https://github.com/samtools) and 
+OpenMS (https://github.com/OpenMS) \cite{sturm2008openms}; or global collaborations such as ROpenSci (https://github.com/ropensci) 
+and The Global Allience For Genomics and Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
