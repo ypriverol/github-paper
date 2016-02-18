@@ -95,6 +95,12 @@ overall contribution.
    research MUST take charge of the situation at the time of the
    original analysis, and cannot rely on availability of versioned
    software after the fact.
+   
+> R/ we replaced the word reproducibility by two different terms replicability and traceability. The current version of
+  the manuscript explain:
+  
+> To enable and ensure the replicability and traceability of scientific claims, it is essential that the scientific publication,
+  the corresponding datasets and the data analysis are made publicly available \cite{Goodman:2014,Perez-Riverol:2015}
 
 2. It would be very helpful to call out, with links to repository
    locations, exemplar github repositories of individual developers
@@ -102,6 +108,14 @@ overall contribution.
    successful projects / groups like bedtools, Lior Pachter's lab?),
    intermediate projects (hts / samtools?), and larger projects
    (rOpenSci??) that effectively use GitHub.
+   
+> R/ Thanks for this comment. We just added a couple of repositories in the introduction. The current version of the manuscript:
+
+> Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
+  lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects such as (https://github.com/samtools) and 
+  OpenMS (https://github.com/OpenMS) \cite{sturm2008openms}; or global collaborations such as ROpenSci (https://github.com/ropensci) 
+  and The Global Allience For Genomics and Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
+
 
 3. Of course the emphasis on GitHub is challenging. We know that this
    service cannot be indefinite, just as Sourceforge, Google Code,
@@ -111,6 +125,11 @@ overall contribution.
    bioinformatics developers into the modern age. Minimally, I think
    that Git and GitHub should be removed from the title and all
    'Rules' headers.
+   
+> R/ We partially agree with the reviewer. In the current version of the manuscript we remove from some of the rules (the ones that explain concepts) the GitHub 
+term. However, some of the rules are focus on the functionalities provided by Git, in those cases we keep the temr in the title for example **Rule 2**. Git as a protocol is 
+used by different services such as GitHub, Bitbucket. For that reason we will keep the Git term in **Rule 2** because we would like to highligth the power of git compare with 
+other version control systems. In the current version we removed the term from **Rule 7** making possible to highligth the concept rather than the service.  
 
 4. The merits of individual recommendations should be reinforced with
    links to relevant examples, e.g., of an open issue, relevant
@@ -132,6 +151,13 @@ overall contribution.
    developers to lose track of the thrust of their project, or for
    individuals to work in isolation for extended periods, so that
    their contribution cannot easily be merged back to master.
+   
+> We agree with the reviewer. The current version of **Rule 3** emphasize the use of branches as short-term departures from master: 
+
+> One of the easiest ways to make a mess for yourself with Git is to allow your _branch_ to get
+  out of sync. Branches are just short-term departures from master. If you
+  _pull request_ frequently, you will keep your copy of the repo up to date, and you will
+  have the opportunity to merge your changed code with others' contributors.
 
 7. Rule 5 should be clarified. It includes really two points. The
    first is the use of unit tests to ensure that the software is doing
@@ -159,6 +185,11 @@ overall contribution.
 9. Rule 9 does not mention the obvious, effective, and esssential
    method for promoting one's project -- publishing in the
    peer-reviewed scientific literature!
+   
+> We agree with the reviewer. The current version of the rule starts by making clear this statement:
+
+> The traditional and effective way of promoting scientific software is by
+  publishing them in the peer-reviewed scientific literature.
 
 # Reviewer 3
 
@@ -181,6 +212,10 @@ summarization of the key features of GitHub and specific use cases for scientist
    for version control. Maybe something like "Ten Simple Rules for
    Taking Advantage of GitHub for Scientists".  I'm horrible with
    titles, though, maybe I shouldn't come up with this :)
+   
+> We agree with the reviewer. The present version of the mansucript has a different title:
+
+> Ten Simple Rules for taking advantage of GitHub
 
 2. Pg. 1, Introduction, para1: "Here, we introduce the main features
    of GitHub, a popular web-based 14 platform which offers a free and
@@ -189,6 +224,13 @@ summarization of the key features of GitHub and specific use cases for scientist
 
    Probably a better way to word ‘web page’, something like ‘public
    project-related web content’ since many projects are more complex.
+  
+> We agree with the reviewer an in the present version we included a small change:
+
+> Here, we introduce the main features of GitHub, a popular web-based platform
+  which offers a free and integrated environment for hosting the source
+  code, documentation and project-related web content for open source projects. GitHub also
+  offers paid plans for private repositories. 
 
 3. Pg. 2, Introduction, para 2: small revision suggestion 
 
@@ -200,15 +242,21 @@ summarization of the key features of GitHub and specific use cases for scientist
 4. Pg. 2, Rule 1:
 
     a) Might be worth explaining what 'forking' means.
+    
+> We agree with the user and the current version include a short explanation of the forking concept. 
 
     b) "Structuring your projects allows to manage permissions and restrict
     access at different levels: users, teams and organisations."  Maybe "Project
     managers can structure projects to manage…"
 
+> We agree with the reviewer and the current version include the suggested change.
+
     c) Repositories: The bit on repositories should be described earlier, not at
     the end.  You are technically forking a *repository*, not just a project
     (which in my opinion could consist of many independent but related
     repositories, e.g. the Bio* projects, GMOD, etc).
+    
+> We re-structured the rule and the current version started explaining what is a repository. 
 
 5. Pg. 3, Rule 2:
 
@@ -216,12 +264,16 @@ summarization of the key features of GitHub and specific use cases for scientist
     Every change, from fixing a typo to a complete redesign of the software, is
     controlled by versions, so-called revisions." (added a comma after
     'software')
+    
+> We changed the sentence in the present version. 
 
 6. Pg. 3, Rule 3:
 
     a) "Nevertheless, one can always pull the currently up-to date master branch
     into one branch, enabling one to react or adapt to the changes in the stable
     code branch." (use 'branch', not 'fork')
+    
+>  We changed the sentence.
 
     b) "Once a pull request is opened for review and discussion, it usually
     results in additional insights and increased code quality" ('it' was
@@ -233,12 +285,20 @@ summarization of the key features of GitHub and specific use cases for scientist
     for their work".  True, but this is also key for grants and funding, where
     many funding agencies such as NIH now accept other 'products' of research as
     citable research (these being publicly accessible data and software).
+    
+> We agree with the reviewer. The present version mentioned also funding agencies.
+
+> In addition, funding agencies such as NIH now accept other research products as citable research such as accessible datasets and softwares.
 
     b) https://guides.github.com/activities/citable-code/
     Should be consistent w/ other URLs in text
+    
+> We changed the current version.
 
     c) ‘On one hand… on the other hand’ usually are used to describe two sides
     or opposing viewpoints. Not sure it’s used correctly here, since both
     examples are complementary, not in opposition to one another?
+    
+> We agree with the user and the present version reflects the reviewer comments.  
 
 Chris Fields

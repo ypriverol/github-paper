@@ -25,7 +25,7 @@ Short title: Ten Simple Rules for taking advantage of GitHub
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
 biological data in different contexts. To enable and ensure the
-reproducibility of scientific claims, it is essential that the
+replicability and traceability of scientific claims, it is essential that the
 scientific publication, the corresponding datasets and the data
 analysis are made publicly available
 \cite{Goodman:2014,Perez-Riverol:2015}. All software used for the
@@ -105,7 +105,7 @@ activities on the site (Fig. 1).
 
 The cornerstone of GitHub is the distributed version control system
 git. Every change, from fixing a typo to a complete redesign of the
-software is controlled by versions, so called revisions. While
+software, is controlled by versions, so called revisions. While
 beginners may consider the learning curve of Git steep, many
 introductory and detailed tutorials are available. A revision can be
 considered as a _snapshot_ (version) of a file system. Git is
@@ -134,7 +134,7 @@ used. Later, when development is complete and none of the tests fail
 or master branch. During such a development, the original branch might
 continuously be developed and other features might be merged into the
 master branch. Nevertheless, one can always pull the currently up-to
-date master branch into one fork, always enabling to react or adapt
+date master branch into one branch, always enabling to react or adapt
 to the changes in the code. In projects involving more than one
 contributor, everyone wants to be sure that the contributions of
 others increase the quality and move the project forward. _Forking_ a
@@ -145,7 +145,11 @@ branch with new features or bug fixes can conveniently be provided to
 the forked (upstream) repository by opening a pull request. Once it is
 opened for review and discussion, it usually results in additional
 insights and in an increased code quality. Once a pull request gets
-accepted, typically it gets merged into the development branch.
+accepted, typically it gets merged into the development branch. 
+One of the easiest ways to make a mess for yourself with Git is to allow your _branch_ to get
+out of sync. Branches are just short-term departures from master. If you
+_pull request_ frequently, you will keep your copy of the repo up to date, and you will
+have the opportunity to merge your changed code with others' contributors. 
 
 ## Rule 4. Use tags and semantic version numbering
 
