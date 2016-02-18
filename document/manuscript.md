@@ -18,7 +18,7 @@ Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkore
 [^2]: juan@ebi.ac.uk.
 
 
-Short title: Ten Simple Rules for taking advantage of GitHub in bioinformatics
+Short title: Ten Simple Rules for taking advantage of GitHub
 
 ## Introduction
 
