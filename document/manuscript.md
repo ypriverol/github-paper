@@ -148,7 +148,7 @@ insights and in an increased code quality. Once a pull request gets
 accepted, typically it gets merged into the development branch. 
 One of the easiest ways to make a mess for yourself with Git is to allow your _branch_ to get
 out of sync. Branches are just short-term departures from master. If you
-_pull request_ frequently, you will keep your copy of the repo up to date, and you will
+pull frequently, you will keep your copy of the repo up to date, and you will
 have the opportunity to merge your changed code with others' contributors. 
 
 ## Rule 4. Use tags and semantic version numbering
