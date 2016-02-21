@@ -127,7 +127,7 @@ overall contribution.
    'Rules' headers.
    
 > R/ We partially agree with the reviewer. In the current version of the manuscript we remove from some of the rules (the ones that explain concepts) the GitHub 
-term. However, some of the rules are focus on the functionalities provided by Git, in those cases we keep the temr in the title for example **Rule 2**. Git as a protocol is 
+term. However, some of the rules are focus on the functionalities provided by Git, in those cases we keep the term in the title for example **Rule 2**. Git as a protocol is 
 used by different services such as GitHub, Bitbucket. For that reason we will keep the Git term in **Rule 2** because we would like to highligth the power of git compare with 
 other version control systems. In the current version we removed the term from **Rule 7** making possible to highligth the concept rather than the service.  
 
@@ -156,7 +156,7 @@ other version control systems. In the current version we removed the term from *
 
 > One of the easiest ways to make a mess for yourself with Git is to allow your _branch_ to get
   out of sync. Branches are just short-term departures from master. If you
-  _pull request_ frequently, you will keep your copy of the repo up to date, and you will
+  pull frequently, you will keep your copy of the repo up to date, and you will
   have the opportunity to merge your changed code with others' contributors.
 
 7. Rule 5 should be clarified. It includes really two points. The
