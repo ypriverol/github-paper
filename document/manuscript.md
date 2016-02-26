@@ -46,7 +46,7 @@ offers paid plans for private repositories. GitHub relies, at its
 core, on the well-known and open source version control system git,
 designed and developed by Linus Torvalds for the development of the
 Linux kernel. One reason for GitHub's success is that it offers more
-than a simple source code hosting service. It provides developers with
+than a simple source code hosting service \cite{blischak2016quick, ram2013git}. It provides developers with
 a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
 \cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
@@ -73,7 +73,7 @@ storage spaces for your software projects, which can be included inside an organ
 usually keep code, text files, images and small data files inside a repo. And while many users store programs and code projects,
 there is nothing preventing users from keeping text documents such as analysis reports and manuscripts (see for example the repository for this
 manuscript at https://github.com/ypriverol/github-paper), or other file types in your projects. Note that until recently, GitHub was lacking
-support for storing large files (>100 MB), a issue that has been recently addressed by the GitHub large file storage. 
+support for storing large files (>100 MB), a issue that has been recently addressed by the GitHub large file storage (Supplementary Note, section 1). 
 Everyone with a GitHub account can fork any public repository and start developing in one's own
 fork. A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes
 without affecting the original project (https://help.github.com/articles/fork-a-repo/). This forking is

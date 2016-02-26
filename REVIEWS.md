@@ -41,6 +41,8 @@ I would also urge the authors to post this as a preprint and get some
 discussion of it going in public[*]. There are lots of academics using
 github and you will get quite a bit of helpful advice.
 
+> R/ We made this discussion available under the paper repository for discussions. 
+
 [*] perhaps you could use github to do this? :)
 
 ## Meso comments:
@@ -52,7 +54,8 @@ to swallow.)
 
 Github large file support is not free, generally speaking.
 
-> R/ We added a new sentence to the introduction highlighting this concern.
+> R/ We added a supplementary Note tp the manuscript to explain what is LSF file system, how to used 
+and we highlighted the concern about the charge if the users exceed certain quotes.
 
 In the conclusions, the (substantial) learning curve of git is
 mentioned. Perhaps some pointers to open lessons should be made
