@@ -209,15 +209,12 @@ ready to use.
 Secondly, in addition to successful completion of the tests, one can
 also demonstrate that they cover the existing code base sufficiently. For this task, the
 integration of _Codecov_ is recommended (https://codecov.io). 
-Thirdly, one might consider to automatically update the documentation upon code
+Thirdly, one might consider to generate the documentation upon code/documentation
 modification (Supplementary Note, Section 3). This implies that your projects provide comprehensive
 documentation so others can understand, and contribute back to them. For Python or C/C++ code, automatic documentation generation
-can be done using sphinx (http://sphinx-doc.org/) and subsequently
-integrated into GitHub using "Read the Docs"
-(https://readthedocs.org/). All of these platforms will create reports
-and badges (also called shields) for the projects that can be included
-on your GitHub page, thereby making your projects easily identifiable
-as high quality and well-maintained.
+can be done using sphinx (http://sphinx-doc.org/) and subsequently integrated into GitHub using "Read the Docs"
+(https://readthedocs.org/). All of these platforms will create reports and badges (also called shields) for the projects that can be included
+on your GitHub page, thereby making your projects easily identifiable as high quality and well-maintained.
 
 ## Rule 7. Use and maintain your issue trackers
 

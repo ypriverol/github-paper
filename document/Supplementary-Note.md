@@ -1,3 +1,21 @@
+#Ten Simple Rules for taking advantage of GitHub
+
+Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
+
+(1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
+
+(2) Applied Bioinformatics and Department of Computer Science, University of Tübingen, D-72074 Tübingen, Germany.
+
+(3) Medizinisches Proteom-Center, Ruhr-Universität Bochum, Universitätsstr. 150, D-44801 Bochum, Germany.
+
+(4) Computational Proteomics Unit, Cambridge Systems Biology Centre, University of Cambridge Tennis Court Road Cambridge, CB2 1GA, UK.
+
+(5) Department of Pathology, University of Michigan, Ann Arbor, Michigan 48109, USA.
+
+(6) Institute of Plant Biology and Biotechnology, University of Muenster, Schlossplatz 8, 48143 Muenster, Germany.
+
+[^1]: yperez@ebi.ac.uk.
+[^2]: juan@ebi.ac.uk.
 
 
 ## Section 1: Git LSF file system
@@ -138,8 +156,25 @@ for( int i = 0 ; i < list.size(); i++)  // "loop across all the elements of the 
 
 ```
 
-The previous example represents the same information for the source code and the comment. Let says that the text contains two different languages (programming language and english) 
-to explain the same content. In contrast the following snipt is an example of good practices:
+
+The previous example represents the same information for the source code and the comment (Comments are not subtitles). Let says that the text contains two different languages (programming language and english) 
+to explain the same content. Some developer argue that if you have a 1-1 or even a 5-1 ratio of LOC (lines of code) to comments, you are probably overdoing it. The need for excessive comments
+is a good indicator that your code needs refactoring. 
+
+Some developers use the comment section to explain decisions in the code and who took the corresponding decision (Comments are not source control):
+
+```java
+
+// Revisions: Sue (2/19/2014) - Lengthened monkey's arms
+//            Bob (2/20/2015) - Solved drooling issue
+	 
+	void pityTheFoo() {
+
+```
+
+
+In contrast the previous example, the following code is an example of good practices:
+
 
 ```java
 
@@ -165,8 +200,32 @@ to explain the same content. In contrast the following snipt is an example of go
 
 ```
   
-The example from Java API provides information about the method, what it should return and possible exceptions related with the _Map_ collection behaviour. 
+The example (Java API) provides information about the method, what it should return and possible exceptions related with the _Map_ collection behaviour. In Table 1 we provide some
+useful links to documentation best practices and styles. If the source code is well documented 
+different tools has been integrated to GitHub to generate the final documentation for the project such as Sphinix (http://www.sphinx-doc.org/) and "Read the Docs" (https://readthedocs.org/). 
+However, we strongly think the documentation of the source code should be maintained as the source code itself. When a piece of code is changed the corresponding documentation and comments 
+should be reviewed by the team.  
 
+Table 1: Some useful documentation about source code comment and documentation:
+ 
+ 
+| Name of the material                                                                    |  URL                                                                |
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| 13 Tips to Comment Your Code                                                            | http://www.devtopics.com/13-tips-to-comment-your-code/              |
+| How to Write Doc Comments for the Javadoc Tool                                          | http://www.oracle.com/technetwork/articles/java/index-137868.html   |
+| Do Code and Comments Co-Evolve? On the Relation between Source Code and Comment Changes | http://dl.acm.org/citation.cfm?id=1339530                           |
+| CodeAsDocumentation                                                                     | http://martinfowler.com/bliki/CodeAsDocumentation.html              |
+| 
+
+ 
+
+ 
+
+     
+    
+ 
+ 
+ 
 
 
  
