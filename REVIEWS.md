@@ -206,7 +206,10 @@ and the idea of continues integration.
    modification' are almost counter-productive -- availability of this
    level of documentation is not really what users crave.
    
-> R/ We leave the Rule 5 about unit tests and redefine the 
+> R/ We kept the current version of **Rule 5** about continues integration. The idea of the manuscript is to show 
+ the Git/GitHub infrastructure to bioinformatics community and general good practices. In general we don't aim to explain
+ in details best software engineering practices. However, **Rule 6** was extended to explain concepts like unit tests, 
+ and best practices of documentation
 
 9. Rule 9 does not mention the obvious, effective, and esssential
    method for promoting one's project -- publishing in the
