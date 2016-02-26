@@ -52,11 +52,16 @@ to swallow.)
 
 Github large file support is not free, generally speaking.
 
+> R/ We added a new sentence to the introduction highlighting this concern.
+
 In the conclusions, the (substantial) learning curve of git is
 mentioned. Perhaps some pointers to open lessons should be made
 available, along with workshops? For example, both Data Carpentry and
 Software Carpentry teach git and github on a global basis.
 (Disclaimer: I am heavily involved with both.)
+
+> R/ We agree with the reviewer and in the present version we added some useful links to 
+documentation, coursers and tutorials. 
 
 ## Minor comments:
 
@@ -67,7 +72,13 @@ Gitter is not owned by github, AFAIK. They just integrate. (Line 203).
 Why prioritize it over others? For example, Slack is another service
 that provides similar functionality. (We use gitter, but still.)
 
+> R/ We agree with the reviewer. In the present version we refined the paragraph making clear 
+that Gitter is not only chat system integrated with Github. We also included Gitter as an example of 
+chat system but leaving the space open for other systems.   
+
 Rule 10 title should be "Periodically check..."
+
+> R/ We agree with the reviewer and the current version was changed.
 
 missing reference:
 http://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7
@@ -136,6 +147,9 @@ other version control systems. In the current version we removed the term from *
    commentary, and appropriate resolution. Similarly oriented links
    would help to convey the value / ease of continuous integration,
    and of test coverage.
+   
+>R/ We agree with the reviewer. In the present version of the manuscript we included examples
+ in most of the sections of the manuscript.
 
 5. The target audience is the relatively 'novice' developer; more
    established researchers will have their own procedures in place,
@@ -145,6 +159,10 @@ other version control systems. In the current version we removed the term from *
    and even 'teams' in rule 1; really one wants to get the individual
    or at most the individual + lab group oriented; 'organizations'
    (including the GitHub concept) are not immediately relevant.
+   
+> R/ We undestand the reviewer point. However, we think we should explain most of the features and best practices 
+ of using github. We added different examples about how to use the different components of github and to explain in a 
+ better way every github/git concept.
 
 6. Rule 3 should be refined to emphasize that branches are really
    short-term departures from master; it is too easy for academic
@@ -164,6 +182,9 @@ other version control systems. In the current version we removed the term from *
    as advertised. The second is the practice of committing (to master)
    running code. Maybe it would be better to break these out, and go
    for the novelty of 11, rather than the familiar 10, rules.
+   
+> We refined the **Rule 5** and it only provides information about unit test 
+and the idea of continues integration.
 
 8. In Rule 5 and in the context of unit tests (and also in the
    'automatic' generation of documentation), I think that many
@@ -181,6 +202,8 @@ other version control systems. In the current version we removed the term from *
    think attempts to 'automatically update the documentation on code
    modification' are almost counter-productive -- availability of this
    level of documentation is not really what users crave.
+   
+> R/ We leave the Rule 5 about unit tests and redefine the 
 
 9. Rule 9 does not mention the obvious, effective, and esssential
    method for promoting one's project -- publishing in the

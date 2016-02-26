@@ -126,8 +126,8 @@ repository can be organised using several common approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
-are kept in a master branch. In practice, developers work on one or
-several features or improvements. To keep commits of the different
+are kept in a master branch (see for example https://github.com/OpenMS/OpenMS/branches). 
+In practice, developers work on one or several features or improvements. To keep commits of the different
 features logically separated, distinct branches are typically
 used. Later, when development is complete and none of the tests fail
 (see Rule 6) new features can be merged back into the development line
@@ -179,7 +179,9 @@ those self-automated tests is to detect possible bugs introduced by
 new features, or changes in the code or dependencies, but also to
 detect wrong results, the so called _logic errors_, where the source
 code produces a different result compared to what one intended it to
-do. Then, continuous integration provides the way of automatically run
+do. For example, the pride-mod library \cite{Perez-Riverol01092015}
+(https://github.com/PRIDE-Utilities/pride-mod) contains test functions for every 
+single functionality in the library. Then, continuous integration provides the way of automatically run
 all of these tests in the repository by checking data and software
 dependencies. Continuous integration can be done automatically on
 GitHub (See Rule 6).
@@ -238,7 +240,11 @@ needs more information, they can simply request it in a comment. GitHub
 issues are then more dynamic and pose a lower barrier for users to
 report bugs and request features. A well-organised and tagged issue
 tracker will help upcoming contributors and users to understand a
-project more deeply.
+project more deeply. As an example, the following issue in OpenMS 
+repository (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction of 
+eight developers and more than hundred comments. The contributors can add
+figures, comments and references to other _issues_ in the repository as well as 
+reference to the code. 
 
 
 ## Rule 8. Make your code easily citable, and cite source code!
@@ -298,9 +304,10 @@ comes with a powerful static site generator called Jekyll
 (https://jekyllrb.com) that can be integrated with other platforms
 such as Bootstrap (http://getbootstrap.com/) or Disqus
 (https://disqus.com/), to support and moderate comments.
-In addition, GitHub also provides mechanisms for real-time
-communication called Gitter (http://gitter.im). Gitter is a
-GitHub-based chat tool (in limited beta at the time of writing) which
+In addition, several real-time communication platforms has been integrated with GitHub such as 
+Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communications system allows
+the user community, developers and project collaborators to exchange ideas, issues,
+report bugs or get support. For example, Gitter is a GitHub-based chat tool (in limited beta at the time of writing) which
 enables developers and users to share aspects of their work. Gitter
 inherits the shape of the social groups operating around GitHub
 repositories, organisations, and issues. It relies on the identity
@@ -316,7 +323,7 @@ features of Gist is the possibility to embed code snippets in other
 applications, enabling users to embed gists in any text field that
 supports JavaScript.
 
-## Rule 10. Check periodically existing open source projects
+## Rule 10. Periodically check existing open source projects
 
 One of the main tasks of scientists is to actively follow the developments in
 their field. Analogously, scientific programmers need to revise
@@ -333,7 +340,9 @@ as possible!
 If you are interested and have not used GitHub so far, we recommend
 you to get started as soon as possible. As in any other topic, a
 learning curve is required for beginners. However, we anticipate the
-reward will be worth your effort.
+reward will be worth your effort. Also, we would like to recommend 
+some useful training materials including workshops, online courses
+and manuscripts (Table 1).    
 
 ## Disclaimer
 
@@ -342,3 +351,20 @@ mentioned in this article. The views described here reflect our own
 without any input from any third party organisation.
 
 ## References
+
+
+
+
+
+
+Table 1: Online courses, tutorials and workshops about GitHub and Git for scientist.
+
+
+| Name of the material                             | Type                 | URL                                                                          |
+|--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
+| Version Control with GitVersion Control with Git | Tutorial             | http://swcarpentry.github.io/git-novice/                                     |
+| Introduction to Git                              | Tutorial             | http://git-scm.com/book/ch1-3.html                                           |
+| Github Training                                  | Courses and Training | https://training.github.com/                                                 |
+| Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
+| Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
+ 
