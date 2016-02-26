@@ -124,6 +124,49 @@ The provided example installed all the dependencies of the library (BiocInstalle
 the Travis-CI integration can be found here https://travis-ci.org/ . 
 
 
+## Section 3: Source code documentation
+
+
+Documenting the code is a complex topic in software development. Some developers argue that it s bad practice and make the code more complicate and less readable, other developers 
+encourage the use of documentation of the code using good practices. As other fields, both sides has their strong points and their weakness. From our point of view source code documentation make sense 
+when it provides useful information around the classes, algorithms, and functions. Documentation should introduce details about the method, the rationale behind the algorithm and the possible flows
+of the algorithm. They should be self-explanatory and not include more noise than insides about the code. For example, the following examples are bad practice of source code documentation:
+
+```java
+
+for( int i = 0 ; i < list.size(); i++)  // "loop across all the elements of the list. 
+
+```
+
+The previous example represents the same information for the source code and the comment. Let says that the text contains two different languages (programming language and english) 
+to explain the same content. In contrast the following snipt is an example of good practices:
+
+```java
+
+/**
+     * Returns <tt>true</tt> if this map maps one or more keys to the
+     * specified value.  More formally, returns <tt>true</tt> if and only if
+     * this map contains at least one mapping to a value <tt>v</tt> such that
+     * <tt>(value==null ? v==null : value.equals(v))</tt>.  This operation
+     * will probably require time linear in the map size for most
+     * implementations of the <tt>Map</tt> interface.
+     *
+     * @param value value whose presence in this map is to be tested
+     * @return <tt>true</tt> if this map maps one or more keys to the
+     *         specified value
+     * @throws ClassCastException if the value is of an inappropriate type for
+     *         this map
+     * (<a href="Collection.html#optional-restrictions">optional</a>)
+     * @throws NullPointerException if the specified value is null and this
+     *         map does not permit null values
+     * (<a href="Collection.html#optional-restrictions">optional</a>)
+     */
+    boolean containsValue(Object value);
+
+```
+  
+The example from Java API provides information about the method, what it should return and possible exceptions related with the _Map_ collection behaviour. 
+
 
 
  
