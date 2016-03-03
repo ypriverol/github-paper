@@ -64,7 +64,7 @@ Software Carpentry teach git and github on a global basis.
 (Disclaimer: I am heavily involved with both.)
 
 > R/ We agree with the reviewer and in the present version we added some useful links to 
-documentation, coursers and tutorials. 
+documentation, courses and tutorials. 
 
 ## Minor comments:
 
@@ -76,8 +76,8 @@ Why prioritize it over others? For example, Slack is another service
 that provides similar functionality. (We use gitter, but still.)
 
 > R/ We agree with the reviewer. In the present version we refined the paragraph making clear 
-that Gitter is not only chat system integrated with Github. We also included Gitter as an example of 
-chat system but leaving the space open for other systems.   
+that Gitter is the only chat system integrated with Github. Gitter 
+serves (amongst several alternatives) as a popular example for a github integrated chat system.
 
 Rule 10 title should be "Periodically check..."
 
@@ -187,7 +187,7 @@ other version control systems. In the current version we removed the term from *
    for the novelty of 11, rather than the familiar 10, rules.
    
 > We refined the **Rule 5** and it only provides information about unit test 
-and the idea of continues integration.
+and the idea of continuous integration.
 
 8. In Rule 5 and in the context of unit tests (and also in the
    'automatic' generation of documentation), I think that many
@@ -206,11 +206,12 @@ and the idea of continues integration.
    modification' are almost counter-productive -- availability of this
    level of documentation is not really what users crave.
    
-> R/ We kept the current version of **Rule 5** about continues integration. The idea of the manuscript is to show 
- the Git/GitHub infrastructure to bioinformatics community and general good practices. In general we don't aim to explain
- in details best software engineering practices. However, **Rule 6** was extended commented in the supplmentary note explaining concepts like unit tests, 
- and best practices of documentation. It should be notice by the reviewer that the current manuscript is about the use of Git/GitHub
- to improve the productivity in your research lab and team and not about general best practices of codding, documentation, etc.
+> R/ We kept the current version of **Rule 5** about continuous integration. The idea of the manuscript is to show 
+ the Git/GitHub infrastructure to the bioinformatics community and general good practices. In general we don't aim to explain
+ in details best software engineering practices. It should be noticed by the reviewer that the current manuscript is about the
+ use of Git/GitHub to improve the productivity in your research lab and team and not about general best practices of coding,
+ documentation, etc. In addition, we added a **Supplementary Note** to extend the documentation and ideas about unit tests and 
+ continuous integration.
  
 
 9. Rule 9 does not mention the obvious, effective, and esssential
