@@ -46,7 +46,7 @@ offers paid plans for private repositories. GitHub relies, at its
 core, on the well-known and open source version control system git,
 designed and developed by Linus Torvalds for the development of the
 Linux kernel. One reason for GitHub's success is that it offers more
-than a simple source code hosting service. It provides developers with
+than a simple source code hosting service \cite{blischak2016quick, ram2013git}. It provides developers with
 a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
 \cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
@@ -73,7 +73,7 @@ storage spaces for your software projects, which can be included inside an organ
 usually keep code, text files, images and small data files inside a repo. And while many users store programs and code projects,
 there is nothing preventing users from keeping text documents such as analysis reports and manuscripts (see for example the repository for this
 manuscript at https://github.com/ypriverol/github-paper), or other file types in your projects. Note that until recently, GitHub was lacking
-support for storing large files (>100 MB), a issue that has been recently addressed by the GitHub large file storage. 
+support for storing large files (>100 MB), a issue that has been recently addressed by the GitHub large file storage (Supplementary Note, section 1). 
 Everyone with a GitHub account can fork any public repository and start developing in one's own
 fork. A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes
 without affecting the original project (https://help.github.com/articles/fork-a-repo/). This forking is
@@ -126,8 +126,8 @@ repository can be organised using several common approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
-are kept in a master branch. In practice, developers work on one or
-several features or improvements. To keep commits of the different
+are kept in a master branch (see for example https://github.com/OpenMS/OpenMS/branches). 
+In practice, developers work on one or several features or improvements. To keep commits of the different
 features logically separated, distinct branches are typically
 used. Later, when development is complete and none of the tests fail
 (see Rule 6) new features can be merged back into the development line
@@ -179,7 +179,9 @@ those self-automated tests is to detect possible bugs introduced by
 new features, or changes in the code or dependencies, but also to
 detect wrong results, the so called _logic errors_, where the source
 code produces a different result compared to what one intended it to
-do. Then, continuous integration provides the way of automatically run
+do. For example, the pride-mod library \cite{Perez-Riverol01092015}
+(https://github.com/PRIDE-Utilities/pride-mod) contains test functions for every 
+single functionality in the library. Then, continuous integration provides the way of automatically run
 all of these tests in the repository by checking data and software
 dependencies. Continuous integration can be done automatically on
 GitHub (See Rule 6).
@@ -195,26 +197,24 @@ demonstrate to the community that a project follows rigorous
 software engineering processes, often associated with high quality
 development. It also shows that is currently working and has documentation that reflects
 the current code. We suggest that all these three tasks become part of your
-project. Firstly, continuous integration can be achieved by _Travis_
+project. 
+Firstly, continuous integration can be achieved by _Travis_
 (https://travis-ci.org), a hosted continued integration platform that
 is free for all open source projects. Travis builds and tests the
 source code using a plethora of options such as different platforms
-and interpreter versions. Furthermore it offers notifications which
+and interpreter versions (Supplementary Note, Section 2). Furthermore it offers notifications which
 allow your team and contributors to know if the new changes work, and
 prevent the introduction of errors in the code, making the repo always
 ready to use. 
 Secondly, in addition to successful completion of the tests, one can
 also demonstrate that they cover the existing code base sufficiently. For this task, the
-integration of _Codecov_ is recommended (https://codecov.io). Thirdly,
-one might consider to automatically update the documentation upon code
-modification. This implies that your projects provide comprehensive
+integration of _Codecov_ is recommended (https://codecov.io). 
+Thirdly, one might consider to generate the documentation upon code/documentation
+modification (Supplementary Note, Section 3). This implies that your projects provide comprehensive
 documentation so others can understand, and contribute back to them. For Python or C/C++ code, automatic documentation generation
-can be done using sphinx (http://sphinx-doc.org/) and subsequently
-integrated into GitHub using "Read the Docs"
-(https://readthedocs.org/). All of these platforms will create reports
-and badges (also called shields) for the projects that can be included
-on your GitHub page, thereby making your projects easily identifiable
-as high quality and well-maintained.
+can be done using sphinx (http://sphinx-doc.org/) and subsequently integrated into GitHub using "Read the Docs"
+(https://readthedocs.org/). All of these platforms will create reports and badges (also called shields) for the projects that can be included
+on your GitHub page, thereby making your projects easily identifiable as high quality and well-maintained.
 
 ## Rule 7. Use and maintain your issue trackers
 
@@ -238,7 +238,11 @@ needs more information, they can simply request it in a comment. GitHub
 issues are then more dynamic and pose a lower barrier for users to
 report bugs and request features. A well-organised and tagged issue
 tracker will help upcoming contributors and users to understand a
-project more deeply.
+project more deeply. As an example, the following issue in OpenMS 
+repository (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction of 
+eight developers and more than hundred comments. The contributors can add
+figures, comments and references to other _issues_ in the repository as well as 
+reference to the code. 
 
 
 ## Rule 8. Make your code easily citable, and cite source code!
@@ -298,9 +302,10 @@ comes with a powerful static site generator called Jekyll
 (https://jekyllrb.com) that can be integrated with other platforms
 such as Bootstrap (http://getbootstrap.com/) or Disqus
 (https://disqus.com/), to support and moderate comments.
-In addition, GitHub also provides mechanisms for real-time
-communication called Gitter (http://gitter.im). Gitter is a
-GitHub-based chat tool (in limited beta at the time of writing) which
+In addition, several real-time communication platforms has been integrated with GitHub such as 
+Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communications system allows
+the user community, developers and project collaborators to exchange ideas, issues,
+report bugs or get support. For example, Gitter is a GitHub-based chat tool (in limited beta at the time of writing) which
 enables developers and users to share aspects of their work. Gitter
 inherits the shape of the social groups operating around GitHub
 repositories, organisations, and issues. It relies on the identity
@@ -316,7 +321,7 @@ features of Gist is the possibility to embed code snippets in other
 applications, enabling users to embed gists in any text field that
 supports JavaScript.
 
-## Rule 10. Check periodically existing open source projects
+## Rule 10. Periodically check existing open source projects
 
 One of the main tasks of scientists is to actively follow the developments in
 their field. Analogously, scientific programmers need to revise
@@ -333,7 +338,9 @@ as possible!
 If you are interested and have not used GitHub so far, we recommend
 you to get started as soon as possible. As in any other topic, a
 learning curve is required for beginners. However, we anticipate the
-reward will be worth your effort.
+reward will be worth your effort. Also, we would like to recommend 
+some useful training materials including workshops, online courses
+and manuscripts (Table 1).    
 
 ## Disclaimer
 
@@ -342,3 +349,20 @@ mentioned in this article. The views described here reflect our own
 without any input from any third party organisation.
 
 ## References
+
+
+
+
+
+
+Table 1: Online courses, tutorials and workshops about GitHub and Git for scientist.
+
+
+| Name of the material                             | Type                 | URL                                                                          |
+|--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
+| Version Control with GitVersion Control with Git | Tutorial             | http://swcarpentry.github.io/git-novice/                                     |
+| Introduction to Git                              | Tutorial             | http://git-scm.com/book/ch1-3.html                                           |
+| Github Training                                  | Courses and Training | https://training.github.com/                                                 |
+| Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
+| Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
+ 

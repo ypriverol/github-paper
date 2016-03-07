@@ -41,6 +41,8 @@ I would also urge the authors to post this as a preprint and get some
 discussion of it going in public[*]. There are lots of academics using
 github and you will get quite a bit of helpful advice.
 
+> R/ We made this discussion available under the paper repository for discussions. 
+
 [*] perhaps you could use github to do this? :)
 
 ## Meso comments:
@@ -52,11 +54,17 @@ to swallow.)
 
 Github large file support is not free, generally speaking.
 
+> R/ We added a supplementary Note tp the manuscript to explain what is LSF file system, how to used 
+and we highlighted the concern about the charge if the users exceed certain quotes.
+
 In the conclusions, the (substantial) learning curve of git is
 mentioned. Perhaps some pointers to open lessons should be made
 available, along with workshops? For example, both Data Carpentry and
 Software Carpentry teach git and github on a global basis.
 (Disclaimer: I am heavily involved with both.)
+
+> R/ We agree with the reviewer and in the present version we added some useful links to 
+documentation, courses and tutorials. 
 
 ## Minor comments:
 
@@ -67,7 +75,13 @@ Gitter is not owned by github, AFAIK. They just integrate. (Line 203).
 Why prioritize it over others? For example, Slack is another service
 that provides similar functionality. (We use gitter, but still.)
 
+> R/ We agree with the reviewer. In the present version we refined the paragraph making clear 
+that Gitter is the only chat system integrated with Github. Gitter 
+serves (amongst several alternatives) as a popular example for a github integrated chat system.
+
 Rule 10 title should be "Periodically check..."
+
+> R/ We agree with the reviewer and the current version was changed.
 
 missing reference:
 http://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7
@@ -136,6 +150,9 @@ other version control systems. In the current version we removed the term from *
    commentary, and appropriate resolution. Similarly oriented links
    would help to convey the value / ease of continuous integration,
    and of test coverage.
+   
+>R/ We agree with the reviewer. In the present version of the manuscript we included examples
+ in most of the sections of the manuscript.
 
 5. The target audience is the relatively 'novice' developer; more
    established researchers will have their own procedures in place,
@@ -145,6 +162,10 @@ other version control systems. In the current version we removed the term from *
    and even 'teams' in rule 1; really one wants to get the individual
    or at most the individual + lab group oriented; 'organizations'
    (including the GitHub concept) are not immediately relevant.
+   
+> R/ We undestand the reviewer point. However, we think we should explain most of the features and best practices 
+ of using github. We added different examples about how to use the different components of github and to explain in a 
+ better way every github/git concept.
 
 6. Rule 3 should be refined to emphasize that branches are really
    short-term departures from master; it is too easy for academic
@@ -164,6 +185,9 @@ other version control systems. In the current version we removed the term from *
    as advertised. The second is the practice of committing (to master)
    running code. Maybe it would be better to break these out, and go
    for the novelty of 11, rather than the familiar 10, rules.
+   
+> We refined the **Rule 5** and it only provides information about unit test 
+and the idea of continuous integration.
 
 8. In Rule 5 and in the context of unit tests (and also in the
    'automatic' generation of documentation), I think that many
@@ -181,6 +205,14 @@ other version control systems. In the current version we removed the term from *
    think attempts to 'automatically update the documentation on code
    modification' are almost counter-productive -- availability of this
    level of documentation is not really what users crave.
+   
+> R/ We kept the current version of **Rule 5** about continuous integration. The idea of the manuscript is to show 
+ the Git/GitHub infrastructure to the bioinformatics community and general good practices. In general we don't aim to explain
+ in details best software engineering practices. It should be noticed by the reviewer that the current manuscript is about the
+ use of Git/GitHub to improve the productivity in your research lab and team and not about general best practices of coding,
+ documentation, etc. In addition, we added a **Supplementary Note** to extend the documentation and ideas about unit tests and 
+ continuous integration.
+ 
 
 9. Rule 9 does not mention the obvious, effective, and esssential
    method for promoting one's project -- publishing in the
