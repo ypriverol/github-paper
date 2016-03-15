@@ -1,9 +1,9 @@
-# Ten Simple Rules for taking advantage of GitHub in bioinformatics
+# Ten Simple Rules for taking advantage of GitHub
 
 ## Description 
 
 This repository contains the manuscript entitle: **Ten Simple Rules
-for taking advantage of GitHub in bioinformatics**. Our main aim here
+for taking advantage of GitHub (in bioinformatics)**. Our main aim here
 is to highlight specific GitHub features that enable the
 bioinformatics community to use GitHub features and tools on a daily
 basics. We will then provide a set of recommendations for taking full
@@ -16,9 +16,9 @@ to migrate to GitHub.
 
 # How to contribute 
 
-**We currently do not accept additional contributions as the
-  manuscript is submitted. If you have any comments or suggestions,
-  please open an issue to discuss them.**
+<!-- **We currently do not accept additional contributions as the -->
+<!--   manuscript is submitted. If you have any comments or suggestions, -->
+<!--   please open an issue to discuss them.** -->
 
 If you have an idea for a new Rule to add or change to the main
 manuscript or Figure, etc, it is best to communicate with the authors

@@ -51,8 +51,8 @@ a dynamic and collaborative environment, often coined as social coding
 platform, with the ability to review, comment and discuss code
 \cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
 lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects such as (https://github.com/samtools) and 
-OpenMS (https://github.com/OpenMS) \cite{sturm2008openms}; or global collaborations such as ROpenSci (https://github.com/ropensci) 
-and The Global Allience For Genomics and Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
+OpenMS (https://github.com/OpenMS) \cite{sturm2008openms}; or global collaborations such as rOpenSci (https://github.com/ropensci) 
+and The Global Alliance For Genomics and Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
@@ -60,8 +60,8 @@ GitHub features. We provide a set of recommendations to take full
 advantage of GitHub's features to manage small and large
 bioinformatics projects and increase their profile and
 visibility. These rules have been ordered to reflect a typical development process: 
-learning git and GitHub basics, use of branches, labeling and tagging of code snapshots,
-tracking project bugs and enhancements using issues, and disemination of the final results.
+learning git and GitHub basics, use of branches, labelling and tagging of code snapshots,
+tracking project bugs and enhancements using issues, and dissemination of the final results.
 
 ## Rule 1. Structure your projects: repositories, users, organisations and teams
 
@@ -258,7 +258,7 @@ produce DOIs for other types of scientific outputs such as datasets
 \cite{Ahmadia_2015_27353}). The main motivation behind this is to give
 scientists a better credit for their work \cite{NatBiotechEditorial:2009},
 enabling at the same time a better way to cite and track it. In addition, funding agencies such as NIH now accept 
-other research products as citable research such as accessible datasets and softwares.
+other research products as citable research such as accessible datasets and software.
 A common issue with software is that it normally evolves at a different speed
 than what is published in the scientific literature. In fact, it is
 common to find software having novel features and functionalities that
@@ -340,18 +340,13 @@ you to get started as soon as possible. As in any other topic, a
 learning curve is required for beginners. However, we anticipate the
 reward will be worth your effort. Also, we would like to recommend 
 some useful training materials including workshops, online courses
-and manuscripts (Table 1).    
+and manuscripts (Table 1). 
 
 ## Disclaimer
 
 The authors have no affiliation with GitHub, nor any commercial entity
 mentioned in this article. The views described here reflect our own
 without any input from any third party organisation.
-
-## References
-
-
-
 
 
 
@@ -366,3 +361,4 @@ Table 1: Online courses, tutorials and workshops about GitHub and Git for scient
 | Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
 | Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
  
+## References
