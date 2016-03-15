@@ -136,7 +136,7 @@ are kept in a master branch (see for example https://github.com/OpenMS/OpenMS/br
 In practice, developers work on one or several features or improvements. To keep commits of the different
 features logically separated, distinct branches are typically
 used. Later, when development is complete and none of the tests fail
-(see Rule 6) new features can be merged back into the development line
+(see Rule 5) new features can be merged back into the development line
 or master branch. During such a development, the original branch might
 continuously be developed and other features might be merged into the
 master branch. Nevertheless, one can always pull the currently up-to
@@ -177,62 +177,56 @@ compatibility of new releases. Correct labelling allows developers and
 users to easily recover older versions, compare them, or simply use
 them to reproduce results described in publications (see Rule 8). This
 approach will also help defining a coherent software publication
-strategy (see Rule 6).
+strategy.
 
-## Rule 5. The code must always be ready to use: continuously integrate
+## Rule 5: Let GitHub do some tasks for you: integrate and automate 
 
 The first rule of software development is that the code needs to be
-ready to use as soon as possible \cite{Leprevost:2014}, remain so during
-development, and should be well-documented and tested. In 2005, Martin
-Fowler defined the basic principles for continuous integration in
-software development \cite{FowlerCI}. These principles have become the
-main reference for best practices in continuous integration, providing
-the framework needed to deploy software, and in some way also
-data. Every repository, script, mathematical model, and function
-should contain a set of self-automated tests. A source code may run,
-but that does not mean it is doing the right thing. The simple use of
-those self-automated tests is to detect possible bugs introduced by
-new features, or changes in the code or dependencies, but also to
-detect wrong results, the so called _logic errors_, where the source
-code produces a different result compared to what one intended it to
-do. For example, the pride-mod library \cite{Perez-Riverol01092015}
-(https://github.com/PRIDE-Utilities/pride-mod) contains test functions for every 
-single functionality in the library. Then, continuous integration provides the way of automatically run
-all of these tests in the repository by checking data and software
-dependencies. Continuous integration can be done automatically on
-GitHub (See Rule 6).
+ready to use as soon as possible \cite{Leprevost:2014}, remain so
+during development, and that it should be well-documented and
+tested. In 2005, Martin Fowler defined the basic principles for
+continuous integration in software development \cite{FowlerCI}. These
+principles have become the main reference for best practices in
+continuous integration, providing the framework needed to deploy
+software, and in some way also data. In addition to mere error-free
+execution, dedicated code testing is aimed at detecting possible bugs
+introduced by new features, or changes in the code or dependencies, as
+well as detecting wrong results, the so called _logic errors_, where
+the source code produces a different result compared to what one
+intended it to do. Continuous integration provides the way of
+automatically and systematically run all of tests in the repository by
+checking data and software dependencies and cab can be automated
+through GitHub.
 
-## Rule 6: Automate for better code quality
-
-GitHub offers different types of hooks (automatically executed
-scripts) that are run after each push to a repository, making it
-easier to follow the basic principles of continuous integration. The
-GitHub web hooks allows third-party platforms to access and interact
-with a GitHub repository and thus to automate post-processing
-tasks. Such tasks demonstrate to the community that a project follows
-rigorous software engineering processes, often associated with high
-quality development. 
-Firstly, continuous integration can be achieved by _Travis_
+GitHub offers a set of hooks (automatically executed scripts) that are
+run after each push to a repository, making it easier to follow the
+basic principles of continuous integration. The GitHub web hooks
+allows third-party platforms to access and interact with a GitHub
+repository and thus to automate post-processing tasks. Firstly,
+continuous integration can be achieved by _Travis_
 (https://travis-ci.org), a hosted continued integration platform that
 is free for all open source projects. Travis builds and tests the
 source code using a plethora of options such as different platforms
 and interpreter versions (Supplementary Note, Section 2). Furthermore
 it offers notifications which allow your team and contributors to know
 if the new changes work, and prevent the introduction of errors in the
-code, making the repo always ready to use.  Secondly, in addition to
-successful completion of the tests, one can also demonstrate that they
-cover the existing code base sufficiently. For this task, the
-integration of _Codecov_ is recommended (https://codecov.io).
-Thirdly, one might consider to generate the documentation upon
-code/documentation modification (Supplementary Note, Section 3). This
-implies that your projects provide comprehensive documentation so
-others can understand, and contribute back to them. For Python or
-C/C++ code, automatic documentation generation can be done using
-sphinx (http://sphinx-doc.org/) and subsequently integrated into
-GitHub using "Read the Docs" (https://readthedocs.org/). All of these
-platforms will create reports and badges (also called shields) for the
-projects that can be included on your GitHub page, thereby making your
-projects easily identifiable as high quality and well-maintained.
+code (for instance when merging pull requests), making the repo always
+ready to use. Secondly, in addition to successful completion of the
+tests, one can also demonstrate that they cover the existing code base
+sufficiently. For this task, the integration of _Codecov_ is
+recommended (https://codecov.io) - this service will report how much
+of the code base and which lines of code are being executed (and
+explicitly tested) as part of your code tests. Thirdly, one might
+consider to generate the documentation upon code/documentation
+modification (Supplementary Note, Section 3). This implies that your
+projects provide comprehensive documentation so others can understand,
+and contribute back to them. For Python or C/C++ code, automatic
+documentation generation can be done using sphinx
+(http://sphinx-doc.org/) and subsequently integrated into GitHub using
+"Read the Docs" (https://readthedocs.org/). All of these platforms
+will create reports and badges (also called shields) for the projects
+that can be included on your GitHub page, thereby making your projects
+easily identifiable as high quality and well-maintained.
 
 ## Rule 7. Use and maintain your issue trackers
 
