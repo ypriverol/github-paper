@@ -246,8 +246,8 @@ put in promoting collaboration, providing context by using
 cross-references, and an excellent text formatting for each issue: (i)
 a title and description, (ii) colour-coded labels help to
 categorise and filter issues, (iii) milestones act as a container
-for issues,(iv) one assignee responsible for working on the issue, and (v)
-comments that allow anyone with access to the repository to provide
+for issues, (iv) one assignee responsible for working on the issue, and (v)
+comments that allow anyone with a github account to provide
 feedback. Another aspect is its simplicity. For instance, it does not
 require to fill lengthy forms including every piece of information
 that might be valuable to reproduce the bug. It only requires
@@ -261,6 +261,12 @@ repository (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interactio
 eight developers and more than hundred comments. The contributors can add
 figures, comments and references to other _issues_ in the repository as well as 
 reference to the code. 
+
+As another illustration of _issues_ and their generic and wide
+application, we (https://github.com/ypriverol/github-paper/issues) and
+others (https://github.com/ropensci/RNeXML/issues/121) used GitHub
+issues to discuss and comment changes in manuscript and address
+reviewers' comments.
 
 
 ## Rule 8. Make your code easily citable, and cite source code!
@@ -276,7 +282,7 @@ produce DOIs for other types of scientific outputs such as datasets
 \cite{Ahmadia_2015_27353}). The main motivation behind this is to give
 scientists a better credit for their work \cite{NatBiotechEditorial:2009},
 enabling at the same time a better way to cite and track it. In addition, funding agencies such as NIH now accept 
-other research products as citable research such as accessible datasets and software.
+other research products as citable research such as publicly available datasets and software.
 A common issue with software is that it normally evolves at a different speed
 than what is published in the scientific literature. In fact, it is
 common to find software having novel features and functionalities that
@@ -287,9 +293,10 @@ https://guides.github.com/activities/citable-code/) and, by default,
 Zenodo takes an archive of a repository each time a new release is
 created in GitHub. However, before Zenodo can issue a DOI, metadata
 needs to be provided about the archived repository. Once the DOI has
-been assigned, apart from using it in your CV, you can add it to
+been assigned, you can add it to
 literature information resources such as Europe PubMed Central
 \cite{EuropePMCConsortium:2015}.
+
 As already mentioned in the introduction, reproducibility of
 scientific claims should be enabled by providing openly the software,
 the datasets and the process leading to interpretable results that are
