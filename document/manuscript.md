@@ -1,4 +1,4 @@
-#Ten Simple Rules for taking advantage of GitHub
+# Ten Simple Rules for taking advantage of GitHub
 
 Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
 
@@ -25,14 +25,14 @@ Short title: Ten Simple Rules for taking advantage of GitHub
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
 biological data in different contexts. To enable and ensure the
-replicability and traceability of scientific claims, it is essential that the
-scientific publication, the corresponding datasets and the data
-analysis are made publicly available
+replicability and traceability of scientific claims, it is essential
+that the scientific publication, the corresponding datasets and the
+data analysis are made publicly available
 \cite{Goodman:2014,Perez-Riverol:2015}. All software used for the
 analysis should be either carefully documented (e.g. for commercial
 software) or, better, openly shared and directly accessible to others
-\cite{Osborne:2014,Vihinen:2015}.  The rise of openly available software
-and source code, and concomitant collaborative development is
+\cite{Osborne:2014,Vihinen:2015}.  The rise of openly available
+software and source code, and concomitant collaborative development is
 facilitated by the existence of several code repository services such
 as SourceForge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/) and GitHub (https://github.com/), among
@@ -41,18 +41,24 @@ projects, since they enable the organisation and sharing of
 programming tasks between different remote contributors. Here, we
 introduce the main features of GitHub, a popular web-based platform
 which offers a free and integrated environment for hosting the source
-code, documentation and project-related web content for open source projects. GitHub also
-offers paid plans for private repositories. GitHub relies, at its
-core, on the well-known and open source version control system git,
-designed and developed by Linus Torvalds for the development of the
-Linux kernel. One reason for GitHub's success is that it offers more
-than a simple source code hosting service \cite{blischak2016quick, ram2013git}. It provides developers with
-a dynamic and collaborative environment, often coined as social coding
-platform, with the ability to review, comment and discuss code
-\cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
-lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects such as (https://github.com/samtools) and 
-OpenMS (https://github.com/OpenMS) \cite{sturm2008openms}; or global collaborations such as rOpenSci (https://github.com/ropensci) 
-and The Global Alliance For Genomics and Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
+code, documentation and project-related web content for open source
+projects. GitHub also offers paid plans for private
+repositories. GitHub relies, at its core, on the well-known and open
+source version control system git, designed and developed by Linus
+Torvalds for the development of the Linux kernel. One reason for
+GitHub's success is that it offers more than a simple source code
+hosting service \cite{blischak2016quick, ram2013git}. It provides
+developers with a dynamic and collaborative environment, often coined
+as social coding platform, with the ability to review, comment and
+discuss code \cite{Dabbish:2012}. Individual bioinformatics projects
+(https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, lab
+repositories (https://github.com/PRIDE-Toolsuite/)
+\cite{Perez-Riverol01012016}, intermediate projects such as
+(https://github.com/samtools) and OpenMS (https://github.com/OpenMS)
+\cite{sturm2008openms}, or global collaborations such as rOpenSci
+(https://github.com/ropensci) and The Global Alliance For Genomics and
+Health (https://github.com/ga4gh) have found the perfect place in
+GitHub to share code, ideas and collaborate.
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
@@ -119,10 +125,10 @@ incremental changes. At any time it is possible to go back to a
 previous version. In larger projects, multiple users contribute to the
 same repository.
 
-## Rule 3. Use branches
+## Rule 3. Developing and collaborating on new features: branching and forking
 
 Concurrent development including commits to the same
-repository can be organised using several common approaches. The most
+repository can be organised using different approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
@@ -135,21 +141,27 @@ or master branch. During such a development, the original branch might
 continuously be developed and other features might be merged into the
 master branch. Nevertheless, one can always pull the currently up-to
 date master branch into one branch, always enabling to react or adapt
-to the changes in the code. In projects involving more than one
-contributor, everyone wants to be sure that the contributions of
-others increase the quality and move the project forward. _Forking_ a
-repository and providing _pull requests_ constitute an easy way for
-collaboration inside and over organisations boundaries. A user that
-forks a repository creates a copy under their GitHub account. Modifications like a
-branch with new features or bug fixes can conveniently be provided to
-the forked (upstream) repository by opening a pull request. Once it is
+to the changes in the code. 
+
+_Forking_ a repository and providing _pull requests_ constitute an
+easy way for collaboration inside and over organisations boundaries. A
+user that forks a repository creates a copy under their GitHub account
+(see for example
+https://github.com/lgatto/github-paper). Modifications like a branch
+with new features or bug fixes can conveniently be provided to the
+forked (upstream) repository by opening a pull request. Once it is
 opened for review and discussion, it usually results in additional
 insights and in an increased code quality. Once a pull request gets
-accepted, typically it gets merged into the development branch. 
-One of the easiest ways to make a mess for yourself with Git is to allow your _branch_ to get
-out of sync. Branches are just short-term departures from master. If you
-pull frequently, you will keep your copy of the repo up to date, and you will
-have the opportunity to merge your changed code with others' contributors. 
+accepted, typically it gets merged into the development branch.
+
+
+When developing different features in parallel, there is a risk to
+apply incompatible changes in different branches/forks; these are said
+to become out of sync. Branches are just short-term departures from
+master. If you pull frequently, you will keep your copy of the repo up
+to date, and you will have the opportunity to merge your changed code
+with others' contributors without requiring to manually address
+conflicts to bring the branches in sync again.
 
 ## Rule 4. Use tags and semantic version numbering
 
