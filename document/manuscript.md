@@ -246,8 +246,8 @@ put in promoting collaboration, providing context by using
 cross-references, and an excellent text formatting for each issue: (i)
 a title and description, (ii) colour-coded labels help to
 categorise and filter issues, (iii) milestones act as a container
-for issues,(iv) one assignee responsible for working on the issue, and (v)
-comments that allow anyone with access to the repository to provide
+for issues, (iv) one assignee responsible for working on the issue, and (v)
+comments that allow anyone with a github account to provide
 feedback. Another aspect is its simplicity. For instance, it does not
 require to fill lengthy forms including every piece of information
 that might be valuable to reproduce the bug. It only requires
@@ -261,6 +261,11 @@ repository (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interactio
 eight developers and more than hundred comments. The contributors can add
 figures, comments and references to other _issues_ in the repository as well as 
 reference to the code. 
+
+As another illustration of _issues_ and their generic and wide
+application, we used GitHub issues to discuss and comment changes in
+this manuscript, as well as address reviewers' comments
+(https://github.com/ypriverol/github-paper/issues).
 
 
 ## Rule 8. Make your code easily citable, and cite source code!
