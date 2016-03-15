@@ -147,12 +147,13 @@ _Forking_ a repository and providing _pull requests_ constitute an
 easy way for collaboration inside and over organisations boundaries. A
 user that forks a repository creates a copy under their GitHub account
 (see for example
-https://github.com/lgatto/github-paper). Modifications like a branch
-with new features or bug fixes can conveniently be provided to the
-forked (upstream) repository by opening a pull request. Once it is
-opened for review and discussion, it usually results in additional
-insights and in an increased code quality. Once a pull request gets
-accepted, typically it gets merged into the development branch.
+https://github.com/ypriverol/github-paper/network/members). Modifications
+like a branch with new features or bug fixes can conveniently be
+provided to the forked (upstream) repository by opening a pull
+request. Once it is opened for review and discussion, it usually
+results in additional insights and in an increased code quality. Once
+a pull request gets accepted, typically it gets merged into the
+development branch.
 
 
 When developing different features in parallel, there is a risk to
