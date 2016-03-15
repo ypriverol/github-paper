@@ -167,12 +167,15 @@ conflicts to bring the branches in sync again.
 ## Rule 4. Name your branches and commits using tags and semantic version numbering
 
 Tags offer the possibility to label versions during the development
-process, tracking its progress. Version numbering should follow semantic versioning in the
-form X.Y.Z, with X being the major, Y the minor and Z the patch
-version of the release, including possible meta information, as
-described in http://semver.org/. Correct labelling allows developers
-and users to easily recover older versions, compare them, or simply
-use them to reproduce results described in publications (see Rule 8). This
+process. Version numbering should follow
+semantic versioning in the form X.Y.Z, with X being the major, Y the
+minor and Z the patch version of the release, including possible meta
+information, as described in http://semver.org/. This semantic
+versioning scheme provides users with coherent version numbers that
+document the extent (bug fixes or new functionality) and backwards
+compatibility of new releases. Correct labelling allows developers and
+users to easily recover older versions, compare them, or simply use
+them to reproduce results described in publications (see Rule 8). This
 approach will also help defining a coherent software publication
 strategy (see Rule 6).
 
