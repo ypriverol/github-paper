@@ -125,10 +125,10 @@ incremental changes. At any time it is possible to go back to a
 previous version. In larger projects, multiple users contribute to the
 same repository.
 
-## Rule 3. Use branches
+## Rule 3. Developing and collaborating on new features: branching and forking
 
 Concurrent development including commits to the same
-repository can be organised using several common approaches. The most
+repository can be organised using different approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
@@ -141,21 +141,27 @@ or master branch. During such a development, the original branch might
 continuously be developed and other features might be merged into the
 master branch. Nevertheless, one can always pull the currently up-to
 date master branch into one branch, always enabling to react or adapt
-to the changes in the code. In projects involving more than one
-contributor, everyone wants to be sure that the contributions of
-others increase the quality and move the project forward. _Forking_ a
-repository and providing _pull requests_ constitute an easy way for
-collaboration inside and over organisations boundaries. A user that
-forks a repository creates a copy under their GitHub account. Modifications like a
-branch with new features or bug fixes can conveniently be provided to
-the forked (upstream) repository by opening a pull request. Once it is
+to the changes in the code. 
+
+_Forking_ a repository and providing _pull requests_ constitute an
+easy way for collaboration inside and over organisations boundaries. A
+user that forks a repository creates a copy under their GitHub account
+(see for example
+https://github.com/lgatto/github-paper). Modifications like a branch
+with new features or bug fixes can conveniently be provided to the
+forked (upstream) repository by opening a pull request. Once it is
 opened for review and discussion, it usually results in additional
 insights and in an increased code quality. Once a pull request gets
-accepted, typically it gets merged into the development branch. 
-One of the easiest ways to make a mess for yourself with Git is to allow your _branch_ to get
-out of sync. Branches are just short-term departures from master. If you
-pull frequently, you will keep your copy of the repo up to date, and you will
-have the opportunity to merge your changed code with others' contributors. 
+accepted, typically it gets merged into the development branch.
+
+
+When developing different features in parallel, there is a risk to
+apply incompatible changes in different branches/forks; these are said
+to become out of sync. Branches are just short-term departures from
+master. If you pull frequently, you will keep your copy of the repo up
+to date, and you will have the opportunity to merge your changed code
+with others' contributors without requiring to manually address
+conflicts to bring the branches in sync again.
 
 ## Rule 4. Use tags and semantic version numbering
 
