@@ -84,7 +84,7 @@ to Version Control with Git and GitHub* by Blischak *et al.*
 \cite{blischak2016quick}. 
 
 In a nutshell, initialising a (local) repository (often abbreviated
-_repos_) marks a directory as one to be tracked. All or part of its
+_repo_) marks a directory as one to be tracked. All or part of its
 content can be added explicily to the list of files to track.
 
 ```
@@ -92,14 +92,14 @@ cd project ## move into directory
 git init   ## initialise local repository
 ## add individual files such as metadata, reports, source code
 git add README project.md code.R 
-git commit -am"initial commit" ## saves the current snapsot 
+git commit -am"initial commit" ## saves the current local snapsot 
 ```
 
 From now on, every change to these tracked files, once committed, will
-be recorded as a new revision or _snapshot_ (version). Git is
-remarkably effective in archiving the complete history of a project
-(all revisions) by, amongst other things, storing only the differences
-among them. 
+be recorded as a new revision or _snapshot_. Git is remarkably
+effective in archiving the complete history of a project (all
+revisions) by, amongst other things, storing only the differences
+among them.
 
 In addition to local copies of the repository, it is easy to create
 remote repositories on GitHub (called `origin`, with default branch
