@@ -164,7 +164,7 @@ to date, and you will have the opportunity to merge your changed code
 with others' contributors without requiring to manually address
 conflicts to bring the branches in sync again.
 
-## Rule 4. Use tags and semantic version numbering
+## Rule 4. Name your branches and commits using tags and semantic version numbering
 
 Tags offer the possibility to label versions during the development
 process, tracking its progress. Version numbering should follow semantic versioning in the
