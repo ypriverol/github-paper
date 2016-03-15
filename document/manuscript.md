@@ -1,4 +1,4 @@
-#Ten Simple Rules for taking advantage of GitHub
+# Ten Simple Rules for taking advantage of GitHub
 
 Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
 
@@ -25,14 +25,14 @@ Short title: Ten Simple Rules for taking advantage of GitHub
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
 biological data in different contexts. To enable and ensure the
-replicability and traceability of scientific claims, it is essential that the
-scientific publication, the corresponding datasets and the data
-analysis are made publicly available
+replicability and traceability of scientific claims, it is essential
+that the scientific publication, the corresponding datasets and the
+data analysis are made publicly available
 \cite{Goodman:2014,Perez-Riverol:2015}. All software used for the
 analysis should be either carefully documented (e.g. for commercial
 software) or, better, openly shared and directly accessible to others
-\cite{Osborne:2014,Vihinen:2015}.  The rise of openly available software
-and source code, and concomitant collaborative development is
+\cite{Osborne:2014,Vihinen:2015}.  The rise of openly available
+software and source code, and concomitant collaborative development is
 facilitated by the existence of several code repository services such
 as SourceForge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/) and GitHub (https://github.com/), among
@@ -41,18 +41,24 @@ projects, since they enable the organisation and sharing of
 programming tasks between different remote contributors. Here, we
 introduce the main features of GitHub, a popular web-based platform
 which offers a free and integrated environment for hosting the source
-code, documentation and project-related web content for open source projects. GitHub also
-offers paid plans for private repositories. GitHub relies, at its
-core, on the well-known and open source version control system git,
-designed and developed by Linus Torvalds for the development of the
-Linux kernel. One reason for GitHub's success is that it offers more
-than a simple source code hosting service \cite{blischak2016quick, ram2013git}. It provides developers with
-a dynamic and collaborative environment, often coined as social coding
-platform, with the ability to review, comment and discuss code
-\cite{Dabbish:2012}. Individual bioinformatics projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, 
-lab repositories (https://github.com/PRIDE-Toolsuite/) \cite{Perez-Riverol01012016}, intermediate projects such as (https://github.com/samtools) and 
-OpenMS (https://github.com/OpenMS) \cite{sturm2008openms}; or global collaborations such as rOpenSci (https://github.com/ropensci) 
-and The Global Alliance For Genomics and Health (https://github.com/ga4gh) has found the perfect place in GitHub to share code, ideas and collaborate.
+code, documentation and project-related web content for open source
+projects. GitHub also offers paid plans for private
+repositories. GitHub relies, at its core, on the well-known and open
+source version control system git, designed and developed by Linus
+Torvalds for the development of the Linux kernel. One reason for
+GitHub's success is that it offers more than a simple source code
+hosting service \cite{blischak2016quick, ram2013git}. It provides
+developers with a dynamic and collaborative environment, often coined
+as social coding platform, with the ability to review, comment and
+discuss code \cite{Dabbish:2012}. Individual bioinformatics projects
+(https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, lab
+repositories (https://github.com/PRIDE-Toolsuite/)
+\cite{Perez-Riverol01012016}, intermediate projects such as
+(https://github.com/samtools) and OpenMS (https://github.com/OpenMS)
+\cite{sturm2008openms}, or global collaborations such as rOpenSci
+(https://github.com/ropensci) and The Global Alliance For Genomics and
+Health (https://github.com/ga4gh) have found the perfect place in
+GitHub to share code, ideas and collaborate.
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
