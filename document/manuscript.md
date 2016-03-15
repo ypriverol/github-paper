@@ -336,15 +336,17 @@ inherits the shape of the social groups operating around GitHub
 repositories, organisations, and issues. It relies on the identity
 within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for
 public and private repositories. From within a Gitter chat, members
-can reference issues, comments, or pull-requests. A different service
-is Gist (https://gist.github.com), which represents a unique way to
-share _code snippets_, single files, parts of files, or full
-applications. Gist can be generated in two different ways: public _gists_, that can be
-browsed and searched, and secret gists that are not provided through
-_Discover_ (https://gist.github.com/discover). One of the main
-features of Gist is the possibility to embed code snippets in other
-applications, enabling users to embed gists in any text field that
-supports JavaScript.
+can reference issues, comments, or pull-requests. 
+
+A different service is Gist (https://gist.github.com), which
+represents a unique way to share _code snippets_, single files, parts
+of files, or full applications. Gist can be generated in two different
+ways: public _gists_, that can be browsed and searched, and secret
+gists that are not provided through _Discover_
+(https://gist.github.com/discover). One of the main features of Gist
+is the possibility to embed code snippets in other applications,
+enabling users to embed gists in any text field that supports
+JavaScript.
 
 ## Rule 10. Periodically check existing open source projects
 
@@ -360,12 +362,25 @@ as possible!
 
 ## Conclusions
 
-If you are interested and have not used GitHub so far, we recommend
-you to get started as soon as possible. As in any other topic, a
-learning curve is required for beginners. However, we anticipate the
-reward will be worth your effort. Also, we would like to recommend 
-some useful training materials including workshops, online courses
-and manuscripts (Table 1). 
+If you are interested and have not used git and GitHub before, we
+recommend you to get started as soon as possible. As with many other
+tools, a certain learning curve lays ahead. However, basic yet very
+useful features can be relatively easily learned and applied to many
+different use-cases. We anticipate the reward will be worth your
+effort. To conclude, we would like to recommend some useful training
+materials including workshops, online courses and manuscripts (Table
+1).
+
+Table 1: Online courses, tutorials and workshops about GitHub and Git for scientist.
+
+| Name of the material                             | Type                 | URL                                                                          |
+|--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
+| Karl Broman's git/github guide                   | Tutorial             | http://kbroman.org/github_tutorial/                                          |
+| Version Control with GitVersion Control with Git | Tutorial             | http://swcarpentry.github.io/git-novice/                                     |
+| Introduction to Git                              | Tutorial             | http://git-scm.com/book/ch1-3.html                                           |
+| Github Training                                  | Courses and Training | https://training.github.com/                                                 |
+| Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
+| Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
 
 ## Disclaimer
 
@@ -373,17 +388,4 @@ The authors have no affiliation with GitHub, nor any commercial entity
 mentioned in this article. The views described here reflect our own
 without any input from any third party organisation.
 
-
-
-Table 1: Online courses, tutorials and workshops about GitHub and Git for scientist.
-
-
-| Name of the material                             | Type                 | URL                                                                          |
-|--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
-| Version Control with GitVersion Control with Git | Tutorial             | http://swcarpentry.github.io/git-novice/                                     |
-| Introduction to Git                              | Tutorial             | http://git-scm.com/book/ch1-3.html                                           |
-| Github Training                                  | Courses and Training | https://training.github.com/                                                 |
-| Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
-| Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
- 
 ## References
