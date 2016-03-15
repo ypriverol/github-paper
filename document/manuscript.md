@@ -299,8 +299,8 @@ that GitHub hosts for free without the need for a server or
 database. GitHub users can create and host blog websites, help pages,
 manuals, tutorials and websites related to specific projects. _Pages_
 comes with a powerful static site generator called Jekyll
-(https://jekyllrb.com) that can be integrated with other platforms
-such as Bootstrap (http://getbootstrap.com/) or Disqus
+(https://jekyllrb.com) that can be integrated with other frameworks 
+such as Bootstrap (http://getbootstrap.com/) or platforms such as Disqus
 (https://disqus.com/), to support and moderate comments.
 In addition, several real-time communication platforms has been integrated with GitHub such as 
 Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communications system allows
