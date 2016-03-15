@@ -69,7 +69,61 @@ visibility. These rules have been ordered to reflect a typical development proce
 learning git and GitHub basics, use of branches, labelling and tagging of code snapshots,
 tracking project bugs and enhancements using issues, and dissemination of the final results.
 
-## Rule 1. Structure your projects: repositories, users, organisations and teams
+## Rule 1. Use GitHub to track your projects
+
+The cornerstone of GitHub is the distributed version control system
+git. Every change, from fixing a typo to a complete redesign of the
+software, is tracked and controlled by individal versions, so called
+revisions. While git has a complex set of commands and can be used for
+rather complex operations, learning and apply the basics only requires
+a handful of new concepts and commands, and will provide a solid
+ground to efficiently track your coding and resarch projects. Many
+introductory and detailed tutorials are available (see Table 1 below
+for a few examples). In particular, we recomment *A Quick Introduction
+to Version Control with Git and GitHub* by Blischak *et al.*
+\cite{blischak2016quick}. 
+
+In a nutshell, initialising a (local) repository (often abbreviated
+_repos_) marks a directory as one to be tracked. All or part of its
+content can be added explicily to the list of files to track.
+
+```
+cd project ## move into directory 
+git init   ## initialise local repository
+## add individual files such as metadata, reports, source code
+git add README project.md code.R 
+git commit -am"initial commit" ## saves the current snapsot 
+```
+
+From now on, every change to these tracked files, once committed, will
+be recorded as a new revision or _snapshot_ (version). Git is
+remarkably effective in archiving the complete history of a project
+(all revisions) by, amongst other things, storing only the differences
+among them. 
+
+In addition to local copies of the repository, it is easy to create
+remote repositories on GitHub (called `origin`, with default branch
+`master` - see below ) using the graphical interface, and then
+synchronise local and remote repositories.
+
+```
+git push origin master ## push local changes to the remote repo
+git pull ## pull remote changes into the local repo
+```
+
+The web interface offered by GitHub provides a fiendly interface to
+many basic operations and a gentle introduction to a more rich albeit
+complex set of functionalities. In addition, GitHub provides its own
+features that will be descibed in subsequent rules.
+
+Following the rule: "commit often, as most as you can, perfection
+later", one can keep track of the development in small incremental
+changes. At any time it is possible to go back to a previous
+version. In larger projects, multiple users contribute to the same
+repository and all their contributions are recorded, attributed and
+can be restores.
+
+## Rule 2. Structure your projects: repositories, users, organisations and teams
 
 Open source projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content, need
@@ -106,24 +160,6 @@ activities on the site (Fig. 1).
 
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
-
-## Rule 2. Learn Git and embrace its power
-
-The cornerstone of GitHub is the distributed version control system
-git. Every change, from fixing a typo to a complete redesign of the
-software, is controlled by versions, so called revisions. While
-beginners may consider the learning curve of Git steep, many
-introductory and detailed tutorials are available. A revision can be
-considered as a _snapshot_ (version) of a file system. Git is
-remarkably effective in archiving the complete history of a project
-(all revisions) by, amongst other things, storing only the differences
-among them. To create a new revision, the set of changes introduced (e.g. new,
-deleted or modified files) are committed to the
-repository. Following the rule: "commit often, as most as you can,
-perfection later", one can keep track of the development in small
-incremental changes. At any time it is possible to go back to a
-previous version. In larger projects, multiple users contribute to the
-same repository.
 
 ## Rule 3. Developing and collaborating on new features: branching and forking
 
@@ -360,7 +396,7 @@ If you are interested and have not used git and GitHub before, we
 recommend you to get started as soon as possible. As with many other
 tools, a certain learning curve lays ahead. However, basic yet very
 useful features can be relatively easily learned and applied to many
-different use-cases. We anticipate the reward will be worth your
+different use-cases \cite{ram2013git}. We anticipate the reward will be worth your
 effort. To conclude, we would like to recommend some useful training
 materials including workshops, online courses and manuscripts (Table
 1).
