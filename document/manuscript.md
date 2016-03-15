@@ -204,33 +204,35 @@ GitHub (See Rule 6).
 
 ## Rule 6: Automate for better code quality
 
-GitHub offers different types of hooks that are executed after each
-push to a repository, making easier to follow the basic
-principles of continuous integration. The GitHub web hooks allows
-third-party platforms to access and interact with a GitHub
-repository and thus to automate post-processing tasks. Such tasks
-demonstrate to the community that a project follows rigorous
-software engineering processes, often associated with high quality
-development. It also shows that is currently working and has documentation that reflects
-the current code. We suggest that all these three tasks become part of your
-project. 
+GitHub offers different types of hooks (automatically executed
+scripts) that are run after each push to a repository, making it
+easier to follow the basic principles of continuous integration. The
+GitHub web hooks allows third-party platforms to access and interact
+with a GitHub repository and thus to automate post-processing
+tasks. Such tasks demonstrate to the community that a project follows
+rigorous software engineering processes, often associated with high
+quality development. 
 Firstly, continuous integration can be achieved by _Travis_
 (https://travis-ci.org), a hosted continued integration platform that
 is free for all open source projects. Travis builds and tests the
 source code using a plethora of options such as different platforms
-and interpreter versions (Supplementary Note, Section 2). Furthermore it offers notifications which
-allow your team and contributors to know if the new changes work, and
-prevent the introduction of errors in the code, making the repo always
-ready to use. 
-Secondly, in addition to successful completion of the tests, one can
-also demonstrate that they cover the existing code base sufficiently. For this task, the
-integration of _Codecov_ is recommended (https://codecov.io). 
-Thirdly, one might consider to generate the documentation upon code/documentation
-modification (Supplementary Note, Section 3). This implies that your projects provide comprehensive
-documentation so others can understand, and contribute back to them. For Python or C/C++ code, automatic documentation generation
-can be done using sphinx (http://sphinx-doc.org/) and subsequently integrated into GitHub using "Read the Docs"
-(https://readthedocs.org/). All of these platforms will create reports and badges (also called shields) for the projects that can be included
-on your GitHub page, thereby making your projects easily identifiable as high quality and well-maintained.
+and interpreter versions (Supplementary Note, Section 2). Furthermore
+it offers notifications which allow your team and contributors to know
+if the new changes work, and prevent the introduction of errors in the
+code, making the repo always ready to use.  Secondly, in addition to
+successful completion of the tests, one can also demonstrate that they
+cover the existing code base sufficiently. For this task, the
+integration of _Codecov_ is recommended (https://codecov.io).
+Thirdly, one might consider to generate the documentation upon
+code/documentation modification (Supplementary Note, Section 3). This
+implies that your projects provide comprehensive documentation so
+others can understand, and contribute back to them. For Python or
+C/C++ code, automatic documentation generation can be done using
+sphinx (http://sphinx-doc.org/) and subsequently integrated into
+GitHub using "Read the Docs" (https://readthedocs.org/). All of these
+platforms will create reports and badges (also called shields) for the
+projects that can be included on your GitHub page, thereby making your
+projects easily identifiable as high quality and well-maintained.
 
 ## Rule 7. Use and maintain your issue trackers
 
