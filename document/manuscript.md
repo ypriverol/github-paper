@@ -211,8 +211,7 @@ GitHub web hooks allows third-party platforms to access and interact
 with a GitHub repository and thus to automate post-processing
 tasks. Such tasks demonstrate to the community that a project follows
 rigorous software engineering processes, often associated with high
-quality development. We
-suggest that all these three tasks become part of your project.
+quality development. 
 Firstly, continuous integration can be achieved by _Travis_
 (https://travis-ci.org), a hosted continued integration platform that
 is free for all open source projects. Travis builds and tests the
