@@ -263,9 +263,10 @@ figures, comments and references to other _issues_ in the repository as well as
 reference to the code. 
 
 As another illustration of _issues_ and their generic and wide
-application, we used GitHub issues to discuss and comment changes in
-this manuscript, as well as address reviewers' comments
-(https://github.com/ypriverol/github-paper/issues).
+application, we (https://github.com/ypriverol/github-paper/issues) and
+others (https://github.com/ropensci/RNeXML/issues/121) used GitHub
+issues to discuss and comment changes in manuscript and address
+reviewers' comments.
 
 
 ## Rule 8. Make your code easily citable, and cite source code!
