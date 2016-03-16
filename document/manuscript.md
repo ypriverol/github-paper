@@ -140,7 +140,7 @@ developement environments such as, for example the popular Rstudio
 (https://www.rstudio.com/) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
 addition for remote git repositories, GitHub provides its own features
-that will be descibed in subsequent rules.
+that will be descibed in subsequent rules (Fig. 1).
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
 
