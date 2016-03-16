@@ -35,20 +35,24 @@ software) or, better, openly shared and directly accessible to others
 software and source code, and concomitant collaborative development is
 facilitated by the existence of several code repository services such
 as SourceForge (http://sourceforge.net/), Bitbucket
-(https://bitbucket.org/) and GitHub (https://github.com/), among
-others. These resources are also essential for collaborative software
-projects, since they enable the organisation and sharing of
-programming tasks between different remote contributors. Here, we
-introduce the main features of GitHub, a popular web-based platform
-which offers a free and integrated environment for hosting the source
-code, documentation and project-related web content for open source
-projects. GitHub also offers paid plans for private
-repositories. GitHub relies, at its core, on the well-known and open
-source version control system git, designed and developed by Linus
-Torvalds for the development of the Linux kernel. One reason for
-GitHub's success is that it offers more than a simple source code
-hosting service \cite{blischak2016quick, ram2013git}. It provides
-developers with a dynamic and collaborative environment, often coined
+(https://bitbucket.org/), GitLab (https://about.gitlab.com/) and
+GitHub (https://github.com/), among others. These resources are also
+essential for collaborative software projects, since they enable the
+organisation and sharing of programming tasks between different remote
+contributors. Here, we introduce the main features of GitHub, a
+popular web-based platform which offers a free and integrated
+environment for hosting the source code, documentation and
+project-related web content for open source projects. GitHub also
+offers paid plans for private repositories for individuals and
+businesses, as well as free plans including private repository for
+research and educational use. 
+
+GitHub relies, at its core, on the well-known and open source version
+control system git, designed and developed by Linus Torvalds for the
+development of the Linux kernel. One reason for GitHub's success is
+that it offers more than a simple source code hosting service
+\cite{blischak2016quick, ram2013git}. It provides developers and
+researchers with a dynamic and collaborative environment, often coined
 as social coding platform, with the ability to review, comment and
 discuss code \cite{Dabbish:2012}. Individual bioinformatics projects
 (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, lab
@@ -65,9 +69,11 @@ hosting services. However our main aim here is to highlight specific
 GitHub features. We provide a set of recommendations to take full
 advantage of GitHub's features to manage small and large
 bioinformatics projects and increase their profile and
-visibility. These rules have been ordered to reflect a typical development process: 
-learning git and GitHub basics, use of branches, labelling and tagging of code snapshots,
-tracking project bugs and enhancements using issues, and dissemination of the final results.
+visibility. These rules have been ordered to reflect a typical
+development process: learning git and GitHub basics, collaboration,
+use of branches and pull requests, labelling and tagging of code
+snapshots, tracking project bugs and enhancements using issues, and
+dissemination of the final results.
 
 ## Rule 1. Use GitHub to track your projects
 
@@ -84,13 +90,13 @@ to Version Control with Git and GitHub* by Blischak *et al.*
 \cite{blischak2016quick}. 
 
 In a nutshell, initialising a (local) repository (often abbreviated
-_repo_) marks a directory as one to be tracked. All or part of its
+_repo_) marks a directory as one to be tracked. All or parts of its
 content can be added explicily to the list of files to track.
 
 ```
-cd project ## move into directory 
+cd project ## move into directory to be tracked
 git init   ## initialise local repository
-## add individual files such as metadata, reports, source code
+## add individual files such as project description, reports, source code
 git add README project.md code.R 
 git commit -am"initial commit" ## saves the current local snapsot 
 ```
@@ -103,25 +109,31 @@ among them.
 
 In addition to local copies of the repository, it is easy to create
 remote repositories on GitHub (called `origin`, with default branch
-`master` - see below ) using the graphical interface, and then
-synchronise local and remote repositories.
+`master` - see below ) using the web interface, and then synchronise
+local and remote repositories.
 
 ```
 git push origin master ## push local changes to the remote repo
 git pull ## pull remote changes into the local repo
 ```
 
-The web interface offered by GitHub provides a fiendly interface to
-many basic operations and a gentle introduction to a more rich albeit
-complex set of functionalities. In addition, GitHub provides its own
-features that will be descibed in subsequent rules.
-
 Following the rule: "commit often, as most as you can, perfection
 later", one can keep track of the development in small incremental
 changes. At any time it is possible to go back to a previous
 version. In larger projects, multiple users contribute to the same
-repository and all their contributions are recorded, attributed and
-can be restores.
+remote repository and all their contributions are recorded, attributed
+and can be restores.
+
+The web interface offered by GitHub provides a fiendly interface to
+many basic operations and a gentle introduction to a more rich albeit
+complex set of functionalities. There exists also various graphical
+user-interface driven clients to manage git and GitHub repositories
+(https://www.git-scm.com/downloads/guis). Many editors and
+developement environments such as, for example the popular Rstudio
+(https://www.rstudio.com/) for the R programming language \cite{R},
+directly integrate with code versioning using git and GitHub. In
+addition for remote git repositories, GitHub provides its own features
+that will be descibed in subsequent rules.
 
 ## Rule 2. Structure your projects: repositories, users, organisations and teams
 
