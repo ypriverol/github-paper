@@ -79,19 +79,19 @@ dissemination of the final results.
 
 The cornerstone of GitHub is the distributed version control system
 git. Every change, from fixing a typo to a complete redesign of the
-software, is tracked and controlled by individal versions, so called
+software, is tracked and controlled by individual versions, so called
 revisions. While git has a complex set of commands and can be used for
 rather complex operations, learning and apply the basics only requires
 a handful of new concepts and commands, and will provide a solid
-ground to efficiently track your coding and resarch projects. Many
+ground to efficiently track your coding and research projects. Many
 introductory and detailed tutorials are available (see Table 1 below
-for a few examples). In particular, we recomment *A Quick Introduction
+for a few examples). In particular, we recommend *A Quick Introduction
 to Version Control with Git and GitHub* by Blischak *et al.*
 \cite{blischak2016quick}. 
 
 In a nutshell, initialising a (local) repository (often abbreviated
 _repo_) marks a directory as one to be tracked (Fig. 1). All or parts
-of its content can be added explicily to the list of files to track.
+of its content can be added explicitly to the list of files to track.
 
 ```
 cd project ## move into directory to be tracked
@@ -125,22 +125,22 @@ and can be restores.
 
 Users usually track source code, text files, images and small data
 files inside their repos. And while the majority of GitHub
-repositories are used for software developement, there is nothing
+repositories are used for software development, there is nothing
 preventing users from keeping text documents such as analysis reports
 and manuscripts (see for example the repository for this manuscript at
 https://github.com/ypriverol/github-paper), or other file types in
 your projects.
 
-The web interface offered by GitHub provides a fiendly interface to
+The web interface offered by GitHub provides a friendly interface to
 many basic operations and a gentle introduction to a more rich albeit
 complex set of functionalities. There exists also various graphical
 user-interface driven clients to manage git and GitHub repositories
 (https://www.git-scm.com/downloads/guis). Many editors and
-developement environments such as, for example the popular Rstudio
+development environments such as, for example the popular Rstudio
 (https://www.rstudio.com/) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
 addition for remote git repositories, GitHub provides its own features
-that will be descibed in subsequent rules (Fig. 1).
+that will be described in subsequent rules (Fig. 1).
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
 
@@ -191,7 +191,7 @@ documentation or simple typo corrections
 into the original (upstream) project, thereby improving the original
 repository and becoming a contributor. Forking a repository and
 providing pull requests constitute an easy way for collaboration
-inside losely defined teams and over more formal organisation
+inside loosely defined teams and over more formal organisation
 boundaries, while the original repository owner(s) retain control over
 what to external contribution to include. Once a pull requests has
 been sent, it is opened for review and discussion and contributes to
