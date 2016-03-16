@@ -90,8 +90,8 @@ to Version Control with Git and GitHub* by Blischak *et al.*
 \cite{blischak2016quick}. 
 
 In a nutshell, initialising a (local) repository (often abbreviated
-_repo_) marks a directory as one to be tracked. All or parts of its
-content can be added explicily to the list of files to track.
+_repo_) marks a directory as one to be tracked (Fig. 1). All or parts
+of its content can be added explicily to the list of files to track.
 
 ```
 cd project ## move into directory to be tracked
@@ -116,13 +116,20 @@ local and remote repositories.
 git push origin master ## push local changes to the remote repo
 git pull ## pull remote changes into the local repo
 ```
-
 Following the rule: "commit often, as most as you can, perfection
 later", one can keep track of the development in small incremental
 changes. At any time it is possible to go back to a previous
 version. In larger projects, multiple users contribute to the same
 remote repository and all their contributions are recorded, attributed
 and can be restores.
+
+Users usually track source code, text files, images and small data
+files inside their repos. And while the majority of GitHub
+repositories are used for software developement, there is nothing
+preventing users from keeping text documents such as analysis reports
+and manuscripts (see for example the repository for this manuscript at
+https://github.com/ypriverol/github-paper), or other file types in
+your projects.
 
 The web interface offered by GitHub provides a fiendly interface to
 many basic operations and a gentle introduction to a more rich albeit
@@ -135,45 +142,60 @@ directly integrate with code versioning using git and GitHub. In
 addition for remote git repositories, GitHub provides its own features
 that will be descibed in subsequent rules.
 
-## Rule 2. Structure your projects: repositories, users, organisations and teams
-
-Open source projects on GitHub are visible to everyone, but write
-permissions, i.e. the possibility to directly modify the content, need
-to explicitly be granted. One of the key concepts in GitHub is the repositories where 
-the data, code and content is stored. Repositories (the shortened term is _repo_) are versioned directories or dedicated
-storage spaces for your software projects, which can be included inside an organisation or can belong to particular users. Users can
-usually keep code, text files, images and small data files inside a repo. And while many users store programs and code projects,
-there is nothing preventing users from keeping text documents such as analysis reports and manuscripts (see for example the repository for this
-manuscript at https://github.com/ypriverol/github-paper), or other file types in your projects. Note that until recently, GitHub was lacking
-support for storing large files (>100 MB), a issue that has been recently addressed by the GitHub large file storage (Supplementary Note, section 1). 
-Everyone with a GitHub account can fork any public repository and start developing in one's own
-fork. A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes
-without affecting the original project (https://help.github.com/articles/fork-a-repo/). This forking is
-the basis of social coding. It allows anyone to develop and test novel features into existing code and offers the
-possibility to merge novel features back the into the main project,
-thereby becoming a contributor.  Project managers can structure projects to
-manage permissions and restrict access at different levels: users,
-teams and organisations.  Users are the keystone of GitHub, as for any
-other social network. Every user has a profile listing their GitHub
-projects and activities, which can be populated optionally with
-personal information including name, e-mail address, image and
-webpage. To stay up to date with the activity of other users one can
-_follow_ their accounts. Collaboration can be achieved by simply
-adding a trusted _Collaborator_ and thereby granting write
-access. However, development in large projects is usually done by
-teams of people, within a larger organisation. GitHub organisations
-are a great way to manage team-based access permissions for the
-individual projects of institutes, research labs, and large open
-source projects that need multiple owners and administrators (Fig.
-1). We recommend that you (as an individual researcher) make your
-profile visible to other users and display all the projects and
-organisations you are working in, including a list of the latest
-activities on the site (Fig. 1).
-
-
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
 
+## Rule 2. Tracking for single users, teams and organisations
+
+Open source projects on GitHub are visible to everyone, but write
+permissions, i.e. the possibility to directly modify the content of a
+repo, need to explicitly be granted. As a repository owner, you can
+grant these rights to other GitHub users. In addition to being owner
+by users, repositories can also be created and managed as part of
+teams and organisation.
+
+Project managers can structure projects to manage permissions at
+different levels: users, teams and organisations.  Users are the
+keystone of GitHub, as for any other social network. Every user has a
+profile listing their GitHub projects and activities, which can be
+populated optionally with personal information including name, e-mail
+address, image and webpage. To stay up to date with the activity of
+other users one can _follow_ their accounts. Collaboration can be
+achieved by simply adding a trusted _Collaborator_ and thereby
+granting write access. 
+
+However, development in large projects is usually done by teams of
+people, within a larger organisation. GitHub organisations are a great
+way to manage team-based access permissions for the individual
+projects of institutes, research labs, and large open source projects
+that need multiple owners and administrators (Fig.  1). We recommend
+that you (as an individual researcher) make your profile visible to
+other users and display all the projects and organisations you are
+working in, including a list of the latest activities on the site
+(Fig. 1).
+
 ## Rule 3. Developing and collaborating on new features: branching and forking
+
+Everyone with a GitHub account can _fork_ any public repository and
+start developing in one's own fork
+(https://help.github.com/articles/fork-a-repo/) under their username
+(see for example
+https://github.com/ypriverol/github-paper/network/members for this
+work) or organisation (see Rule X). A fork is a complete copy of a
+repository content. Forking a repository allows you to freely
+experiment with changes without affecting the original project. This
+forking is the basis of social coding. It allows anyone to develop and
+test novel features into existing code and offers the possibility to
+contribute (by opening _pull requests_) novel features, improvement to
+documentation or simple typo corrections
+(https://twitter.com/rgfitzjohn/status/708309767240982528) back the
+into the original (upstream) project, thereby improving the original
+repository and becoming a contributor. Forking a repository and
+providing pull requests constitute an easy way for collaboration
+inside losely defined teams and over more formal organisation
+boundaries, while the original repository owner(s) retain control over
+what to external contribution to include. Once a pull requests has
+been sent, it is opened for review and discussion and contributes to
+additional insights and in an increased code quality.
 
 Concurrent development including commits to the same
 repository can be organised using different approaches. The most
@@ -190,19 +212,6 @@ continuously be developed and other features might be merged into the
 master branch. Nevertheless, one can always pull the currently up-to
 date master branch into one branch, always enabling to react or adapt
 to the changes in the code. 
-
-_Forking_ a repository and providing _pull requests_ constitute an
-easy way for collaboration inside and over organisations boundaries. A
-user that forks a repository creates a copy under their GitHub account
-(see for example
-https://github.com/ypriverol/github-paper/network/members). Modifications
-like a branch with new features or bug fixes can conveniently be
-provided to the forked (upstream) repository by opening a pull
-request. Once it is opened for review and discussion, it usually
-results in additional insights and in an increased code quality. Once
-a pull request gets accepted, typically it gets merged into the
-development branch.
-
 
 When developing different features in parallel, there is a risk to
 apply incompatible changes in different branches/forks; these are said
