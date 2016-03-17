@@ -144,7 +144,7 @@ that will be described in subsequent rules (Fig. 1).
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
 
-## Rule 2. Tracking for single users, teams and organisations
+## Rule 2. GitHub for single users, teams and organisations
 
 Open source projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content of a
