@@ -245,15 +245,15 @@ tested. In 2005, Martin Fowler defined the basic principles for
 continuous integration in software development \cite{FowlerCI}. These
 principles have become the main reference for best practices in
 continuous integration, providing the framework needed to deploy
-software, and in some way also data. In addition to mere error-free
+software, and in some way, also data. In addition to mere error-free
 execution, dedicated code testing is aimed at detecting possible bugs
 introduced by new features, or changes in the code or dependencies, as
 well as detecting wrong results, the so called _logic errors_, where
 the source code produces a different result compared to what one
 intended it to do. Continuous integration provides the way of
 automatically and systematically run all of tests in the repository by
-checking data and software dependencies and cab can be automated
-through GitHub.
+checking data and software dependencies and can be automated through
+GitHub.
 
 GitHub offers a set of hooks (automatically executed scripts) that are
 run after each push to a repository, making it easier to follow the
@@ -272,8 +272,13 @@ ready to use. Secondly, in addition to successful completion of the
 tests, one can also demonstrate that they cover the existing code base
 sufficiently. For this task, the integration of _Codecov_ is
 recommended (https://codecov.io) - this service will report how much
-of the code base and which lines of code are being executed (and
-explicitly tested) as part of your code tests. Thirdly, one might
+of the code base and which lines of code are being executed as part of
+your code tests. The Bioconductor, for example, highly recommends
+packages to implement unit testing to support developers in their
+package development and maintenance
+(http://bioconductor.org/developers/unitTesting-guidelines/). and
+systematically tests the coverage of all its packages
+(https://codecov.io/github/Bioconductor-mirror/). Thirdly, one might
 consider to generate the documentation upon code/documentation
 modification (Supplementary Note, Section 3). This implies that your
 projects provide comprehensive documentation so others can understand,
