@@ -42,7 +42,7 @@ Rule N: GitHub integrated services can do lots of nice things (CI).
 I am happy to provide more detailed critiques but I think the overall
 organization is getting in the way of the message.
 
-I would also urge the authors to post this as a preprint and get some
+I would also urge the authors to post this as a pre-print and get some
 discussion of it going in public[*]. There are lots of academics using
 github and you will get quite a bit of helpful advice.
 
