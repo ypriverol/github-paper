@@ -18,8 +18,16 @@ Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkore
 [^2]: juan@ebi.ac.uk.
 
 
-## Section 1: Git LSF file system
+## Section 1: Data handling in GitHub. 
+ 
+GitHub was originally developed to store code which in general is in size around couple megabytes. However, users can also store 
+data for unit tests and other purposes. GitHub supports all kind of files independently of their extension, type or content. 
+Then, some of the files can be really huge in your repository. If the file in your repository is bigger than 50 Mb,
+the file should be commit using the Git LSF file system (see Section 1.1). 
+ 
+### Section 1.1: Git LSF file system
 
+ 
 Git Large File Storage (LFS) replaces large files (> 50 Mb)such as audio samples, videos, datasets, and graphics with text pointers inside Git, while
 storing the file contents. In order to use the git _lfs_ service for big files, the user can follows the next steps: 
 

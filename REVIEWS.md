@@ -22,6 +22,11 @@ are a great way". Perhaps "GitHub can be used for collaboration"?
 - but that might be a bad introduction. Why not, "you should be using git
 in the first place" (rule 2) as rule 1?
 
+> R/ Agree with the reviewer's comments. In the present version of the manuscript we simplified all the rules 
+to make them more interesting and easy to read for new users. At the same time we created an introduction rule Rule 1
+that explain the basic concepts of GitHub. Also, we created a Supplemental Information File with all the comments and 
+concepts for advanced users and to go deeper in discussions such as continues integration, testing, etc. 
+
 I have many similar comments about the 
 
 I think the authors should take a step back and simplify their 10 main

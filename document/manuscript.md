@@ -129,7 +129,9 @@ repositories are used for software development, there is nothing
 preventing users from keeping text documents such as analysis reports
 and manuscripts (see for example the repository for this manuscript at
 https://github.com/ypriverol/github-paper), or other file types in
-your projects.
+your projects. Some important points should be considered when the
+repository stores not only code but also data, 
+images, and large files (Supplementary Note, Section 1).
 
 The web interface offered by GitHub provides a friendly interface to
 many basic operations and a gentle introduction to a more rich albeit
