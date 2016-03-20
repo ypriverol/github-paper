@@ -20,14 +20,37 @@ Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkore
 
 ## Section 1: Data handling in GitHub. 
  
-GitHub was originally developed to store code which in general is in size around couple megabytes. However, users can also store 
-data for unit tests and other purposes. GitHub supports all kind of files independently of their extension, type or content. 
-Then, some of the files can be really huge in your repository. If the file in your repository is bigger than 50 Mb,
-the file should be commit using the Git LSF file system (see Section 1.1). 
+GitHub was originally developed to store, share and control code. However, the repository accepted also other type of files 
+data, binaries, text files, etc. For this reason some major challenges and technical issues should be considered when git or GitHub 
+are use to handle your projects: (i) File types and (ii) File sizes. 
  
-### Section 1.1: Git LSF file system
+### Section 1.1: File Types in Git and GitHub
 
- 
+Git is a great version control system. It is easily to store and control changes in text files, and then easily copying them up
+to a server or servers or sharing them with your friends locally. However, git and GitHub is optimized for text files and not for example 
+for binary files. 
+
+"Text files" is the key in GitHub. It is easily for GitHub to let you see textual changes and compare files, repositories and 
+folders. However, this function is useless for binary data and binary types. Text Files have also allowed GitHub to improve the 
+search functionalities and statistical framework. For example, users can search by keywords in the text and filter by programming 
+language (see https://help.github.com/articles/searching-code/). There is another very good reason for keeping binary files out
+of your repository: They are usually much bigger, including images, videos and compiled binaries (see Section 1.2). 
+
+The idea of distributed control version systems is makes cheap and easy to clone and navigate. The user want to be able to spin up
+a new machine and copy the repository as quickly as possible. You want to be able to switch branches as quickly as possible.
+If you commit any significant number of binary files you will see all of these tasks slow down considerably. 
+
+It's important to know that if one binary file is committed them they are in the repository history and are very annoying
+to remove. You can delete the files from the current version of the project - but they'll remain in the repository history,
+meaning that the overall repository size will still be large.
+
+
+### Section 1.2: Git LSF file system
+
+In general, a file of code is in size around couple megabytes. However, users can also store data for unit tests and other purposes. 
+GitHub supports all kind of files independently of their extension, type or content. Then, some of the files can be really huge in
+your repository. If the file in your repository is bigger than 50 Mb, the file should be commit using the Git LSF file system.
+
 Git Large File Storage (LFS) replaces large files (> 50 Mb)such as audio samples, videos, datasets, and graphics with text pointers inside Git, while
 storing the file contents. In order to use the git _lfs_ service for big files, the user can follows the next steps: 
 
