@@ -129,10 +129,29 @@ repositories are used for software development, there is nothing
 preventing users from keeping text documents such as analysis reports
 and manuscripts (see for example the repository for this manuscript at
 https://github.com/ypriverol/github-paper), or other file types in
-your projects. Some important points should be considered when the
-repository stores not only code but also data, 
-images, and large files (Supplementary Note, Section 1).
+your projects. 
 
+Some important points should be considered when the repository stores not only code but also data and 
+binary files. Git is easily to store and control changes in text files, and then easily copying them up
+to a server or servers or sharing them with your collaborators. However, git and GitHub is optimized for text files and not for example 
+for binary files. Text files is the key in GitHub because it is easily to let you see textual changes, compare files and search. 
+For example, users can search by keywords in the text and filter by programming language (see https://help.github.com/articles/searching-code/).
+There is another very good reason for keeping binary files out of your repository: They are usually much bigger,
+including images, videos and compiled binaries; making difficult operations like clone, branching or the navigation in the project.
+It's important to know that if one binary file is committed them they are in the repository history and are very annoying
+to remove. Nevertheless, GitHub supports all kind of files independently of their extension, type or content. If the file in your repository is
+bigger than 50 Mb, the file should be commit using the Git LSF file system. A minimal space quote is provided for personal/organization
+repositories without charge (1GB). If you exceed this quota, you can still clone repositories with large assets, but you will only
+retrieve the pointer files. In order to use the git _lfs_ service for big files, the user should download the git plugin from LSF Page (https://git-lfs.github.com/)
+or using Homebrew. Then, the next steps should be followed: 
+
+```bash
+   git lfs track "*.psd"
+   git add file.psd
+   git commit -m "Add design file"
+   git push origin master
+```   
+ 
 The web interface offered by GitHub provides a friendly interface to
 many basic operations and a gentle introduction to a more rich albeit
 complex set of functionalities. There exists also various graphical
@@ -266,7 +285,7 @@ continuous integration can be achieved by _Travis_
 (https://travis-ci.org), a hosted continued integration platform that
 is free for all open source projects. Travis builds and tests the
 source code using a plethora of options such as different platforms
-and interpreter versions (Supplementary Note, Section 2). Furthermore
+and interpreter versions (Supplementary Note, Section 1). Furthermore
 it offers notifications which allow your team and contributors to know
 if the new changes work, and prevent the introduction of errors in the
 code (for instance when merging pull requests), making the repo always
@@ -282,7 +301,7 @@ package development and maintenance
 systematically tests the coverage of all its packages
 (https://codecov.io/github/Bioconductor-mirror/). Thirdly, one might
 consider to generate the documentation upon code/documentation
-modification (Supplementary Note, Section 3). This implies that your
+modification (Supplementary Note, Section 2). This implies that your
 projects provide comprehensive documentation so others can understand,
 and contribute back to them. For Python or C/C++ code, automatic
 documentation generation can be done using sphinx
