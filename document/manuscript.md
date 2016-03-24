@@ -131,27 +131,6 @@ and manuscripts (see for example the repository for this manuscript at
 https://github.com/ypriverol/github-paper), or other file types in
 your projects. 
 
-Some important points should be considered when the repository stores not only code but also data and 
-binary files. Git is easily to store and control changes in text files, and then easily copying them up
-to a server or servers or sharing them with your collaborators. However, git and GitHub is optimized for text files and not for example 
-for binary files. Text files is the key in GitHub because it is easily to let you see textual changes, compare files and search. 
-For example, users can search by keywords in the text and filter by programming language (see https://help.github.com/articles/searching-code/).
-There is another very good reason for keeping binary files out of your repository: They are usually much bigger,
-including images, videos and compiled binaries; making difficult operations like clone, branching or the navigation in the project.
-It's important to know that if one binary file is committed them they are in the repository history and are very annoying
-to remove. Nevertheless, GitHub supports all kind of files independently of their extension, type or content. If the file in your repository is
-bigger than 50 Mb, the file should be commit using the Git LSF file system. A minimal space quote is provided for personal/organization
-repositories without charge (1GB). If you exceed this quota, you can still clone repositories with large assets, but you will only
-retrieve the pointer files. In order to use the git _lfs_ service for big files, the user should download the git plugin from LSF Page (https://git-lfs.github.com/)
-or using Homebrew. Then, the next steps should be followed: 
-
-```bash
-   git lfs track "*.psd"
-   git add file.psd
-   git commit -m "Add design file"
-   git push origin master
-```   
- 
 The web interface offered by GitHub provides a friendly interface to
 many basic operations and a gentle introduction to a more rich albeit
 complex set of functionalities. There exists also various graphical
@@ -164,6 +143,24 @@ addition for remote git repositories, GitHub provides its own features
 that will be described in subsequent rules (Fig. 1).
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
+
+> **Box 1** Using GitHub, or any similar versioning/tracking system is
+> not a replacement for good projects management, it is an extension,
+> an improvement good project and file managing (see for example
+> \cite{Noble:2009}). One practical consideration when using GitHub,
+> for example, is dealing with large binary files.  Binary files such
+> as images, videos, executable files or many raw data used in
+> bioinformatics, are stored as a single large entity in `git`.  As a
+> result, every change, even if minimal, leads to a complete new copy
+> of the file in the repository, producing large size increments and
+> the inability to search (see
+> https://help.github.com/articles/searching-code/) and compare file
+> content across revisions. `git` offer a Large File Storage (LFS)
+> (https://git-lfs.github.com/) that replaces such large files with
+> pointers, while the large binary file can be stored remotely, which
+> results in small and faster repositories. Git LFS is also supported
+> by GitHub, albeit with a space quota, to retain your usual GitHub
+> workflow (https://help.github.com/categories/managing-large-files/).
 
 ## Rule 2. GitHub for single users, teams and organisations
 

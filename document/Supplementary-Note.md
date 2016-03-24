@@ -179,16 +179,22 @@ Table 1: Some useful documentation about source code comment and documentation:
 | CodeAsDocumentation                                                                     | http://martinfowler.com/bliki/CodeAsDocumentation.html              |
 | 
 
- 
 
- 
+## Git Large File System (LFS)
 
-     
-    
- 
- 
- 
+GitHub supports all kind of files independently of their extension,
+type or content. If the file in your repository is bigger than 50 Mb,
+the file should be commit using the Git LSF. A minimal space quote is
+provided for personal/organization repositories without charge
+(1GB). If you exceed this quota, you can still clone repositories with
+large assets, but you will only retrieve the pointer files. In order
+to use the git LFD service for big files, the user should download the
+git plugin from LSF Page (https://git-lfs.github.com/). Then, the next
+steps should be followed:
 
-
- 
- 
+```bash
+git lfs track "*.psd"
+git add file.psd
+git commit -m "Add design file"
+git push origin master
+``` 
