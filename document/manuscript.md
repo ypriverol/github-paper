@@ -277,23 +277,29 @@ GitHub offers a set of hooks (automatically executed scripts) that are
 run after each push to a repository, making it easier to follow the
 basic principles of continuous integration. The GitHub web hooks
 allows third-party platforms to access and interact with a GitHub
-repository and thus to automate post-processing tasks. Firstly,
-continuous integration can be achieved by _Travis_
-(https://travis-ci.org), a hosted continued integration platform that
-is free for all open source projects. Travis builds and tests the
-source code using a plethora of options such as different platforms
-and interpreter versions (Supplementary Note, Section 1). Furthermore
-it offers notifications which allow your team and contributors to know
-if the new changes work, and prevent the introduction of errors in the
-code (for instance when merging pull requests), making the repo always
-ready to use. Secondly, in addition to successful completion of the
-tests, one can also demonstrate that they cover the existing code base
-sufficiently. For this task, the integration of _Codecov_ is
-recommended (https://codecov.io) - this service will report how much
-of the code base and which lines of code are being executed as part of
-your code tests. The Bioconductor, for example, highly recommends
-packages to implement unit testing to support developers in their
-package development and maintenance
+repository and thus to automate post-processing tasks. Continuous
+integration can be achieved by _Travis_ (https://travis-ci.org), a
+hosted continued integration platform that is free for all open source
+projects. Travis builds and tests the source code using a plethora of
+options such as different platforms and interpreter versions
+(Supplementary Note, Section 1). Furthermore it offers notifications
+which allow your team and contributors to know if the new changes
+work, and prevent the introduction of errors in the code (for instance
+when merging pull requests), making the repo always ready to
+use. 
+
+## Rule 6: Let GitHub do more tasks for you: automate 
+
+There is more than code compilation and testing that can be integrated
+into your software project. GitHub hooks can be used to automate
+numerous tasks to help improve the overall quality of your project. A
+important complement to successful test completion, is to demonstrate
+that they cover the existing code base sufficiently. For this task,
+the integration of _Codecov_ is recommended (https://codecov.io) -
+this service will report how much of the code base and which lines of
+code are being executed as part of your code tests. The Bioconductor,
+for example, highly recommends packages to implement unit testing to
+support developers in their package development and maintenance
 (http://bioconductor.org/developers/unitTesting-guidelines/). and
 systematically tests the coverage of all its packages
 (https://codecov.io/github/Bioconductor-mirror/). Thirdly, one might
