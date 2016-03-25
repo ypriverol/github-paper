@@ -243,7 +243,7 @@ to date, and you will have the opportunity to merge your changed code
 with others' contributors without requiring to manually address
 conflicts to bring the branches in sync again.
 
-## Rule 4. Name your branches and commits using tags and semantic version numbering
+## Rule 4. Naming branches and commits: tags and semantic versions
 
 Tags offer the possibility to label versions during the development
 process. Version numbering should follow
@@ -406,7 +406,7 @@ needs to have an appropriate license (http://opensource.org/licenses/)
 that defines how the software can be freely used, modified, and
 shared.
 
-## Rule 9. Promote your projects in the scientific community - create a web page and more
+## Rule 9. Promote and discuss your projects: web page and more
 
 The traditional way of promoting scientific software is by
 publishing them in the peer-reviewed scientific literature. Additional steps can be done to boost the visibility of a
@@ -439,7 +439,7 @@ is the possibility to embed code snippets in other applications,
 enabling users to embed gists in any text field that supports
 JavaScript.
 
-## Rule 10. Periodically check existing open source projects
+## Rule 10. Use GitHub to be social: follow and watch
 
 One of the main tasks of scientists is to actively follow the developments in
 their field. Analogously, scientific programmers need to revise
