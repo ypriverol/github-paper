@@ -211,12 +211,16 @@ and the idea of continuous integration.
    modification' are almost counter-productive -- availability of this
    level of documentation is not really what users crave.
    
-> R/ We kept the current version of **Rule 5** about continuous integration. The idea of the manuscript is to show 
- the Git/GitHub infrastructure to the bioinformatics community and general good practices. In general we don't aim to explain
- in details best software engineering practices. It should be noticed by the reviewer that the current manuscript is about the
- use of Git/GitHub to improve the productivity in your research lab and team and not about general best practices of coding,
- documentation, etc. In addition, we added a **Supplementary Note** to extend the documentation and ideas about unit tests and 
- continuous integration.
+> R/ We kept the current version of **Rule 5** about continuous
+ integration. The idea of the manuscript is to show the Git/GitHub
+ infrastructure to the bioinformatics community and general good
+ practices. In general we don't aim to explain in details best
+ software engineering practices. It should be noticed by the reviewer
+ that the current manuscript is about the use of Git/GitHub to improve
+ the productivity in your research lab and team and not about general
+ best practices of coding, documentation, etc. In addition, we added a
+ **Supplementary Note** to extend the documentation and ideas about
+ unit tests and continuous integration.
  
 
 9. Rule 9 does not mention the obvious, effective, and esssential
@@ -225,8 +229,7 @@ and the idea of continuous integration.
    
 > We agree with the reviewer. The current version of the rule starts by making clear this statement:
 
-> The traditional and effective way of promoting scientific software is by
-  publishing them in the peer-reviewed scientific literature.
+> The traditional way of promoting scientific software is by publishing them in the peer-reviewed scientific literature.
 
 # Reviewer 3
 
