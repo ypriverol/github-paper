@@ -180,7 +180,7 @@ Table 1: Some useful documentation about source code comment and documentation:
 | 
 
 
-## Git Large File System (LFS)
+## Section 3: Git Large File System (LFS)
 
 GitHub supports all kind of files independently of their extension,
 type or content. If the file in your repository is bigger than 50 Mb,
