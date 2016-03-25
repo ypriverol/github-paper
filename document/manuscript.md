@@ -447,7 +447,7 @@ publicly available (e.g. open source) projects and code that can be interesting 
 research. Therefore, you should try to learn as much as possible from your peers
 and keep up-to-date with all the developments of
 relevant projects. GitHub enables this functionality by _following_ other
-GitHub users (also mentioned in Rule 1) or _watching_ the activity of projects, which is a common
+GitHub users (see also Rule 2) or _watching_ the activity of projects, which is a common
 feature in many social media platforms. Take advantage of it as much
 as possible!
 
@@ -476,7 +476,7 @@ Table 1: Online courses, tutorials and workshops about GitHub and Git for scient
 ## Disclaimer
 
 The authors have no affiliation with GitHub, nor any commercial entity
-mentioned in this article. The views described here reflect our own
-without any input from any third party organisation.
+mentioned in this article. The views described here reflect their own
+without input from any third party organisation.
 
 ## References
