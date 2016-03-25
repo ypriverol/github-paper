@@ -27,6 +27,10 @@ and
 [*A Quick Introduction to Version Control with Git and GitHub*](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) -
 your input would be most valuable.
 
+If, based on your contribution, you would like to be added as a
+co-author, please open an issue and provide your name and affiliation
+and a short description of your contribution or a link to the relevant
+issue and pull request.
 
 ## Conversion to PLoS LaTeX
 
