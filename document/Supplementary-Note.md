@@ -18,8 +18,27 @@ Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkore
 [^2]: juan@ebi.ac.uk.
 
 
+## Section 1: Git Large File System (LFS)
 
-## Section 1: Testing Levels and Continues integration
+GitHub supports all kind of files independently of their extension,
+type or content. If the file in your repository is bigger than 50 Mb,
+the file should be commit using the Git LSF. A minimal space quote is
+provided for personal/organization repositories without charge
+(1GB). If you exceed this quota, you can still clone repositories with
+large assets, but you will only retrieve the pointer files. In order
+to use the git LFD service for big files, the user should download the
+git plugin from LSF Page (https://git-lfs.github.com/). Then, the next
+steps should be followed:
+
+```bash
+git lfs track "*.psd"
+git add file.psd
+git commit -m "Add design file"
+git push origin master
+``` 
+
+
+## Section 2: Testing Levels and Continues integration
 
 Software testing refers to the practice of testing certain functions and areas of our software code. It can be slitted in different categories or levels of complexity from unit tests to system testing. We would explain 
 in details Unit tests and integration tests which are the start point to provide a functional software to the community. 
@@ -104,7 +123,7 @@ The provided example installed all the dependencies of the library (BiocInstalle
 the Travis-CI integration can be found here https://travis-ci.org/ . 
 
 
-## Section 2: Source code documentation
+## Section 3: Source code documentation
 
 
 Documenting the code is a complex topic in software development. Some developers argue that it s bad practice and make the code more complicate and less readable, other developers 
@@ -180,21 +199,3 @@ Table 1: Some useful documentation about source code comment and documentation:
 | 
 
 
-## Git Large File System (LFS)
-
-GitHub supports all kind of files independently of their extension,
-type or content. If the file in your repository is bigger than 50 Mb,
-the file should be commit using the Git LSF. A minimal space quote is
-provided for personal/organization repositories without charge
-(1GB). If you exceed this quota, you can still clone repositories with
-large assets, but you will only retrieve the pointer files. In order
-to use the git LFD service for big files, the user should download the
-git plugin from LSF Page (https://git-lfs.github.com/). Then, the next
-steps should be followed:
-
-```bash
-git lfs track "*.psd"
-git add file.psd
-git commit -m "Add design file"
-git push origin master
-``` 
