@@ -1,4 +1,4 @@
-# Ten Simple Rules for taking advantage of GitHub
+# Ten Simple Rules for taking advantage of git and GitHub
 
 Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
 
@@ -79,15 +79,15 @@ dissemination of the final results.
 
 The cornerstone of GitHub is the distributed version control system
 git. Every change, from fixing a typo to a complete redesign of the
-software, is tracked and controlled by individual versions, so called
-revisions. While git has a complex set of commands and can be used for
-rather complex operations, learning and apply the basics only requires
-a handful of new concepts and commands, and will provide a solid
-ground to efficiently track your coding and research projects. Many
-introductory and detailed tutorials are available (see Table 1 below
-for a few examples). In particular, we recommend *A Quick Introduction
-to Version Control with Git and GitHub* by Blischak *et al.*
-\cite{blischak2016quick}. 
+software, is tracked and controlled by individual and unique
+identifier. While git has a complex set of commands and can be used
+for rather complex operations, learning and apply the basics only
+requires a handful of new concepts and commands, and will provide a
+solid ground to efficiently track your coding and research
+projects. Many introductory and detailed tutorials are available (see
+Table 1 below for a few examples). In particular, we recommend *A
+Quick Introduction to Version Control with Git and GitHub* by Blischak
+*et al.* \cite{blischak2016quick}.
 
 In a nutshell, initialising a (local) repository (often abbreviated
 _repo_) marks a directory as one to be tracked (Fig. 1). All or parts
@@ -102,10 +102,10 @@ git commit -am"initial commit" ## saves the current local snapshot
 ```
 
 From now on, every change to these tracked files, once committed, will
-be recorded as a new revision or _snapshot_. Git is remarkably
-effective in archiving the complete history of a project (all
-revisions) by, amongst other things, storing only the differences
-among them.
+be recorded as a new revision, or _snapshot_, uniquely identifying the
+changes in all the modified files. Git is remarkably effective in
+archiving the complete history of a project (all revisions) by,
+amongst other things, storing only the differences among them.
 
 In addition to local copies of the repository, it is easy to create
 remote repositories on GitHub (called `origin`, with default branch
@@ -197,7 +197,7 @@ working in, including a list of the latest activities on the site
 ## Rule 3. Developing and collaborating on new features: branching and forking
 
 Everyone with a GitHub account can _fork_ any public repository and
-start developing in one's own fork
+start developing the same code base in one's own fork
 (https://help.github.com/articles/fork-a-repo/) under their username
 (see for example
 https://github.com/ypriverol/github-paper/network/members for this
@@ -215,9 +215,9 @@ repository and becoming a contributor. Forking a repository and
 providing pull requests constitute an easy way for collaboration
 inside loosely defined teams and over more formal organisation
 boundaries, while the original repository owner(s) retain control over
-which external contributions to include. Once a pull requests has been
-sent, it is opened for review and discussion, and contributes to
-additional insights and in an increased code quality.
+which external contributions to include. Once a pull request is opened
+for review and discussion, it usually results in additional insights
+and increased code quality.
 
 Concurrent development including commits to the same
 repository can be organised using different approaches. The most
