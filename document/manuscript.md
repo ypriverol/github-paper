@@ -165,6 +165,9 @@ that will be described in subsequent rules (Fig. 1).
 > (https://help.github.com/categories/managing-large-files/)
 > (Supplementary Note, Section 1).
 
+> **Box 2** TODO Public of private repositories -
+> see [issue 111](https://github.com/ypriverol/github-paper/issues/111).
+
 ## Rule 2. GitHub for single users, teams and organisations
 
 Open source projects on GitHub are visible to everyone, but write
