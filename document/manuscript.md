@@ -64,7 +64,7 @@ samtools (https://github.com/samtools), OpenMS (https://github.com/OpenMS)
 \cite{Goecks:2010}, or global collaborations such as rOpenSci
 (https://github.com/ropensci) and The Global Alliance For Genomics and
 Health (https://github.com/ga4gh) have found the perfect place in
-GitHub to share code, ideas and collaborate.
+GitHub to share code, ideas and collaborate (see Table 1).
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
@@ -461,11 +461,28 @@ recommend you to get started as soon as possible. As with many other
 tools, a certain learning curve lays ahead. However, basic yet very
 useful features can be relatively easily learned and applied to many
 different use-cases \cite{ram2013git}. We anticipate the reward will be worth your
-effort. To conclude, we would like to recommend some useful training
+effort. To conclude, we would like to recommend some examples of bioinformatics
+repositories in GitHub (Table 1) and some useful training
 materials including workshops, online courses and manuscripts (Table
-1).
+2).
 
-Table 1: Online courses, tutorials and workshops about GitHub and Git for scientist.
+
+Table 1: Bioinformatics repository examples with good practices using GitHub. The table contains the name of the repository, the type of the 
+example (issue tracking, branch structure, unit tests) and the URL of the example. 
+
+
+| Name of the Repository                           | Type                                                | URL                                                                          |
+|--------------------------------------------------|-----------------------------------------------------|------------------------------------------------------------------------------|
+| Galaxy Project                                   | Community Project, Bioinformatics Repository        | https://github.com/galaxyproject/galaxy/                                     |
+| Retinal wave data repository                     | Binary Data organized                               | https://github.com/sje30/waverepo/tree/master/hdf5                           |
+| OpenMS                                           | Bioinformatics Repository, issue discussion         | https://github.com/OpenMS/OpenMS/issues/1095                                 |
+| Pride Inspector Toolsuite                        | Project Organization, multiple project repositories | https://github.com/PRIDE-Toolsuite                                           |
+| BioPython                                        | Community Project, multiple contributors            | https://github.com/biopython/biopython/graphs/contributors                   |
+| Adam                                             | Community Project, Multiple forks                   | https://github.com/bigdatagenomics/adam/network                              |
+| Computational Proteomics Unit                    | Lab Repository                                      | https://github.com/ComputationalProteomicsUnit/                              |
+
+
+Table 2: Online courses, tutorials and workshops about GitHub and Git for scientist.
 
 | Name of the material                             | Type                 | URL                                                                          |
 |--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
@@ -477,6 +494,8 @@ Table 1: Online courses, tutorials and workshops about GitHub and Git for scient
 | Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
 | Software Carpentry: Version Control with Git     | Tutorial             | http://swcarpentry.github.io/git-novice/ |
 
+
+ 
 ## Disclaimer
 
 The authors have no affiliation with GitHub, nor any commercial entity
