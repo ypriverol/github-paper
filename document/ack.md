@@ -10,3 +10,9 @@ de.NBI - German Network for Bioinformatics Infrastructure (FKZ031 A
 534A). L.G. is supported by the BBSRC Strategic Longer and Larger
 grant (Award BB/L002817/1). F.V.L. is supported by NIH grant number
 R01-GM-094231.
+
+The authors would like to thank C. Titus Brown, Chris Fields and an
+anonymous reviewer for their helpful comments in improving the
+manuscript. We would also like to thank C. Titus Brown from
+advertising contributions to the manuscript on social media, leading to
+further contributions and improvements.
