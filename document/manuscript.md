@@ -98,7 +98,7 @@ cd project ## move into directory to be tracked
 git init   ## initialise local repository
 ## add individual files such as project description, reports, source code
 git add README project.md code.R 
-git commit -am"initial commit" ## saves the current local snapshot 
+git commit -m "initial commit" ## saves the current local snapshot 
 ```
 
 From now on, every change to these tracked files, once committed, will
