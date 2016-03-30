@@ -229,9 +229,7 @@ In practice, developers work on one or several features or improvements. To keep
 features logically separated, distinct branches are typically
 used. Later, when development is complete and none of the tests fail
 (see Rule 5) new features can be merged back into the development line
-or master branch. During such a development, the original branch might
-continuously be developed and other features might be merged into the
-master branch. Nevertheless, one can always pull the currently up-to-date 
+or master branch. In addition, one can always pull the currently up-to-date 
 master branch into a feature branch, to adapt the feature to the changes 
 in the master branch.
 
@@ -472,7 +470,7 @@ Table 1: Online courses, tutorials and workshops about GitHub and Git for scient
 | Github Training                                  | Courses and Training | https://training.github.com/                                                 |
 | Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
 | Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
-| Software Carpentry: Version Control with Git | Tutorial | http://swcarpentry.github.io/git-novice/ |
+| Software Carpentry: Version Control with Git     | Tutorial             | http://swcarpentry.github.io/git-novice/ |
 
 ## Disclaimer
 
