@@ -176,7 +176,7 @@ teams and organisation.
 
 Project managers can structure projects to manage permissions at
 different levels: users, teams and organisations.  Users are the
-keystone of GitHub, as for any other social network. Every user has a
+keystone of GitHub, as in any other social network. Every user has a
 profile listing their GitHub projects and activities, which can be
 populated optionally with personal information including name, e-mail
 address, image and webpage. To stay up to date with the activity of
