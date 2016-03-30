@@ -491,6 +491,7 @@ Table 2: Online courses, tutorials and workshops about GitHub and Git for scient
 
 | Name of the material                             | Type                 | URL                                                                          |
 |--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
+| `git help` and `git help -a`                     | Documentation        | Local, installed with `git`                                                  |
 | Karl Broman's git/github guide                   | Short tutorial       | http://kbroman.org/github_tutorial/                                          |
 | Version Control with GitVersion Control with Git | Tutorial             | http://swcarpentry.github.io/git-novice/                                     |
 | Introduction to Git                              | Tutorial             | http://git-scm.com/book/ch1-3.html                                           |
