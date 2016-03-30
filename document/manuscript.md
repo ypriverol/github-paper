@@ -52,7 +52,7 @@ control system git, designed by Linus Torvalds for the development of the Linux 
 Nowadays, git is developed and maintained by the git community (https://github.com/git).
 One reason for GitHub's success is that it offers more than a simple source code hosting service
 \cite{blischak2016quick, ram2013git}. It provides developers and
-researchers with a dynamic and collaborative environment, often coined
+researchers with a dynamic and collaborative environment, often viewed
 as social coding platform, with the ability to review, comment and
 discuss code \cite{Dabbish:2012}. Individual bioinformatics projects
 (https://github.com/lgatto/MSnbase) \cite{Gatto15012012}, lab
