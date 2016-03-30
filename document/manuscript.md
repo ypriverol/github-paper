@@ -229,9 +229,7 @@ In practice, developers work on one or several features or improvements. To keep
 features logically separated, distinct branches are typically
 used. Later, when development is complete and none of the tests fail
 (see Rule 5) new features can be merged back into the development line
-or master branch. During such a development, the original branch might
-continuously be developed and other features might be merged into the
-master branch. Nevertheless, one can always pull the currently up-to-date 
+or master branch. In addition, one can always pull the currently up-to-date 
 master branch into a feature branch, to adapt the feature to the changes 
 in the master branch.
 
