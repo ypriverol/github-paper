@@ -267,7 +267,7 @@ tested. In 2005, Martin Fowler defined the basic principles for
 continuous integration in software development \cite{FowlerCI}. These
 principles have become the main reference for best practices in
 continuous integration, providing the framework needed to deploy
-software, and in some instances, data. In addition to mere error-free
+software, and in some way, also data. In addition to mere error-free
 execution, dedicated code testing is aimed at detecting possible bugs
 introduced by new features, or changes in the code or dependencies, as
 well as detecting wrong results, the so called _logic errors_, where
@@ -282,9 +282,9 @@ run after each push to a repository, making it easier to follow the
 basic principles of continuous integration. The GitHub web hooks
 allows third-party platforms to access and interact with a GitHub
 repository and thus to automate post-processing tasks. Continuous
-integration can be achieved by _Travis_ (https://travis-ci.org), a
+integration can be achieved by _Travis CI_ (https://travis-ci.org), a
 hosted continued integration platform that is free for all open source
-projects. Travis builds and tests the source code using a plethora of
+projects. Travis CI builds and tests the source code using a plethora of
 options such as different platforms and interpreter versions
 (Supplementary Note, Section 2). Furthermore it offers notifications
 which allow your team and contributors to know if the new changes
