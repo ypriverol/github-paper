@@ -117,8 +117,8 @@ git push origin master ## push local changes to the remote repo
 git pull origin master ## pull remote changes into the local repo
 ```
 
-Following the rule: "commit early,commit often, and commit in a repository from which we
-can easily roll-back your mistakes", one can keep track of the development in small incremental
+Following Tony Rossin's advice "commit early, commit often, and commit in 
+a repository from which we can easily roll-back your mistakes", one can keep track of the development in small incremental
 changes. At any time it is possible to go back to a previous
 version. In larger projects, multiple users contribute to the same
 remote repository and all their contributions are recorded, attributed
