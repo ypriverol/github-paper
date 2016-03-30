@@ -322,20 +322,20 @@ easily identifiable as high quality and well-maintained.
 
 GitHub _issues_ are a great way to keep track of bugs, tasks, feature requests and
 enhancements. Classical issue trackers are primarily intended to be
-used as bug trackers. In contrast, GitHub issues follow a different
+used as bug trackers. In contrast, GitHub issue trackers (_issues_) follow a different
 philosophy: each tracker has its own section in every repository, and
 can be used to trace bugs, new ideas, and enhancements, by using a
-powerful but optional tagging system for each issue. Its main focus is
-put on promoting collaboration, providing context by using
-cross-references, and an excellent text formatting for each issue: (i)
+powerful but optional tagging system for each issue. _Issues_ main focus is
+on promoting collaboration, providing context by using
+cross-references, and excellent text formatting for each issue: (i)
 a title and description, (ii) colour-coded labels help to
 categorise and filter issues, (iii) milestones, 
 (iv) one assignee responsible for working on the issue, and (v)
 comments that allow anyone with a github account to provide
 feedback. Another aspect is its simplicity. For instance, it does not
-require to fill lengthy forms including every piece of information
-that might be valuable to reproduce the bug. It only requires
-to give the title and provide some optional text. If the developer
+require one to fill out lengthy forms including every piece of information
+that might be valuable to reproduce a bug. It only requires
+a title and provides space for optional text (comments). If the developer
 needs more information, they can simply request it in a comment. GitHub
 issues are dynamic and pose a lower barrier for users to
 report bugs and request features. A well-organised and tagged issue
