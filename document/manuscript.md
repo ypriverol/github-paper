@@ -421,7 +421,7 @@ such as Bootstrap (http://getbootstrap.com/) or platforms such as Disqus
 In addition, several real-time communication platforms has been integrated with GitHub such as 
 Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communications system allows
 the user community, developers and project collaborators to exchange ideas, issues,
-report bugs or get support. For example, Gitter is a GitHub-based chat tool (in limited beta at the time of writing) which
+report bugs or get support. For example, Gitter is a GitHub-based chat tool which
 enables developers and users to share aspects of their work. Gitter
 inherits the shape of the social groups operating around GitHub
 repositories, organisations, and issues. It relies on the identity
