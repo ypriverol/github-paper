@@ -323,31 +323,36 @@ easily identifiable as high quality and well-maintained.
 
 ## Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues
 
-GitHub _issues_ are a great way to keep track of bugs, tasks, feature requests and
-enhancements. Classical issue trackers are primarily intended to be
-used as bug trackers. In contrast, GitHub issue trackers (_issues_) follow a different
-philosophy: each tracker has its own section in every repository, and
-can be used to trace bugs, new ideas, and enhancements, by using a
-powerful but optional tagging system for each issue. _Issues_ main focus is
-on promoting collaboration, providing context by using
-cross-references, and excellent text formatting for each issue: (i)
-a title and description, (ii) colour-coded labels help to
-categorise and filter issues, (iii) milestones, 
-(iv) one assignee responsible for working on the issue, and (v)
-comments that allow anyone with a github account to provide
+GitHub _issues_ are a great way to keep track of bugs, tasks, feature
+requests and enhancements. Classical issue trackers are primarily
+intended to be used as bug trackers. In contrast, GitHub issue
+trackers (_issues_) follow a different philosophy: each tracker has
+its own section in every repository, and can be used to trace bugs,
+new ideas, and enhancements, by using a powerful but optional tagging
+system for each issue. _Issues_ main focus is on promoting
+collaboration, providing context by using cross-references, and
+excellent text formatting for each issue: (i) a title and description,
+(ii) colour-coded labels help to categorise and filter issues, (iii)
+milestones, (iv) one assignee responsible for working on the issue,
+and (v) comments that allow anyone with a github account to provide
 feedback. Another aspect is its simplicity. For instance, it does not
-require one to fill out lengthy forms including every piece of information
-that might be valuable to reproduce a bug. It only requires
-a title and provides space for optional text (comments). If the developer
-needs more information, they can simply request it in a comment. GitHub
-issues are dynamic and pose a lower barrier for users to
-report bugs and request features. A well-organised and tagged issue
-tracker helps upcoming contributors and users to understand a
-project more deeply. As an example, the following issue in OpenMS 
-repository (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction of 
-eight developers and more than hundred comments. The contributors can add
-figures, comments and references to other _issues_ and _pull requests_ in the repository as well as 
-reference to the code. 
+require one to fill out lengthy forms including every piece of
+information that might be valuable to reproduce a bug. It only
+requires a title and provides space for optional text (comments). If
+the developer needs more information, they can simply request it in a
+comment. Alternatively, it is possible for repository administrators
+to create issue and pull requests (see Rule 3) templates
+(https://help.github.com/articles/helping-people-contribute-to-your-project/)
+to customise and standardise the information to be included when
+contributors open issues. GitHub issues are dynamic and pose a lower
+barrier for users to report bugs and request features. A
+well-organised and tagged issue tracker helps upcoming contributors
+and users to understand a project more deeply. As an example, the
+following issue in OpenMS repository
+(https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction
+of eight developers and more than hundred comments. The contributors
+can add figures, comments and references to other _issues_ and _pull
+requests_ in the repository as well as reference to the code.
 
 As another illustration of _issues_ and their generic and wide
 application, we (https://github.com/ypriverol/github-paper/issues) and
