@@ -472,6 +472,7 @@ Table 1: Online courses, tutorials and workshops about GitHub and Git for scient
 | Github Training                                  | Courses and Training | https://training.github.com/                                                 |
 | Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
 | Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
+| Software Carpentry: Version Control with Git | Tutorial | http://swcarpentry.github.io/git-novice/ |
 
 ## Disclaimer
 
