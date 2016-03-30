@@ -48,9 +48,9 @@ businesses, as well as free plans including private repository for
 research and educational use. 
 
 GitHub relies, at its core, on the well-known and open source version
-control system git, designed and developed by Linus Torvalds for the
-development of the Linux kernel. One reason for GitHub's success is
-that it offers more than a simple source code hosting service
+control system git, designed by Linus Torvalds for the development of the Linux kernel. 
+Nowadays, git is developed and maintained by the git community (https://github.com/git).
+One reason for GitHub's success is that it offers more than a simple source code hosting service
 \cite{blischak2016quick, ram2013git}. It provides developers and
 researchers with a dynamic and collaborative environment, often coined
 as social coding platform, with the ability to review, comment and
