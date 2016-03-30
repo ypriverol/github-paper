@@ -1,0 +1,7 @@
+#Ignore LaTeX temp files
+document/*.aux
+document/*.log
+document/*.out
+document/*.toc
+document/*.haux
+document/*.htoc
