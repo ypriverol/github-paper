@@ -41,7 +41,7 @@ issue and pull request.
 make manuscript.tex
 ```
 
-- Then include the text from `manuscritp.tex` (ignore title, authors
+- Then include the text from `manuscript.tex` (ignore title, authors
   and references) into `manuscript-plos.tex`.
 
 - Comment the figure inclusion line.
@@ -53,10 +53,10 @@ make manuscript.tex
 - Compile by running
 
 ```
-make manuscipt-plos.pdf
+make manuscript-plos.pdf
 ```
 
-- Only commit `manuscript-plot.tex` and `manuscript-plos.pdf` to the
+- Only commit `manuscript-plos.tex` and `manuscript-plos.pdf` to the
   repo. To clean up unwanted files:
 
 ```
