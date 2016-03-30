@@ -267,7 +267,7 @@ tested. In 2005, Martin Fowler defined the basic principles for
 continuous integration in software development \cite{FowlerCI}. These
 principles have become the main reference for best practices in
 continuous integration, providing the framework needed to deploy
-software, and in some way, also data. In addition to mere error-free
+software, and in some instances, data. In addition to mere error-free
 execution, dedicated code testing is aimed at detecting possible bugs
 introduced by new features, or changes in the code or dependencies, as
 well as detecting wrong results, the so called _logic errors_, where
