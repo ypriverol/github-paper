@@ -119,7 +119,7 @@ a repository from which we can easily roll-back your mistakes", one can keep tra
 changes. At any time it is possible to go back to a previous
 version. In larger projects, multiple users contribute to the same
 remote repository and all their contributions are recorded, attributed
-and can be restores.
+and can be restored.
 
 Users usually track source code, text files, images and small data
 files inside their repos, and generally do not track derived files
@@ -130,15 +130,14 @@ reports and manuscripts (see for example the repository for this
 manuscript at https://github.com/ypriverol/github-paper), or other
 file types in your projects.
 
-The web interface offered by GitHub provides a friendly interface to
-many basic operations and a gentle introduction to a more rich albeit
+The web interface offered by GitHub provides friendly tools to perform many basic operations and a gentle introduction to a more rich albeit
 complex set of functionalities. There exists also various graphical
 user-interface driven clients to manage git and GitHub repositories
 (https://www.git-scm.com/downloads/guis). Many editors and
 development environments such as, for example, the popular Rstudio editor
 (https://www.rstudio.com/) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
-addition for remote git repositories, GitHub provides its own features
+addition, for remote git repositories GitHub provides its own features
 that will be described in subsequent rules (Fig. 1).
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
@@ -164,9 +163,9 @@ that will be described in subsequent rules (Fig. 1).
 > (Supplementary Note, Section 1).
 
 > **Box 2** By default, GitHub repositories are freely visible to all.
-> Many projects decide to disseminate their work publicly and openly
-> since the early stages of the projects to attract visibility and
-> benefit from contributions from the community early on. However,
+> Many projects decide to share their work publicly and openly
+> right from the early stage of projects, in order to attract visibility and
+> to benefit from contributions from the community early on. However,
 > many groups prefer to work privately on projects until they are
 > ready to share their work.  Private repositories ensure your work is
 > hidden but equally limit collaborations to just those users
@@ -192,7 +191,7 @@ that will be described in subsequent rules (Fig. 1).
 
 ## Rule 2. GitHub for single users, teams and organizations
 
-Open source projects on GitHub are visible to everyone, but write
+Public projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content of a
 repo, need to be granted explicitly. As a repository owner, you can
 grant these rights to other GitHub users. In addition to being owned
@@ -215,7 +214,7 @@ way to manage team-based access permissions for the individual
 projects of institutes, research labs, and large open source projects
 that need multiple owners and administrators (Fig.  1). We recommend
 that you (as an individual researcher) make your profile visible to
-other users and display all the projects and organizations you are
+other users and display all of the projects and organisations you are
 working in, including a list of the latest activities on the site
 (Fig. 1).
 
@@ -231,11 +230,10 @@ repository content that retains a link to the original
 repository. Forking a repository allows you to freely experiment with
 changes without affecting the original project. This forking is the
 basis of social coding. It allows anyone to develop and test novel
-features in existing code and offers the possibility to contribute
-(by opening _pull requests_) novel features, improvement to
-documentation or simple typo corrections
-(https://twitter.com/rgfitzjohn/status/708309767240982528) back the
-into the original (upstream) project, thereby improving the original
+features with existing code and offers the possibility of contributing
+(by opening _pull requests_) novel features, bug fixes, and improvements to
+documentation (https://twitter.com/rgfitzjohn/status/708309767240982528) 
+back into the original (upstream) project, thereby improving the original
 repository and becoming a contributor. Forking a repository and
 providing pull requests constitute an easy method for collaboration
 inside loosely defined teams and over more formal organizational
@@ -244,8 +242,7 @@ which external contributions to include. Once a pull request is opened
 for review and discussion, it usually results in additional insights
 and increased code quality.
 
-Concurrent development including commits to the same
-repository can be organized using different approaches. The most
+Concurrent development - that is, users making commits in parallel to the same repository - can be organised using different approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
@@ -328,18 +325,16 @@ code are being executed as part of your code tests. The Bioconductor project,
 for example, highly recommends packages to implement unit testing to
 support developers in their package development and maintenance
 (http://bioconductor.org/developers/unitTesting-guidelines/), and
-systematically tests the coverage of all its packages
+systematically tests the coverage of all of its packages
 (https://codecov.io/github/Bioconductor-mirror/). One might also
-consider to generate the documentation upon code/documentation
+consider generating the documentation upon code/documentation
 modification (Supplementary Note, Section 3). This implies that your
 projects provide comprehensive documentation so others can understand,
 and contribute back to them. For Python or C/C++ code, automatic
 documentation generation can be done using sphinx
 (http://sphinx-doc.org/) and subsequently integrated into GitHub using
 "Read the Docs" (https://readthedocs.org/). All of these platforms
-will create reports and badges (also called shields) for the projects
-that can be included on your GitHub page, thereby making your projects
-easily identifiable as high quality and well-maintained.
+will create reports and badges (also called shields) that can be included on your GitHub project page, helping to demonstrate that the content is high quality and well-maintained.
 
 ## Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues
 
@@ -349,30 +344,24 @@ intended to be used as bug trackers. In contrast, GitHub issue
 trackers (_issues_) follow a different philosophy: each tracker has
 its own section in every repository, and can be used to trace bugs,
 new ideas, and enhancements, by using a powerful but optional tagging
-system for each issue. _Issues_ main focus is on promoting
+system. _Issues_ main focus is on promoting
 collaboration, providing context by using cross-references. 
 Issues also have very clear formatting: (i) a title and description,
 (ii) color-coded labels help to categorize and filter issues, (iii)
 milestones, (iv) one assignee responsible for working on the issue,
 and (v) comments that allow anyone with a github account to provide
-feedback. Another aspect of issues is its simplicity. For instance, it does not
-require one to fill out lengthy forms including every piece of
-information that might be valuable to reproduce a bug. It only
-requires a title and provides space for optional text (comments). If
-the developer needs more information, they can simply request it in a
-comment. Alternatively, it is possible for repository administrators
-to create issue and pull requests (see Rule 3) templates
+feedback. Another aspect of the issue functionality is its simplicity. For instance, raising an issue does not require lengthy forms to be completed, or even including every piece of information that might be valuable to reproduce a bug. It only requires a title and provides space for optional text (comments). If the developer needs more information, he or she can simply request it in a comment. Alternatively, it is possible for repository administrators to create issue and pull request (see Rule 3) templates
 (https://help.github.com/articles/helping-people-contribute-to-your-project/)
 to customise and standardise the information to be included when
-contributors open issues. GitHub issues are thus more dynamic and pose a lower
+contributors open issues. GitHub issues are thus dynamic and pose a low
 barrier-to-entry for users to report bugs and request features. A
-well-organized and tagged issue tracker helps upcoming contributors
+well-organized and tagged issue tracker helps new contributors
 and users to understand a project more deeply. As an example, the
-following issue in OpenMS repository
+following issue in the OpenMS repository
 (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction
-of eight developers and more than hundred comments. The contributors
+of eight developers and more than hundred comments. Contributors
 can add figures, comments and references to other _issues_ and _pull
-requests_ in the repository as well as reference to the code.
+requests_ in the repository, as well as direct references to code.
 
 As another illustration of _issues_ and their generic and wide
 application, we (https://github.com/ypriverol/github-paper/issues) and
@@ -383,34 +372,25 @@ reviewers' comments.
 
 ## Rule 8. Make your code easily citable, and cite source code!
 
-In research, it is good practice to ensure permanent and unambiguous
+In research it is good practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
 entities such as proteins, genes and metabolites, among others (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
 produce DOIs for other types of scientific outputs such as datasets
-\cite{Vizcaino:2014} or training materials (for example
-\cite{Ahmadia_2015_27353}). The main motivation behind this is to give
-scientists better credit for their work
-\cite{NatBiotechEditorial:2009,force11-scwg}, simultaneously enabling a better
-way to cite and track it. In addition, funding agencies such as the
-NIH in the USA and Research Councils in the UK, now accept other
-research products such as publicly available datasets and software, as
-citable research outputs.
+\cite{Vizcaino:2014} and training materials (for example
+\cite{Ahmadia_2015_27353}). A key motivation for this is to build a framework for giving scientists broader credit for their work
+\cite{NatBiotechEditorial:2009,force11-scwg}, while simultaneously supporting clearer, more persistent ways to cite and track it. Helping to drive this change are funding agencies such as the NIH in the USA and Research Councils in the UK, who are increasingly recognizng the importance of research products such as publicly available datasets and software.
 
 A common issue with software is that it normally evolves at a
 different speed than text published in the scientific
 literature. In fact, it is common to find software having novel
 features and functionalities that were not described in the original
-publication. GitHub now enables the use of DOIs to cite the code
-deposited, using the data archiving tool Zenodo
-(https://zenodo.org/). The procedure is simple (see
-https://guides.github.com/activities/citable-code/) and, by default,
+publication. GitHub now integrates with archiving services such as Zenodo
+(https://zenodo.org/) and Figshare (https://figshare.com/), enabling DOIs to be assigned to code repositories. The procedure is relatively straightforward (see https://guides.github.com/activities/citable-code/), requiring only the provision of metadata and a series of administrative steps. By default,
 Zenodo takes an archive of a repository each time a new release is
-created in GitHub. However, before Zenodo can issue a DOI, metadata
-needs to be provided about the archived repository. Once the DOI has
-been assigned, you can add it to literature information resources such
+created in GitHub, ensuring the cited code remains up to date.  Once the DOI has been assigned, it can be added to literature information resources such
 as Europe PubMed Central \cite{EuropePMCConsortium:2015}.
 
 As already mentioned in the introduction, reproducibility of
@@ -446,20 +426,17 @@ comes with a powerful static site generator called Jekyll
 (https://jekyllrb.com) that can be integrated with other frameworks 
 such as Bootstrap (http://getbootstrap.com/) or platforms such as Disqus
 (https://disqus.com/), to support and moderate comments.
-In addition, several real-time communication platforms has been integrated with GitHub such as 
-Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communications system allows
-the user community, developers and project collaborators to exchange ideas, issues,
-report bugs or get support. For example, Gitter is a GitHub-based chat tool which
+In addition, several real-time communication platforms have been integrated with GitHub such as 
+Gitter (http://gitter.im) and Slack (https://slack.com/). Real-time communication systems allows the user community, developers and project collaborators to exchange ideas and issues, and to report bugs or get support. For example, Gitter is a GitHub-based chat tool which
 enables developers and users to share aspects of their work. Gitter
 inherits the network of social groups operating around GitHub
 repositories, organizations, and issues. It relies on the identity
 within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for
 public and private repositories. Within a Gitter chat, members
-can reference issues, comments, or pull requests. 
+can reference issues, comments, and pull requests. 
 GitHub also supports wikis (which are version-controlled repositories
-themselves) for each repostitory, where user can create and edit pages
+themselves) for each repository, where users can create and edit pages
 for documentation, examples or general support.
-
 
 A different service is Gist (https://gist.github.com), which
 represents a unique way to share _code snippets_, single files, parts
@@ -473,11 +450,8 @@ JavaScript.
 
 ## Rule 10. Use GitHub to be social: follow and watch
 
-One of scientists' main tasks is to actively follow the developments in
-their field. Analogously, scientific programmers need to revise
-publicly available (e.g., open source) projects and code that might be interesting for their
-research. Therefore, you should try to learn as much as possible from your peers,
-and keep up-to-date with all the developments of
+A key responsibility of scientific researchers is to actively follow the developments in their field. Analogously, scientific programmers need to follow
+publicly available (e.g., open source) projects and code that might be interesting for their research. Therefore, you should try to learn as much as possible from your peers, and keep up-to-date with all the developments of
 relevant projects. GitHub enables this functionality by _following_ other
 GitHub users (see also Rule 2) or _watching_ the activity of projects, which is a common
 feature in many social media platforms. Take advantage of it as much
@@ -485,13 +459,9 @@ as possible!
 
 ## Conclusions
 
-If you are interested and have not used git and GitHub before, we
-recommend you to get started as soon as possible. As with many other
-tools, a certain learning curve lays ahead. However, basic yet very
+If you are involved in scientific research and have not used git and GitHub before, we recommend you to explore its potential as soon as possible. As with many other tools, a certain learning curve lays ahead. However, basic yet very
 useful features can be relatively easily learned and applied to many
-different use-cases \cite{ram2013git}. We anticipate the reward will be worth your
-effort. To conclude, we would like to recommend some examples of bioinformatics
-repositories in GitHub (Table 1) and some useful training
+different use-cases \cite{ram2013git}. We anticipate the reward will be worth your effort. To conclude, we would like to recommend some examples of bioinformatics repositories in GitHub (Table 1) and some useful training
 materials including workshops, online courses and manuscripts (Table
 2).
 
