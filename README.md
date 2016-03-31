@@ -1,11 +1,11 @@
-# Ten Simple Rules for taking advantage of GitHub
+# Ten Simple Rules for taking advantage of GitHub [![Build Status](https://travis-ci.org/ypriverol/github-paper.svg?branch=master)](https://travis-ci.org/ypriverol/github-paper)
 
 ## Description 
 
-This repository contains the manuscript entitle:
+This repository contains the manuscript entitled:
 [**Ten Simple Rules for taking advantage of GitHub (in bioinformatics)**](https://github.com/ypriverol/github-paper/blob/master/document/manuscript.md). Our
 aim here is to describe how the bioinformatics community can use
-GitHub features and tools on a daily basics.
+GitHub features and tools on a daily basis.
 
 ## Commenting and contributing 
 
@@ -18,7 +18,7 @@ requests.
 Feel free to browse through existing/past issues and if one seems
 related, comment on it. If no existing issue seems appropriate, a new
 issue can be opened to discuss the suggestion. In particular, we would
-appreciate to discuss more substantial changes (for example suggestion
+appreciate discussing more substantial changes (for example suggestion
 of new rules) in a dedicated issue before sending a pull request.
 
 If you are new to Git, read the
@@ -66,6 +66,6 @@ make clean
 ## Disclaimer
 
 The authors have no affiliation with [GitHub](https://github.com/),
-nor any commercial entity mentioned in this articel. The views
-described here reflect our owns without any input from any third party
+nor any commercial entity mentioned in this article. The views
+described here reflect our own views without input from any third party
 organisation.
