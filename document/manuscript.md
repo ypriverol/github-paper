@@ -372,21 +372,16 @@ reviewers' comments.
 
 ## Rule 8. Make your code easily citable, and cite source code!
 
-In research, it is good practice to ensure permanent and unambiguous
+In research it is good practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
 entities such as proteins, genes and metabolites, among others (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
 produce DOIs for other types of scientific outputs such as datasets
-\cite{Vizcaino:2014} or training materials (for example
-\cite{Ahmadia_2015_27353}). The main motivation behind this is to give
-scientists better credit for their work
-\cite{NatBiotechEditorial:2009,force11-scwg}, simultaneously enabling a better
-way to cite and track it. In addition, funding agencies such as the
-NIH in the USA and Research Councils in the UK, now accept other
-research products such as publicly available datasets and software, as
-citable research outputs.
+\cite{Vizcaino:2014} and training materials (for example
+\cite{Ahmadia_2015_27353}). A key motivation for this is to build a framework for giving scientists broader credit for their work
+\cite{NatBiotechEditorial:2009,force11-scwg}, while simultaneously supporting clearer, more persistent ways to cite and track it. Helping to drive this change are funding agencies such as the NIH in the USA and Research Councils in the UK, who are increasingly recognizng the importance of research products such as publicly available datasets and software.
 
 A common issue with software is that it normally evolves at a
 different speed than text published in the scientific
