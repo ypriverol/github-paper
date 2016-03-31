@@ -43,7 +43,7 @@ contributors. Here, we introduce the main features of GitHub, a
 popular web-based platform which offers a free and integrated
 environment for hosting the source code, documentation and
 project-related web content for open source projects. GitHub also
-offers paid plans for private repositories for individuals and
+offers paid plans for private repositories (see Box 2) for individuals and
 businesses, as well as free plans including private repository for
 research and educational use. 
 
@@ -167,8 +167,17 @@ that will be described in subsequent rules (Fig. 1).
 > (https://help.github.com/categories/managing-large-files/)
 > (Supplementary Note, Section 1).
 
-> **Box 2** TODO Public of private repositories -
-> see [issue 111](https://github.com/ypriverol/github-paper/issues/111).
+> **Box 2** GitHub offers public of private repositories (the latter
+> requiring a paid plans). Many projects decide to disseminate their
+> work publicly and openly since the early stages of the projects to
+> attract visibility and benefit from contributions from the community
+> early on. Other projects will start as private repositories,
+> limiting the collaboration among selected collaborators that are
+> given access to the repository. These repositories can then be made
+> public at a later stage, such as, for example, upon submission,
+> acceptance, or publication of the work. I some cases, when the
+> collaboration was exclusively meant to be private, some repositories
+> might never be made publicly accessible. 
 
 ## Rule 2. GitHub for single users, teams and organisations
 
