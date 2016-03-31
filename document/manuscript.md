@@ -130,8 +130,7 @@ reports and manuscripts (see for example the repository for this
 manuscript at https://github.com/ypriverol/github-paper), or other
 file types in your projects.
 
-The web interface offered by GitHub provides a friendly interface to
-many basic operations and a gentle introduction to a more rich albeit
+The web interface offered by GitHub provides friendly tools to perform many basic operations and a gentle introduction to a more rich albeit
 complex set of functionalities. There exists also various graphical
 user-interface driven clients to manage git and GitHub repositories
 (https://www.git-scm.com/downloads/guis). Many editors and
