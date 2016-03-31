@@ -5,7 +5,7 @@ Yasset Perez-Riverol (1)[^1], Laurent Gatto (2), Rui Wang (1), Timo Sachsenberg 
 
 (1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
 
-(2) Computational Proteomics Unit, Cambridge Systems Biology Centre, University of Cambridge Tennis Court Road, Cambridge, CB2 1GA, UK.
+(2) Computational Proteomics Unit, Cambridge Systems Biology Centre, University of Cambridge, Tennis Court Road, Cambridge, CB2 1GA, UK.
 
 (3) Applied Bioinformatics and Department of Computer Science, University of Tübingen, D-72074 Tübingen, Germany.
 
@@ -17,11 +17,11 @@ Yasset Perez-Riverol (1)[^1], Laurent Gatto (2), Rui Wang (1), Timo Sachsenberg 
 
 (7) Centre for Mathematical Sciences, University of Cambridge, Wilberforce Road, Cambridge CB3 0WA, UK.
 
-(8) National Center for Supercomputing Applications, University of Illinois, 1205 W. Clark St. Urbana, Illinois 61801, USA. 
+(8) National Center for Supercomputing Applications, University of Illinois, 1205 W. Clark St., Urbana, Illinois 61801, USA. 
 
 (9) MIT Laboratory for Computational Physiology, Institute for Medical Engineering and Science, Massachusetts Institute of Technology, E25-545B, 45 Carleton St, Cambridge, MA 02142, USA.
 
-(10) Centre for Interdisciplinary Research in Computational Algebra University of St Andrews, St Andrews, Fife, KY16 9SX, UK.
+(10) Centre for Interdisciplinary Research in Computational Algebra, University of St Andrews, St Andrews, Fife, KY16 9SX, UK.
 
 [^1]: yperez@ebi.ac.uk.
 [^2]: juan@ebi.ac.uk.
