@@ -49,23 +49,17 @@ businesses, as well as free plans including private repository for
 research and educational use. 
 
 GitHub relies, at its core, on the well-known and open source version
-control system git, designed by Linus Torvalds for the development of the Linux kernel. 
-Nowadays, git is developed and maintained by the git community (https://github.com/git).
-One reason for GitHub's success is that it offers more than a simple source code hosting service
+control system git, designed by Linus Torvalds for the development of
+the Linux kernel. Nowadays, git is developed and maintained by the git
+community (https://github.com/git). One reason for GitHub's success is
+that it offers more than a simple source code hosting service
 \cite{blischak2016quick, ram2013git}. It provides developers and
-researchers with a dynamic and collaborative environment, often referred 
-to as a social coding platform, with the ability to review, comment and
-discuss code \cite{Dabbish:2012}. Individual bioinformatics projects such as `MSnbase`
-(https://github.com/lgatto/MSnbase) \cite{Gatto15012012} and `waverepo`
-(https://github.com/sje30/waverepo) \cite{Eglen:2014}), lab
-repositories (for example https://github.com/PRIDE-Toolsuite/ 
-\cite{Perez-Riverol01012016}), intermediate and large projects such as 
-samtools (https://github.com/samtools), OpenMS (https://github.com/OpenMS)
-\cite{sturm2008openms} and the Galaxy project (https://github.com/galaxyproject/galaxy/) 
-\cite{Goecks:2010}, or global collaborations such as rOpenSci
-(https://github.com/ropensci) and The Global Alliance For Genomics and
-Health (https://github.com/ga4gh) have found the perfect place in
-GitHub to share code, ideas and collaborate (see Table 1).
+researchers with a dynamic and collaborative environment, often
+referred to as a social coding platform, with the ability to review,
+comment and discuss code \cite{Dabbish:2012}. A diverse range of
+efforts, ranging from individual to large bioinformatics projects, lab
+repositories, as well as global collaborations found the perfect place
+in GitHub to share code, ideas and collaborate (see Table 1).
 
 Some of our recommendations outlined below are applicable to other
 hosting services. However our main aim here is to highlight specific
@@ -507,15 +501,15 @@ example (issue tracking, branch structure, unit tests) and the URL of the exampl
 
 | Name of the Repository                       | Type                                                       | URL                                                                          |
 |----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
-| Galaxy Project                               | Community Project, Bioinformatics Repository               | https://github.com/galaxyproject/galaxy/                                     |
-| Retinal wave data repository                 | Binary Data organized                                      | https://github.com/sje30/waverepo/tree/master/hdf5                           |
-| OpenMS                                       | Bioinformatics Repository, Issue discussion, branches      | https://github.com/OpenMS/OpenMS/issues/1095                                 |
-| Pride Inspector Toolsuite                    | Project Organization, Multiple project repositories        | https://github.com/PRIDE-Toolsuite                                           |
-| BioPython                                    | Community Project, Multiple contributors                   | https://github.com/biopython/biopython/graphs/contributors                   |
-| Adam                                         | Community Project, Multiple forks                          | https://github.com/bigdatagenomics/adam/network                              |
+| Galaxy Project \cite{Goecks:2010}            | Community Project, Bioinformatics Repository               | https://github.com/galaxyproject/galaxy/                                     |
+| Retinal wave data repository \cite{Eglen:2014}| Binary Data organized                                     | https://github.com/sje30/waverepo/tree/master/hdf5                           |
+| OpenMS \cite{sturm2008openms}                | Bioinformatics Repository, Issue discussion, branches      | https://github.com/OpenMS/OpenMS/issues/1095                                 |
+| Pride Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple project repositories | https://github.com/PRIDE-Toolsuite                                        |
+| BioPython \cite{Cock:2009}                   | Community Project, Multiple contributors                   | https://github.com/biopython/biopython/graphs/contributors                   |
+| Adam                                         | Community Project, Multiple forks                          | https://github.com/bigdatagenomics/adam/                                     |
 | Computational Proteomics Unit                | Lab Repository                                             | https://github.com/ComputationalProteomicsUnit/                              |
-| MSnbase                                      | Individual project repository                              | https://github.com/lgatto/MSnbase                                            |
-| SamTools                                     | Bioinformatics Repository, Project Organization            | https://github.com/samtools                                                  |
+| MSnbase \cite{Gatto15012012}                 | Individual project repository                              | https://github.com/lgatto/MSnbase                                            |
+| SAMtools \cite{Li:2009}                      | Bioinformatics Repository, Project Organization            | https://github.com/samtools                                                  |
 | rOpenSci                                     | Community Project, Issue discussion                        | https://github.com/ropensci                                                  |
 | The Global Alliance For Genomics and Health  | Community Project                                          | https://github.com/ga4gh                                                     |
 | GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | https://github.com/ypriverol/github-paper                                    |
