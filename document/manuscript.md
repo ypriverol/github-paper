@@ -350,18 +350,18 @@ Issues also have very clear formatting: (i) a title and description,
 (ii) color-coded labels help to categorize and filter issues, (iii)
 milestones, (iv) one assignee responsible for working on the issue,
 and (v) comments that allow anyone with a github account to provide
-feedback. Another aspect of the issue functionality is its simplicity. For instance, raising an issue does not require lengthy forms to be completed, or even including every piece of information that might be valuable to reproduce a bug. It only requires a title and provides space for optional text (comments). If the developer needs more information, he or she can simply request it in a comment. Alternatively, it is possible for repository administrators to create issue and pull requests (see Rule 3) templates
+feedback. Another aspect of the issue functionality is its simplicity. For instance, raising an issue does not require lengthy forms to be completed, or even including every piece of information that might be valuable to reproduce a bug. It only requires a title and provides space for optional text (comments). If the developer needs more information, he or she can simply request it in a comment. Alternatively, it is possible for repository administrators to create issue and pull request (see Rule 3) templates
 (https://help.github.com/articles/helping-people-contribute-to-your-project/)
 to customise and standardise the information to be included when
-contributors open issues. GitHub issues are thus more dynamic and pose a lower
+contributors open issues. GitHub issues are thus dynamic and pose a low
 barrier-to-entry for users to report bugs and request features. A
-well-organized and tagged issue tracker helps upcoming contributors
+well-organized and tagged issue tracker helps new contributors
 and users to understand a project more deeply. As an example, the
-following issue in OpenMS repository
+following issue in the OpenMS repository
 (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction
-of eight developers and more than hundred comments. The contributors
+of eight developers and more than hundred comments. Contributors
 can add figures, comments and references to other _issues_ and _pull
-requests_ in the repository as well as reference to the code.
+requests_ in the repository, as well as direct references to code.
 
 As another illustration of _issues_ and their generic and wide
 application, we (https://github.com/ypriverol/github-paper/issues) and
