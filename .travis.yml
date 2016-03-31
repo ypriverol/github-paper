@@ -26,6 +26,6 @@ before_install:
   # Install fonts
   # - sudo apt-get install lmodern
 
-# Attempt to create a PDF
+# Attempt to create manuscript.tex
 script:
-  - cd document && make pdf
+  - cd document && manuscript.tex
