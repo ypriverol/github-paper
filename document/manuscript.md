@@ -344,19 +344,13 @@ intended to be used as bug trackers. In contrast, GitHub issue
 trackers (_issues_) follow a different philosophy: each tracker has
 its own section in every repository, and can be used to trace bugs,
 new ideas, and enhancements, by using a powerful but optional tagging
-system for each issue. _Issues_ main focus is on promoting
+system. _Issues_ main focus is on promoting
 collaboration, providing context by using cross-references. 
 Issues also have very clear formatting: (i) a title and description,
 (ii) color-coded labels help to categorize and filter issues, (iii)
 milestones, (iv) one assignee responsible for working on the issue,
 and (v) comments that allow anyone with a github account to provide
-feedback. Another aspect of issues is its simplicity. For instance, it does not
-require one to fill out lengthy forms including every piece of
-information that might be valuable to reproduce a bug. It only
-requires a title and provides space for optional text (comments). If
-the developer needs more information, they can simply request it in a
-comment. Alternatively, it is possible for repository administrators
-to create issue and pull requests (see Rule 3) templates
+feedback. Another aspect of the issue functionality is its simplicity. For instance, raising an issue does not require lengthy forms to be completed, or even including every piece of information that might be valuable to reproduce a bug. It only requires a title and provides space for optional text (comments). If the developer needs more information, he or she can simply request it in a comment. Alternatively, it is possible for repository administrators to create issue and pull requests (see Rule 3) templates
 (https://help.github.com/articles/helping-people-contribute-to-your-project/)
 to customise and standardise the information to be included when
 contributors open issues. GitHub issues are thus more dynamic and pose a lower
