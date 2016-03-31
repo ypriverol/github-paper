@@ -134,6 +134,15 @@ reports and manuscripts (see for example the repository for this
 manuscript at https://github.com/ypriverol/github-paper), or other
 file types in your projects.
 
+Due to its distributed design, every local git repository with the
+latest commit is an entire exact historical copy of everything that
+was committed - file changes, commit message logs, etc. These copies
+act as independent backups as well, present on each user's storage
+device. Git can be considered to be fault-tolerant because of this,
+which is a win over centralized version control systems. If the remote
+GitHub server is unavailable, collaboration and work can continue
+between users, as opposed to centralized alternatives.
+
 The web interface offered by GitHub provides friendly tools to perform many basic operations and a gentle introduction to a more rich albeit
 complex set of functionalities. There exists also various graphical
 user-interface driven clients to manage git and GitHub repositories
