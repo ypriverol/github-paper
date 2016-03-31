@@ -122,12 +122,13 @@ remote repository and all their contributions are recorded, attributed
 and can be restores.
 
 Users usually track source code, text files, images and small data
-files inside their repos. And while the majority of GitHub
-repositories are used for software development, there is nothing
-preventing users from keeping text documents such as analysis reports
-and manuscripts (see for example the repository for this manuscript at
-https://github.com/ypriverol/github-paper), or other file types in
-your projects. 
+files inside their repos, and generally do not track derived files
+such as build logs or compiled binaries. And while the majority of
+GitHub repositories are used for software development, there is
+nothing preventing users from keeping text documents such as analysis
+reports and manuscripts (see for example the repository for this
+manuscript at https://github.com/ypriverol/github-paper), or other
+file types in your projects.
 
 The web interface offered by GitHub provides a friendly interface to
 many basic operations and a gentle introduction to a more rich albeit
