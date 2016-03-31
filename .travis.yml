@@ -28,4 +28,4 @@ before_install:
 
 # Attempt to create manuscript.tex
 script:
-  - cd document && manuscript.tex
+  - cd document && make manuscript.tex
