@@ -436,6 +436,10 @@ repositories, organisations, and issues. It relies on the identity
 within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for
 public and private repositories. From within a Gitter chat, members
 can reference issues, comments, or pull-requests. 
+GitHub also supports wikis (which are version-controlled repositories
+themselves) for each repostitory, where user can create and edit pages
+for documentation, examples or general support.
+
 
 A different service is Gist (https://gist.github.com), which
 represents a unique way to share _code snippets_, single files, parts
@@ -445,7 +449,7 @@ gists that are not provided through _Discover_
 (https://gist.github.com/discover). One of the main features of Gist
 is the possibility to embed code snippets in other applications,
 enabling users to embed gists in any text field that supports
-JavaScript.
+JavaScript. 
 
 ## Rule 10. Use GitHub to be social: follow and watch
 
