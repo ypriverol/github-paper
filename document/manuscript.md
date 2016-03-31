@@ -183,13 +183,15 @@ that will be described in subsequent rules (Fig. 1).
 > accessible.
 
 > **Box 3** Every repository should ideally have the following three
-> files. The first, and arguably most important file in a repository is a LICENSE file (see also Rule 8), that clearly
-> defines the permissions and restrictions attached to the code and
-> other files in your repository. The second important file is the README, which provides, for example, a short description
-> of the projects, a quick tutorial start guide, information on how to
-> contribute, a TODO list, and links to additional documentation. Such
-> README files are typically written in markdown, a simple markup
-> language that is automatically rendered on GitHub.  Finally, adding a CITATION file to
+> files. The first, and arguably most important file in a repository
+> is a LICENCE file (see also Rule 8), that clearly defines the
+> permissions and restrictions attached to the code and other files in
+> your repository. The second important file is a README file, which
+> provides, for example, a short description of the projects, a quick
+> tutorial start guide, information on how to contribute, a TODO list,
+> and links to additional documentation. Such README files are
+> typically written in markdown, a simple markup language that is
+> automatically rendered on GitHub. Finally, adding a CITATION file to
 > the repository will inform your users how to cite and credit your
 > project.
 
