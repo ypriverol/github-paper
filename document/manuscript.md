@@ -334,8 +334,7 @@ and contribute back to them. For Python or C/C++ code, automatic
 documentation generation can be done using sphinx
 (http://sphinx-doc.org/) and subsequently integrated into GitHub using
 "Read the Docs" (https://readthedocs.org/). All of these platforms
-will create reports and badges (also called shields) that can be included on your GitHub project page, thereby making your projects
-easily identifiable as high quality and well-maintained.
+will create reports and badges (also called shields) that can be included on your GitHub project page, helping to demonstrate that the content is high quality and well-maintained.
 
 ## Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues
 
