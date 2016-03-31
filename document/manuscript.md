@@ -242,8 +242,7 @@ which external contributions to include. Once a pull request is opened
 for review and discussion, it usually results in additional insights
 and increased code quality.
 
-Concurrent development including commits to the same
-repository can be organised using different approaches. The most
+Concurrent development - that is, users making commits in parallel to the same repository - can be organised using different approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
