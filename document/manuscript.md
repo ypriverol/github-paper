@@ -137,7 +137,7 @@ user-interface driven clients to manage git and GitHub repositories
 development environments such as, for example, the popular Rstudio editor
 (https://www.rstudio.com/) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
-addition for remote git repositories, GitHub provides its own features
+addition, for remote git repositories GitHub provides its own features
 that will be described in subsequent rules (Fig. 1).
 
 ![The structure of a GitHub-based project illustrating project structure and interactions with the community.](./figure01_overview.pdf)
@@ -191,7 +191,7 @@ that will be described in subsequent rules (Fig. 1).
 
 ## Rule 2. GitHub for single users, teams and organisations
 
-Open source projects on GitHub are visible to everyone, but write
+Public projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content of a
 repo, need to explicitly be granted. As a repository owner, you can
 grant these rights to other GitHub users. In addition to being owned
