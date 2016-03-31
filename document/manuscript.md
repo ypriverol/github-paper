@@ -437,11 +437,10 @@ inherits the network of social groups operating around GitHub
 repositories, organizations, and issues. It relies on the identity
 within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for
 public and private repositories. Within a Gitter chat, members
-can reference issues, comments, or pull requests. 
+can reference issues, comments, and pull requests. 
 GitHub also supports wikis (which are version-controlled repositories
-themselves) for each repostitory, where user can create and edit pages
+themselves) for each repository, where users can create and edit pages
 for documentation, examples or general support.
-
 
 A different service is Gist (https://gist.github.com), which
 represents a unique way to share _code snippets_, single files, parts
@@ -455,11 +454,8 @@ JavaScript.
 
 ## Rule 10. Use GitHub to be social: follow and watch
 
-One of scientists' main tasks is to actively follow the developments in
-their field. Analogously, scientific programmers need to revise
-publicly available (e.g., open source) projects and code that might be interesting for their
-research. Therefore, you should try to learn as much as possible from your peers,
-and keep up-to-date with all the developments of
+A key responsibility of scientific researchers is to actively follow the developments in their field. Analogously, scientific programmers need to follow
+publicly available (e.g., open source) projects and code that might be interesting for their research. Therefore, you should try to learn as much as possible from your peers, and keep up-to-date with all the developments of
 relevant projects. GitHub enables this functionality by _following_ other
 GitHub users (see also Rule 2) or _watching_ the activity of projects, which is a common
 feature in many social media platforms. Take advantage of it as much
@@ -467,13 +463,9 @@ as possible!
 
 ## Conclusions
 
-If you are interested and have not used git and GitHub before, we
-recommend you to get started as soon as possible. As with many other
-tools, a certain learning curve lays ahead. However, basic yet very
+If you are involved in scientific research and have not used git and GitHub before, we recommend you to explore its potential as soon as possible. As with many other tools, a certain learning curve lays ahead. However, basic yet very
 useful features can be relatively easily learned and applied to many
-different use-cases \cite{ram2013git}. We anticipate the reward will be worth your
-effort. To conclude, we would like to recommend some examples of bioinformatics
-repositories in GitHub (Table 1) and some useful training
+different use-cases \cite{ram2013git}. We anticipate the reward will be worth your effort. To conclude, we would like to recommend some examples of bioinformatics repositories in GitHub (Table 1) and some useful training
 materials including workshops, online courses and manuscripts (Table
 2).
 
