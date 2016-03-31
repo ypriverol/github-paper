@@ -2,9 +2,9 @@
 # https://travis-ci.org/
 
 # Whitelist gh-pages branch
-branches:
-  only:
-    - integratetravis
+# branches:
+#   only:
+#     - integratetravis
 
 # Set the language
 language: bash
