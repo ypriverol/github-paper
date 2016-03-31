@@ -2,7 +2,7 @@
 # Ten Simple Rules for taking advantage of git and GitHub
 
 Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
-
+ML
 (1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
 
 (2) Applied Bioinformatics and Department of Computer Science, University of Tübingen, D-72074 Tübingen, Germany.
@@ -30,7 +30,7 @@ replicability and traceability of scientific claims, it is essential
 that the scientific publication, the corresponding datasets and the
 data analysis are made publicly available
 \cite{Goodman:2014,Perez-Riverol:2015}. All software used for the
-analysis should be either carefully documented (e.g. for commercial
+analysis should be either carefully documented (e.g., for commercial
 software) or, better, openly shared and directly accessible to others
 \cite{Osborne:2014,Vihinen:2015}.  The rise of openly available
 software and source code, and concomitant collaborative development is
@@ -39,10 +39,10 @@ as SourceForge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/), GitLab (https://about.gitlab.com/) and
 GitHub (https://github.com/), among others. These resources are also
 essential for collaborative software projects, since they enable the
-organisation and sharing of programming tasks between different remote
+organization and sharing of programming tasks between different remote
 contributors. Here, we introduce the main features of GitHub, a
-popular web-based platform which offers a free and integrated
-environment for hosting the source code, documentation and
+popular web-based platform that offers a free and integrated
+environment for hosting the source code, documentation, and
 project-related web content for open source projects. GitHub also
 offers paid plans for private repositories (see Box 2) for individuals and
 businesses, as well as free plans including private repository for
@@ -66,7 +66,7 @@ hosting services. However our main aim here is to highlight specific
 GitHub features. We provide a set of recommendations to take full
 advantage of GitHub's features to manage small and large
 bioinformatics projects and increase their profile and
-visibility. These rules have been ordered to reflect a typical
+visibility. These rules are ordered to reflect a typical
 development process: learning git and GitHub basics, collaboration,
 use of branches and pull requests, labelling and tagging of code
 snapshots, tracking project bugs and enhancements using issues, and
@@ -74,7 +74,7 @@ dissemination of the final results.
 
 ## Rule 1. Use GitHub to track your projects
 
-The cornerstone of GitHub is the distributed version control system
+The backbone of GitHub is the distributed version control system
 git. Every change, from fixing a typo to a complete redesign of the
 software, is tracked and controlled by individual and unique
 identifier. While git has a complex set of commands and can be used
@@ -102,7 +102,7 @@ From now on, every change to these tracked files, once committed, will
 be recorded as a new revision, or _snapshot_, uniquely identifying the
 changes in all the modified files. Git is remarkably effective in
 archiving the complete history of a project (all revisions) by,
-amongst other things, storing only the differences among them.
+among other things, storing only the differences among them.
 
 In addition to local copies of the repository, it is easy to create
 remote repositories on GitHub (called `origin`, with default branch
@@ -190,70 +190,70 @@ that will be described in subsequent rules (Fig. 1).
 > the repository will inform your users how to cite and credit your
 > project.
 
-## Rule 2. GitHub for single users, teams and organisations
+## Rule 2. GitHub for single users, teams and organizations
 
 Open source projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content of a
-repo, need to explicitly be granted. As a repository owner, you can
+repo, need to be granted explicitly. As a repository owner, you can
 grant these rights to other GitHub users. In addition to being owned
 by users, repositories can also be created and managed as part of
-teams and organisation.
+teams and organization.
 
 Project managers can structure projects to manage permissions at
-different levels: users, teams and organisations.  Users are the
-keystone of GitHub, as in any other social network. Every user has a
+different levels: users, teams and organizations.  Users are the
+central element of GitHub, as in any other social network. Every user has a
 profile listing their GitHub projects and activities, which can be
 populated optionally with personal information including name, e-mail
-address, image and webpage. To stay up to date with the activity of
+address, image, and webpage. To stay up to date with the activity of
 other users one can _follow_ their accounts (see also Rule
 10). Collaboration can be achieved by simply adding a trusted
 _Collaborator_ and thereby granting write access.
 
 However, development in large projects is usually done by teams of
-people, within a larger organisation. GitHub organisations are a great
+people, within a larger organization. GitHub organizations are a great
 way to manage team-based access permissions for the individual
 projects of institutes, research labs, and large open source projects
 that need multiple owners and administrators (Fig.  1). We recommend
 that you (as an individual researcher) make your profile visible to
-other users and display all the projects and organisations you are
+other users and display all the projects and organizations you are
 working in, including a list of the latest activities on the site
 (Fig. 1).
 
 ## Rule 3. Developing and collaborating on new features: branching and forking
 
-Everyone with a GitHub account can _fork_ any public repository and
+Anyone with a GitHub account can _fork_ any public repository and
 start developing the same code base in one's own fork
 (https://help.github.com/articles/fork-a-repo/) under their username
 (see for example
 https://github.com/ypriverol/github-paper/network/members for this
-work) or organisation (see Rule 2). A fork is a complete copy of a
+work) or organization (see Rule 2). A fork is a complete copy of a
 repository content that retains a link to the original
 repository. Forking a repository allows you to freely experiment with
 changes without affecting the original project. This forking is the
 basis of social coding. It allows anyone to develop and test novel
-features into existing code and offers the possibility to contribute
+features in existing code and offers the possibility to contribute
 (by opening _pull requests_) novel features, improvement to
 documentation or simple typo corrections
 (https://twitter.com/rgfitzjohn/status/708309767240982528) back the
 into the original (upstream) project, thereby improving the original
 repository and becoming a contributor. Forking a repository and
-providing pull requests constitute an easy way for collaboration
-inside loosely defined teams and over more formal organisation
+providing pull requests constitute an easy method for collaboration
+inside loosely defined teams and over more formal organizational
 boundaries, while the original repository owner(s) retain control over
 which external contributions to include. Once a pull request is opened
 for review and discussion, it usually results in additional insights
 and increased code quality.
 
 Concurrent development including commits to the same
-repository can be organised using different approaches. The most
+repository can be organized using different approaches. The most
 common way is to use git _branches_ to separate different lines of
 development. Active development is often performed on a development
 branch and stable versions e.g. those used for a software release,
 are kept in a master or release branch (see for example https://github.com/OpenMS/OpenMS/branches). 
-In practice, developers work on one or several features or improvements. To keep commits of the different
+In practice, developers often work concurrently on one or several features or improvements. To keep commits of the different
 features logically separated, distinct branches are typically
 used. Later, when development is complete and none of the tests fail
-(see Rule 5) new features can be merged back into the development line
+(see Rule 5), new features can be merged back into the development line
 or master branch. In addition, one can always pull the currently up-to-date 
 master branch into a feature branch, to adapt the feature to the changes 
 in the master branch.
@@ -268,23 +268,23 @@ conflicts to bring the branches in sync again.
 
 ## Rule 4. Naming branches and commits: tags and semantic versions
 
-Tags offer the possibility to label versions during the development
+Tags offer the possibility of labeling versions during the development
 process. Version numbering should follow
 semantic versioning in the form X.Y.Z, with X being the major, Y the
-minor and Z the patch version of the release, including possible meta
+minor, and Z the patch version of the release, including possible meta
 information, as described in http://semver.org/. This semantic
 versioning scheme provides users with coherent version numbers that
 document the extent (bug fixes or new functionality) and backwards
 compatibility of new releases. Correct labelling allows developers and
 users to easily recover older versions, compare them, or simply use
 them to reproduce results described in publications (see Rule 8). This
-approach will also help defining a coherent software publication
+approach also help to define a coherent software publication
 strategy.
 
 ## Rule 5: Let GitHub do some tasks for you: integrate
 
 The first rule of software development is that the code needs to be
-ready to use as soon as possible \cite{Leprevost:2014}, remain so
+ready to use as soon as possible \cite{Leprevost:2014}, to remain so
 during development, and that it should be well-documented and
 tested. In 2005, Martin Fowler defined the basic principles for
 continuous integration in software development \cite{FowlerCI}. These
@@ -293,9 +293,9 @@ continuous integration, providing the framework needed to deploy
 software, and in some way, also data. In addition to mere error-free
 execution, dedicated code testing is aimed at detecting possible bugs
 introduced by new features, or changes in the code or dependencies, as
-well as detecting wrong results, the so called _logic errors_, where
-the source code produces a different result compared to what one
-intended it to do. Continuous integration provides the way of
+well as detecting wrong results, often known as _logic errors_, where
+the source code produces a different result than what was intended.
+Continuous integration provides a way to 
 automatically and systematically run all of tests in the repository by
 checking data and software dependencies and can be automated through
 GitHub.
@@ -309,7 +309,7 @@ integration can be achieved by _Travis CI_ (https://travis-ci.org), a
 hosted continued integration platform that is free for all open source
 projects. Travis CI builds and tests the source code using a plethora of
 options such as different platforms and interpreter versions
-(Supplementary Note, Section 2). Furthermore it offers notifications
+(Supplementary Note, Section 2). In addition, it offers notifications
 which allow your team and contributors to know if the new changes
 work, and prevent the introduction of errors in the code (for instance
 when merging pull requests), making the repo always ready to
@@ -321,7 +321,7 @@ There is more than code compilation and testing that can be integrated
 into your software project. GitHub hooks can be used to automate
 numerous tasks to help improve the overall quality of your project. A
 important complement to successful test completion, is to demonstrate
-that they cover the existing code base sufficiently. For this task,
+that they cover the existing code base sufficiently. For this,
 the integration of _Codecov_ is recommended (https://codecov.io).
 This service will report how much of the code base and which lines of
 code are being executed as part of your code tests. The Bioconductor project,
@@ -350,12 +350,12 @@ trackers (_issues_) follow a different philosophy: each tracker has
 its own section in every repository, and can be used to trace bugs,
 new ideas, and enhancements, by using a powerful but optional tagging
 system for each issue. _Issues_ main focus is on promoting
-collaboration, providing context by using cross-references, and
-excellent text formatting for each issue: (i) a title and description,
-(ii) colour-coded labels help to categorise and filter issues, (iii)
+collaboration, providing context by using cross-references. 
+Issues also have very clear formatting: (i) a title and description,
+(ii) color-coded labels help to categorize and filter issues, (iii)
 milestones, (iv) one assignee responsible for working on the issue,
 and (v) comments that allow anyone with a github account to provide
-feedback. Another aspect is its simplicity. For instance, it does not
+feedback. Another aspect of issues is its simplicity. For instance, it does not
 require one to fill out lengthy forms including every piece of
 information that might be valuable to reproduce a bug. It only
 requires a title and provides space for optional text (comments). If
@@ -364,9 +364,9 @@ comment. Alternatively, it is possible for repository administrators
 to create issue and pull requests (see Rule 3) templates
 (https://help.github.com/articles/helping-people-contribute-to-your-project/)
 to customise and standardise the information to be included when
-contributors open issues. GitHub issues are dynamic and pose a lower
-barrier for users to report bugs and request features. A
-well-organised and tagged issue tracker helps upcoming contributors
+contributors open issues. GitHub issues are thus more dynamic and pose a lower
+barrier-to-entry for users to report bugs and request features. A
+well-organized and tagged issue tracker helps upcoming contributors
 and users to understand a project more deeply. As an example, the
 following issue in OpenMS repository
 (https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction
@@ -393,14 +393,14 @@ produce DOIs for other types of scientific outputs such as datasets
 \cite{Vizcaino:2014} or training materials (for example
 \cite{Ahmadia_2015_27353}). The main motivation behind this is to give
 scientists better credit for their work
-\cite{NatBiotechEditorial:2009,force11-scwg}, enabling at the same time a better
+\cite{NatBiotechEditorial:2009,force11-scwg}, simultaneously enabling a better
 way to cite and track it. In addition, funding agencies such as the
 NIH in the USA and Research Councils in the UK, now accept other
 research products such as publicly available datasets and software, as
 citable research outputs.
 
 A common issue with software is that it normally evolves at a
-different speed than what is published in the scientific
+different speed than text published in the scientific
 literature. In fact, it is common to find software having novel
 features and functionalities that were not described in the original
 publication. GitHub now enables the use of DOIs to cite the code
@@ -415,15 +415,15 @@ as Europe PubMed Central \cite{EuropePMCConsortium:2015}.
 
 As already mentioned in the introduction, reproducibility of
 scientific claims should be enabled by providing the software,
-the datasets and the process leading to interpretable results that are
-used in a particular study. One should always highlight as much as
-possible in publications that the code is freely available in,
-for example, GitHub, together with any other relevant outputs 
+the datasets and the process leading to interpretable results that was
+used in a particular study. As much as possible,
+publications should highlight that the code is
+freely available in, for example, GitHub, together with any other relevant outputs 
 that may have been deposited. In our experience, this
 openness substantially increases your chances of getting the paper
 accepted for publication. Journal editors and reviewers
 have the opportunity to reproduce your findings during the manuscript
-review process, increasing the confidence in your results. In addition, once the paper is published, your work can be reproduced
+review process, increasing their confidence in your results. In addition, once the paper is published, your work can be reproduced
 by other members of the scientific community, which can increase
 citations and foster opportunities for further discussion and
 collaboration. 
@@ -437,8 +437,8 @@ shared.
 ## Rule 9. Promote and discuss your projects: web page and more
 
 The traditional way of promoting scientific software is by
-publishing them in the peer-reviewed scientific literature. Additional steps can be done to boost the visibility of a
-organisation. For example, GitHub _Pages_ are simple landing webpages
+publishing them in the peer-reviewed scientific literature. Additional steps can boost the visibility of a
+organization. For example, GitHub _Pages_ are simple landing webpages
 that GitHub hosts for free without the need for a server or
 database. GitHub users can create and host blog websites, help pages,
 manuals, tutorials and websites related to specific projects. _Pages_
@@ -451,11 +451,11 @@ Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communicat
 the user community, developers and project collaborators to exchange ideas, issues,
 report bugs or get support. For example, Gitter is a GitHub-based chat tool which
 enables developers and users to share aspects of their work. Gitter
-inherits the shape of the social groups operating around GitHub
-repositories, organisations, and issues. It relies on the identity
+inherits the network of social groups operating around GitHub
+repositories, organizations, and issues. It relies on the identity
 within GitHub, creating IRC (Internet Relay Chat)-like chat rooms for
-public and private repositories. From within a Gitter chat, members
-can reference issues, comments, or pull-requests. 
+public and private repositories. Within a Gitter chat, members
+can reference issues, comments, or pull requests. 
 GitHub also supports wikis (which are version-controlled repositories
 themselves) for each repostitory, where user can create and edit pages
 for documentation, examples or general support.
@@ -463,7 +463,7 @@ for documentation, examples or general support.
 
 A different service is Gist (https://gist.github.com), which
 represents a unique way to share _code snippets_, single files, parts
-of files, or full applications. Gist can be generated in two different
+of files, or full applications. Gists can be generated in two different
 ways: public _gists_, that can be browsed and searched, and secret
 gists that are not provided through _Discover_
 (https://gist.github.com/discover). One of the main features of Gist
@@ -473,10 +473,10 @@ JavaScript.
 
 ## Rule 10. Use GitHub to be social: follow and watch
 
-One of the main tasks of scientists is to actively follow the developments in
+One of scientists' main tasks is to actively follow the developments in
 their field. Analogously, scientific programmers need to revise
-publicly available (e.g. open source) projects and code that can be interesting for their
-research. Therefore, you should try to learn as much as possible from your peers
+publicly available (e.g., open source) projects and code that might be interesting for their
+research. Therefore, you should try to learn as much as possible from your peers,
 and keep up-to-date with all the developments of
 relevant projects. GitHub enables this functionality by _following_ other
 GitHub users (see also Rule 2) or _watching_ the activity of projects, which is a common
@@ -534,6 +534,6 @@ Table 2: Online courses, tutorials and workshops about GitHub and Git for scient
 
 The authors have no affiliation with GitHub, nor any commercial entity
 mentioned in this article. The views described here reflect their own
-without input from any third party organisation.
+without input from any third party organization.
 
 ## References
