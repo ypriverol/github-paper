@@ -242,7 +242,7 @@ inside loosely defined teams and over more formal organizational
 boundaries, while the original repository owner(s) retain control over
 which external contributions to include. Once a pull request is opened
 for review and discussion, it usually results in additional insights
-and increased code quality.
+and increased code quality \cite{Dabbish:2012}.
 
 Concurrent development - that is, users making commits in parallel to the same repository - can be organised using different approaches. The most
 common way is to use git _branches_ to separate different lines of
