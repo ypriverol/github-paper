@@ -387,14 +387,10 @@ A common issue with software is that it normally evolves at a
 different speed than text published in the scientific
 literature. In fact, it is common to find software having novel
 features and functionalities that were not described in the original
-publication. GitHub now enables the use of DOIs to cite the code
-deposited, using the data archiving tool Zenodo
-(https://zenodo.org/). The procedure is simple (see
-https://guides.github.com/activities/citable-code/) and, by default,
+publication. GitHub now integrates with archiving services such as Zenodo
+(https://zenodo.org/) and Figshare (https://figshare.com/), enabling DOIs to be assigned to code repositories. The procedure is relatively straightforward (see https://guides.github.com/activities/citable-code/), requiring only the provision of metadata and a series of administrative steps. By default,
 Zenodo takes an archive of a repository each time a new release is
-created in GitHub. Before Zenodo can issue a DOI, metadata
-needs to be provided about the archived repository. Once the DOI has
-been assigned, it can be added to literature information resources such
+created in GitHub, ensuring the cited code remains up to date.  Once the DOI has been assigned, it can be added to literature information resources such
 as Europe PubMed Central \cite{EuropePMCConsortium:2015}.
 
 As already mentioned in the introduction, reproducibility of
