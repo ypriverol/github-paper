@@ -1,7 +1,7 @@
 
 # Ten Simple Rules for taking advantage of git and GitHub
 
-Yasset Perez-Riverol (1)[^1], Laurent Gatto (2), Rui Wang (1), Timo Sachsenberg (3), Julian Uszkoreit (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Stephen J. Eglen (7), Daniel S. Katz (8), Tom Pollard (9), Juan Antonio Vizcaíno (1)[^2]
+Yasset Perez-Riverol (1)[^1], Laurent Gatto (2), Rui Wang (1), Timo Sachsenberg (3), Julian Uszkoreit (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Stephen J. Eglen (7), Daniel S. Katz (8), Tom Pollard (9), Alexander Konovalov (10), Juan Antonio Vizcaíno (1)[^2]
 
 (1) European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.
 
@@ -20,6 +20,8 @@ Yasset Perez-Riverol (1)[^1], Laurent Gatto (2), Rui Wang (1), Timo Sachsenberg 
 (8) National Center for Supercomputing Applications, University of Illinois, 1205 W. Clark St. Urbana, Illinois 61801, USA. 
 
 (9) MIT Laboratory for Computational Physiology, Institute for Medical Engineering and Science, Massachusetts Institute of Technology, E25-545B, 45 Carleton St, Cambridge, MA 02142, USA.
+
+(10) Centre for Interdisciplinary Research in Computational Algebra University of St Andrews, St Andrews, Fife, KY16 9SX, UK.
 
 [^1]: yperez@ebi.ac.uk.
 [^2]: juan@ebi.ac.uk.
