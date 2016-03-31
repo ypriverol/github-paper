@@ -230,11 +230,10 @@ repository content that retains a link to the original
 repository. Forking a repository allows you to freely experiment with
 changes without affecting the original project. This forking is the
 basis of social coding. It allows anyone to develop and test novel
-features with existing code and offers the possibility to contribute
-(by opening _pull requests_) novel features, improvements to
-documentation or simple typo corrections
-(https://twitter.com/rgfitzjohn/status/708309767240982528) back the
-into the original (upstream) project, thereby improving the original
+features with existing code and offers the possibility of contributing
+(by opening _pull requests_) novel features, bug fixes, and improvements to
+documentation (https://twitter.com/rgfitzjohn/status/708309767240982528) 
+back into the original (upstream) project, thereby improving the original
 repository and becoming a contributor. Forking a repository and
 providing pull requests constitute an easy way for collaboration
 inside loosely defined teams and over more formal organisation
