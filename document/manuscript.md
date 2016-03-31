@@ -505,16 +505,20 @@ Table 1: Bioinformatics repository examples with good practices using GitHub. Th
 example (issue tracking, branch structure, unit tests) and the URL of the example. 
 
 
-| Name of the Repository                           | Type                                                | URL                                                                          |
-|--------------------------------------------------|-----------------------------------------------------|------------------------------------------------------------------------------|
-| Galaxy Project                                   | Community Project, Bioinformatics Repository        | https://github.com/galaxyproject/galaxy/                                     |
-| Retinal wave data repository                     | Binary Data organized                               | https://github.com/sje30/waverepo/tree/master/hdf5                           |
-| OpenMS                                           | Bioinformatics Repository, issue discussion         | https://github.com/OpenMS/OpenMS/issues/1095                                 |
-| Pride Inspector Toolsuite                        | Project Organization, multiple project repositories | https://github.com/PRIDE-Toolsuite                                           |
-| BioPython                                        | Community Project, multiple contributors            | https://github.com/biopython/biopython/graphs/contributors                   |
-| Adam                                             | Community Project, Multiple forks                   | https://github.com/bigdatagenomics/adam/network                              |
-| Computational Proteomics Unit                    | Lab Repository                                      | https://github.com/ComputationalProteomicsUnit/                              |
-
+| Name of the Repository                       | Type                                                       | URL                                                                          |
+|----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
+| Galaxy Project                               | Community Project, Bioinformatics Repository               | https://github.com/galaxyproject/galaxy/                                     |
+| Retinal wave data repository                 | Binary Data organized                                      | https://github.com/sje30/waverepo/tree/master/hdf5                           |
+| OpenMS                                       | Bioinformatics Repository, Issue discussion, branches      | https://github.com/OpenMS/OpenMS/issues/1095                                 |
+| Pride Inspector Toolsuite                    | Project Organization, Multiple project repositories        | https://github.com/PRIDE-Toolsuite                                           |
+| BioPython                                    | Community Project, Multiple contributors                   | https://github.com/biopython/biopython/graphs/contributors                   |
+| Adam                                         | Community Project, Multiple forks                          | https://github.com/bigdatagenomics/adam/network                              |
+| Computational Proteomics Unit                | Lab Repository                                             | https://github.com/ComputationalProteomicsUnit/                              |
+| MSnbase                                      | Individual project repository                              | https://github.com/lgatto/MSnbase                                            |
+| SamTools                                     | Bioinformatics Repository, Project Organization            | https://github.com/samtools                                                  |
+| rOpenSci                                     | Community Project, Issue discussion                        | https://github.com/ropensci                                                  |
+| The Global Alliance For Genomics and Health  | Community Project                                          | https://github.com/ga4gh                                                     |
+| GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | https://github.com/ypriverol/github-paper                                    |
 
 Table 2: Online courses, tutorials and workshops about GitHub and Git for scientist.
 
@@ -528,7 +532,7 @@ Table 2: Online courses, tutorials and workshops about GitHub and Git for scient
 | Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
 | Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
 | Software Carpentry: Version Control with Git     | Tutorial             | http://swcarpentry.github.io/git-novice/ |
-
+                         
 
  
 ## Disclaimer
