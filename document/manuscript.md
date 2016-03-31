@@ -1,3 +1,4 @@
+
 # Ten Simple Rules for taking advantage of git and GitHub
 
 Yasset Perez-Riverol (1)[^1], Rui Wang (1), Timo Sachsenberg (2), Julian Uszkoreit (3), Laurent Gatto (4), Felipe da Veiga Leprevost (5), Christian Fufezan (6), Tobias Ternent (1), Juan Antonio Vizcaíno (1)[^2]
@@ -43,7 +44,7 @@ contributors. Here, we introduce the main features of GitHub, a
 popular web-based platform which offers a free and integrated
 environment for hosting the source code, documentation and
 project-related web content for open source projects. GitHub also
-offers paid plans for private repositories for individuals and
+offers paid plans for private repositories (see Box 2) for individuals and
 businesses, as well as free plans including private repository for
 research and educational use. 
 
@@ -167,8 +168,32 @@ that will be described in subsequent rules (Fig. 1).
 > (https://help.github.com/categories/managing-large-files/)
 > (Supplementary Note, Section 1).
 
-> **Box 2** TODO Public of private repositories -
-> see [issue 111](https://github.com/ypriverol/github-paper/issues/111).
+> **Box 2** By default, GitHub repositories are freely visible to all.
+> Many projects decide to disseminate their work publicly and openly
+> since the early stages of the projects to attract visibility and
+> benefit from contributions from the community early on. However,
+> many groups prefer to work privately on projects until they are
+> ready to share their work.  Private repositories ensure your work is
+> hidden but equally limit collaborations to just those users
+> that are given access to the repository. These repositories can then
+> be made public at a later stage, such as, for example, upon
+> submission, acceptance, or publication of corresponding journal
+> articles.  In some cases, when the collaboration was exclusively
+> meant to be private, some repositories might never be made publicly
+> accessible.
+
+> **Box 3** Every repository should ideally have the following 3
+> files. The first, and arguably most important file in a repository
+> is a README file, which provides, for example, a short description
+> of the projects, a quick tutorial start guide, information on how to
+> contribute, a TODO list, and links to additional documentation. Such
+> README files are typically written in markdown, a simple markup
+> language that is automatically rendered on GitHub. The second
+> important file is a LICENCE file (see also Rule 8), that clearly
+> defines the permissions and restrictions attached to the code and
+> other files in your repository. Finally, adding a CITATION file to
+> the repository will inform your users how to cite and credit your
+> project.
 
 ## Rule 2. GitHub for single users, teams and organisations
 
@@ -365,8 +390,8 @@ reviewers' comments.
 
 In research, it is good practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
-entities such as proteins, genes and metabolites, among
-others. Digital Object Identifiers (DOIs) have been used for many
+entities such as proteins, genes and metabolites, among others (see
+also Box 3). Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
 produce DOIs for other types of scientific outputs such as datasets
@@ -377,7 +402,7 @@ scientists better credit for their work
 way to cite and track it. In addition, funding agencies such as the
 NIH in the USA and Research Councils in the UK, now accept other
 research products such as publicly available datasets and software, as
-citable research outputs. 
+citable research outputs.
 
 A common issue with software is that it normally evolves at a
 different speed than what is published in the scientific
