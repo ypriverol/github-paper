@@ -392,7 +392,7 @@ produce DOIs for other types of scientific outputs such as datasets
 \cite{Vizcaino:2014} or training materials (for example
 \cite{Ahmadia_2015_27353}). The main motivation behind this is to give
 scientists better credit for their work
-\cite{NatBiotechEditorial:2009}, enabling at the same time a better
+\cite{NatBiotechEditorial:2009,force11-scwg}, enabling at the same time a better
 way to cite and track it. In addition, funding agencies such as the
 NIH in the USA and Research Councils in the UK, now accept other
 research products such as publicly available datasets and software, as
