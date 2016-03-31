@@ -163,9 +163,9 @@ that will be described in subsequent rules (Fig. 1).
 > (Supplementary Note, Section 1).
 
 > **Box 2** By default, GitHub repositories are freely visible to all.
-> Many projects decide to disseminate their work publicly and openly
-> since the early stages of the projects to attract visibility and
-> benefit from contributions from the community early on. However,
+> Many projects decide to share their work publicly and openly
+> right from the early stage of projects, in order to attract visibility and
+> to benefit from contributions from the community early on. However,
 > many groups prefer to work privately on projects until they are
 > ready to share their work.  Private repositories ensure your work is
 > hidden but equally limit collaborations to just those users
