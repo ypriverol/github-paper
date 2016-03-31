@@ -62,7 +62,7 @@ repositories (for example https://github.com/PRIDE-Toolsuite/
 \cite{Perez-Riverol01012016}), intermediate and large projects such as 
 samtools (https://github.com/samtools), OpenMS (https://github.com/OpenMS)
 \cite{sturm2008openms} and the Galaxy project (https://github.com/galaxyproject/galaxy/) 
-\cite{Goecks:2010}, or global collaborations such as rOpenSci
+\cite{Giardine:2005}, or global collaborations such as rOpenSci
 (https://github.com/ropensci) and The Global Alliance For Genomics and
 Health (https://github.com/ga4gh) have found the perfect place in
 GitHub to share code, ideas and collaborate (see Table 1).
