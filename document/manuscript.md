@@ -119,7 +119,7 @@ a repository from which we can easily roll-back your mistakes", one can keep tra
 changes. At any time it is possible to go back to a previous
 version. In larger projects, multiple users contribute to the same
 remote repository and all their contributions are recorded, attributed
-and can be restores.
+and can be restored.
 
 Users usually track source code, text files, images and small data
 files inside their repos, and generally do not track derived files
