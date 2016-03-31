@@ -325,17 +325,16 @@ code are being executed as part of your code tests. The Bioconductor project,
 for example, highly recommends packages to implement unit testing to
 support developers in their package development and maintenance
 (http://bioconductor.org/developers/unitTesting-guidelines/), and
-systematically tests the coverage of all its packages
+systematically tests the coverage of all of its packages
 (https://codecov.io/github/Bioconductor-mirror/). One might also
-consider to generate the documentation upon code/documentation
+consider generating the documentation upon code/documentation
 modification (Supplementary Note, Section 3). This implies that your
 projects provide comprehensive documentation so others can understand,
 and contribute back to them. For Python or C/C++ code, automatic
 documentation generation can be done using sphinx
 (http://sphinx-doc.org/) and subsequently integrated into GitHub using
 "Read the Docs" (https://readthedocs.org/). All of these platforms
-will create reports and badges (also called shields) for the projects
-that can be included on your GitHub page, thereby making your projects
+will create reports and badges (also called shields) that can be included on your GitHub project page, thereby making your projects
 easily identifiable as high quality and well-maintained.
 
 ## Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues
