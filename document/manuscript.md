@@ -168,17 +168,22 @@ that will be described in subsequent rules (Fig. 1).
 > (https://help.github.com/categories/managing-large-files/)
 > (Supplementary Note, Section 1).
 
-> **Box 2** GitHub offers public of private repositories (the latter
-> requiring a paid plans). Many projects decide to disseminate their
-> work publicly and openly since the early stages of the projects to
-> attract visibility and benefit from contributions from the community
-> early on. Other projects will start as private repositories,
-> limiting the collaboration among selected collaborators that are
-> given access to the repository. These repositories can then be made
-> public at a later stage, such as, for example, upon submission,
-> acceptance, or publication of the work. I some cases, when the
-> collaboration was exclusively meant to be private, some repositories
-> might never be made publicly accessible. 
+> **Box 2** By default, GitHub repositories are freely visible to all.
+> Many projects decide to disseminate their work publicly and openly
+> since the early stages of the projects to attract visibility and
+> benefit from contributions from the community early on. However,
+> many groups prefer to work privately on projects.  GitHub allows for
+> projects to be kept private amongst collaborators, although by
+> default you will require a paid account to keep repositories
+> private.  (Note however that academic users can apply via
+> https://education.github.com/discount_requests/new for a fee
+> wavier.)  Private repositories ensure your work is not visible but
+> equally limit collaborations to just those users that are given
+> access to the repository. These repositories can then be made public
+> at a later stage, such as, for example, upon submission, acceptance,
+> or publication of corresponding journal articles. In some cases, when
+> the collaboration was exclusively meant to be private, some
+> repositories might never be made publicly accessible.
 
 > **Box 3** Every repository should ideally have the following 3
 > files. The first, and arguably most important file in a repository
