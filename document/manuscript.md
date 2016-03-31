@@ -392,9 +392,9 @@ deposited, using the data archiving tool Zenodo
 (https://zenodo.org/). The procedure is simple (see
 https://guides.github.com/activities/citable-code/) and, by default,
 Zenodo takes an archive of a repository each time a new release is
-created in GitHub. However, before Zenodo can issue a DOI, metadata
+created in GitHub. Before Zenodo can issue a DOI, metadata
 needs to be provided about the archived repository. Once the DOI has
-been assigned, you can add it to literature information resources such
+been assigned, it can be added to literature information resources such
 as Europe PubMed Central \cite{EuropePMCConsortium:2015}.
 
 As already mentioned in the introduction, reproducibility of
@@ -430,10 +430,8 @@ comes with a powerful static site generator called Jekyll
 (https://jekyllrb.com) that can be integrated with other frameworks 
 such as Bootstrap (http://getbootstrap.com/) or platforms such as Disqus
 (https://disqus.com/), to support and moderate comments.
-In addition, several real-time communication platforms has been integrated with GitHub such as 
-Gitter (http://gitter.im) and Slack (https://slack.com/). A real-time communications system allows
-the user community, developers and project collaborators to exchange ideas, issues,
-report bugs or get support. For example, Gitter is a GitHub-based chat tool which
+In addition, several real-time communication platforms have been integrated with GitHub such as 
+Gitter (http://gitter.im) and Slack (https://slack.com/). Real-time communication systems allows the user community, developers and project collaborators to exchange ideas and issues, and to report bugs or get support. For example, Gitter is a GitHub-based chat tool which
 enables developers and users to share aspects of their work. Gitter
 inherits the network of social groups operating around GitHub
 repositories, organizations, and issues. It relies on the identity
