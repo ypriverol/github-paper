@@ -214,7 +214,7 @@ way to manage team-based access permissions for the individual
 projects of institutes, research labs, and large open source projects
 that need multiple owners and administrators (Fig.  1). We recommend
 that you (as an individual researcher) make your profile visible to
-other users and display all the projects and organisations you are
+other users and display all of the projects and organisations you are
 working in, including a list of the latest activities on the site
 (Fig. 1).
 
