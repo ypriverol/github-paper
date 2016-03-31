@@ -1,4 +1,4 @@
-# Ten Simple Rules for taking advantage of GitHub [![Build Status](https://travis-ci.org/tompollard/github-paper.svg?branch=master)](https://travis-ci.org/tompollard/github-paper)
+# Ten Simple Rules for taking advantage of GitHub [![Build Status](https://travis-ci.org/ypriverol/github-paper.svg?branch=master)](https://travis-ci.org/ypriverol/github-paper)
 
 ## Description 
 
