@@ -264,10 +264,7 @@ execution, dedicated code testing is aimed at detecting possible bugs
 introduced by new features, or changes in the code or dependencies, as
 well as detecting wrong results, often known as _logic errors_, where
 the source code produces a different result than what was intended.
-Continuous integration provides a way to 
-automatically and systematically run all of tests in the repository by
-checking data and software dependencies and can be automated through
-GitHub.
+Continuous integration provides a way to automatically and systematically run a series of tests to check integrity and performance of code.
 
 GitHub offers a set of hooks (automatically executed scripts) that are
 run after each push to a repository, making it easier to follow the
