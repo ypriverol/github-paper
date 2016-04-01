@@ -53,8 +53,8 @@ of the final results.
 
 The backbone of GitHub is the distributed version control system
 _git_. Every change, from fixing a typo to a complete redesign of the
-software, is tracked and controlled by a unique
-identifier. While git has a complex set of commands and can be used
+software, is tracked and uniquely identified. 
+While git has a complex set of commands and can be used
 for rather complex operations, learning to apply the basics 
 requires only a handful of new concepts and commands, and will provide a
 solid ground to efficiently track code and related content for research projects. Many introductory and detailed tutorials are available (see
