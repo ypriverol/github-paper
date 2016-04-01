@@ -3,6 +3,8 @@
 manuscript.tex: manuscript.md
 	pandoc manuscript.md -o manuscript.tex
 	perl -pi -e 's/^/%% / if /\\includegraphics\{.\/figure01_overview.pdf\}/' manuscript.tex
+	perl -pi -e 's/\\begin\{longtable\}/\\begin\{sidewaystable\}\\begin\{longtable\}/' manuscript.tex
+	perl -pi -e 's/\\end\{longtable\}/\\end\{longtable\}\\end\{sidewaystable\}/' manuscript.tex
 
 manuscript-plos.pdf: manuscript-plos.tex manuscript.tex
 	latex manuscript-plos
