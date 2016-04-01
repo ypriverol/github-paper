@@ -38,8 +38,8 @@ issue and pull request.
   `manuscript.md` file.** This file is then converted to LaTeX using
   `pandoc` and included in the main tex file. 
 
-- **Any modification of the title of authors should be make to
-  `manuscript-plos.tex` and following the syntax defined therein**
+- **Any modification to the title or authors should be made to
+  `manuscript-plos.tex`, following the syntax defined therein**
 
 Then, type
 
