@@ -420,11 +420,14 @@ be reproduced by other members of the scientific community, which can
 increase citations and foster opportunities for further discussion and
 collaboration.
 
-Note that the availability of a public repository containing the
-source code does not make the software open source _per se_, as it
-needs to have an appropriate license (http://opensource.org/licenses/)
-that defines how the software can be freely used, modified, and
-shared.
+The availability of a public repository containing the source code
+does not make the software open source _per se_. You should use an OSI
+approved license (https://opensource.org/licenses/alphabetical) that
+defines how the software can be freely used, modified and
+shared. Common licenses such as those listed on
+http://choosealicense.com are preferred. Note that the LICENSE file in
+the repo should be a plain-text file with the contents of an OSI
+approved license, not just a reference to the license.
 
 # Rule 9. Promote and discuss your projects: web page and more {-}
 
