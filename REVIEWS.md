@@ -159,7 +159,7 @@ overall contribution.
 > Indeed, reproducibility is a broader issue that software only won't
 > solve. We replaced the word reproducibility by two different terms
 > replicability and traceability. The current version of the
-> manuscript explain: "To enable and ensure the replicability and
+> manuscript explains: "To enable and ensure the replicability and
 > traceability of scientific claims, it is essential that the
 > scientific publication, the corresponding datasets and the data
 > analysis are made publicly available."
@@ -171,7 +171,7 @@ overall contribution.
    intermediate projects (hts / samtools?), and larger projects
    (rOpenSci??) that effectively use GitHub.
    
-> We just added a couple of repositories in the introduction. The >
+> We now discuss examplar repositories in the introduction. The >
 > current version of the manuscript: "Individual bioinformatics
 > projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012},
 > lab repositories (https://github.com/PRIDE-Toolsuite/)
@@ -202,7 +202,7 @@ overall contribution.
 > More generally, corporate support is a double edge sword: companies
 > often produce clean products and support, but users are at the mercy
 > of financially motivated decision. On the good side, thanks to the
-> distributed nature of git, users would not loose their repositories
+> distributed nature of git, users would not lose their repositories
 > nor the commit history. Issues could be downloaded using the GitHub
 > API, but the nice interface would be lost. This is a risk that some
 > might not take, and certainly a discussion worth having, albeit not
