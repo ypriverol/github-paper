@@ -48,14 +48,7 @@ of the final results.
 
 The backbone of GitHub is the distributed version control system
 git. Every change, from fixing a typo to a complete redesign of the
-software, is tracked and controlled by individual and unique
-identifier. While git has a complex set of commands and can be used
-for rather complex operations, learning and apply the basics only
-requires a handful of new concepts and commands, and will provide a
-solid ground to efficiently track your coding and research
-projects. Many introductory and detailed tutorials are available (see
-Table 1 below for a few examples). In particular, we recommend *A
-Quick Introduction to Version Control with Git and GitHub* by Blischak
+software, is tracked and controlled by unique identifiers. While git has a complex set of commands and can be used for rather complex operations, learning to apply the basics requires only a handful of concepts and commands, and will provide a solid ground to efficiently track the code and related content for research projects. Many introductory and detailed tutorials are available (see Table 1 below for a few examples). In particular, we recommend *A Quick Introduction to Version Control with Git and GitHub* by Blischak
 *et al.* \cite{blischak2016quick}.
 
 In a nutshell, initialising a (local) repository (often abbreviated
@@ -70,10 +63,10 @@ git add README project.md code.R
 git commit -m "initial commit" ## saves the current local snapshot 
 ```
 
-From now on, every change to these tracked files, once committed, will
+Subsequently, every change to the tracked files, once committed, will
 be recorded as a new revision, or _snapshot_, uniquely identifying the
 changes in all the modified files. Git is remarkably effective in
-archiving the complete history of a project (all revisions) by,
+archiving the complete revision history of a project by,
 among other things, storing only the differences among them.
 
 In addition to local copies of the repository, it is easy to create
