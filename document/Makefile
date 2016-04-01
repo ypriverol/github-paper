@@ -2,6 +2,7 @@
 
 manuscript.tex: manuscript.md
 	pandoc manuscript.md -o manuscript.tex
+	perl -pi -e 's/^/%% / if /\\includegraphics\{.\/figure01_overview.pdf\}/' manuscript.tex
 
 manuscript-plos.pdf: manuscript-plos.tex manuscript.tex
 	latex manuscript-plos
