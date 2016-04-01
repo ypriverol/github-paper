@@ -1,9 +1,9 @@
-# Ten Simple Rules for taking advantage of GitHub [![Build Status](https://travis-ci.org/ypriverol/github-paper.svg?branch=master)](https://travis-ci.org/ypriverol/github-paper)
+# Ten Simple Rules for Taking Advantage of git and GitHub [![Build Status](https://travis-ci.org/ypriverol/github-paper.svg?branch=master)](https://travis-ci.org/ypriverol/github-paper)
 
 ## Description 
 
 This repository contains the manuscript entitled:
-[**Ten Simple Rules for taking advantage of GitHub (in bioinformatics)**](https://github.com/ypriverol/github-paper/blob/master/document/manuscript.md). Our
+[**Ten Simple Rules for Taking Advantage of git and GitHub**](https://github.com/ypriverol/github-paper/blob/master/document/manuscript.md). Our
 aim here is to describe how the bioinformatics community can use
 GitHub features and tools on a daily basis.
 
@@ -38,8 +38,8 @@ issue and pull request.
   `manuscript.md` file.** This file is then converted to LaTeX using
   `pandoc` and included in the main tex file. 
 
-- **Any modification of the title of authors should be make to
-  `manuscript-plos.tex` and following the syntax defined therein**
+- **Any modification to the title or authors should be made to
+  `manuscript-plos.tex`, following the syntax defined therein**
 
 Then, type
 
