@@ -38,12 +38,7 @@ efforts, ranging from individual to large bioinformatics projects, laboratory
 repositories, and global collaborations have found the perfect place
 in GitHub to share code, ideas and collaborate (see Table 1).
 
-Some of our recommendations outlined below are applicable to other
-hosting services. However our main aim here is to highlight specific
-GitHub features. We provide a set of recommendations to take full
-advantage of GitHub's features to manage small and large
-bioinformatics projects and increase their profile and
-visibility. These rules are ordered to reflect a typical development
+Some of the recommendations outlined below are broadly applicable to hosting services. However our main aim is to highlight specific GitHub features. We provide a set of recommendations that we believe will help the reader to take full advantage of GitHub's features for managing and promoting bioinformatics projects. The recommendations are ordered to reflect a typical development
 process: learning git and GitHub basics, collaboration, use of
 branches and pull requests, labelling and tagging of code snapshots,
 tracking project bugs and enhancements using issues, and dissemination
