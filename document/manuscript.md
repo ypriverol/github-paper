@@ -10,7 +10,7 @@ data analysis are made publicly available
 analysis should be either carefully documented (e.g., for commercial
 software) or, better, openly shared and directly accessible to others
 \cite{Osborne:2014,Vihinen:2015}.  The rise of openly available
-software and source code, and concomitant collaborative development is
+software and source code alongside concomitant collaborative development is
 facilitated by the existence of several code repository services such
 as SourceForge (http://sourceforge.net/), Bitbucket
 (https://bitbucket.org/), GitLab (https://about.gitlab.com/) and
@@ -32,10 +32,10 @@ community (https://github.com/git). One reason for GitHub's success is
 that it offers more than a simple source code hosting service
 \cite{blischak2016quick, ram2013git}. It provides developers and
 researchers with a dynamic and collaborative environment, often
-referred to as a social coding platform, with the ability to review,
-comment and discuss code \cite{Dabbish:2012}. A diverse range of
-efforts, ranging from individual to large bioinformatics projects, lab
-repositories, as well as global collaborations found the perfect place
+referred to as a social coding platform, that supports peer review,
+commenting and discussion \cite{Dabbish:2012}. A diverse range of
+efforts, ranging from individual to large bioinformatics projects, laboratory
+repositories, and global collaborations have found the perfect place
 in GitHub to share code, ideas and collaborate (see Table 1).
 
 Some of our recommendations outlined below are applicable to other
