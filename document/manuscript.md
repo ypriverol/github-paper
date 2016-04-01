@@ -352,7 +352,7 @@ reviewers' comments.
 
 In research it is good practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
-entities such as proteins, genes and metabolites, among others (see
+entities such as proteins, genes and metabolites (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
