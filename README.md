@@ -47,10 +47,8 @@ Then, type
 make manuscript-plos.tex
 ```
 
-- Only commit `manuscript-plos.tex` and `manuscript-plos.pdf`.
-
-  
-- To clean up temporary files:
+- Only commit `manuscript-plos.pdf`. Temporary files will be ignored
+  by git; to clean them up:
 
 ```
 make clean
