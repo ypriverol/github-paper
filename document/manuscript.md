@@ -385,8 +385,8 @@ framework for giving scientists broader credit for their work
 \cite{NatBiotechEditorial:2009,force11-scwg}, while simultaneously
 supporting clearer, more persistent ways to cite and track it. Helping
 to drive this change are funding agencies such as the NIH in the USA
-and Research Councils in the UK, who are increasingly recognizng the
-importance of research products such as publicly available datasets
+and Research Councils in the UK, who are increasingly recognizing the
+importance of research outputs such as publicly available datasets
 and software.
 
 A common issue with software is that it normally evolves at a
