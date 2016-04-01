@@ -34,16 +34,23 @@ issue and pull request.
 
 ## Conversion to PLoS LaTeX
 
-- **Any modifications should be made to the `manuscript.md` file.**
-  This file is then converted to LaTeX using `pandoc`:
+- **Any modifications to the text should be made to the
+  `manuscript.md` file.** This file is then converted to LaTeX using
+  `pandoc` and included in the main tex file. 
+
+- **Any modification of the title of authors should be make to
+  `manuscript-plos.tex` and following the syntax defined therein**
+
+Then, type
 
 ```
 make manuscript-plos.tex
 ```
 
+- Only commit `manuscript-plos.tex` and `manuscript-plos.pdf`.
 
-- Only commit `manuscript-plos.tex` and `manuscript-plos.pdf` to the
-  repo. To clean up unwanted files:
+  
+- To clean up temporary files:
 
 ```
 make clean
