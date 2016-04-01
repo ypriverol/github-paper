@@ -103,10 +103,8 @@ GitHub server is unavailable, collaboration and work can continue
 between users, as opposed to centralized alternatives.
 
 The web interface offered by GitHub provides friendly tools to perform
-many basic operations and a gentle introduction to a more rich albeit
-complex set of functionalities. There exists also various graphical
-user-interface driven clients to manage git and GitHub repositories
-(https://www.git-scm.com/downloads/guis). Many editors and development
+many basic operations and a gentle introduction to a rich albeit
+complex set of functionalities. Various graphical user-interface driven clients for managing git and GitHub repositories are also available (https://www.git-scm.com/downloads/guis). Many editors and development
 environments such as, for example, the popular Rstudio editor
 (https://www.rstudio.com/) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
@@ -169,7 +167,7 @@ permissions, i.e. the possibility to directly modify the content of a
 repo, need to be granted explicitly. As a repository owner, you can
 grant these rights to other GitHub users. In addition to being owned
 by users, repositories can also be created and managed as part of
-teams and organization.
+teams and organizations.
 
 Project managers can structure projects to manage permissions at
 different levels: users, teams and organizations.  Users are the
@@ -177,7 +175,7 @@ central element of GitHub, as in any other social network. Every user has a
 profile listing their GitHub projects and activities, which can be
 populated optionally with personal information including name, e-mail
 address, image, and webpage. To stay up to date with the activity of
-other users one can _follow_ their accounts (see also Rule
+other users one can choose to _follow_ specific accounts (see also Rule
 10). Collaboration can be achieved by simply adding a trusted
 _Collaborator_ and thereby granting write access.
 
@@ -186,30 +184,28 @@ people, within a larger organization. GitHub organizations are a great
 way to manage team-based access permissions for the individual
 projects of institutes, research labs, and large open source projects
 that need multiple owners and administrators (Fig.  1). We recommend
-that you (as an individual researcher) make your profile visible to
+that you, as an individual researcher, make your profile visible to
 other users and display all of the projects and organisations you are
 working in, including a list of the latest activities on the site
 (Fig. 1).
 
 # Rule 3. Developing and collaborating on new features: branching and forking {-}
 
-Anyone with a GitHub account can _fork_ any public repository and
+Anyone with a GitHub account can _fork_ a public repository and
 start developing the same code base in one's own fork
 (https://help.github.com/articles/fork-a-repo/) under their username
 (see for example
 https://github.com/ypriverol/github-paper/network/members for this
-work) or organization (see Rule 2). A fork is a complete copy of a
-repository content that retains a link to the original
-repository. Forking a repository allows you to freely experiment with
-changes without affecting the original project. This forking is the
-basis of social coding. It allows anyone to develop and test novel
+work) or organization (see Rule 2). A fork is a complete copy of the content of a repository that retains a link to the original 'upstream'
+version. Forking a repository allows users to freely experiment with
+changes without affecting the original project, which forms the basis of social coding. It allows anyone to develop and test novel
 features with existing code and offers the possibility of contributing
 (by opening _pull requests_) novel features, bug fixes, and
 improvements to documentation
 (https://twitter.com/rgfitzjohn/status/708309767240982528) back into
-the original (upstream) project, thereby improving the original
+the original upstream project, thereby improving the original
 repository and becoming a contributor. Forking a repository and
-providing pull requests constitute an easy method for collaboration
+providing pull requests constitutes an simple method for collaboration
 inside loosely defined teams and over more formal organizational
 boundaries, while the original repository owner(s) retain control over
 which external contributions to include. Once a pull request is opened
