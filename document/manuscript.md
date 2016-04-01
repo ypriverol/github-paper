@@ -303,7 +303,7 @@ integration of _Codecov_ is recommended (\url{https://codecov.io}).  This
 service will report how much of the code base and which lines of code
 are being executed as part of your code tests. The Bioconductor
 project, for example, highly recommends that packages implement unit
-testing to support developers in their package development and
+testing (Supplementary Note, Section 2) to support developers in their package development and
 maintenance
 (\url{http://bioconductor.org/developers/unitTesting-guidelines/}), and
 systematically tests the coverage of all of its packages
