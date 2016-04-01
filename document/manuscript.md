@@ -390,10 +390,10 @@ used in a particular study. As much as possible, publications should
 highlight that the code is freely available in, for example, GitHub,
 together with any other relevant outputs that may have been
 deposited. In our experience, this openness substantially increases
-your chances of getting the paper accepted for publication. Journal
-editors and reviewers have the opportunity to reproduce your findings
-during the manuscript review process, increasing their confidence in
-your results. In addition, once the paper is published, your work can
+the chances of getting the paper accepted for publication. Journal
+editors and reviewers have the opportunity to reproduce findings
+during the manuscript review process, increasing confidence in
+the reported results. In addition, once the paper is published, your work can
 be reproduced by other members of the scientific community, which can
 increase citations and foster opportunities for further discussion and
 collaboration.
