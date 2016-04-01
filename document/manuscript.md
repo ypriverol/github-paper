@@ -88,12 +88,10 @@ same remote repository, with all contributions being recorded, restorable and at
 
 Users usually track source code, text files, images and small data
 files inside their repos, and generally do not track derived files
-such as build logs or compiled binaries. And while the majority of
+such as build logs or compiled binaries. While the majority of
 GitHub repositories are used for software development, there is
-nothing preventing users from keeping text documents such as analysis
-reports and manuscripts (see for example the repository for this
-manuscript at https://github.com/ypriverol/github-paper), or other
-file types in your projects.
+nothing preventing users from keeping other types of document such as reports and manuscripts (see for example the repository for this
+manuscript at https://github.com/ypriverol/github-paper).
 
 Due to its distributed design, every local git repository with the
 latest commit is an entire exact historical copy of everything that
