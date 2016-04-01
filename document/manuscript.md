@@ -451,9 +451,9 @@ and edit pages for documentation, examples, or general support.
 A different service is Gist (https://gist.github.com), which
 represents a unique way to share _code snippets_, single files, parts
 of files, or full applications. Gists can be generated in two different
-ways: public _gists_ that can be browsed and searched, and secret
-gists that are not provided through _Discover_
-(https://gist.github.com/discover). One of the main features of Gist
+ways: public _gists_ that can be browsed and searched through _Discover_
+(https://gist.github.com/discover), and secret gists that are hidden
+from search engines. One of the main features of Gist
 is the possibility of embedding code snippets in other applications,
 enabling users to embed gists in any text field that supports
 JavaScript. 
@@ -492,7 +492,7 @@ training materials, including workshops, online courses and manuscripts
 | The Global Alliance For Genomics and Health  | Community Project                                          | https://github.com/ga4gh                                                     |
 | GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | https://github.com/ypriverol/github-paper                                    |
 
-Table: Bioinformatics repository examples with good practices using
+Table: Bioinformatics repository examples with good practices of using
 GitHub. The table contains the name of the repository, the type of the
 example (issue tracking, branch structure, unit tests) and the URL of
 the example.
