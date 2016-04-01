@@ -22,7 +22,7 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
   - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-  - sudo apt-get install texlive-science
+  - sudo apt-get install texlive-science texlive-humanities
   # Install fonts
   # - sudo apt-get install lmodern
 
