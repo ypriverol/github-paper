@@ -22,7 +22,7 @@ popular web-based platform that offers a free and integrated
 environment for hosting the source code, documentation, and
 project-related web content for open source projects. GitHub also
 offers paid plans for private repositories (see Box 2) for individuals
-and businesses, as well as free plans including private repository for
+and businesses, as well as free plans including private repositories for
 research and educational use.
 
 GitHub relies, at its core, on the well-known and open source version
@@ -38,7 +38,12 @@ efforts, ranging from individual to large bioinformatics projects, laboratory
 repositories, as well as global collaborations have found
 GitHub to be a productive place to share code, ideas and collaborate (see Table 1).
 
-Some of the recommendations outlined below are broadly applicable to hosting services. However our main aim is to highlight specific GitHub features. We provide a set of recommendations that we believe will help the reader to take full advantage of GitHub's features for managing and promoting bioinformatics projects. The recommendations are ordered to reflect a typical development
+Some of the recommendations outlined below are broadly applicable to repository
+hosting services. However our main aim is to highlight specific GitHub features.
+We provide a set of recommendations that we believe will help the reader to take
+full advantage of GitHub's features for managing and promoting projects in
+bioinformatics as well as in many other research domains.
+The recommendations are ordered to reflect a typical development
 process: learning git and GitHub basics, collaboration, use of
 branches and pull requests, labeling and tagging of code snapshots,
 tracking project bugs and enhancements using issues, and dissemination
@@ -53,7 +58,7 @@ identifier. While git has a complex set of commands and can be used
 for rather complex operations, learning to apply the basics 
 requires only a handful of new concepts and commands, and will provide a
 solid ground to efficiently track code and related content for research projects. Many introductory and detailed tutorials are available (see
-Table 1 below for a few examples). In particular, we recommend *A
+Table 2 below for a few examples). In particular, we recommend *A
 Quick Introduction to Version Control with Git and GitHub* by Blischak *et al.* \cite{blischak2016quick}.
 
 In a nutshell, initialising a (local) repository (often abbreviated
@@ -86,7 +91,7 @@ git pull origin master ## pull remote changes into the local repo
 
 Following Tony Rossini's advice in 2005 to "commit early, commit
 often, and commit in a repository from which we can easily roll-back
-your mistakes", one can develop in small 
+your mistakes", one can organise their work in small
 incremental changes. At any time it is possible to go back to a
 previous version. In larger projects, multiple users are able to work on the 
 same remote repository, with all contributions being recorded, restorable and attributed to the author.
@@ -111,7 +116,9 @@ between users, as opposed to centralized alternatives.
 The web interface offered by GitHub provides friendly tools to perform
 many basic operations and a gentle introduction to a more rich and
 complex set of functionalities. Various graphical
-user-interface driven clients for managing git and GitHub repositories are also available (https://www.git-scm.com/downloads/guis). Many editors and development environments such as, for example, the popular Rstudio editor
+user-interface driven clients for managing git and GitHub repositories
+are also available (https://www.git-scm.com/downloads/guis). Many editors
+and development environments such as, for example, the popular RStudio editor
 (https://www.rstudio.com/) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
 addition, for remote git repositories, GitHub provides its own features
@@ -159,10 +166,10 @@ that will be described in subsequent rules (Fig. 1).
 > permissions and restrictions attached to the code and other files in
 > your repository. The second important file is a README file, which
 > provides, for example, a short description of the project, a quick
-> tutorial start guide, information on how to contribute, a TODO list,
+> start guide, information on how to contribute, a TODO list,
 > and links to additional documentation. Such README files are
 > typically written in markdown, a simple markup language that is
-> automatically rendered on GitHub. Finally,a CITATION file to
+> automatically rendered on GitHub. Finally, a CITATION file to
 > the repository informs your users how to cite and credit your
 > project.
 
@@ -209,7 +216,7 @@ improvements to documentation
 (https://twitter.com/rgfitzjohn/status/708309767240982528) back into
 the original upstream project (requested by opening an _pull request_),
 repository and becoming a contributor. Forking a repository and
-providing pull requests constitutes an simple method for collaboration
+providing pull requests constitutes a simple method for collaboration
 inside loosely defined teams and over more formal organizational
 boundaries, with the original repository owner(s) retaining control over
 which external contributions are accepted. Once a pull request is opened
@@ -233,7 +240,7 @@ branch, to adapt the feature to the changes in the master branch.
 
 When developing different features in parallel, there is a risk of
 applying incompatible changes in different branches/forks; these are said
-to become out of sync. Branches are just short-term departures from
+to become _out of sync_. Branches are just short-term departures from
 master. If you pull frequently, you will keep your copy of the repo up
 to date, and you will have the opportunity to merge your changed code
 with others' contributors, ideally without requiring you to manually address
@@ -269,7 +276,7 @@ well as detecting wrong results, often known as _logic errors_, where
 the source code produces a different result than what was intended.
 Continuous integration provides a way to automatically and systematically run a series of tests to check integrity and performance of code, a task that can be automated through GitHub.
 
-GitHub offers a set of hooks (automatically executed scripts) that are
+GitHub offers a set of _hooks_ (automatically executed scripts) that are
 run after each push to a repository, making it easier to follow the
 basic principles of continuous integration. The GitHub web hooks
 allows third-party platforms to access and interact with a GitHub
@@ -309,7 +316,7 @@ documentation generation can be done using sphinx
 "Read the Docs" (https://readthedocs.org/). All of these platforms
 will create reports and badges (sometimes called shields) that can be
 included on your GitHub project page, helping to demonstrate that the
-content is high quality and well-maintained.
+content is of high quality and well-maintained.
 
 # Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues {-}
 
