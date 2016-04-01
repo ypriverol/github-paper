@@ -69,7 +69,7 @@ changes in all the modified files. Git is remarkably effective in
 archiving the complete revision history of a project by,
 among other things, storing only the differences between files.
 
-In addition to local copies of the repository, it is easy to create
+In addition to local copies of the repository, it is straightforward to create
 remote repositories on GitHub (called `origin`, with default branch
 `master` - see below) using the web interface, and then synchronise
 local and remote repositories.
