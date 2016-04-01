@@ -426,7 +426,7 @@ an OSI approved license, not just a reference to the license.
 
 The traditional way to promote scientific software is by publishing an associated paper
 in the peer-reviewed scientific literature, though as pointed out by Buckheir and Donoho,
-this is just advertizing [TODO: add citation to paper on http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf]. Additional steps can
+this is just advertizing \cite{Buckheit95wavelaband}. Additional steps can
 boost the visibility of a organization. For example, GitHub _Pages_
 are simple websites freely hosted by GitHub. Users can create and host blog
 websites, help pages, manuals, tutorials and websites related to
