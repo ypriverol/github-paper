@@ -209,7 +209,7 @@ improvements to documentation
 (https://twitter.com/rgfitzjohn/status/708309767240982528) back into
 the original upstream project (requested by opening an _pull request_),
 repository and becoming a contributor. Forking a repository and
-providing pull requests constitutes an simple method for collaboration
+providing pull requests constitutes a simple method for collaboration
 inside loosely defined teams and over more formal organizational
 boundaries, with the original repository owner(s) retaining control over
 which external contributions are accepted. Once a pull request is opened
