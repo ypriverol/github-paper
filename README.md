@@ -9,28 +9,32 @@ GitHub features and tools on a daily basis.
 
 ## Commenting and contributing 
 
-We are about to re-submit the manuscript after addressing the
+We hope to finalise the manuscript and re-submit soon and won't accept
+any new pull requests. Feel free to open an issue if there is any
+point you would like to raise or discuss.
+
+~~We are about to re-submit the manuscript after addressing the
 reviewers' comments, but would appreciate input from the community by
 discussing any points through GitHub
 [issues](https://github.com/ypriverol/github-paper/issues) and/or pull
-requests.
+requests.~~
 
-Feel free to browse through existing/past issues and if one seems
+~~Feel free to browse through existing/past issues and if one seems
 related, comment on it. If no existing issue seems appropriate, a new
 issue can be opened to discuss the suggestion. In particular, we would
 appreciate discussing more substantial changes (for example suggestion
-of new rules) in a dedicated issue before sending a pull request.
+of new rules) in a dedicated issue before sending a pull request.~~
 
-If you are new to Git, read the
+~~If you are new to Git, read the
 [manuscript](https://github.com/ypriverol/github-paper/blob/master/document/manuscript.md)
 and
 [*A Quick Introduction to Version Control with Git and GitHub*](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) -
-your input would be most valuable.
+your input would be most valuable.~~
 
-If, based on your contribution, you would like to be added as a
+~~If, based on your contribution, you would like to be added as a
 co-author, please open an issue and provide your name and affiliation
 and a short description of your contribution or a link to the relevant
-issue and pull request.
+issue and pull request.~~
 
 ## Conversion to PLoS LaTeX
 
