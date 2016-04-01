@@ -53,7 +53,7 @@ identifier. While git has a complex set of commands and can be used
 for rather complex operations, learning to apply the basics 
 requires only a handful of new concepts and commands, and will provide a
 solid ground to efficiently track code and related content for research projects. Many introductory and detailed tutorials are available (see
-Table 1 below for a few examples). In particular, we recommend *A
+Table 2 below for a few examples). In particular, we recommend *A
 Quick Introduction to Version Control with Git and GitHub* by Blischak *et al.* \cite{blischak2016quick}.
 
 In a nutshell, initialising a (local) repository (often abbreviated
