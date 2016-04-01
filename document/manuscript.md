@@ -438,7 +438,9 @@ specific projects. _Pages_ comes with a powerful static site generator
 called Jekyll (https://jekyllrb.com) that can be integrated with other
 frameworks such as Bootstrap (http://getbootstrap.com/) or platforms
 such as Disqus (https://disqus.com/), to support and moderate
-comments.  In addition, several real-time communication platforms have
+comments.  
+
+In addition, several real-time communication platforms have
 been integrated with GitHub such as Gitter (http://gitter.im) and
 Slack (https://slack.com/). Real-time communication systems allows the
 user community, developers and project collaborators to exchange ideas
