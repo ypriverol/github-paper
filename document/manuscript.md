@@ -428,8 +428,8 @@ shared.
 
 # Rule 9. Promote and discuss your projects: web page and more {-}
 
-The traditional way of promoting scientific software is by publishing
-them in the peer-reviewed scientific literature. Additional steps can
+The traditional way of promoting scientific software is by publishing an associated paper
+in the peer-reviewed scientific literature. Additional steps can
 boost the visibility of a organization. For example, GitHub _Pages_
 are simple landing webpages that GitHub hosts for free without the
 need for a server or database. GitHub users can create and host blog
