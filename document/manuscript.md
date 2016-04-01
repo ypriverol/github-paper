@@ -205,7 +205,7 @@ Anyone with a GitHub account can _fork_ any repository they have access to. This
 will create a complete copy of the content of the repository, while
 retaining a link to the original 'upstream' version. One can then
 start working on the same code base in one's own fork
-(\urlhttps://help.github.com/articles/fork-a-repo/}) under their username
+(\url{https://help.github.com/articles/fork-a-repo/}) under their username
 (see, for example, \url{https://github.com/ypriverol/github-paper/network/members}
 for this work) or organization (see Rule 2).
 Forking a repository allows users to freely experiment with
