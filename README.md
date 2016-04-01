@@ -38,23 +38,9 @@ issue and pull request.
   This file is then converted to LaTeX using `pandoc`:
 
 ```
-make manuscript.tex
+make manuscript-plos.tex
 ```
 
-- Then include the text from `manuscript.tex` (ignore title, authors
-  and references) into `manuscript-plos.tex`.
-
-- Comment the figure inclusion line.
-
-```
-% \includegraphics[width=\linewidth]{../figures/figure01_overview.pdf}
-```
-
-- Compile by running
-
-```
-make manuscript-plos.pdf
-```
 
 - Only commit `manuscript-plos.tex` and `manuscript-plos.pdf` to the
   repo. To clean up unwanted files:
