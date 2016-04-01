@@ -426,8 +426,8 @@ approved license (https://opensource.org/licenses/alphabetical) that
 defines how the software can be freely used, modified and
 shared. Common licenses such as those listed on
 http://choosealicense.com are preferred. Note that the LICENSE file in
-the repo should be a plain-text file with the contents of an OSI
-approved license, not just a reference to the license.
+the repository should be a plain-text file containing the contents of
+an OSI approved license, not just a reference to the license.
 
 # Rule 9. Promote and discuss your projects: web page and more {-}
 
