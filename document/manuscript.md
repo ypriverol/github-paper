@@ -12,9 +12,9 @@ software) or better, openly shared and directly accessible to others
 \cite{Osborne:2014,Vihinen:2015}.  The rise of openly available
 software and source code alongside concomitant collaborative development is
 facilitated by the existence of several code repository services such
-as SourceForge (http://sourceforge.net/), Bitbucket
-(https://bitbucket.org/), GitLab (https://about.gitlab.com/), and
-GitHub (https://github.com/), among others. These resources are also
+as SourceForge (\url{http://sourceforge.net/}), Bitbucket
+(\url{https://bitbucket.org/}), GitLab (\url{https://about.gitlab.com/}), and
+GitHub (\url{https://github.com/}), among others. These resources are also
 essential for collaborative software projects, since they enable the
 organization and sharing of programming tasks between different remote
 contributors. Here, we introduce the main features of GitHub, a
@@ -28,7 +28,7 @@ research and educational use.
 GitHub relies, at its core, on the well-known and open source version
 control system git, originally designed by Linus Torvalds for the development of
 the Linux kernel, and now developed and maintained by the git
-community (https://github.com/git). One reason for GitHub's success is
+community (\url{https://github.com/git}). One reason for GitHub's success is
 that it offers more than a simple source code hosting service
 \cite{blischak2016quick, ram2013git}. It provides developers and
 researchers with a dynamic and collaborative environment, often
@@ -102,7 +102,7 @@ such as build logs or compiled binaries. And while the majority of
 GitHub repositories are used for software development, users can also
 keep text documents such as analysis
 reports and manuscripts (see, for example, the repository for this
-manuscript at https://github.com/ypriverol/github-paper).
+manuscript at \url{https://github.com/ypriverol/github-paper}).
 
 Due to its distributed design, each up-to-date local git repository 
 is an entire exact historical copy of everything that
@@ -117,9 +117,9 @@ The web interface offered by GitHub provides friendly tools to perform
 many basic operations and a gentle introduction to a more rich and
 complex set of functionalities. Various graphical
 user-interface driven clients for managing git and GitHub repositories
-are also available (https://www.git-scm.com/downloads/guis). Many editors
+are also available (\url{https://www.git-scm.com/downloads/guis}). Many editors
 and development environments such as, for example, the popular RStudio editor
-(https://www.rstudio.com/) for the R programming language \cite{R},
+(\url{https://www.rstudio.com/}) for the R programming language \cite{R},
 directly integrate with code versioning using git and GitHub. In
 addition, for remote git repositories, GitHub provides its own features
 that will be described in subsequent rules (Fig. 1).
@@ -136,14 +136,14 @@ that will be described in subsequent rules (Fig. 1).
 > result, every change, even if minimal, leads to a complete new copy
 > of the file in the repository, producing large size increments and
 > the inability to search (see
-> https://help.github.com/articles/searching-code/) and compare file
+> \url{https://help.github.com/articles/searching-code/}) and compare file
 > content across revisions. Git offers a Large File Storage (LFS)
-> module (https://git-lfs.github.com/) that replaces such large files
+> module (\url{https://git-lfs.github.com/}) that replaces such large files
 > with pointers, while the large binary file can be stored remotely,
 > which results in small and faster repositories. Git LFS is also
 > supported by GitHub, albeit with a space quota or for a fee, to
 > retain your usual GitHub workflow
-> (https://help.github.com/categories/managing-large-files/)
+> (\url{https://help.github.com/categories/managing-large-files/})
 > (Supplementary Note, Section 1).
 
 > **Box 2** By default, GitHub repositories are freely visible to all.
@@ -204,16 +204,16 @@ working in, including a list of the latest activities on the site
 
 Anyone with a GitHub account can _fork_ a public repository and
 start developing the same code base in one's own fork
-(https://help.github.com/articles/fork-a-repo/) under their username
+(\url{https://help.github.com/articles/fork-a-repo/}) under their username
 (see, for example,
-https://github.com/ypriverol/github-paper/network/members for this
+\url{https://github.com/ypriverol/github-paper/network/members} for this
 work) or organization (see Rule 2). A fork is a complete copy of the content of a repository that retains a link to the original 'upstream'
 version. Forking a repository allows users to freely experiment with
 changes without affecting the original project, which forms the basis of social coding. It allows anyone to develop and test novel
 features with existing code and offers the possibility of contributing
 novel features, bug fixes, and
 improvements to documentation
-(https://twitter.com/rgfitzjohn/status/708309767240982528) back into
+(\url{https://twitter.com/rgfitzjohn/status/708309767240982528}) back into
 the original upstream project (requested by opening an _pull request_),
 repository and becoming a contributor. Forking a repository and
 providing pull requests constitutes a simple method for collaboration
@@ -229,7 +229,7 @@ most common way is to use git _branches_ to separate different lines
 of development. Active development is often performed on a development
 branch and stable versions, i.e., those used for a software release, are
 kept in a master or release branch (see for example
-https://github.com/OpenMS/OpenMS/branches).  In practice, developers
+\url{https://github.com/OpenMS/OpenMS/branches}).  In practice, developers
 often work concurrently on one or several features or improvements. To
 keep commits of the different features logically separated, distinct
 branches are typically used. Later, when development is complete and
@@ -251,7 +251,7 @@ conflicts to bring the branches in sync again.
 Tags can be used to label versions during the development
 process. Version numbering should follow
 `semantic versioning' practice, with the format X.Y.Z, with X being the major, Y the minor, and Z the patch version of the release, including possible meta
-information, as described in http://semver.org/. This semantic
+information, as described in \url{http://semver.org/}. This semantic
 versioning scheme provides users with coherent version numbers that
 document the extent (bug fixes or new functionality) and backwards
 compatibility of new releases. Correct labeling allows developers and
@@ -281,7 +281,7 @@ run after each push to a repository, making it easier to follow the
 basic principles of continuous integration. The GitHub web hooks
 allows third-party platforms to access and interact with a GitHub
 repository and thus to automate post-processing tasks. Continuous
-integration can be achieved by _Travis CI_ (https://travis-ci.org), a
+integration can be achieved by _Travis CI_ (\url{https://travis-ci.org}), a
 hosted continued integration platform that is free for all open source
 projects. Travis CI builds and tests the source code using a plethora of
 options such as different platforms and interpreter versions
@@ -298,22 +298,22 @@ into your software project: GitHub hooks can be used to automate
 numerous tasks to help improve the overall quality of your project. A
 important complement to successful test completion is to demonstrate
 that the tests sufficiently cover the existing code base. For this, the
-integration of _Codecov_ is recommended (https://codecov.io).  This
+integration of _Codecov_ is recommended (\url{https://codecov.io}).  This
 service will report how much of the code base and which lines of code
 are being executed as part of your code tests. The Bioconductor
 project, for example, highly recommends that packages implement unit
 testing to support developers in their package development and
 maintenance
-(http://bioconductor.org/developers/unitTesting-guidelines/), and
+(\url{http://bioconductor.org/developers/unitTesting-guidelines/}), and
 systematically tests the coverage of all of its packages
-(https://codecov.io/github/Bioconductor-mirror/). One might also
+(\url{https://codecov.io/github/Bioconductor-mirror/}). One might also
 consider generating the documentation upon code/documentation
 modification (Supplementary Note, Section 3). This implies that your
 projects provide comprehensive documentation so others can understand
 and contribute back to them. For Python or C/C++ code, automatic
 documentation generation can be done using sphinx
-(http://sphinx-doc.org/) and subsequently integrated into GitHub using
-"Read the Docs" (https://readthedocs.org/). All of these platforms
+(\url{http://sphinx-doc.org/}) and subsequently integrated into GitHub using
+"Read the Docs" (\url{https://readthedocs.org/}). All of these platforms
 will create reports and badges (sometimes called shields) that can be
 included on your GitHub project page, helping to demonstrate that the
 content is of high quality and well-maintained.
@@ -340,21 +340,21 @@ optional comments. If the developer needs more information, he
 or she can simply request it in a comment. Alternatively, it is
 possible for repository administrators to create issue and pull
 request (see Rule 3) templates
-(https://help.github.com/articles/helping-people-contribute-to-your-project/)
+(\url{https://help.github.com/articles/helping-people-contribute-to-your-project/})
 to customize and standardize the information to be included when
 contributors open issues. GitHub issues are thus dynamic, and they pose a
 low barrier-to-entry for users to report bugs and request features. A
 well-organized and tagged issue tracker helps new contributors and
 users to understand a project more deeply. As an example, one
 issue in the OpenMS repository
-(https://github.com/OpenMS/OpenMS/issues/1095) allowed the interaction
+(\url{https://github.com/OpenMS/OpenMS/issues/1095}) allowed the interaction
 of eight developers and more than hundred comments. Contributors can
 add figures, comments, and references to other _issues_ and _pull
 requests_ in the repository, as well as direct references to code.
 
 As another illustration of _issues_ and their generic and wide
-application, we (https://github.com/ypriverol/github-paper/issues) and
-others (https://github.com/ropensci/RNeXML/issues/121) used GitHub
+application, we (\url{https://github.com/ypriverol/github-paper/issues}) and
+others (\url{https://github.com/ropensci/RNeXML/issues/121}) used GitHub
 issues to discuss and comment changes in manuscripts and address
 reviewers' comments.
 
@@ -382,10 +382,10 @@ different speed than text published in the scientific literature. In
 fact, it is common to find software having novel features and
 functionality that were not described in the original
 publication. GitHub now integrates with archiving services such as
-Zenodo (https://zenodo.org/) and Figshare (https://figshare.com/),
+Zenodo (\url{https://zenodo.org/}) and Figshare (\url{https://figshare.com/}),
 enabling DOIs to be assigned to code repositories. The procedure is
 relatively straightforward (see
-https://guides.github.com/activities/citable-code/), requiring only
+\url{https://guides.github.com/activities/citable-code/}), requiring only
 the provision of metadata and a series of administrative steps. By
 default, Zenodo creates an archive of a repository each time a new
 release is created in GitHub, ensuring the cited code remains up to
@@ -410,10 +410,10 @@ collaboration.
 
 The availability of a public repository containing the source code
 does not make the software open source _per se_. You should use an OSI
-approved license (https://opensource.org/licenses/alphabetical) that
+approved license (\url{https://opensource.org/licenses/alphabetical}) that
 defines how the software can be freely used, modified and
 shared. Common licenses such as those listed on
-http://choosealicense.com are preferred. Note that the LICENSE file in
+\url{http://choosealicense.com} are preferred. Note that the LICENSE file in
 the repository should be a plain-text file containing the contents of
 an OSI approved license, not just a reference to the license.
 
@@ -427,14 +427,14 @@ are simple landing webpages that GitHub hosts for free.
 GitHub users can create and host blog
 websites, help pages, manuals, tutorials and websites related to
 specific projects. _Pages_ comes with a powerful static site generator
-called Jekyll (https://jekyllrb.com) that can be integrated with other
-frameworks such as Bootstrap (http://getbootstrap.com/) or platforms
-such as Disqus (https://disqus.com/), to support and moderate
+called Jekyll (\url{https://jekyllrb.com}) that can be integrated with other
+frameworks such as Bootstrap (\url{http://getbootstrap.com/}) or platforms
+such as Disqus (\url{https://disqus.com/}), to support and moderate
 comments.  
 
 In addition, several real-time communication platforms have
-been integrated with GitHub such as Gitter (http://gitter.im) and
-Slack (https://slack.com/). Real-time communication systems allow the
+been integrated with GitHub such as Gitter (\url{http://gitter.im}) and
+Slack (\url{https://slack.com/}). Real-time communication systems allow the
 user community, developers and project collaborators to exchange ideas
 and issues, and to report bugs or get support. For example, Gitter is
 a GitHub-based chat tool that enables developers and users to share
@@ -447,12 +447,12 @@ requests.  GitHub also supports wikis (which are version-controlled
 repositories themselves) for each repository, where users can create
 and edit pages for documentation, examples, or general support.
 
-A different service is Gist (https://gist.github.com), which
+A different service is Gist (\url{https://gist.github.com}), which
 represents a unique way to share _code snippets_, single files, parts
 of files, or full applications. Gists can be generated in two different
 ways: public _gists_ that can be browsed and searched, and secret
 gists that are not provided through _Discover_
-(https://gist.github.com/discover). One of the main features of Gist
+(\url{https://gist.github.com/discover}). One of the main features of Gist
 is the possibility of embedding code snippets in other applications,
 enabling users to embed gists in any text field that supports
 JavaScript. 
@@ -475,21 +475,20 @@ training materials, including workshops, online courses and manuscripts
 (Table 2).
 
 
-
 | Name of the Repository                       | Type                                                       | URL                                                                          |
 |----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
-| Galaxy Project \cite{Goecks:2010}            | Community Project, Bioinformatics Repository               | https://github.com/galaxyproject/galaxy/                                     |
-| Retinal wave data repository \cite{Eglen:2014}| Binary Data organized                                     | https://github.com/sje30/waverepo/tree/master/hdf5                           |
-| OpenMS \cite{sturm2008openms}                | Bioinformatics Repository, Issue discussion, branches      | https://github.com/OpenMS/OpenMS/issues/1095                                 |
-| Pride Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple project repositories | https://github.com/PRIDE-Toolsuite                                        |
-| BioPython \cite{Cock:2009}                   | Community Project, Multiple contributors                   | https://github.com/biopython/biopython/graphs/contributors                   |
-| Adam                                         | Community Project, Multiple forks                          | https://github.com/bigdatagenomics/adam/                                     |
-| Computational Proteomics Unit                | Lab Repository                                             | https://github.com/ComputationalProteomicsUnit/                              |
-| MSnbase \cite{Gatto15012012}                 | Individual project repository                              | https://github.com/lgatto/MSnbase                                            |
-| SAMtools \cite{Li:2009}                      | Bioinformatics Repository, Project Organization            | https://github.com/samtools                                                  |
-| rOpenSci                                     | Community Project, Issue discussion                        | https://github.com/ropensci                                                  |
-| The Global Alliance For Genomics and Health  | Community Project                                          | https://github.com/ga4gh                                                     |
-| GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | https://github.com/ypriverol/github-paper                                    |
+| Adam                                         | Community Project, Multiple forks                          | \url{https://github.com/bigdatagenomics/adam/}                               |
+| BioPython \cite{Cock:2009}                   | Community Project, Multiple contributors                   | \url{https://github.com/biopython/biopython/graphs/contributors}             |
+| Computational Proteomics Unit                | Lab Repository                                             | \url{https://github.com/ComputationalProteomicsUnit/}                        |
+| Galaxy Project \cite{Goecks:2010}            | Community Project, Bioinformatics Repository               | \url{https://github.com/galaxyproject/galaxy/}                               |
+| GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | \url{https://github.com/ypriverol/github-paper}                              |
+| MSnbase \cite{Gatto15012012}                 | Individual project repository                              | \url{https://github.com/lgatto/MSnbase}                                      |
+| OpenMS \cite{sturm2008openms}                | Bioinformatics Repository, Issue discussion, branches      | \url{https://github.com/OpenMS/OpenMS/issues/1095}                           |
+| Pride Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple project repositories | \url{https://github.com/PRIDE-Toolsuite}                                  |
+| Retinal wave data repository \cite{Eglen:2014}| Individual project, Manuscript, Binary Data organized     | \url{https://github.com/sje30/waverepo/}                                     |
+| SAMtools \cite{Li:2009}                      | Bioinformatics Repository, Project Organization            | \url{https://github.com/samtools}                                            |
+| rOpenSci                                     | Community Project, Issue discussion                        | \url{https://github.com/ropensci}                                            |
+| The Global Alliance For Genomics and Health  | Community Project                                          | \url{https://github.com/ga4gh}                                               |
 
 Table: Bioinformatics repository examples with good practices using
 GitHub. The table contains the name of the repository, the type of the
@@ -501,16 +500,15 @@ the example.
 | Name of the material                             | Type                 | URL                                                                          |
 |--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
 | `git help` and `git help -a`                     | Documentation        | Local, installed with `git`                                                  |
-| Karl Broman's git/github guide                   | Short tutorial       | http://kbroman.org/github_tutorial/                                          |
-| Version Control with GitVersion Control with Git | Tutorial             | http://swcarpentry.github.io/git-novice/                                     |
-| Introduction to Git                              | Tutorial             | http://git-scm.com/book/ch1-3.html                                           |
-| Github Training                                  | Courses and Training | https://training.github.com/                                                 |
-| Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
-| Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
-| Software Carpentry: Version Control with Git     | Tutorial             | http://swcarpentry.github.io/git-novice/ |
+| Karl Broman's git/github guide                   | Short tutorial       | \url{http://kbroman.org/github_tutorial/}                                    |
+| Version Control with GitVersion Control with Git | Tutorial             | \url{http://swcarpentry.github.io/git-novice/}                               |
+| Introduction to Git                              | Tutorial             | \url{http://git-scm.com/book/ch1-3.html}                                     |
+| Github Training                                  | Courses and Training | \url{https://training.github.com/}                                           |
+| Github Guides                                    | Tutorial             | \url{https://guides.github.com/}                                             |
+| Good Resources for Learning Git and GitHub       | Tutorials Directory  | \url{https://help.github.com/articles/good-resources-for-learning-git-and-github/} | 
+| Software Carpentry: Version Control with Git     | Tutorial             | \url{http://swcarpentry.github.io/git-novice/}                               |
 
 Table: Online courses, tutorials and workshops about GitHub and Git for scientists.
-
   
 
 ## Disclaimer{-}
