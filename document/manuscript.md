@@ -22,7 +22,7 @@ popular web-based platform that offers a free and integrated
 environment for hosting the source code, documentation, and
 project-related web content for open source projects. GitHub also
 offers paid plans for private repositories (see Box 2) for individuals
-and businesses, as well as free plans including private repository for
+and businesses, as well as free plans including private repositories for
 research and educational use.
 
 GitHub relies, at its core, on the well-known and open source version
