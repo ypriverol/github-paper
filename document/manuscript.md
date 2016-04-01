@@ -361,7 +361,7 @@ reviewers' comments.
 
 # Rule 8. Make your code easily citable, and cite source code! {-}
 
-In research it is good practice to ensure permanent and unambiguous
+It is a good research practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
 entities such as proteins, genes and metabolites (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
@@ -402,7 +402,7 @@ highlight that the code is freely available in, for example, GitHub,
 together with any other relevant outputs that may have been
 deposited. In our experience, this openness substantially increases
 the chances of getting the paper accepted for publication. Journal
-editors and reviewers have the opportunity to reproduce findings
+editors and reviewers receive the opportunity to reproduce findings
 during the manuscript review process, increasing confidence in
 the reported results. In addition, once the paper is published, your work can
 be reproduced by other members of the scientific community, which can
@@ -422,10 +422,9 @@ an OSI approved license, not just a reference to the license.
 
 The traditional way to promote scientific software is by publishing an associated paper
 in the peer-reviewed scientific literature, though as pointed out by Buckheir and Donoho,
-this is just advertizing [add citation to paper on http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf]. Additional steps can
+this is just advertizing [TODO: add citation to paper on http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf]. Additional steps can
 boost the visibility of a organization. For example, GitHub _Pages_
-are simple landing webpages that GitHub hosts for free.
-GitHub users can create and host blog
+are simple websites freely hosted by GitHub. Users can create and host blog
 websites, help pages, manuals, tutorials and websites related to
 specific projects. _Pages_ comes with a powerful static site generator
 called Jekyll (https://jekyllrb.com) that can be integrated with other
@@ -442,7 +441,7 @@ a GitHub-based chat tool that enables developers and users to share
 aspects of their work. Gitter inherits the network of social groups
 operating around GitHub repositories, organizations, and issues. It
 relies on identities within GitHub, creating IRC (Internet Relay
-Chat)-like chat rooms for public and private repositories. Within a
+Chat)-like chat rooms for public and private projects. Within a
 Gitter chat, members can reference issues, comments, and pull
 requests.  GitHub also supports wikis (which are version-controlled
 repositories themselves) for each repository, where users can create
