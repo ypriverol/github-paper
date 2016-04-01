@@ -67,7 +67,7 @@ Subsequently, every change to the tracked files, once committed, will
 be recorded as a new revision, or _snapshot_, uniquely identifying the
 changes in all the modified files. Git is remarkably effective in
 archiving the complete revision history of a project by,
-among other things, storing only the differences among them.
+among other things, storing only the differences between files.
 
 In addition to local copies of the repository, it is easy to create
 remote repositories on GitHub (called `origin`, with default branch
