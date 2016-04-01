@@ -532,4 +532,4 @@ Table: Online courses, tutorials and workshops about GitHub and Git for scientis
 
 The authors have no affiliation with GitHub, nor any commercial entity
 mentioned in this article. The views described here reflect their own
-without input from any third party organization.
+views without input from any third party organization.
