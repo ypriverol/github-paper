@@ -85,8 +85,8 @@ remote repositories on GitHub (called `origin`, with default branch
 local and remote repositories.
 
 ```
-git push origin master ## push local changes to the remote repo
-git pull origin master ## pull remote changes into the local repo
+git push origin master ## push local changes to the remote repository
+git pull origin master ## pull remote changes into the local repository
 ```
 
 Following Tony Rossini's advice in 2005 to "commit early, commit
@@ -97,7 +97,7 @@ previous version. In larger projects, multiple users are able to work on the
 same remote repository, with all contributions being recorded, restorable and attributed to the author.
 
 Users usually track source code, text files, images, and small data
-files inside their repos, and generally do not track derived files
+files inside their repositories, and generally do not track derived files
 such as build logs or compiled binaries. And while the majority of
 GitHub repositories are used for software development, users can also
 keep text documents such as analysis
@@ -177,7 +177,7 @@ that will be described in subsequent rules (Fig. 1).
 
 Public projects on GitHub are visible to everyone, but write
 permission, i.e., the ability to directly modify the content of a
-repo, needs to be granted explicitly. As a repository owner, you can
+repository, needs to be granted explicitly. As a repository owner, you can
 grant this right to other GitHub users. In addition to being owned
 by users, repositories can also be created and managed as part of
 teams and organizations.
@@ -240,7 +240,7 @@ branch, to adapt the feature to the changes in the master branch.
 When developing different features in parallel, there is a risk of
 applying incompatible changes in different branches/forks; these are said
 to become _out of sync_. Branches are just short-term departures from
-master. If you pull frequently, you will keep your copy of the repo up
+master. If you pull frequently, you will keep your copy of the repository up
 to date, and you will have the opportunity to merge your changed code
 with others' contributors, ideally without requiring you to manually address
 conflicts to bring the branches in sync again.
@@ -287,7 +287,7 @@ options such as different platforms and interpreter versions
 (Supplementary Note, Section 2). In addition, it offers notifications
 that allow your team and contributors to know if the new changes
 work, and to prevent the introduction of errors in the code (for instance,
-when merging pull requests), making the repo always ready to
+when merging pull requests), making the repository always ready to
 use. 
 
 # Rule 6: Let GitHub do more tasks for you: automate {-}
