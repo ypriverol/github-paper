@@ -348,7 +348,7 @@ the issue functionality is its simplicity. For instance, raising an
 issue does not require lengthy forms to be completed, or even
 including every piece of information that might be valuable to
 reproduce a bug. It only requires a title and provides space for
-optional text (comments). If the developer needs more information, he
+optional comments. If the developer needs more information, he
 or she can simply request it in a comment. Alternatively, it is
 possible for repository administrators to create issue and pull
 request (see Rule 3) templates
