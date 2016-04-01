@@ -356,7 +356,7 @@ entities such as proteins, genes and metabolites (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
-produce DOIs for other types of scientific outputs such as datasets
+mint DOIs for other types of scientific outputs such as datasets
 \cite{Vizcaino:2014} and training materials (for example
 \cite{Ahmadia_2015_27353}). A key motivation for this is to build a
 framework for giving scientists broader credit for their work
@@ -385,8 +385,8 @@ information resources such as Europe PubMed Central
 
 As already mentioned in the introduction, reproducibility of
 scientific claims should be enabled by providing the software, the
-datasets and the process leading to interpretable results that was
-used in a particular study. As much as possible, npublications should
+datasets and the process leading to interpretable results that were
+used in a particular study. As much as possible, publications should
 highlight that the code is freely available in, for example, GitHub,
 together with any other relevant outputs that may have been
 deposited. In our experience, this openness substantially increases
