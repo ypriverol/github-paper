@@ -1,4 +1,4 @@
-# Introduction
+# Introduction {-}
 
 Bioinformatics is a broad discipline in which the common denominator
 is the need to produce and/or use software that can be applied to
@@ -49,7 +49,7 @@ use of branches and pull requests, labelling and tagging of code
 snapshots, tracking project bugs and enhancements using issues, and
 dissemination of the final results.
 
-# Rule 1. Use GitHub to track your projects
+# Rule 1. Use GitHub to track your projects {-}
 
 The backbone of GitHub is the distributed version control system
 git. Every change, from fixing a typo to a complete redesign of the
@@ -175,7 +175,7 @@ that will be described in subsequent rules (Fig. 1).
 > the repository will inform your users how to cite and credit your
 > project.
 
-# Rule 2. GitHub for single users, teams and organizations
+# Rule 2. GitHub for single users, teams and organizations {-}
 
 Public projects on GitHub are visible to everyone, but write
 permissions, i.e. the possibility to directly modify the content of a
@@ -204,7 +204,7 @@ other users and display all of the projects and organisations you are
 working in, including a list of the latest activities on the site
 (Fig. 1).
 
-# Rule 3. Developing and collaborating on new features: branching and forking
+# Rule 3. Developing and collaborating on new features: branching and forking {-}
 
 Anyone with a GitHub account can _fork_ any public repository and
 start developing the same code base in one's own fork
@@ -249,7 +249,7 @@ to date, and you will have the opportunity to merge your changed code
 with others' contributors without requiring to manually address
 conflicts to bring the branches in sync again.
 
-# Rule 4. Naming branches and commits: tags and semantic versions
+# Rule 4. Naming branches and commits: tags and semantic versions {-}
 
 Tags offer the possibility of labeling versions during the development
 process. Version numbering should follow
@@ -264,7 +264,7 @@ them to reproduce results described in publications (see Rule 8). This
 approach also help to define a coherent software publication
 strategy.
 
-# Rule 5: Let GitHub do some tasks for you: integrate
+# Rule 5: Let GitHub do some tasks for you: integrate {-}
 
 The first rule of software development is that the code needs to be
 ready to use as soon as possible \cite{Leprevost:2014}, to remain so
@@ -298,7 +298,7 @@ work, and prevent the introduction of errors in the code (for instance
 when merging pull requests), making the repo always ready to
 use. 
 
-# Rule 6: Let GitHub do more tasks for you: automate 
+# Rule 6: Let GitHub do more tasks for you: automate {-}
 
 There is more than code compilation and testing that can be integrated
 into your software project. GitHub hooks can be used to automate
@@ -322,7 +322,7 @@ documentation generation can be done using sphinx
 "Read the Docs" (https://readthedocs.org/). All of these platforms
 will create reports and badges (also called shields) that can be included on your GitHub project page, helping to demonstrate that the content is high quality and well-maintained.
 
-# Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues
+# Rule 7. Use GitHub to openly and collaboratively discuss, address and close issues {-}
 
 GitHub _issues_ are a great way to keep track of bugs, tasks, feature
 requests and enhancements. Classical issue trackers are primarily
@@ -355,7 +355,7 @@ others (https://github.com/ropensci/RNeXML/issues/121) used GitHub
 issues to discuss and comment changes in manuscripts and address
 reviewers' comments.
 
-# Rule 8. Make your code easily citable, and cite source code!
+# Rule 8. Make your code easily citable, and cite source code! {-}
 
 In research it is good practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
@@ -399,7 +399,7 @@ needs to have an appropriate license (http://opensource.org/licenses/)
 that defines how the software can be freely used, modified, and
 shared.
 
-# Rule 9. Promote and discuss your projects: web page and more
+# Rule 9. Promote and discuss your projects: web page and more {-}
 
 The traditional way of promoting scientific software is by
 publishing them in the peer-reviewed scientific literature. Additional steps can boost the visibility of a
@@ -433,7 +433,7 @@ is the possibility to embed code snippets in other applications,
 enabling users to embed gists in any text field that supports
 JavaScript. 
 
-# Rule 10. Use GitHub to be social: follow and watch
+# Rule 10. Use GitHub to be social: follow and watch {-}
 
 A key responsibility of scientific researchers is to actively follow the developments in their field. Analogously, scientific programmers need to follow
 publicly available (e.g., open source) projects and code that might be interesting for their research. Therefore, you should try to learn as much as possible from your peers, and keep up-to-date with all the developments of
@@ -442,7 +442,7 @@ GitHub users (see also Rule 2) or _watching_ the activity of projects, which is 
 feature in many social media platforms. Take advantage of it as much
 as possible!
 
-# Conclusions
+# Conclusions {-}
 
 If you are involved in scientific research and have not used git and GitHub before, we recommend you to explore its potential as soon as possible. As with many other tools, a certain learning curve lays ahead. However, basic yet very
 useful features can be relatively easily learned and applied to many
