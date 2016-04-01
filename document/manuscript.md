@@ -359,7 +359,7 @@ entities such as proteins, genes and metabolites (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
 years as unique and unambiguous identifiers for enabling the citation
 of scientific publications. More recently, a trend has started to
-mint DOIs for other types of scientific outputs such as datasets
+mint DOIs for other types of scientific products such as datasets
 \cite{Vizcaino:2014} and training materials (for example
 \cite{Ahmadia_2015_27353}). A key motivation for this is to build a
 framework for giving scientists broader credit for their work
