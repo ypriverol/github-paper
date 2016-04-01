@@ -460,8 +460,10 @@ JavaScript.
 
 # Rule 10. Use GitHub to be social: follow and watch {-}
 
-A key responsibility of scientific researchers is to actively follow
-the developments in their field. Analogously, scientific programmers should follow publicly available projects and code that might benefit their research. GitHub enables this functionality by _following_ other GitHub users (see also
+In the same way as researchers are following developments in their field,
+scientific programmers could follow publicly available projects that might
+benefit their research.
+GitHub enables this functionality by _following_ other GitHub users (see also
 Rule 2) or _watching_ the activity of projects, which is a common
 feature in many social media platforms. Take advantage of it as much
 as possible!
