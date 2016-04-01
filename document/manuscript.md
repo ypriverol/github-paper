@@ -85,8 +85,8 @@ remote repositories on GitHub (called `origin`, with default branch
 local and remote repositories.
 
 ```
-git push origin master ## push local changes to the remote repo
-git pull origin master ## pull remote changes into the local repo
+git push origin master ## push local changes to the remote repository
+git pull origin master ## pull remote changes into the local repository
 ```
 
 Following Tony Rossini's advice in 2005 to "commit early, commit
@@ -97,7 +97,7 @@ previous version. In larger projects, multiple users are able to work on the
 same remote repository, with all contributions being recorded, restorable and attributed to the author.
 
 Users usually track source code, text files, images, and small data
-files inside their repos, and generally do not track derived files
+files inside their repositories, and generally do not track derived files
 such as build logs or compiled binaries. And while the majority of
 GitHub repositories are used for software development, users can also
 keep text documents such as analysis
@@ -177,7 +177,7 @@ that will be described in subsequent rules (Fig. 1).
 
 Public projects on GitHub are visible to everyone, but write
 permission, i.e., the ability to directly modify the content of a
-repo, needs to be granted explicitly. As a repository owner, you can
+repository, needs to be granted explicitly. As a repository owner, you can
 grant this right to other GitHub users. In addition to being owned
 by users, repositories can also be created and managed as part of
 teams and organizations.
@@ -197,19 +197,20 @@ projects of institutes, research labs, and large open source projects
 that need multiple owners and administrators (Fig.  1). We recommend
 that you, as an individual researcher, make your profile visible to
 other users and display all of the projects and organisations you are
-working in, including a list of the latest activities on the site
-(Fig. 1).
+working in.
 
 # Rule 3. Developing and collaborating on new features: branching and forking {-}
 
-Anyone with a GitHub account can _fork_ a public repository and
-start developing the same code base in one's own fork
+Anyone with a GitHub account can _fork_ any repository they have access to. This
+will create a complete copy of the content of the repository, while
+retaining a link to the original 'upstream' version. One can then
+start working on the same code base in one's own fork
 (\url{https://help.github.com/articles/fork-a-repo/}) under their username
-(see, for example,
-\url{https://github.com/ypriverol/github-paper/network/members} for this
-work) or organization (see Rule 2). A fork is a complete copy of the content of a repository that retains a link to the original 'upstream'
-version. Forking a repository allows users to freely experiment with
-changes without affecting the original project, which forms the basis of social coding. It allows anyone to develop and test novel
+(see, for example, \url{https://github.com/ypriverol/github-paper/network/members}
+for this work) or organization (see Rule 2).
+Forking a repository allows users to freely experiment with
+changes without affecting the original project and forms the basis of social coding.
+It allows anyone to develop and test novel
 features with existing code and offers the possibility of contributing
 novel features, bug fixes, and
 improvements to documentation
@@ -241,7 +242,7 @@ branch, to adapt the feature to the changes in the master branch.
 When developing different features in parallel, there is a risk of
 applying incompatible changes in different branches/forks; these are said
 to become _out of sync_. Branches are just short-term departures from
-master. If you pull frequently, you will keep your copy of the repo up
+master. If you pull frequently, you will keep your copy of the repository up
 to date, and you will have the opportunity to merge your changed code
 with others' contributors, ideally without requiring you to manually address
 conflicts to bring the branches in sync again.
@@ -288,7 +289,7 @@ options such as different platforms and interpreter versions
 (Supplementary Note, Section 2). In addition, it offers notifications
 that allow your team and contributors to know if the new changes
 work, and to prevent the introduction of errors in the code (for instance,
-when merging pull requests), making the repo always ready to
+when merging pull requests), making the repository always ready to
 use. 
 
 # Rule 6: Let GitHub do more tasks for you: automate {-}
@@ -302,7 +303,7 @@ integration of _Codecov_ is recommended (\url{https://codecov.io}).  This
 service will report how much of the code base and which lines of code
 are being executed as part of your code tests. The Bioconductor
 project, for example, highly recommends that packages implement unit
-testing to support developers in their package development and
+testing (Supplementary Note, Section 2) to support developers in their package development and
 maintenance
 (\url{http://bioconductor.org/developers/unitTesting-guidelines/}), and
 systematically tests the coverage of all of its packages
@@ -323,32 +324,36 @@ content is of high quality and well-maintained.
 GitHub _issues_ are a great way to keep track of bugs, tasks, feature
 requests, and enhancements. While classical issue trackers are primarily
 intended to be used as bug trackers, in contrast, GitHub issue
-trackers (_issues_) follow a different philosophy: each tracker has
+trackers follow a different philosophy: each tracker has
 its own section in every repository and can be used to trace bugs,
 new ideas, and enhancements, by using a powerful tagging
 system. _Issues_ main focus is on promoting collaboration, providing
-context by using cross-references.  Issues also have very clear
-formatting: (i) a title and description, (ii) color-coded labels that help
-categorize and filter issues, (iii) milestones, (iv) one assignee
-responsible for working on the issue, and (v) comments that allow
-anyone with a github account to provide feedback. Another aspect of
-the issues functionality is its simplicity. For instance, raising an
-issue does not require lengthy forms to be completed, or even
-including every piece of information that might be valuable to
-reproduce a bug. It only requires a title and provides space for
-optional comments. If the developer needs more information, he
-or she can simply request it in a comment. Alternatively, it is
-possible for repository administrators to create issue and pull
+context by using cross-references.
+
+Raising an issue does not require lengthy forms to be completed. It only
+requires a title, and preferably at least a short description. Issues have
+very clear formatting, and provide space for optional comments, which allow
+anyone with a github account to provide feedback. For example, if the developer
+needs more information to be able to reproduce a bug, he or she can simply
+request it in a comment.
+
+Additional elements of issues are (i) color-coded labels that help to
+categorize and filter issues, (ii) milestones, and (iii) one assignee
+responsible for working on the issue. They help developers to filter
+and prioritise tasks and turn issue tracker into a planning tool for their
+project.
+
+It is also possible for repository administrators to create issue and pull
 request (see Rule 3) templates
 (\url{https://help.github.com/articles/helping-people-contribute-to-your-project/})
 to customize and standardize the information to be included when
 contributors open issues. GitHub issues are thus dynamic, and they pose a
-low barrier-to-entry for users to report bugs and request features. A
+low entry barrier for users to report bugs and request features. A
 well-organized and tagged issue tracker helps new contributors and
 users to understand a project more deeply. As an example, one
 issue in the OpenMS repository
 (\url{https://github.com/OpenMS/OpenMS/issues/1095}) allowed the interaction
-of eight developers and more than hundred comments. Contributors can
+of eight developers and attracted more than hundred comments. Contributors can
 add figures, comments, and references to other _issues_ and _pull
 requests_ in the repository, as well as direct references to code.
 
@@ -360,7 +365,7 @@ reviewers' comments.
 
 # Rule 8. Make your code easily citable, and cite source code! {-}
 
-In research it is good practice to ensure permanent and unambiguous
+It is a good research practice to ensure permanent and unambiguous
 identifiers for citable items like articles, datasets, or biological
 entities such as proteins, genes and metabolites (see
 also Box 3). Digital Object Identifiers (DOIs) have been used for many
@@ -401,7 +406,7 @@ highlight that the code is freely available in, for example, GitHub,
 together with any other relevant outputs that may have been
 deposited. In our experience, this openness substantially increases
 the chances of getting the paper accepted for publication. Journal
-editors and reviewers have the opportunity to reproduce findings
+editors and reviewers receive the opportunity to reproduce findings
 during the manuscript review process, increasing confidence in
 the reported results. In addition, once the paper is published, your work can
 be reproduced by other members of the scientific community, which can
@@ -421,10 +426,9 @@ an OSI approved license, not just a reference to the license.
 
 The traditional way to promote scientific software is by publishing an associated paper
 in the peer-reviewed scientific literature, though as pointed out by Buckheir and Donoho,
-this is just advertizing [add citation to paper on http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf]. Additional steps can
+this is just advertizing \cite{Buckheit95wavelaband}. Additional steps can
 boost the visibility of a organization. For example, GitHub _Pages_
-are simple landing webpages that GitHub hosts for free.
-GitHub users can create and host blog
+are simple websites freely hosted by GitHub. Users can create and host blog
 websites, help pages, manuals, tutorials and websites related to
 specific projects. _Pages_ comes with a powerful static site generator
 called Jekyll (\url{https://jekyllrb.com}) that can be integrated with other
@@ -441,7 +445,7 @@ a GitHub-based chat tool that enables developers and users to share
 aspects of their work. Gitter inherits the network of social groups
 operating around GitHub repositories, organizations, and issues. It
 relies on identities within GitHub, creating IRC (Internet Relay
-Chat)-like chat rooms for public and private repositories. Within a
+Chat)-like chat rooms for public and private projects. Within a
 Gitter chat, members can reference issues, comments, and pull
 requests.  GitHub also supports wikis (which are version-controlled
 repositories themselves) for each repository, where users can create
@@ -450,17 +454,19 @@ and edit pages for documentation, examples, or general support.
 A different service is Gist (\url{https://gist.github.com}), which
 represents a unique way to share _code snippets_, single files, parts
 of files, or full applications. Gists can be generated in two different
-ways: public _gists_ that can be browsed and searched, and secret
-gists that are not provided through _Discover_
-(\url{https://gist.github.com/discover}). One of the main features of Gist
+ways: public _gists_ that can be browsed and searched through _Discover_
+(\url{https://gist.github.com/discover}), and secret gists that are hidden
+from search engines. One of the main features of Gist
 is the possibility of embedding code snippets in other applications,
 enabling users to embed gists in any text field that supports
 JavaScript. 
 
 # Rule 10. Use GitHub to be social: follow and watch {-}
 
-A key responsibility of scientific researchers is to actively follow
-the developments in their field. Analogously, scientific programmers should follow publicly available projects and code that might benefit their research. GitHub enables this functionality by _following_ other GitHub users (see also
+In the same way as researchers are following developments in their field,
+scientific programmers could follow publicly available projects that might
+benefit their research.
+GitHub enables this functionality by _following_ other GitHub users (see also
 Rule 2) or _watching_ the activity of projects, which is a common
 feature in many social media platforms. Take advantage of it as much
 as possible!
@@ -490,7 +496,7 @@ training materials, including workshops, online courses and manuscripts
 | rOpenSci                                     | Community Project, Issue discussion                        | \url{https://github.com/ropensci}                                            |
 | The Global Alliance For Genomics and Health  | Community Project                                          | \url{https://github.com/ga4gh}                                               |
 
-Table: Bioinformatics repository examples with good practices using
+Table: Bioinformatics repository examples with good practices of using
 GitHub. The table contains the name of the repository, the type of the
 example (issue tracking, branch structure, unit tests) and the URL of
 the example.
