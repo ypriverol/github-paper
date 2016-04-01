@@ -490,9 +490,6 @@ training materials including workshops, online courses and manuscripts
 (Table 2).
 
 
-Table 1: Bioinformatics repository examples with good practices using GitHub. The table contains the name of the repository, the type of the 
-example (issue tracking, branch structure, unit tests) and the URL of the example. 
-
 
 | Name of the Repository                       | Type                                                       | URL                                                                          |
 |----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -509,9 +506,12 @@ example (issue tracking, branch structure, unit tests) and the URL of the exampl
 | The Global Alliance For Genomics and Health  | Community Project                                          | https://github.com/ga4gh                                                     |
 | GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | https://github.com/ypriverol/github-paper                                    |
 
-  
+Table: Bioinformatics repository examples with good practices using
+GitHub. The table contains the name of the repository, the type of the
+example (issue tracking, branch structure, unit tests) and the URL of
+the example.
 
-Table 2: Online courses, tutorials and workshops about GitHub and Git for scientists.
+  
 
 | Name of the material                             | Type                 | URL                                                                          |
 |--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
@@ -523,6 +523,10 @@ Table 2: Online courses, tutorials and workshops about GitHub and Git for scient
 | Github Guides                                    | Tutorial             | https://guides.github.com/                                                   |
 | Good Resources for Learning Git and GitHub       | Tutorials Directory  | https://help.github.com/articles/good-resources-for-learning-git-and-github/ | 
 | Software Carpentry: Version Control with Git     | Tutorial             | http://swcarpentry.github.io/git-novice/ |
+
+Table: Online courses, tutorials and workshops about GitHub and Git for scientists.
+
+  
 
 ## Disclaimer{-}
 
