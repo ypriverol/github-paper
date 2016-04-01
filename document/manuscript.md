@@ -201,14 +201,16 @@ working in.
 
 # Rule 3. Developing and collaborating on new features: branching and forking {-}
 
-Anyone with a GitHub account can _fork_ a public repository and
-start developing the same code base in one's own fork
+Anyone with a GitHub account can _fork_ any repository they can access. This
+will create a complete copy of the content of a repository,
+retaining a link to the original 'upstream' version. One could
+start working on the same code base in one's own fork
 (https://help.github.com/articles/fork-a-repo/) under their username
-(see, for example,
-https://github.com/ypriverol/github-paper/network/members for this
-work) or organization (see Rule 2). A fork is a complete copy of the content of a repository that retains a link to the original 'upstream'
-version. Forking a repository allows users to freely experiment with
-changes without affecting the original project, which forms the basis of social coding. It allows anyone to develop and test novel
+(see, for example, https://github.com/ypriverol/github-paper/network/members
+for this work) or organization (see Rule 2).
+Forking a repository allows users to freely experiment with
+changes without affecting the original project and forms the basis of social coding.
+It allows anyone to develop and test novel
 features with existing code and offers the possibility of contributing
 novel features, bug fixes, and
 improvements to documentation
