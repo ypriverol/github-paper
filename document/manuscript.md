@@ -472,7 +472,7 @@ example (issue tracking, branch structure, unit tests) and the URL of the exampl
 
   
 
-Table 2: Online courses, tutorials and workshops about GitHub and Git for scientist.
+Table 2: Online courses, tutorials and workshops about GitHub and Git for scientists.
 
 | Name of the material                             | Type                 | URL                                                                          |
 |--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
