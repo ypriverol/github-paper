@@ -22,4 +22,3 @@ clean:
 	rm -f manuscript-plos.out
 	rm -f manuscript-plos.tex.pdf
 	rm -f manuscript.tex
-
