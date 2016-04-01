@@ -81,11 +81,10 @@ git pull origin master ## pull remote changes into the local repo
 
 Following Tony Rossini's advice in 2005 to "commit early, commit
 often, and commit in a repository from which we can easily roll-back
-your mistakes", one can keep track of the development in small
+your mistakes", one can keep track of development work in small
 incremental changes. At any time it is possible to go back to a
 previous version. In larger projects, multiple users contribute to the
-same remote repository and all their contributions are recorded,
-attributed and can be restored.
+same remote repository, with all contributions being recorded, restorable and attributed to the author.
 
 Users usually track source code, text files, images and small data
 files inside their repos, and generally do not track derived files
