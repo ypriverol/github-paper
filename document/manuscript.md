@@ -479,14 +479,10 @@ as possible!
 # Conclusions {-}
 
 If you are involved in scientific research and have not used git and
-GitHub before, we recommend you to explore its potential as soon as
-possible. As with many other tools, a certain learning curve lays
-ahead. However, basic yet very useful features can be relatively
-easily learned and applied to many different use-cases
-\cite{ram2013git}. We anticipate the reward will be worth your
-effort. To conclude, we would like to recommend some examples of
+GitHub before, we recommend that you to explore its potential as soon as
+possible. As with many tools a learning curve lays ahead, but several basic yet powerful features are accessible even to the beginner and may be applied to many different use-cases \cite{ram2013git}. We anticipate the reward will be worth your effort. To conclude, we would like to recommend some examples of
 bioinformatics repositories in GitHub (Table 1) and some useful
-training materials including workshops, online courses and manuscripts
+training materials, including workshops, online courses and manuscripts
 (Table 2).
 
 
