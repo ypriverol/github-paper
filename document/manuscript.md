@@ -481,36 +481,34 @@ training materials, including workshops, online courses and manuscripts
 
 | Name of the Repository                       | Type                                                       | URL                                                                          |
 |----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
-| Adam                                         | Community Project, Multiple forks                          | \url{https://github.com/bigdatagenomics/adam/}                               |
-| BioPython \cite{Cock:2009}                   | Community Project, Multiple contributors                   | \url{https://github.com/biopython/biopython/graphs/contributors}             |
-| Computational Proteomics Unit                | Lab Repository                                             | \url{https://github.com/ComputationalProteomicsUnit/}                        |
-| Galaxy Project \cite{Goecks:2010}            | Community Project, Bioinformatics Repository               | \url{https://github.com/galaxyproject/galaxy/}                               |
-| GitHub Paper                                 | Manuscript Repository, Issue discussion, Community Project | \url{https://github.com/ypriverol/github-paper}                              |
-| MSnbase \cite{Gatto15012012}                 | Individual project repository                              | \url{https://github.com/lgatto/MSnbase}                                      |
-| OpenMS \cite{sturm2008openms}                | Bioinformatics Repository, Issue discussion, branches      | \url{https://github.com/OpenMS/OpenMS/issues/1095}                           |
-| Pride Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple project repositories | \url{https://github.com/PRIDE-Toolsuite}                                  |
-| Retinal wave data repository \cite{Eglen:2014}| Individual project, Manuscript, Binary Data organized     | \url{https://github.com/sje30/waverepo/}                                     |
-| SAMtools \cite{Li:2009}                      | Bioinformatics Repository, Project Organization            | \url{https://github.com/samtools}                                            |
-| rOpenSci                                     | Community Project, Issue discussion                        | \url{https://github.com/ropensci}                                            |
-| The Global Alliance For Genomics and Health  | Community Project                                          | \url{https://github.com/ga4gh}                                               |
+| Adam                                         | Community Project, Multiple forks                          | \href{https://github.com/bigdatagenomics/adam/}{bigdatagenomics/adam}        |
+| BioPython \cite{Cock:2009}                   | Community Project, Multiple contributors                   | \href{https://github.com/biopython/biopython/graphs/contributors}{biopython/biopython/graphs/contributors} |
+| Computational Proteomics Unit                | Lab Repository                                             | \href{https://github.com/ComputationalProteomicsUnit}{ComputationalProteomicsUnit} |
+| Galaxy Project \cite{Goecks:2010}            | Community Project, Bioinformatics Repository               | \href{https://github.com/galaxyproject/galaxy}{galaxyproject/galaxy}               |
+| GitHub Paper                                 | Manuscript, Issue discussion, Community Project            | \href{https://github.com/ypriverol/github-paper}{ypriverol/github-paper}           |
+| MSnbase \cite{Gatto15012012}                 | Individual project repository                              | \href{https://github.com/lgatto/MSnbase}{MSnbase}                                  |
+| OpenMS \cite{sturm2008openms}                | Bioinformatics Repository, Issue discussion, branches      | \href{https://github.com/OpenMS/OpenMS/issues/1095}{OpenMS/OpenMS/issues/1095}     |
+| Pride Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple projects          | \href{https://github.com/PRIDE-Toolsuite}{PRIDE-Toolsuite}                         |
+| Retinal wave data repository \cite{Eglen:2014}| Individual project, Manuscript, Binary Data organized     | \href{https://github.com/sje30/waverepo}{sje30/waverepo}                           |
+| SAMtools \cite{Li:2009}                      | Bioinformatics Repository, Project Organization            | \href{https://github.com/samtools}{samtools}                                       |
+| rOpenSci                                     | Community Project, Issue discussion                        | \href{https://github.com/ropensci}{ropensci}                                       |
+| The Global Alliance For Genomics and Health  | Community Project                                          | \href{https://github.com/ga4gh}{ga4gh}                                             |
 
 Table: Bioinformatics repository examples with good practices of using
 GitHub. The table contains the name of the repository, the type of the
 example (issue tracking, branch structure, unit tests) and the URL of
-the example.
+the example. All URLs are prefixed with `https://github.com/`.
 
-  
-
-| Name of the material                             | Type                 | URL                                                                          |
-|--------------------------------------------------|----------------------|------------------------------------------------------------------------------|
-| `git help` and `git help -a`                     | Documentation        | Local, installed with `git`                                                  |
-| Karl Broman's git/github guide                   | Short tutorial       | \url{http://kbroman.org/github_tutorial/}                                    |
-| Version Control with GitVersion Control with Git | Tutorial             | \url{http://swcarpentry.github.io/git-novice/}                               |
-| Introduction to Git                              | Tutorial             | \url{http://git-scm.com/book/ch1-3.html}                                     |
-| Github Training                                  | Courses and Training | \url{https://training.github.com/}                                           |
-| Github Guides                                    | Tutorial             | \url{https://guides.github.com/}                                             |
-| Good Resources for Learning Git and GitHub       | Tutorials Directory  | \url{https://help.github.com/articles/good-resources-for-learning-git-and-github/} | 
-| Software Carpentry: Version Control with Git     | Tutorial             | \url{http://swcarpentry.github.io/git-novice/}                               |
+| Name of the material                             |  URL                                                                               |
+|--------------------------------------------------|------------------------------------------------------------------------------------|
+| `git help` and `git help -a`                     | Document, installed with `git`                                                     |
+| Karl Broman's git/github guide                   | \url{http://kbroman.org/github_tutorial/}                                          |
+| Version Control with GitVersion Control with Git | \url{http://swcarpentry.github.io/git-novice/}                                     |
+| Introduction to Git                              | \url{http://git-scm.com/book/ch1-3.html}                                           |
+| Github Training                                  | \url{https://training.github.com/}                                                 |
+| Github Guides                                    | \url{https://guides.github.com/}                                                   |
+| Good Resources for Learning Git and GitHub       | \url{https://help.github.com/articles/good-resources-for-learning-git-and-github/} | 
+| Software Carpentry: Version Control with Git     | \url{http://swcarpentry.github.io/git-novice/}                                   |
 
 Table: Online courses, tutorials and workshops about GitHub and Git for scientists.
   
