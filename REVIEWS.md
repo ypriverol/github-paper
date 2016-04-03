@@ -13,7 +13,7 @@ authors deliver an effective argument!
 
 That having been said, I find the organization and discussion of this
 paper to be confusing and to do a somewhat poor job of "selling"
-github. The discussions are overcomplicated and read like a wall of
+GitHub. The discussions are overcomplicated and read like a wall of
 text, rather than making clear, specific points.
 
 For example, "Rule 1".
@@ -32,8 +32,6 @@ in the first place" (rule 2) as rule 1?
 > with all the comments and concepts for advanced users and to go
 > deeper in discussions such as continues integration, testing, etc.
 
-I have many similar comments about the 
-
 I think the authors should take a step back and simplify their 10 main
 messages, and then write around that. Here is an example (not well
 thought out) --
@@ -48,7 +46,7 @@ Rule N: GitHub integrated services can do lots of nice things (CI).
 
 ```
 ## Rule 1. Use GitHub to track your projects
-## Rule 2. GitHub for single users, teams and organisations
+## Rule 2. GitHub for single users, teams and organizations
 ## Rule 3. Developing and collaborating on new features: branching and forking
 ## Rule 4. Naming branches and commits: tags and semantic versions
 ## Rule 5: Let GitHub do some tasks for you: integrate
@@ -71,7 +69,10 @@ discussion of it going in public[*]. There are lots of academics using
 github and you will get quite a bit of helpful advice.
 
 > We made this discussion available under the paper repository for
-> discussions.
+> discussions (see the twitter feed https://twitter.com/lgatt0/status/715199736437989376).
+> As a result more six new authors contribute with the paper, we also addressed more than 
+> 70 new issues from contributors and refine the paper repo structure including TRAVIS, LICENSE, and
+> a better deploy system. 
 
 [*] perhaps you could use github to do this? :)
 
@@ -94,7 +95,7 @@ Github large file support is not free, generally speaking.
 
 > We now discuss what is LSF file system in the light of project
 > management and binary/text/big files in the first rule and mention
-> quotas and fee. 
+> quotas and fee (**Box 1**).
 
 In the conclusions, the (substantial) learning curve of git is
 mentioned. Perhaps some pointers to open lessons should be made
@@ -103,7 +104,7 @@ Software Carpentry teach git and github on a global basis.
 (Disclaimer: I am heavily involved with both.)
 
 > We agree with the reviewer and in the updated version, we added some
-> useful links to documentation, courses and tutorials.
+> useful links to documentation, courses and tutorials (Table 2).
 
 ## Minor comments:
 
@@ -159,28 +160,21 @@ overall contribution.
 > Indeed, reproducibility is a broader issue that software only won't
 > solve. We replaced the word reproducibility by two different terms
 > replicability and traceability. The current version of the
-> manuscript explains: "To enable and ensure the replicability and
-> traceability of scientific claims, it is essential that the
-> scientific publication, the corresponding datasets and the data
-> analysis are made publicly available."
+> manuscript explains: "To enable and ensure the
+> replicability and traceability of scientific claims, it is essential
+> that the scientific publication, the corresponding datasets, and the
+> data analysis are made publicly available \cite{Goodman:2014,Perez-Riverol:2015}."
 
 2. It would be very helpful to call out, with links to repository
-   locations, exemplar github repositories of individual developers
+   locations, exemplar GitHub repositories of individual developers
    (from among the authors?), labs (from the authors, or from
    successful projects / groups like bedtools, Lior Pachter's lab?),
    intermediate projects (hts / samtools?), and larger projects
    (rOpenSci??) that effectively use GitHub.
    
-> We now discuss examplar repositories in the introduction. The >
-> current version of the manuscript: "Individual bioinformatics
-> projects (https://github.com/lgatto/MSnbase) \cite{Gatto15012012},
-> lab repositories (https://github.com/PRIDE-Toolsuite/)
-> \cite{Perez-Riverol01012016}, intermediate projects such as
-> (https://github.com/samtools) and OpenMS (https://github.com/OpenMS)
-> \cite{sturm2008openms}; or global collaborations such as ROpenSci
-> (https://github.com/ropensci) and The Global Allience For Genomics
-> and Health (https://github.com/ga4gh) has found the perfect place in
-> GitHub to share code, ideas and collaborate."
+> We now discuss examplar repositories in the introduction. We added a complete table with examples 
+> of GitHub projects organized by categories. Each example can be use as a reference for each Rule in the paper.
+> For all of the example, the name, URL and specific categories are added to the table."
 
 3. Of course the emphasis on GitHub is challenging. We know that this
    service cannot be indefinite, just as Sourceforge, Google Code,
@@ -220,7 +214,7 @@ overall contribution.
    
 > Thank you for this suggestion. In the current version of the
 > manuscript we included examples in most of the sections of the
-> manuscript.
+> manuscript (Table 1).
 
 5. The target audience is the relatively 'novice' developer; more
    established researchers will have their own procedures in place,
@@ -236,6 +230,8 @@ overall contribution.
 > examples about how to use the different components and to explain in
 > a better way every GitHub/git concept. In addition, we now have a
 > different Rule 1, that focuses on git/GitHub basics for users.
+> More complex concepts were added to the Suplemental Note for those readers with more 
+> expertise. 
 
 6. Rule 3 should be refined to emphasize that branches are really
    short-term departures from master; it is too easy for academic
