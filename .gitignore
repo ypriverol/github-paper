@@ -5,3 +5,6 @@ document/*.out
 document/*.toc
 document/*.haux
 document/*.htoc
+
+# Ignore .pynb checkpoints
+.ipynb_checkpoints/
