@@ -6,13 +6,13 @@ title: "Ten Simple Rules for taking advantage of GitHub: Supplementary Note"
 # Section 1: Git Large File System (LFS)
 
 GitHub supports all kind of files independently of their extension,
-type or content. If the file in your repository is bigger than 50 Mb,
-the file should be commit using the Git LSF. A minimal space quote is
-provided for personal/organization repositories without charge
-(1GB). If you exceed this quota, you can still clone repositories with
+type or content. If the file in your repository is bigger than 50 MB,
+the file should be committed using the Git LFS (Large File Storage). A minimal space quote is
+provided for personal and/or organization repositories without charge
+(1 GB). If you exceed this quota, you can still clone repositories with
 large assets, but you will only retrieve the pointer files. In order
-to use the git LFD service for big files, the user should download the
-git plugin from LSF Page (https://git-lfs.github.com/). Then, the next
+to use the git LFS service for big files, the user should download the
+git plugin from the LFS Page (https://git-lfs.github.com/). Then, the next
 steps should be followed:
 
 ```bash
@@ -25,12 +25,11 @@ git push origin master
 
 # Section 2: Testing Levels and Continues integration
 
-Software testing refers to the practice of testing certain functions and areas of our software code. It can be slitted in different categories or levels of complexity from unit tests to system testing. We would explain 
-in details Unit tests and integration tests which are the start point to provide a functional software to the community. 
+Software testing can be split in different categories or levels of complexity, ranging from unit tests to system testing. We here explain in a bit more detail "Unit" tests and integration tests, which represent in our opinion the starting point to provide a functional software. 
 
-Unit testing is piece of code in your project which test individual units of source code, sets of one or more modules together with associated control data, usage procedures, and operating procedures. Ultimately, this helps us to identify failures in 
-our algorithms and/or logic to help improve the quality of the code. These types of tests are usually written by developers as they work on code (white-box style), to ensure that the specific function is working 
-as expected. One function might have multiple tests, to catch corner cases or other branches in the code. Unit testing alone cannot verify the functionality of a piece of software, but rather is used to ensure that the building
+Unit testing can be used to test individual units of source code, sets of one or more modules together with associated control data, usage procedures, and operating procedures. Ultimately, this helps us to identify flaws and mistakes in 
+our algorithms and/or logic. These types of tests are usually written by developers as they work on code (white-box style), to ensure that the specific function is working 
+as expected. One function might have multiple tests, to catch different use cases or functionalities in the code. Unit testing alone cannot verify the functionality of a piece of software, but is rather used to ensure that the building
 blocks of the software work independently from each other. 
 
 
@@ -45,10 +44,10 @@ public class TestPTM {
 }
 ```
 
-Unit testing finds problems early in the development cycle. This includes both bugs in the programmer's implementation and flaws or missing parts of the specification for the unit.
+Unit testing can detect problems early in the development cycle. This includes both bugs in the programmer's implementation and flaws or missing parts of the specification for the unit.
 The process of writing a thorough set of tests forces the author to think through inputs, outputs, and error conditions, and thus more crisply define the unit's desired behavior.
 Some argue that code that is impossible or difficult to test is poorly written, thus unit testing can force developers to structure functions and objects in better ways. The unit tests can 
-be more complex to explore the _logic_ of your code by testing the exptected results of an specific algorithm or mnathematical model. 
+be more complex to explore the _logic_ of the code by testing the expected results of a specific algorithm or mnathematical model. 
 
 
 ```java 
@@ -70,7 +69,7 @@ Integration testing is the phase in software testing in which individual softwar
 Integration testing takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined in an integration test plan to those aggregates, and delivers as its output 
 the integrated system ready for system testing. 
 
-With Travis-CI () the user can test their software and the following dependencies, see the following example from pIR package (https://github.com/ypriverol/pIR/):
+With Travis-CI () the users can test their software and the following dependencies, see the following example from the pIR R package (https://github.com/ypriverol/pIR/):
 
 
 ```bash
@@ -104,17 +103,12 @@ after_failure:
 
 ```
 
-The provided example installed all the dependencies of the library (BiocInstaller) and run all the corresponding tests in the R package. More documentation about
-the Travis-CI integration can be found here https://travis-ci.org/ . 
+The provided example installed all the dependencies of the library (BiocInstaller) and run all the corresponding tests in the R package. More documentation about the Travis-CI integration can be found here https://travis-ci.org/ . 
 
 
 # Section 3: Source code documentation
 
-
-Documenting the code is a complex topic in software development. Some developers argue that it s bad practice and make the code more complicate and less readable, other developers 
-encourage the use of documentation of the code using good practices. As other fields, both sides has their strong points and their weakness. From our point of view source code documentation make sense 
-when it provides useful information around the classes, algorithms, and functions. Documentation should introduce details about the method, the rationale behind the algorithm and the possible flows
-of the algorithm. They should be self-explanatory and not include more noise than insides about the code. For example, the following examples are bad practice of source code documentation:
+From our point of view, documentation of the source code should introduce details about the methods, the rationale behind the algorithms and their possible flows. The documentation should be self-explanatory and should not include "noise". For example, the following examples represent bad practices:
 
 ```java
 
