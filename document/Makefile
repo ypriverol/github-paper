@@ -12,6 +12,10 @@ manuscript-plos.pdf: manuscript-plos.tex manuscript.tex
 	latex manuscript-plos
 	latex manuscript-plos
 	dvipdf manuscript-plos
+
+Supplementary-Note.pdf: Supplementary-Note.md
+	 Rscript -e "rmarkdown::render('Supplementary-Note.md', output_format = 'pdf_document')"
+
 clean:
 	rm -f *~
 	rm -f manuscript-plos.aux
@@ -22,3 +26,4 @@ clean:
 	rm -f manuscript-plos.out
 	rm -f manuscript-plos.tex.pdf
 	rm -f manuscript.tex
+
