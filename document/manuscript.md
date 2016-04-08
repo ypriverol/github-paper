@@ -294,7 +294,7 @@ use.
 
 More than just code compilation and testing can be integrated
 into your software project: GitHub hooks can be used to automate
-numerous tasks to help improve the overall quality of your project. A
+numerous tasks to help improve the overall quality of your project. An
 important complement to successful test completion is to demonstrate
 that the tests sufficiently cover the existing code base. For this, the
 integration of _Codecov_ is recommended (\url{https://codecov.io}).  This
@@ -375,7 +375,7 @@ mint DOIs for other types of scientific products such as datasets
 framework for giving scientists broader credit for their work
 \cite{NatBiotechEditorial:2009,force11-scwg}, while simultaneously
 supporting clearer, more persistent ways to cite and track it. Helping
-to drive this change are funding agencies such as the NIH and NSF in the USA
+to drive this change are funding agencies such as the NIH (National Institutes of Health) and NSF (National Science Foundation) in the USA
 and Research Councils in the UK, who are increasingly recognizing the
 importance of research products such as publicly available datasets
 and software.
@@ -488,7 +488,7 @@ training materials, including workshops, online courses and manuscripts
 | GitHub Paper                                 | Manuscript, Issue discussion, Community Project            | \href{https://github.com/ypriverol/github-paper}{ypriverol/github-paper}           |
 | MSnbase \cite{Gatto15012012}                 | Individual project repository                              | \href{https://github.com/lgatto/MSnbase}{MSnbase}                                  |
 | OpenMS \cite{sturm2008openms}                | Bioinformatics Repository, Issue discussion, branches      | \href{https://github.com/OpenMS/OpenMS/issues/1095}{OpenMS/OpenMS/issues/1095}     |
-| Pride Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple projects          | \href{https://github.com/PRIDE-Toolsuite}{PRIDE-Toolsuite}                         |
+| PRIDE Inspector Toolsuite \cite{Perez-Riverol01012016} | Project Organization, Multiple projects          | \href{https://github.com/PRIDE-Toolsuite}{PRIDE-Toolsuite}                         |
 | Retinal wave data repository \cite{Eglen:2014}| Individual project, Manuscript, Binary Data organized     | \href{https://github.com/sje30/waverepo}{sje30/waverepo}                           |
 | SAMtools \cite{Li:2009}                      | Bioinformatics Repository, Project Organization            | \href{https://github.com/samtools}{samtools}                                       |
 | rOpenSci                                     | Community Project, Issue discussion                        | \href{https://github.com/ropensci}{ropensci}                                       |
