@@ -1,8 +1,9 @@
-#Ten Simple Rules for taking advantage of GitHub: Supplementary Note
+---
+title: "Ten Simple Rules for taking advantage of GitHub: Supplementary Note"
+---
 
 
-
-## Section 1: Git Large File System (LFS)
+# Section 1: Git Large File System (LFS)
 
 GitHub supports all kind of files independently of their extension,
 type or content. If the file in your repository is bigger than 50 Mb,
@@ -22,7 +23,7 @@ git push origin master
 ``` 
 
 
-## Section 2: Testing Levels and Continues integration
+# Section 2: Testing Levels and Continues integration
 
 Software testing refers to the practice of testing certain functions and areas of our software code. It can be slitted in different categories or levels of complexity from unit tests to system testing. We would explain 
 in details Unit tests and integration tests which are the start point to provide a functional software to the community. 
@@ -107,7 +108,7 @@ The provided example installed all the dependencies of the library (BiocInstalle
 the Travis-CI integration can be found here https://travis-ci.org/ . 
 
 
-## Section 3: Source code documentation
+# Section 3: Source code documentation
 
 
 Documenting the code is a complex topic in software development. Some developers argue that it s bad practice and make the code more complicate and less readable, other developers 
@@ -165,21 +166,25 @@ In contrast the previous example, the following code is an example of good pract
 
 ```
   
-The example (Java API) provides information about the method, what it should return and possible exceptions related with the _Map_ collection behaviour. In Table 1 we provide some
-useful links to documentation best practices and styles. If the source code is well documented 
-different tools has been integrated to GitHub to generate the final documentation for the project such as Sphinix (http://www.sphinx-doc.org/) and "Read the Docs" (https://readthedocs.org/). 
-However, we strongly think the documentation of the source code should be maintained as the source code itself. When a piece of code is changed the corresponding documentation and comments 
-should be reviewed by the team.  
+The example (Java API) provides information about the method, what it
+should return and possible exceptions related with the _Map_
+collection behaviour. In Table 1 we provide some useful links to
+documentation best practices and styles. If the source code is well
+documented different tools has been integrated to GitHub to generate
+the final documentation for the project such as Sphinix
+(http://www.sphinx-doc.org/) and "Read the Docs"
+(https://readthedocs.org/).  However, we strongly think the
+documentation of the source code should be maintained as the source
+code itself. When a piece of code is changed the corresponding
+documentation and comments should be reviewed by the team. Below, we
+provide some useful documentation about source code comment and
+documentation.
 
-Table 1: Some useful documentation about source code comment and documentation:
  
- 
-| Name of the material                                                                    |  URL                                                                |
-|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| 13 Tips to Comment Your Code                                                            | http://www.devtopics.com/13-tips-to-comment-your-code/              |
-| How to Write Doc Comments for the Javadoc Tool                                          | http://www.oracle.com/technetwork/articles/java/index-137868.html   |
-| Do Code and Comments Co-Evolve? On the Relation between Source Code and Comment Changes | http://dl.acm.org/citation.cfm?id=1339530                           |
-| CodeAsDocumentation                                                                     | http://martinfowler.com/bliki/CodeAsDocumentation.html              |
-| 
+* 13 Tips to Comment Your Code: http://www.devtopics.com/13-tips-to-comment-your-code/ 
+* How to Write Doc Comments for the Javadoc Tool:  http://www.oracle.com/technetwork/articles/java/index-137868.html
+* Do Code and Comments Co-Evolve? On the Relation between Source Code and Comment Changes: http://dl.acm.org/citation.cfm?id=1339530
+* CodeAsDocumentation:  http://martinfowler.com/bliki/CodeAsDocumentation.html
+
 
 
