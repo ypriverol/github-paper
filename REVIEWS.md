@@ -1,5 +1,6 @@
 > We would like the reviewers for their insightful comments and
-> suggestion that helped us to improve the manuscript.
+> suggestions, which helped us to improve the manuscript. As a result, the revised of the manuscript has changed significantly.
+
 
 # Reviewer 1
 
@@ -25,12 +26,11 @@ are a great way". Perhaps "GitHub can be used for collaboration"?
 - but that might be a bad introduction. Why not, "you should be using git
 in the first place" (rule 2) as rule 1?
 
-> Agree with the reviewer's comments. In the current version we
+> Response: We agree with the reviewer's comments. In the current version we
 > have streamlined the rules to make them more useful. At the same
-> time we created an introduction rule Rule 1 that explain the basic
-> concepts of GitHub. Also, we created a Supplemental Information File
-> with all the comments and concepts for advanced users and to go
-> deeper in discussions such as continues integration, testing, etc.
+> time we created an introductuty rule Rule 1 that explain the basic
+> concepts behind GitHub. Also, we created a Supplemental Note
+> including comments and concepts for advanced users such as continues integration, testing, etc.
 
 I think the authors should take a step back and simplify their 10 main
 messages, and then write around that. Here is an example (not well
@@ -42,7 +42,7 @@ Rule N: Use GitHub to advertise your project. (can include web site)
 rule N: Use GitHub to track issues reported by users.
 Rule N: GitHub integrated services can do lots of nice things (CI).
 
-> We have updated the rule names as follows:
+> Response: We have updated the rule names as follows:
 
 ```
 ## Rule 1. Use GitHub to track your projects
@@ -57,8 +57,8 @@ Rule N: GitHub integrated services can do lots of nice things (CI).
 ## Rule 10. Use GitHub to be social: follow and watch
 ```
 
-> We name GitHub where they provide the main feature, and don't when
-> it's (mainly) a git feature. More generally, they are more engaging
+> We now name GitHub where it provides the main feature. In contrast, we don't do it now when
+> it's (mainly) a git feature. More generally, we think that the Rule titles are more engaging
 > now.
 
 I am happy to provide more detailed critiques but I think the overall
@@ -68,10 +68,9 @@ I would also urge the authors to post this as a pre-print and get some
 discussion of it going in public[*]. There are lots of academics using
 github and you will get quite a bit of helpful advice.
 
-> We made this discussion available under the paper repository for
-> discussions (see the twitter feed https://twitter.com/lgatt0/status/715199736437989376).
-> As a result more six new authors contribute with the paper, we also addressed more than 
-> 70 new issues from contributors and refine the paper repo structure including TRAVIS, LICENSE, and
+> Response: As suggested by the reviewer, we made this discussion available under the manuscript repository (see the twitter feed https://twitter.com/lgatt0/status/715199736437989376).
+> As a result, six additional authors have contributed to the manuscript. We also addressed dozens
+> of new issues from contributors and refined the paper repo structure including TRAVIS, LICENSE, and
 > a better deploy system. 
 
 [*] perhaps you could use github to do this? :)
@@ -83,19 +82,19 @@ of github. This is one of the major concerns of adoption; might be worth
 highlighting. (I think everything should be open, but that's a hard message
 to swallow.)
 
-> We mention *GitHub also offers paid plans for private repositories
+> Response: We mention *GitHub also offers paid plans for private repositories
 > for individuals and businesses, as well as free plans including
 > private repository for research and educational use.* The debate
 > between everything being open vs keeping (some) things close is
 > certainly an important one. We have tried to highlight the
 > importance of openness and open source throughout the manuscript,
-> but feel it is not the right venue for this debate.
+> but we feel it is not the right venue for this debate.
 
 Github large file support is not free, generally speaking.
 
-> We now discuss what is LSF file system in the light of project
+> Response: We now discuss what is GitHub LFS in the light of project
 > management and binary/text/big files in the first rule and mention
-> quotas and fee (**Box 1**).
+> quotas and fees (**Box 1**).
 
 In the conclusions, the (substantial) learning curve of git is
 mentioned. Perhaps some pointers to open lessons should be made
@@ -103,7 +102,7 @@ available, along with workshops? For example, both Data Carpentry and
 Software Carpentry teach git and github on a global basis.
 (Disclaimer: I am heavily involved with both.)
 
-> We agree with the reviewer and in the updated version, we added some
+> Response: We agree with the reviewer and in the updated version, we added some
 > useful links to documentation, courses and tutorials (Table 2).
 
 ## Minor comments:
@@ -111,26 +110,26 @@ Software Carpentry teach git and github on a global basis.
 It could be made clearer that all files involved in a change are made
 part of a single revision.
 
-> This has been clarified as part of the improved (new) rule 1.
+> Response: This has been clarified as part of the improved (new) rule 1.
 
 Gitter is not owned by github, AFAIK. They just integrate. (Line 203).
 Why prioritize it over others? For example, Slack is another service
 that provides similar functionality. (We use gitter, but still.)
 
-> We agree with the reviewer. In the new version we refined the
+> Response: We agree with the reviewer. In the new version we refined the
 > paragraph, making it clear that Gitter is not the only chat system
 > integrated with Github and mention also Slack. Gitter serves
-> (amongst several alternatives) as a popular example for a github
+> (amongst several alternatives) as a popular example for a Github
 > integrated chat system.
 
 Rule 10 title should be "Periodically check..."
 
-> The rule name has been updated (see above).
+> Response: The rule name has been updated (see above).
 
 missing reference:
 http://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7
 
-> Thank you for this suggestion. We have added this (and other)
+> Response: Thank you for this suggestion. We have added this (and other)
 > references to other useful git/GitHub tutorials and introductions.
 
 Signed,
@@ -157,8 +156,8 @@ overall contribution.
    original analysis, and cannot rely on availability of versioned
    software after the fact.
    
-> Indeed, reproducibility is a broader issue that software only won't
-> solve. We replaced the word reproducibility by two different terms
+> Response: Indeed, reproducibility is a broader issue that software alone will not
+> solve. We replaced the word reproducibility by two different terms:
 > replicability and traceability. The current version of the
 > manuscript explains: "To enable and ensure the
 > replicability and traceability of scientific claims, it is essential
@@ -172,9 +171,9 @@ overall contribution.
    intermediate projects (hts / samtools?), and larger projects
    (rOpenSci??) that effectively use GitHub.
    
-> We now discuss examplar repositories in the introduction. We added a complete table with examples 
-> of GitHub projects organized by categories. Each example can be use as a reference for each Rule in the paper.
-> For all of the example, the name, URL and specific categories are added to the table."
+> Response: We now discuss exemplar repositories in the introduction. We added a complete table with examples 
+> of GitHub projects organized by categories (Table 1). Each example can be used as a reference for each Rule in the paper.
+> For all the examples, the name, URL and specific categories are added to the table."
 
 3. Of course the emphasis on GitHub is challenging. We know that this
    service cannot be indefinite, just as Sourceforge, Google Code,
@@ -185,12 +184,12 @@ overall contribution.
    that Git and GitHub should be removed from the title and all
    'Rules' headers.
    
-> We partially agree with the reviewer. Git is an open source project
+> Response: We partially agree with the reviewer. Git is an open source project
 > that is not part of GitHub, and, as such, is immune to what happened
-> to Google Code. GitHub, on the other hand, is not. In the current
-> version of the manuscript we remove GitHub from rules when we do not
+> to Google Code. GitHub, on the other hand, is not. In the revised
+> version of the manuscript we have removed GitHub from those rules where we do not
 > rely on an explicit GitHub feature. However, some of the rules are
-> focus on the functionalities provided by GitHub, and, in those
+> focused on the functionalities provided by GitHub, and, in those
 > cases, we keep the term.
 
 > More generally, corporate support is a double edge sword: companies
@@ -202,7 +201,7 @@ overall contribution.
 > might not take, and certainly a discussion worth having, albeit not
 > in the manuscript.
 
-> We have highlighted this point in an issue in the manuscript
+> Response: We have highlighted this point in an issue that can be found in the manuscript
 > repository (https://github.com/ypriverol/github-paper/issues/92) to
 > make it more visible.
 
@@ -212,9 +211,9 @@ overall contribution.
    would help to convey the value / ease of continuous integration,
    and of test coverage.
    
-> Thank you for this suggestion. In the current version of the
+> Response: Thank you for this suggestion. In the current version of the
 > manuscript we included examples in most of the sections of the
-> manuscript (Table 1).
+> manuscript (see Table 1).
 
 5. The target audience is the relatively 'novice' developer; more
    established researchers will have their own procedures in place,
@@ -225,12 +224,12 @@ overall contribution.
    or at most the individual + lab group oriented; 'organizations'
    (including the GitHub concept) are not immediately relevant.
    
-> We undestand the reviewer's point. However, we think we should
-> explain most of the features of using GitHub. We added different
+> Response: We undestand the reviewer's point. However, we think we should
+> explain most of the features of GitHub. We have added
 > examples about how to use the different components and to explain in
 > a better way every GitHub/git concept. In addition, we now have a
-> different Rule 1, that focuses on git/GitHub basics for users.
-> More complex concepts were added to the Suplemental Note for those readers with more 
+> different Rule 1, that focuses on git/GitHub basics for new users.
+> More complex concepts have been added to the Suplemental Note for those readers, with a higher degree of 
 > expertise. 
 
 6. Rule 3 should be refined to emphasize that branches are really
@@ -239,8 +238,8 @@ overall contribution.
    individuals to work in isolation for extended periods, so that
    their contribution cannot easily be merged back to master.
    
-> We agree with the reviewer. The current version emphasize the use of
-> branches as short-term departures from master: "When developing
+> Response: We agree with the reviewer. The current version emphasizes the use of
+> branches as short-term departures from the master branch: "When developing
 > different features in parallel, there is a risk to apply
 > incompatible changes in different branches/forks; these are said to
 > become out of sync. Branches are just short-term departures from
@@ -255,8 +254,8 @@ overall contribution.
    running code. Maybe it would be better to break these out, and go
    for the novelty of 11, rather than the familiar 10, rules.
    
-> We refined the **Rule 5** and it only provides information about
-> unit test and the idea of continuous integration.
+> Response: We refined the **Rule 5** and now it only provides information about
+> unit tests and the idea of continuous integration.
 
 8. In Rule 5 and in the context of unit tests (and also in the
    'automatic' generation of documentation), I think that many
@@ -275,16 +274,15 @@ overall contribution.
    modification' are almost counter-productive -- availability of this
    level of documentation is not really what users crave.
    
-
-> The idea of the manuscript is to show the git/GitHub infrastructure
-> can help the bioinformatics community and general good
+> Response: The idea of the manuscript is to show that the git/GitHub infrastructure
+> can help the bioinformatics community to achieve general good programming
 > practices. The problem with information-less documentation is
 > certainly a valid one, but, to some extend independent of its
 > automatic generation (although it might arguably invite developers
 > to write useless documentation for the sake of it). We do address
 > more fundamental applications of unit test, stressing out the
-> testing of *logical errors*. And while one would want to
-> scientificly-mineded tests, these are often much more difficult to
+> testing of *logical errors*. And while one would want to perform
+> scientificly-minded tests, these are often much more difficult to
 > conceptualise and implement and, as experience has shown, thorough
 > simple testing can uncover more serious problems. 
 
@@ -292,7 +290,7 @@ overall contribution.
    method for promoting one's project -- publishing in the
    peer-reviewed scientific literature!
    
-> The current version of the rule starts by stating: "The traditional
+> Response: The current version of the rule starts by stating: "The traditional
 > way of promoting scientific software is by publishing them in the
 > peer-reviewed scientific literature."
 
@@ -318,18 +316,18 @@ summarization of the key features of GitHub and specific use cases for scientist
    Taking Advantage of GitHub for Scientists".  I'm horrible with
    titles, though, maybe I shouldn't come up with this :)
    
-> The new version of the mansucript has a different title: "# Ten
+> Response: We agree with the reviewer. The new version of the mansucript has a different title: "# Ten
 > Simple Rules for taking advantage of git and GitHub"
 
 2. Pg. 1, Introduction, para1: "Here, we introduce the main features
-   of GitHub, a popular web-based 14 platform which offers a free and
+   of GitHub, a popular web-based platform which offers a free and
    integrated environment for hosting the source code, documentation
    and web page for open source projects."
 
    Probably a better way to word ‘web page’, something like ‘public
    project-related web content’ since many projects are more complex.
   
-> We have followed the reviewer's advice and ammended the sentence:
+> Response: We have followed the reviewer's advice and ammended the sentence:
 > "Here, we introduce the main features of GitHub, a popular web-based
 > platform which offers a free and integrated environment for hosting
 > the source code, documentation and project-related web content for
@@ -342,26 +340,26 @@ summarization of the key features of GitHub and specific use cases for scientist
    and tagging of code snapshots, tracking project bugs and
    enhancements using issues, etc”
 
-> We have updated that sences following the reviewer's suggestion.
+> Response: We have updated that sentence following the reviewer's suggestion.
 
 4. Pg. 2, Rule 1:
 
     a) Might be worth explaining what 'forking' means.
     
-> The current version include a short explanation of the forking concept. 
+> Response: The revised version now includes a short explanation of the forking concept. 
 
     b) "Structuring your projects allows to manage permissions and restrict
     access at different levels: users, teams and organisations."  Maybe "Project
     managers can structure projects to manage…"
 
-> We agree with the reviewer and the current version include the suggested change.
+> Response: We agree with the reviewer and the current version includes the suggested change.
 
     c) Repositories: The bit on repositories should be described earlier, not at
     the end.  You are technically forking a *repository*, not just a project
     (which in my opinion could consist of many independent but related
     repositories, e.g. the Bio* projects, GMOD, etc).
     
-> We re-structured the rules and rule 1 is now more appropriate for
+> Response: We re-structured the rules and rule 1 is now more appropriate for
 > new users.
 
 
@@ -372,7 +370,7 @@ summarization of the key features of GitHub and specific use cases for scientist
     controlled by versions, so-called revisions." (added a comma after
     'software')
     
-> We changed the sentence in the present version. 
+> Response: We changed the sentence in the present version. 
 
 6. Pg. 3, Rule 3:
 
@@ -380,7 +378,7 @@ summarization of the key features of GitHub and specific use cases for scientist
     into one branch, enabling one to react or adapt to the changes in the stable
     code branch." (use 'branch', not 'fork')
     
->  We changed the sentence.
+>  Response: We changed the sentence.
 
     b) "Once a pull request is opened for review and discussion, it usually
     results in additional insights and increased code quality" ('it' was
@@ -393,17 +391,17 @@ summarization of the key features of GitHub and specific use cases for scientist
     many funding agencies such as NIH now accept other 'products' of research as
     citable research (these being publicly accessible data and software).
     
-> We agree with the reviewer. The present version mentioned also funding agencies.
+> Response: We agree with the reviewer. The present version mentions also funding agencies.
 
     b) https://guides.github.com/activities/citable-code/
     Should be consistent w/ other URLs in text
     
-> This has been changed.
+> Response: This has been changed.
 
     c) ‘On one hand… on the other hand’ usually are used to describe two sides
     or opposing viewpoints. Not sure it’s used correctly here, since both
     examples are complementary, not in opposition to one another?
     
-> This has been ammended.
+> Response: This has been ammended.
 
 Chris Fields
