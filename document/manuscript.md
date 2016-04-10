@@ -222,9 +222,9 @@ which external contributions are accepted. Once a pull request is opened
 for review and discussion, it usually results in additional insights
 and increased code quality \cite{Dabbish:2012}.
 
-Concurrent development -- that is, users making commits in parallel to
-the same repository -- can be organised using different approaches. The
-most common way is to use git _branches_ to separate different lines
+Many contributors can work on the same repository at the same time
+without running into edit conflicts. There are multiple strategies for
+this, and the most common way is to use git _branches_ to separate different lines
 of development. Active development is often performed on a development
 branch and stable versions, i.e., those used for a software release, are
 kept in a master or release branch (see for example
