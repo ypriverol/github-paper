@@ -1,4 +1,8 @@
-.PHONY: clean
+.PHONY: clean all
+
+all:
+	make manuscript-plos.pdf
+	make Supplementary-File.pdf
 
 manuscript.tex: manuscript.md
 	pandoc manuscript.md -o manuscript.tex
@@ -13,8 +17,8 @@ manuscript-plos.pdf: manuscript-plos.tex manuscript.tex
 	latex manuscript-plos
 	dvipdf manuscript-plos
 
-Supplementary-Note.pdf: Supplementary-Note.md
-	 Rscript -e "rmarkdown::render('Supplementary-Note.md', output_format = 'pdf_document')"
+Supplementary-File.pdf: Supplementary-File.md
+	 Rscript -e "rmarkdown::render('Supplementary-File.md', output_format = 'pdf_document')"
 
 clean:
 	rm -f *~
