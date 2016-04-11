@@ -1,5 +1,5 @@
 ---
-title: "Ten Simple Rules for taking advantage of git and GitHub: Supplementary Note"
+title: "Ten Simple Rules for taking advantage of git and GitHub: Supplementary File"
 ---
 
 
