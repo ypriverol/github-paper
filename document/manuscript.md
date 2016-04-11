@@ -144,7 +144,7 @@ that will be described in subsequent rules (Fig. 1).
 > supported by GitHub, albeit with a space quota or for a fee, to
 > retain your usual GitHub workflow
 > (\url{https://help.github.com/categories/managing-large-files/})
-> (Supplementary File, Section 1).
+> (Supplementary File S1, Section 1).
 
 > **Box 2** By default, GitHub repositories are freely visible to all.
 > Many projects decide to share their work publicly and openly
@@ -284,7 +284,7 @@ integration can be achieved by _Travis CI_ (\url{https://travis-ci.org}), a
 hosted continued integration platform that is free for all open source
 projects. Travis CI builds and tests the source code using a plethora of
 options such as different platforms and interpreter versions
-(Supplementary File, Section 2). In addition, it offers notifications
+(Supplementary File S1, Section 2). In addition, it offers notifications
 that allow your team and contributors to know if the new changes
 work, and to prevent the introduction of errors in the code (for instance,
 when merging pull requests), making the repository always ready to
@@ -301,13 +301,13 @@ integration of _Codecov_ is recommended (\url{https://codecov.io}).  This
 service will report how much of the code base and which lines of code
 are being executed as part of your code tests. The Bioconductor
 project, for example, highly recommends that packages implement unit
-testing (Supplementary File, Section 2) to support developers in their package development and
+testing (Supplementary File S1, Section 2) to support developers in their package development and
 maintenance
 (\url{http://bioconductor.org/developers/unitTesting-guidelines/}), and
 systematically tests the coverage of all of its packages
 (\url{https://codecov.io/github/Bioconductor-mirror/}). One might also
 consider generating the documentation upon code/documentation
-modification (Supplementary File, Section 3). This implies that your
+modification (Supplementary File S1, Section 3). This implies that your
 projects provide comprehensive documentation so others can understand
 and contribute back to them. For Python or C/C++ code, automatic
 documentation generation can be done using sphinx
@@ -477,6 +477,9 @@ possible. As with many tools a learning curve lays ahead, but several basic yet 
 bioinformatics repositories in GitHub (Table 1) and some useful
 training materials, including workshops, online courses and manuscripts
 (Table 2).
+
+# Supporting Information Legends {-}
+Supplementary File S1. Supplementary Information including three sections: Git Large File Storage (LFS), Testing Levels of the Source Code and Continuous integration, and Source code documentation.
 
 
 | Name of the Repository                       | Type                                                       | URL                                                                          |
