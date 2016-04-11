@@ -478,10 +478,6 @@ bioinformatics repositories in GitHub (Table 1) and some useful
 training materials, including workshops, online courses and manuscripts
 (Table 2).
 
-# Supporting Information Legends {-}
-Supplementary File S1. Supplementary Information including three sections: Git Large File Storage (LFS), Testing Levels of the Source Code and Continuous integration, and Source code documentation.
-
-
 | Name of the Repository                       | Type                                                       | URL                                                                          |
 |----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
 | Adam                                         | Community Project, Multiple forks                          | \href{https://github.com/bigdatagenomics/adam/}{bigdatagenomics/adam}        |
