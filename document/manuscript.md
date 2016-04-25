@@ -338,7 +338,7 @@ request it in a comment.
 Additional elements of issues are (i) color-coded labels that help to
 categorize and filter issues, (ii) milestones, and (iii) one assignee
 responsible for working on the issue. They help developers to filter
-and prioritise tasks and turn issue tracker into a planning tool for their
+and prioritise tasks and turn an issue tracker into a planning tool for their
 project.
 
 It is also possible for repository administrators to create issue and pull
@@ -472,7 +472,7 @@ as possible!
 # Conclusions {-}
 
 If you are involved in scientific research and have not used git and
-GitHub before, we recommend that you to explore its potential as soon as
+GitHub before, we recommend that you explore its potential as soon as
 possible. As with many tools a learning curve lays ahead, but several basic yet powerful features are accessible even to the beginner and may be applied to many different use-cases \cite{ram2013git}. We anticipate the reward will be worth your effort. To conclude, we would like to recommend some examples of
 bioinformatics repositories in GitHub (Table 1) and some useful
 training materials, including workshops, online courses and manuscripts
