@@ -7,6 +7,9 @@ This repository contains the manuscript entitled:
 aim here is to describe how the bioinformatics community can use
 GitHub features and tools on a daily basis.
 
+* Pre-print: http://biorxiv.org/content/early/2016/05/13/048744
+* In PLoS Computational Biology: http://dx.doi.org/10.1371/journal.pcbi.1004947
+
 ## Commenting and contributing 
 
 We hope to finalise the manuscript and re-submit soon and won't accept
